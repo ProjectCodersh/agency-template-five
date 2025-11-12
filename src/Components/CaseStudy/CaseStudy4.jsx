@@ -9,7 +9,7 @@ const CaseStudy4 = () => {
       subtitle: 'Wine Brand (LGBTQ+ Focused)',
       img: '/assets/img/casestudy/shopify-based-wine-store.webp',
       description:
-        'MADAME F is a bold, innovative wine brand celebrating individuality and the LGBTQ+ community. More than just a beverage, it represents a movement toward authenticity and inclusivity',
+        'LGBTQ+ Focused Wine Brand is a bold, innovative wine brand celebrating individuality and the LGBTQ+ community. More than just a beverage, it represents a movement toward authenticity and inclusivity',
     },
     {
       slug: 'e-commerce-cocktail-shop',
@@ -17,7 +17,7 @@ const CaseStudy4 = () => {
       subtitle: 'E-Commerce (cocktail store)',
       img: '/assets/img/casestudy/e-commerce-cocktail-shop.webp',
       description:
-        'Liberation Cocktails is a premium pre-mixed cocktail brand known for delivering exceptional taste and convenience. To elevate their online presence, Liberation Cocktails partnered',
+        'Cocktail Shop is a premium pre-mixed cocktail brand known for delivering exceptional taste and convenience. To elevate their online presence, Liberation Cocktails partnered',
     },
     {
       slug: 'sparkling-wine-store',
@@ -25,15 +25,15 @@ const CaseStudy4 = () => {
       subtitle: 'E-Commerce (wine store)',
       img: '/assets/img/casestudy/sparkling-wine-store.webp',
       description:
-        'Van Hunks is a vibrant South African brand crafting sparkling wines that bring a sense of fun to everyday moments. Their existing Shopify store wasn’t capturing the energy or quality of',
+        'Sparkling Wine Store is a vibrant South African brand crafting sparkling wines that bring a sense of fun to everyday moments. Their existing Shopify store wasn’t capturing the energy or quality of',
     },
     {
       slug: 'grocery-remittance-platform',
-      title: 'Grocery & Remittance  Platform',
+      title: 'Grocery & Remittance Platform',
       subtitle: 'Wordpress',
       img: '/assets/img/casestudy/grocery-remittance-platform.webp',
       description:
-        'Pa Mi Gente is an innovative platform bridging families across borders by enabling US-based customers to send groceries and money to loved ones in Cuba. Evolving from a simple',
+        'Grocery & Remittance Platform is an innovative platform bridging families across borders by enabling US-based customers to send groceries and money to loved ones in Cuba. Evolving from a simple',
     },
     {
       slug: 'financial-services-platform',
@@ -41,7 +41,7 @@ const CaseStudy4 = () => {
       subtitle: 'Financial Services',
       img: '/assets/img/casestudy/financial-services-platform.webp',
       description:
-        'Stellar Credit serves as a beacon of hope for individuals striving to improve their credit scores and achieve financial security. The project focused on building a digital platform that',
+        'Financial Services Platform serves as a beacon of hope for individuals striving to improve their credit scores and achieve financial security. The project focused on building a digital platform that',
     },
     {
       slug: 'baseball-bat-store-two',
@@ -49,7 +49,7 @@ const CaseStudy4 = () => {
       subtitle: 'E-Commerce',
       img: '/assets/img/casestudy/baseball-bat-store-two.webp',
       description:
-        'Bergbat is a premium baseball bat company renowned for its highly customizable products. To better support their complex product configurations and enhance the customer',
+        'Baseball Bat Store is a premium baseball bat company renowned for its highly customizable products. To better support their complex product configurations and enhance the customer',
     },
     {
       slug: 'helmsford',
