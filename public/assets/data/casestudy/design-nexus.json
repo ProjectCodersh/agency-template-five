@@ -3,13 +3,11 @@
   "seo": {
     "title": "Design Nexus – Dynamic Business Directory for Architects & Interior Designers | Codersh",
     "description": "A centralized business directory for architects, interior designers, and vendors in Miami. Designed to connect professionals, brands, and showrooms for design collaboration.",
-    "keywords": "business directory, architects, interior designers, design hub, showroom listings, Miami, Codersh",
-    "url": "https://marvelapp.com/prototype/i783i0b/screen/86846782"
+    "keywords": "business directory, architects, interior designers, design hub, showroom listings, Miami, Codersh"
   },
   "title": "Design Nexus: Dynamic Business Directory for Architects & Interior Designers",
   "location": "Miami, Florida",
   "projectname": "Design Nexus – Business Directory",
-  "url": "https://marvelapp.com/prototype/i783i0b/screen/86846782",
   "overview": "The client required a centralized business directory for architects, interior designers, and vendors in Miami. The platform had to connect professionals, brands, and showrooms, making it easier for users to discover and collaborate on design and construction projects.",
   "features": [
     {
@@ -72,8 +70,5 @@
       "text": " "
     }
   ],
-  "images": [
-    "/assets/img/casestudy/designnexus-banner.webp",
-    "/assets/img/casestudy/designnexus-ui.webp"
-  ]
+  "images": ["/assets/img/casestudy/05-2.webp", "/assets/img/casestudy/05-1.webp"]
 }

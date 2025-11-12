@@ -4,50 +4,50 @@ import { Link } from 'react-router-dom';
 const CaseStudy4 = () => {
   const chooseContent = [
     {
-      slug: 'madame-f',
-      title: 'Madame',
+      slug: 'shopify-based-wine-store',
+      title: 'Shopify Based Wine Store',
       subtitle: 'Wine Brand (LGBTQ+ Focused)',
-      img: '/assets/img/casestudy/madamef-casestudy.webp',
+      img: '/assets/img/casestudy/shopify-based-wine-store.webp',
       description:
         'MADAME F is a bold, innovative wine brand celebrating individuality and the LGBTQ+ community. More than just a beverage, it represents a movement toward authenticity and inclusivity',
     },
     {
-      slug: 'liberation-cocktails',
-      title: 'Liberation Cocktails',
+      slug: 'e-commerce-cocktail-shop',
+      title: 'E-Commerce Cocktail Shop',
       subtitle: 'E-Commerce (cocktail store)',
-      img: '/assets/img/casestudy/liberation-casestudy.webp',
+      img: '/assets/img/casestudy/e-commerce-cocktail-shop.webp',
       description:
         'Liberation Cocktails is a premium pre-mixed cocktail brand known for delivering exceptional taste and convenience. To elevate their online presence, Liberation Cocktails partnered',
     },
     {
-      slug: 'van-hunks',
-      title: 'Van Hunks',
+      slug: 'sparkling-wine-store',
+      title: 'Sparkling Wine Store',
       subtitle: 'E-Commerce (wine store)',
-      img: '/assets/img/casestudy/van-hunks-casestudy.webp',
+      img: '/assets/img/casestudy/sparkling-wine-store.webp',
       description:
         'Van Hunks is a vibrant South African brand crafting sparkling wines that bring a sense of fun to everyday moments. Their existing Shopify store wasn’t capturing the energy or quality of',
     },
     {
-      slug: 'pa-mi-gente',
-      title: 'Pa Mi Gente',
+      slug: 'grocery-remittance-platform',
+      title: 'Grocery & Remittance  Platform',
       subtitle: 'Wordpress',
-      img: '/assets/img/casestudy/pami-gente-casestudy.webp',
+      img: '/assets/img/casestudy/grocery-remittance-platform.webp',
       description:
         'Pa Mi Gente is an innovative platform bridging families across borders by enabling US-based customers to send groceries and money to loved ones in Cuba. Evolving from a simple',
     },
     {
-      slug: 'stellar-credit',
-      title: 'Stellar Credit',
+      slug: 'financial-services-platform',
+      title: 'Financial Services Platform',
       subtitle: 'Financial Services',
-      img: '/assets/img/casestudy/stellar-credit-casestudy.webp',
+      img: '/assets/img/casestudy/financial-services-platform.webp',
       description:
         'Stellar Credit serves as a beacon of hope for individuals striving to improve their credit scores and achieve financial security. The project focused on building a digital platform that',
     },
     {
-      slug: 'bergbat',
-      title: 'Bergbat',
+      slug: 'baseball-bat-store-two',
+      title: 'Baseball Bat Store',
       subtitle: 'E-Commerce',
-      img: '/assets/img/casestudy/bergbat-casestudy.webp',
+      img: '/assets/img/casestudy/baseball-bat-store-two.webp',
       description:
         'Bergbat is a premium baseball bat company renowned for its highly customizable products. To better support their complex product configurations and enhance the customer',
     },
@@ -55,7 +55,7 @@ const CaseStudy4 = () => {
       slug: 'helmsford',
       title: 'Helmsford',
       subtitle: 'Wordpress (Associate Locator)',
-      img: '/assets/img/casestudy/helmsford-casestudy.webp',
+      img: '/assets/img/casestudy/HelmsBriscoe-casestudy.webp',
       description:
         'Helms Ford, a global leader in hotel and meeting planning services, needed a powerful associate locator tool to connect clients with their worldwide network of hospitality professionals. The solution had to be scalable, searchable, and visually interactive, enabling users to easily find the right associate by name, region, or expertise.',
     },
@@ -63,7 +63,7 @@ const CaseStudy4 = () => {
       slug: 'tirebase',
       title: 'TireBase',
       subtitle: 'Scrap Tire & Rubber Users Portal',
-      img: '/assets/img/casestudy/tirebase-casestudy.webp',
+      img: '/assets/img/casestudy/Tirepages-casestudy.webp',
       description:
         'The client required a dedicated business portal for the scrap tire and rubber recycling industry nationwide in the USA. Instead of being just a listing website, the goal was to build a comprehensive platform where recyclers, manufacturers, and buyers could connect, manage their profiles, and explore opportunities in real time.',
     },
@@ -71,7 +71,7 @@ const CaseStudy4 = () => {
       slug: 'design-nexus',
       title: 'Design Nexus',
       subtitle: 'Business Directory',
-      img: '/assets/img/casestudy/design-nexus-casestudy.webp',
+      img: '/assets/img/casestudy/05-Redsign-Hub.webp',
       description:
         'The client required a centralized business directory for architects, interior designers, and vendors in Miami. The platform had to connect professionals, brands, and showrooms, making it easier for users to discover and collaborate on design and construction projects.',
     },
@@ -79,7 +79,7 @@ const CaseStudy4 = () => {
       slug: 'fitness-retailer-store',
       title: 'Fitness Retailer Store',
       subtitle: 'E-Commerce (Fitness Equipment)',
-      img: '/assets/img/casestudy/fitness-retailer-store-casestudy.webp',
+      img: '/assets/img/casestudy/SplitGrip-casestudy.webp',
       description:
         'Split Grip is a premium fitness equipment retailer offering over 300 SKUs for home and commercial gyms. Facing growth challenges, the brand needed a more robust e-commerce platform to handle complex product data, enhance customer experience, and scale operations efficiently.',
     },
@@ -87,7 +87,7 @@ const CaseStudy4 = () => {
       slug: 'baseball-bat-store',
       title: 'Baseball Bat Store',
       subtitle: 'E-Commerce',
-      img: '/assets/img/casestudy/baseball-bat-store-casestudy.webp',
+      img: '/assets/img/casestudy/baseball-bat-store-two.webp',
       description:
         'Baseball Bat Store, a premium baseball bat company, required a more robust e-commerce solution to handle their complex product customization options. The project involved migrating their entire store from WordPress to Shopify while enhancing their custom bat builder experience.',
     },
@@ -95,14 +95,18 @@ const CaseStudy4 = () => {
       slug: 'jcc-site',
       title: 'JCC Site',
       subtitle: 'E-Commerce',
-      img: '/assets/img/casestudy/jcc-site-casestudy.webp',
+      img: '/assets/img/casestudy/RosenJcc-casestudy.webp',
       description:
         'The website was suffering from legacy bloat, poor performance, and disjointed user experiences. Admins struggled with inconsistent backend tools, while users encountered login friction and outdated donation flows. Scalability was nearly impossible without a structured cleanup and short-term system upgrades.',
     },
   ];
 
-  // ✅ Pagination logic
-  const [currentPage, setCurrentPage] = useState(1);
+  // ✅ Pagination logic with session persistence
+  const [currentPage, setCurrentPage] = useState(() => {
+    const savedPage = sessionStorage.getItem('caseStudyCurrentPage');
+    return savedPage ? Number(savedPage) : 1;
+  });
+
   const itemsPerPage = 6;
   const totalPages = Math.ceil(chooseContent.length / itemsPerPage);
 
@@ -112,6 +116,7 @@ const CaseStudy4 = () => {
   const goToPage = (pageNum) => {
     if (pageNum >= 1 && pageNum <= totalPages) {
       setCurrentPage(pageNum);
+      sessionStorage.setItem('caseStudyCurrentPage', pageNum); // ✅ Save page to session
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
   };

@@ -84,7 +84,7 @@ function JccSiteDetails({ list = [] }) {
                 <div className="mb-5">
                   <h6 className="fw-bold mb-3">1. Auth0 Integration :</h6>
                   <img
-                    src="/assets/img/casestudy/jcc/auth0-integration.webp"
+                    src="/assets/img/casestudy/jcc-image-1.webp"
                     alt="Auth0 Integration"
                     className="img-fluid rounded-3 shadow-sm"
                   />
@@ -93,7 +93,7 @@ function JccSiteDetails({ list = [] }) {
                 <div className="mb-5">
                   <h6 className="fw-bold mb-3">2. Daxko Integration :</h6>
                   <img
-                    src="/assets/img/casestudy/jcc/daxko-integration.webp"
+                    src="/assets/img/casestudy/jcc-image-2.webp"
                     alt="Daxko Integration"
                     className="img-fluid rounded-3 shadow-sm"
                   />
@@ -105,16 +105,16 @@ function JccSiteDetails({ list = [] }) {
                 <div className="mb-5">
                   <h6 className="fw-bold mb-3">3. Stripe Integration :</h6>
                   <img
-                    src="/assets/img/casestudy/jcc/stripe-integration.webp"
+                    src="/assets/img/casestudy/jcc-image-3.webp"
                     alt="Stripe Integration"
                     className="img-fluid rounded-3 shadow-sm"
                   />
                 </div>
 
                 <div className="mb-5">
-                  <h6 className="fw-bold mb-3">4. Additional Feature :</h6>
+                  <h6 className="fw-bold mb-3">4. Results :</h6>
                   <img
-                    src="/assets/img/casestudy/jcc/extra-feature.webp"
+                    src="/assets/img/casestudy/jcc-image-4.webp"
                     alt="Extra Feature"
                     className="img-fluid rounded-3 shadow-sm"
                   />
@@ -125,15 +125,26 @@ function JccSiteDetails({ list = [] }) {
 
           {/* =================== Outcomes =================== */}
           <div className="project-details-content mb-5">
-            <h3 className="fw-semibold">Outcomes:</h3>
+            <h3 className="fw-semibold">Project Outcomes:</h3>
 
             <div className="row g-4 mt-3">
-              <div className="col-lg-12">
-                <img
-                  src="/assets/img/casestudy/jcc/outcomes.webp"
-                  alt="Outcomes Table"
-                  className="img-fluid rounded-3 shadow-sm"
-                />
+              <div className="col-lg-6">
+                <div className="mb-5">
+                  <img
+                    src="/assets/img/casestudy/RosenJcc-casestudy-2.webp"
+                    alt="Stripe Integration"
+                    className="img-fluid shadow-sm"
+                  />
+                </div>
+              </div>
+              <div className="col-lg-6">
+                <div className="mb-5">
+                  <img
+                    src="/assets/img/casestudy/RosenJcc-casestudy-3.webp"
+                    alt="Extra Feature"
+                    className="img-fluid shadow-sm"
+                  />
+                </div>
               </div>
             </div>
           </div>

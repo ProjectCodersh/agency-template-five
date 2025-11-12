@@ -3,13 +3,11 @@
   "seo": {
     "title": "Split Grip – Shopify Migration & Redesign Case Study | Codersh",
     "description": "Learn how Codersh migrated Split Grip’s large e-commerce store to Shopify, preserving SEO, improving UX, and achieving a 32% boost in conversions.",
-    "keywords": "Shopify migration, eCommerce redesign, SEO preservation, Split Grip, Shopify case study, custom Shopify theme, Codersh",
-    "url": "https://splitgrip.codersh.com/"
+    "keywords": "Shopify migration, eCommerce redesign, SEO preservation, Split Grip, Shopify case study, custom Shopify theme, Codersh"
   },
   "title": "Split Grip – Shopify Migration & Redesign",
   "location": "United States",
   "projectname": "Split Grip Shopify Migration",
-  "url": "https://splitgrip.codersh.com/",
   "overview": "Split Grip is a premium fitness equipment retailer offering over 300 SKUs for home and commercial gyms. Facing growth challenges, the brand needed a more robust e-commerce platform to handle complex product data, enhance customer experience, and scale operations efficiently.",
   "objective": [
     "Migrate Split Grip’s extensive product catalog and customer data to Shopify without losing critical information.",
@@ -93,7 +91,7 @@
     }
   ],
   "images": [
-    "/assets/img/casestudy/splitgrip-overview.webp",
-    "/assets/img/casestudy/splitgrip-implementation.webp"
+    "/assets/img/casestudy/SplitGrip-casestudy-2.webp",
+    "/assets/img/casestudy/SplitGrip-casestudy-3.webp"
   ]
 }

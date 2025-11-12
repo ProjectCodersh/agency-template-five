@@ -3,13 +3,11 @@
   "seo": {
     "title": "Helms Ford – Associate Locator Portal | Codersh",
     "description": "A powerful associate locator portal developed for Helms Ford to connect clients with their global hospitality associates using map-based and keyword search.",
-    "keywords": "associate locator, global directory, hospitality network, Helms Ford, interactive map search, hotel associates",
-    "url": "https://helms.codersh.com/"
+    "keywords": "associate locator, global directory, hospitality network, Helms Ford, interactive map search, hotel associates"
   },
   "title": "Helms Ford – Associate Locator Portal",
   "location": "Global (Multi-Region)",
   "projectname": "Helms Ford Associate Locator",
-  "url": "https://helms.codersh.com/",
   "overview": "Helms Ford, a global leader in hotel and meeting planning services, needed a powerful associate locator tool to connect clients with their worldwide network of hospitality professionals. The solution had to be scalable, searchable, and visually interactive, enabling users to easily find the right associate by name, region, or expertise.",
   "features": [
     {
@@ -65,7 +63,7 @@
     }
   ],
   "images": [
-    "/assets/img/casestudy/helmsford-banner.webp",
-    "/assets/img/casestudy/helmsford-map.webp"
+    "/assets/img/casestudy/HelmsBriscoe-casestudy-2.webp",
+    "/assets/img/casestudy/HelmsBriscoe-casestudy-3.webp"
   ]
 }

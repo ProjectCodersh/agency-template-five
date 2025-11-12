@@ -3,13 +3,11 @@
   "seo": {
     "title": "Baseball Bat Store – Shopify Migration & Customization | Codersh",
     "description": "Discover how Codersh migrated the Baseball Bat Store from WordPress to Shopify while preserving complex customization features and improving performance.",
-    "keywords": "Shopify migration, eCommerce customization, Baseball Bat Store, Shopify case study, Codersh",
-    "url": "https://baseballbat.codersh.com/"
+    "keywords": "Shopify migration, eCommerce customization, Baseball Bat Store, Shopify case study, Codersh"
   },
   "title": "Baseball Bat Store – Shopify Migration & Customization",
   "location": "United States",
   "projectname": "Baseball Bat Store Shopify Migration",
-  "url": "https://baseballbat.codersh.com/",
   "overview": "Baseball Bat Store, a premium baseball bat company, required a more robust e-commerce solution to handle their complex product customization options. The project involved migrating their entire store from WordPress to Shopify while enhancing their custom bat builder experience.",
   "objective": [
     "Implement an advanced visual product customization interface.",
@@ -86,7 +84,7 @@
     }
   ],
   "images": [
-    "/assets/img/casestudy/baseballbat-overview.webp",
-    "/assets/img/casestudy/baseballbat-implementation.webp"
+    "/assets/img/casestudy/bergbat-casestudy-2.webp",
+    "/assets/img/casestudy/bergbat-casestudy-3.webp"
   ]
 }

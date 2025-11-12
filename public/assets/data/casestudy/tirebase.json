@@ -3,13 +3,11 @@
   "seo": {
     "title": "Tire Base – AI Business Directory Portal | Codersh",
     "description": "An AI-integrated business directory platform for the US tire and rubber recycling industry. Built to connect recyclers, manufacturers, and buyers in real time.",
-    "keywords": "AI directory, tire recycling, business listings, geo-location search, B2B portal",
-    "url": "https://tyrepages.codersh.com/"
+    "keywords": "AI directory, tire recycling, business listings, geo-location search, B2B portal"
   },
   "title": "Tire Base – AI Integrated Business Directory Portal for the Recycle Tire & Rubber Industry",
   "location": "United States",
   "projectname": "Tire Base – Scrap Tire & Rubber Users Portal",
-  "url": "https://tyrepages.codersh.com/",
   "overview": "A comprehensive business portal for the scrap tire and rubber recycling industry. It allows users to discover, connect, and manage listings with AI-driven insights and real-time data visualization.",
   "features": [
     {
@@ -45,7 +43,7 @@
     }
   ],
   "images": [
-    "/assets/img/casestudy/tirebase-dashboard.webp",
-    "/assets/img/casestudy/tirebase-mapview.webp"
+    "/assets/img/casestudy/Tirepages-casestudy-2.webp",
+    "/assets/img/casestudy/Tirepages-casestudy-3.webp"
   ]
 }
