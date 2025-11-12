@@ -1,0 +1,59 @@
+{
+    "slug": "business-directory",
+    "title": "Business Directory",
+    "slider": [
+      { "src": "/assets/img/solution/BussinessDirectory/slider1.png", "alt": "Slide 1" },
+      { "src": "/assets/img/solution/BussinessDirectory/slider2.png", "alt": "Slide 2" },
+      { "src": "/assets/img/solution/BussinessDirectory/slider3.png", "alt": "Slide 3" },
+      { "src": "/assets/img/solution/BussinessDirectory/slider1.png", "alt": "Slide 4" },
+      { "src": "/assets/img/solution/BussinessDirectory/slider2.png", "alt": "Slide 5" },
+      { "src": "/assets/img/solution/BussinessDirectory/slider3.png", "alt": "Slide 6" }
+      
+    ],
+    "whyChoose": {
+      "img": "/assets/img/team/01.png",
+      "subtitle": "Why Choose Us",
+      "title": "Professional Business Directory Website Solutions",
+      "content": "In today’s fast-paced digital world, a professional business directory website is essential for connecting businesses with their audiences and driving growth. Whether you’re launching a local directory, a niche industry listing, or a nationwide platform, we have the expertise to bring your vision to life. Our custom directory websites are visually appealing, fully responsive, and built for scalability. From advanced search and filtering to smart monetization features, we create solutions that engage users, generate revenue, and help your platform thrive."
+    },
+    "features": {
+      "chooseHeading": {
+        "subtitle": "Key Features",
+        "title": "Our <strong>Key Benefits</strong>",
+        "content": ""
+      },
+      "chooseContent": [
+        {
+          "iconclass": "bi bi-funnel",
+          "title": "Advanced Search and Filters",
+          "content": "Make it easy for users to find exactly what they need with robust search and filtering tools."
+        },
+        {
+          "iconclass": "bi bi-list-ul",
+          "title": "User-Friendly Listings",
+          "content": "Showcase businesses with clear, attractive listings that drive engagement and conversions."
+        },
+        {
+          "iconclass": "bi bi-phone",
+          "title": "Mobile & SEO-Optimized Design",
+          "content": "Reach more users with a responsive site built to rank well in search engines."
+        },
+        {
+          "iconclass": "bi bi-star",
+          "title": "Reviews and Ratings Integration",
+          "content": "Build trust and credibility by enabling user reviews and star ratings."
+        },
+        {
+          "iconclass": "bi bi-gear",
+          "title": "Easy Admin Panel",
+          "content": "Manage listings, content, and settings effortlessly with an intuitive dashboard."
+        },
+        {
+          "iconclass": "bi bi-cash-stack",
+          "title": "Monetization Features",
+          "content": "Generate revenue through paid listings, advertisements, and premium placements."
+        }
+      ]
+    }
+  }
+  

@@ -1,0 +1,59 @@
+{
+    "slug": "it-digital-agency",
+    "title": "IT Digital Agency",
+    "slider": [
+      { "src": "/assets/img/solution/ItDigitalAgency/slider1.png", "alt": "Slide 1" },
+      { "src": "/assets/img/solution/ItDigitalAgency/slider2.png", "alt": "Slide 1" },
+      { "src": "/assets/img/solution/ItDigitalAgency/slider3.png", "alt": "Slide 1" },
+      { "src": "/assets/img/solution/ItDigitalAgency/slider4.png", "alt": "Slide 1" },
+      { "src": "/assets/img/solution/ItDigitalAgency/slider5.png", "alt": "Slide 1" },
+      { "src": "/assets/img/solution/ItDigitalAgency/slider6.png", "alt": "Slide 1" },
+      { "src": "/assets/img/solution/ItDigitalAgency/slider7.png", "alt": "Slide 1" }
+    ],
+    "whyChoose": {
+      "img": "/assets/img/team/01.png",
+      "subtitle": "Why Choose Us",
+      "title": "Modern and Professional Websites for IT Digital Agencies",
+      "content": "Your IT digital agency deserves a website that showcases your expertise and drives client acquisition. In this competitive industry, first impressions are everything. We create modern, custom websites for IT agencies that stand out visually, function flawlessly, and support your business growth. From highlighting your services and portfolio to delivering a seamless user experience, our websites help you build credibility and achieve your goals."
+    },
+    "features": {
+      "chooseHeading": {
+        "subtitle": "Key Features",
+        "title": "Our <strong>Key Benefits</strong>",
+        "content": ""
+      },
+      "chooseContent": [
+        {
+          "iconclass": "bi bi-phone",
+          "title": "Fully Responsive Design",
+          "content": "Your website will look stunning and operate perfectly on all devices, delivering an exceptional experience for every visitor."
+        },
+        {
+          "iconclass": "bi bi-search",
+          "title": "SEO-Optimized Structure",
+          "content": "Our sites are built with SEO best practices to help your agency rank higher in search results and attract more clients."
+        },
+        {
+          "iconclass": "bi bi-briefcase",
+          "title": "Services Showcase & Portfolio",
+          "content": "Highlight your expertise and past projects with a professional portfolio that builds trust with potential clients."
+        },
+        {
+          "iconclass": "bi bi-lightning",
+          "title": "Fast and Secure Performance",
+          "content": "Enjoy fast loading times and robust security features that keep your website protected and performing optimally."
+        },
+        {
+          "iconclass": "bi bi-journal-text",
+          "title": "Blog and Resource Center",
+          "content": "Educate and engage your audience with an integrated blog to share insights and establish thought leadership."
+        },
+        {
+          "iconclass": "bi bi-share",
+          "title": "Social Media Integration",
+          "content": "Connect your website with your social channels to boost engagement and extend your reach."
+        }
+      ]
+    }
+  }
+  

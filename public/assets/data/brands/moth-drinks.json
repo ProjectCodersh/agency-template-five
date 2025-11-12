@@ -1,0 +1,49 @@
+[
+  {
+    "seoTitle": "Moth Drinks | Ready-to-Drink Cocktails Shopify eCommerce Case Study",
+    "seoDescription": "Discover how Codersh built a high-performance Shopify eCommerce platform for Moth Drinks, improving product navigation, streamlining shipping logistics, and enhancing the premium ready-to-drink cocktail shopping experience.",
+    "seoKeywords": "Moth Drinks eCommerce, ready-to-drink cocktails online, Shopify liquor store, premium cocktail website design",
+    "seoUrl": "https://agency-template-five.vercel.app/brands/moth-drinks",
+    "img": "/assets/img/brand-details/moth-drink-1.webp",
+    "subtitle": "About Brand",
+    "title": "The Brief",
+    "content": "Moth Drinks offers premium, ready-to-drink cocktails in a can, crafted with high-quality spirits. Their range includes popular options like Passionfruit Martini, Mojito, and Margarita, all made to bar-strength perfection. As a certified B-Corp, Moth Drinks prioritizes sustainability, ensuring their practices align with environmental responsibility and inclusivity. The website provides an easy-to-navigate online store, making these top-tier cocktails accessible for various occasions. Moth Drinks are also available through select retailers such as Waitrose, Tesco, and Sainsbury's, aiming to deliver convenience and quality to cocktail enthusiasts.",
+    "listItems": [
+      {
+        "title": "Industry",
+        "content": ["Ready-to-Drink Beverages", "Craft Cocktails"]
+      },
+      {
+        "title": "Project",
+        "content": ["E-commerce Development", "Branding & Digital Marketing", "Online Store"]
+      },
+      {
+        "title": "Technology",
+        "content": [
+          "Shopify ECommerce Development",
+          "Payments Integration",
+          "Cloudflare & Google CDN",
+          "React Framework",
+          "ReferralCandy Marketing & Loyalty Rewards",
+          "AWIN Affiliate Marketing"
+        ]
+      },
+      {
+        "title": "Visit",
+        "link": "https://mothdrinks.com/",
+        "text": "mothdrinks.com"
+      }
+    ],
+    "video": {
+      "image": "/assets/img/brand-details/moth-drink-2.webp",
+      "videoUrl": "/assets/img/brand-details/shopify.png"
+    },
+    "challenge": "The Moth Drinks website faces several challenges that could impact user experience. One issue is site navigation, as multiple categories and subcategories may confuse users. Simplifying the structure could improve ease of use. Mobile optimization is another area for improvement, ensuring smoother navigation on smaller devices for quicker purchases. The product information could also be more detailed, including ingredient lists, sourcing, and the cocktail creation process to engage customers. Additionally, the visual design could benefit from a more consistent aesthetic, balancing visuals with text. Finally, shipping and logistics need clearer communication, especially regarding delivery times and availability during peak periods, ensuring a smoother customer experience.",
+    "solution": "To address the challenges faced by the Moth Drinks website, we’ve implemented several solutions. We’ve simplified navigation by streamlining categories and enhancing the search function, making it easier for users to find products. Our team has also optimized the mobile experience, ensuring smoother performance and a user-friendly interface for customers making quick purchases. We’ve provided more detailed product information, including ingredient lists, sourcing, and the cocktail creation process, to engage users and offer full transparency. Additionally, we’ve refined the visual design for a more consistent, balanced layout of text and images to improve the user experience. Lastly, we’ve ensured clear communication about shipping times, costs, and availability, especially during peak seasons, to manage customer expectations and reduce frustration.",
+    "images": [
+      "/assets/img/brand-details/moth-drink-3.webp",
+      "/assets/img/brand-details/moth-drink-4.webp",
+      "/assets/img/brand-details/moth-drink-5.webp"
+    ]
+  }
+]

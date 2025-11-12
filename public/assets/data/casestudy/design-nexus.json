@@ -1,0 +1,79 @@
+{
+  "template": "old",
+  "seo": {
+    "title": "Design Nexus – Dynamic Business Directory for Architects & Interior Designers | Codersh",
+    "description": "A centralized business directory for architects, interior designers, and vendors in Miami. Designed to connect professionals, brands, and showrooms for design collaboration.",
+    "keywords": "business directory, architects, interior designers, design hub, showroom listings, Miami, Codersh",
+    "url": "https://marvelapp.com/prototype/i783i0b/screen/86846782"
+  },
+  "title": "Design Nexus: Dynamic Business Directory for Architects & Interior Designers",
+  "location": "Miami, Florida",
+  "projectname": "Design Nexus – Business Directory",
+  "url": "https://marvelapp.com/prototype/i783i0b/screen/86846782",
+  "overview": "The client required a centralized business directory for architects, interior designers, and vendors in Miami. The platform had to connect professionals, brands, and showrooms, making it easier for users to discover and collaborate on design and construction projects.",
+  "features": [
+    {
+      "heading": "Searchable Directory",
+      "text": "Build a searchable, user-friendly directory platform."
+    },
+    {
+      "heading": "Concierge Services",
+      "text": "Add concierge services and articles to enhance engagement."
+    },
+    {
+      "heading": "Business Registration",
+      "text": "Allow businesses to register, list services, and become members upon admin approval."
+    },
+    {
+      "heading": "Category & City Filters",
+      "text": "Enable map and radius-based search with category and city filters."
+    },
+    {
+      "heading": "Advanced Search & Filters",
+      "text": "Search by brand, showroom, pro, category, and city."
+    },
+    {
+      "heading": "Vendor Listings",
+      "text": "1,600+ vendors, 1,000+ showrooms, and 120+ categories."
+    },
+    {
+      "heading": "Membership & Profiles",
+      "text": "Allow self-registration for professionals and businesses."
+    },
+    {
+      "heading": "Content Sections",
+      "text": "Concierge service and industry news integrated into the platform."
+    },
+    {
+      "heading": "Responsive Design",
+      "text": "Modern mobile-optimized UI/UX for architects and designers."
+    }
+  ],
+  "techStack": [
+    {
+      "heading": "Frontend",
+      "text": "React.js, Bootstrap, Tailwind CSS"
+    },
+    {
+      "heading": "Backend",
+      "text": "WordPress (Directorist Pro Plugin) / PHP"
+    },
+    {
+      "heading": "Database",
+      "text": "MySQL"
+    },
+    {
+      "heading": "Integrations",
+      "text": "Google Maps API (location-based search), Email Notifications"
+    }
+  ],
+  "resultData": [
+    {
+      "text": " "
+    }
+  ],
+  "images": [
+    "/assets/img/casestudy/designnexus-banner.webp",
+    "/assets/img/casestudy/designnexus-ui.webp"
+  ]
+}

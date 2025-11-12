@@ -1,0 +1,59 @@
+{
+    "slug": "wine-store",
+    "title": "Winestore",
+    "slider": [
+      { "src": "/assets/img/solution/WineStore/slider1.png", "alt": "Slide 1" },
+      { "src": "/assets/img/solution/WineStore/slider2.png", "alt": "Slide 1" },
+      { "src": "/assets/img/solution/WineStore/slider3.png", "alt": "Slide 1" },
+      { "src": "/assets/img/solution/WineStore/slider4.png", "alt": "Slide 1" },
+      { "src": "/assets/img/solution/WineStore/slider5.png", "alt": "Slide 1" },
+      { "src": "/assets/img/solution/WineStore/slider6.png", "alt": "Slide 1" },
+      { "src": "/assets/img/solution/WineStore/slider7.png", "alt": "Slide 1" }
+    ],
+    "whyChoose": {
+      "img": "/assets/img/team/01.png",
+      "subtitle": "Why Choose Us",
+      "title": "Elevate Your Wine Store’s Design and Maximize Conversions",
+      "content": "A beautifully redesigned wine store with an optimized user journey can make all the difference in attracting wine enthusiasts and turning visitors into loyal customers. Whether you run a boutique shop or a large online store, our expertise in website redesign and conversion rate optimization (CRO) helps you stand out. With elegant design, intuitive navigation, and strategic optimization, we create a wine store experience that captivates your audience and drives measurable sales growth."
+    },
+    "features": {
+      "chooseHeading": {
+        "subtitle": "Key Features",
+        "title": "Our <strong>Key Benefits</strong>",
+        "content": ""
+      },
+      "chooseContent": [
+        {
+          "iconclass": "bi bi-palette",
+          "title": "Modern and Elegant Redesign",
+          "content": "Make a lasting impression with a sophisticated, visually stunning website that reflects your brand."
+        },
+        {
+          "iconclass": "bi bi-phone",
+          "title": "Mobile-Friendly and Responsive",
+          "content": "Reach customers on any device with a seamless, responsive design that looks beautiful everywhere."
+        },
+        {
+          "iconclass": "bi bi-search",
+          "title": "Streamlined Product Browsing",
+          "content": "Help shoppers easily discover and explore your wine collection with intuitive navigation and search."
+        },
+        {
+          "iconclass": "bi bi-cart-check",
+          "title": "Simplified Checkout Process",
+          "content": "Reduce cart abandonment with an intuitive, frictionless checkout that makes purchasing effortless."
+        },
+        {
+          "iconclass": "bi bi-box-seam",
+          "title": "Integrated Inventory & Shipping",
+          "content": "Keep operations running smoothly with built-in inventory management and shipping integrations."
+        },
+        {
+          "iconclass": "bi bi-graph-up-arrow",
+          "title": "Data-Driven CRO Strategies",
+          "content": "Increase conversions with optimizations and insights powered by real customer data."
+        }
+      ]
+    }
+  }
+  

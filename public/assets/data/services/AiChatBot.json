@@ -1,0 +1,147 @@
+{
+  "ServicePageData": [
+    {
+      "heroSection": {
+        "bgImage": "/assets/img/hero/ai-chatbot-hero.png",
+        "overlayImage": "/assets/img/hero/bg-shape-chatbot.png",
+        "title": "Turn Your Website into a 24/7 <br/> Lead-Generating Machine",
+        "content": "With Codersh AI Chatbot Service — Powered by ChatGPT.<br/>Instant responses. More leads. Less work.",
+        "review": {
+          "image": "/assets/img/hero/client-demo.png",
+          "ratingStars": 5,
+          "totalStars": 5,
+          "text": "+35% More Leads in 30 Days"
+        },
+        "badge": {
+          "image": "/assets/img/hero/clutchreview-2.png",
+          "alt": "chatbot-review-img",
+          "height": "42px"
+        },
+        "buttons": [
+          {
+            "label": "GET A QUOTE",
+            "link": "/pricing"
+          },
+          {
+            "label": "LET'S COLLABORATE",
+            "link": "https://calendly.com/codersh-web-services/15min"
+          }
+        ]
+      }
+    },
+    {
+        
+      },
+    {
+      "whyChoose": {
+        "subtitle": "Why Businesses Love It",
+        "title": "Smarter Support Without Hiring",
+        "content": "Our AI chatbot doesn’t just answer questions — it converts visitors, captures leads, and saves your team hours of manual work.",
+        "img": "/assets/img/service/chatbot-benefits.png",
+        "listItems": [
+          "80% Faster Response Time",
+          "Saves 15+ Hours Weekly",
+          "Costs Less Than Hiring Staff",
+          "+35% More Leads Captured"
+        ]
+      }
+    },
+    {
+      "KeyFeatures": {
+        "chooseHeading": {
+          "subtitle": "What Our AI Chatbot Can Do",
+          "title": "Key Benefits & Features",
+          "content": ""
+        },
+        "chooseContent": [
+          {
+            "iconclass": "bi bi-lightning-charge",
+            "title": "Instant Customer Support",
+            "content": "Answer FAQs, booking inquiries, and product questions 24/7."
+          },
+          {
+            "iconclass": "bi bi-calendar-check",
+            "title": "Auto Appointment Booking",
+            "content": "Integrates with calendars to schedule bookings without human help."
+          },
+          {
+            "iconclass": "bi bi-person-lines-fill",
+            "title": "Lead Qualification",
+            "content": "Engages and qualifies leads before passing them to your sales team."
+          },
+          {
+            "iconclass": "bi bi-chat-dots",
+            "title": "Personalized Chat",
+            "content": "Trained on your website’s content for accurate, custom responses."
+          },
+          {
+            "iconclass": "bi bi-bar-chart-line",
+            "title": "Boost Conversion Rates",
+            "content": "Reduce bounce and increase time on site with smart interactions."
+          }
+        ]
+      }
+    },
+    {
+      "realworldApp": {
+        "heading": {
+          "subtitle": "Industries We Serve",
+          "title": "Who It’s Perfect For",
+          "img": "/assets/img/service/chatbot-industries.webp"
+        },
+        "appContent": [
+          {
+            "apptitle": "Hotels & Resorts",
+            "appContent": "Manage guest inquiries, bookings, and promotions 24/7."
+          },
+          {
+            "apptitle": "Healthcare & Clinics",
+            "appContent": "Automate scheduling, FAQs, and after-hours support."
+          },
+          {
+            "apptitle": "Salons & Spas",
+            "appContent": "Answer service questions and book appointments anytime."
+          },
+          {
+            "apptitle": "IT & SaaS Companies",
+            "appContent": "Offer product demos, technical support FAQs, and capture leads during non-working hours."
+          },
+          {
+            "apptitle": "E-commerce Stores",
+            "appContent": "Help shoppers with product questions and track orders instantly."
+          },
+          {
+            "apptitle": "Real Estate",
+            "appContent": "Qualify buyers, schedule viewings, and provide property info."
+          }
+        ]
+      }
+    },
+    {
+      "faqSection": {
+        "faq": {
+          "faqtitle": "How It Works",
+          "faqsubtitle": "Setup Is Simple & Fast"
+        },
+        "faqlist": [
+          {
+            "title": "Do I need technical skills?",
+            "content": "<p>Nope. We handle the setup and training for you.</p>"
+          },
+          {
+            "title": "Can it match my brand?",
+            "content": "<p>Yes — we customize the chatbot’s tone, style, and FAQs to fit your website.</p>"
+          },
+          {
+            "title": "What’s the trial about?",
+            "content": "<p>You get a full-featured 14-day free trial to test results before paying.</p>"
+          },
+          {
+            "title": "Is it secure?",
+            "content": "<p>Absolutely. Built on OpenAI’s secure infrastructure, fully encrypted and private.</p>"
+          }
+        ]
+      }
+    }
+  ]
+}

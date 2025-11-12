@@ -1,0 +1,179 @@
+{
+    "ServicePageData": [
+      {
+        "heroSection": {
+          "bgImage": "/assets/img/hero/hero-bg-2.png",
+          "overlayImage": "/assets/img/hero/bg-shape.png",
+          "title": "Custom GoHighLevel Setups <br/> That Automate & Scale Your Business",
+          "content": "Unlock the full potential of GoHighLevel. From funnels to workflows, CRM to automations - <br/> we build smart systems that save you time and drive results.",
+          "review": {
+            "image": "/assets/img/hero/client-demo.png",
+            "ratingStars": 5,
+            "totalStars": 5,
+            "text": "75+ systems deployed"
+          },
+          "badge": {
+            "image": "/assets/img/hero/clutchreview-2.png",
+            "alt": "clutchreview-img",
+            "height": "42px"
+          },
+          "buttons": [
+            {
+              "label": "GET A QUOTE",
+              "link": "/pricing"
+            },
+            {
+              "label": "LET'S COLLABORATE",
+              "link": "https://calendly.com/codersh-web-services/15min"
+            }
+          ]
+        }
+      },
+      {
+        "processSection": {
+          "subtitle": "Our Process",
+          "title": "How We Build on GoHighLevel for You",
+          "bgShape": "/assets/img/service/bg-shape.png",
+          "leftShape": "/assets/img/service/left-shape.png",
+          "rightShape": "/assets/img/service/right-shape.png",
+          "steps": [
+            {
+              "iconclass": "bi bi-search",
+              "title": "Needs Analysis",
+              "content": "We understand your business goals, whether focused on lead generation, nurturing, or streamlined client onboarding."
+            },
+            {
+              "iconclass": "bi bi-columns",
+              "title": "Funnel & Website Setup",
+              "content": "We build custom landing pages, websites, and conversion funnels directly inside GoHighLevel."
+            },
+            {
+              "iconclass": "bi bi-kanban",
+              "title": "CRM & Pipeline Configuration",
+              "content": "Custom pipeline stages, tags, and workflows designed to match your exact sales and service process."
+            },
+            {
+              "iconclass": "bi bi-lightning-charge",
+              "title": "Automation Development",
+              "content": "Automated email and SMS sequences, AI-triggered responses, and workflows to run your marketing 24/7."
+            },
+            {
+              "iconclass": "bi bi-plug",
+              "title": "Integrations",
+              "content": "We connect calendars, Stripe, webhooks, Zapier, and any tools you need for a seamless system."
+            },
+            {
+              "iconclass": "bi bi-check2-circle",
+              "title": "Testing & Handover",
+              "content": "We thoroughly test every funnel and automation, and provide walkthroughs to ensure you’re confident managing them."
+            }
+          ]
+        }
+      },
+      {
+        "whyChoose": {
+          "subtitle": "Why Choose Us",
+          "title": "Proven GoHighLevel Builds That Convert",
+          "content": "We combine deep GHL expertise with marketing strategy to create systems that not only look good - they convert and scale with you.",
+          "img": "/assets/img/service/service-mockup-8.webp",
+          "listItems": [
+              "Complete Setup in Under 10 Days",
+              "Support for Scaling & Training Included",
+              "75+ GoHighLevel Systems Deployed",
+              "Automation & Funnel Experts on Staff"
+          ]
+        }
+      },
+      {
+        "KeyFeatures": {
+          "chooseHeading": {
+            "subtitle": "Key Features & Benefits",
+            "title": "Why Choose Our GoHighLevel Experts",
+            "content": ""
+          },
+          "chooseContent": [
+            {
+              "iconclass": "bi bi-palette",
+              "title": "White-Label Ready",
+              "content": "Perfect for agencies looking to offer branded GHL solutions to their clients."
+            },
+            {
+              "iconclass": "bi bi-funnel",
+              "title": "Custom Funnels & Pages",
+              "content": "Funnels and pages fully tailored to your offers and audience."
+            },
+            {
+              "iconclass": "bi bi-clock-history",
+              "title": "24/7 Lead Nurturing",
+              "content": "Automations that build trust and move leads forward even while you sleep."
+            },
+            {
+              "iconclass": "bi bi-gear",
+              "title": "Tailored CRM Setup",
+              "content": "CRM pipelines and tagging designed specifically for your business workflows."
+            },
+            {
+              "iconclass": "bi bi-easel",
+              "title": "Easy Management",
+              "content": "We deliver clear, visual walkthroughs so you and your team can run your system with ease."
+            }
+          ]
+        }
+      },
+      {
+        "realworldApp": {
+          "heading": {
+            "subtitle": "Who We Help Most",
+            "title": "Real-World Applications",
+            "img": "/assets/img/service/service-mockup-2.webp"
+          },
+          "appContent": [
+            {
+              "apptitle": "Agencies",
+              "appContent": "White-label GoHighLevel builds for agencies serving multiple client funnels and automations."
+            },
+            {
+              "apptitle": "Coaches & Consultants",
+              "appContent": "Automated client onboarding, lead nurturing, and recurring engagement systems."
+            },
+            {
+              "apptitle": "Local Businesses",
+              "appContent": "End-to-end local lead-gen setups that convert website visitors into booked appointments."
+            },
+            {
+              "apptitle": "Startups",
+              "appContent": "Full sales and marketing automation to help startups scale quickly and efficiently."
+            }
+          ]
+        }
+      },
+      
+      {
+        "faqSection": {
+          "faq": {
+            "faqtitle": "Technical Excellence",
+            "faqsubtitle": "Built to Automate, Built to Convert"
+          },
+          "faqlist": [
+            {
+              "title": "Responsive, Clean Pages",
+              "content": "<p>All funnels and pages are fully mobile-optimized and designed with clean, fast-loading structures.</p>"
+            },
+            {
+              "title": "Organized Pipelines & Tags",
+              "content": "<p>We set up scalable pipelines, clear tagging, and logical workflows to keep your CRM manageable as you grow.</p>"
+            },
+            {
+              "title": "Optimized Email & SMS Delivery",
+              "content": "<p>Fast, reliable communication setups with deliverability best practices followed for higher engagement rates.</p>"
+            },
+            {
+              "title": "Future-Proof Automations",
+              "content": "<p>We build flexible automations that can be easily expanded and adapted as your business evolves.</p>"
+            }
+          ]
+        }
+      }
+    ]
+  }
+  

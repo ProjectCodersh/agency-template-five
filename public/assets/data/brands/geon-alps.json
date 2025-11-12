@@ -1,0 +1,52 @@
+[
+  {
+    "seoTitle": "Geon Alps | Luxury Jewelry & Leather Goods eCommerce Development",
+    "seoDescription": "Explore how Codersh transformed Geon Alps’ online presence with a sleek, mobile-friendly eCommerce site, and a premium shopping experience for high-quality jewelry and leather goods.",
+    "seoKeywords": "Geon Alps eCommerce, luxury jewelry website, leather goods online shop, Shopify jewelry store, high-end fashion brand web development",
+    "seoUrl": "https://agency-template-five.vercel.app/brands/geon-alps",
+    "img": "/assets/img/brand-details/geon-alps-brand-1.webp",
+    "subtitle": "About Brand",
+    "title": "The Brief",
+    "content": "GEON ALPS is a luxury brand specializing in high-quality jewelry and small leather goods. Offering men’s and women’s accessories made from solid 14K Yellow Gold, the brand plans to expand into K-White and K-Rose Gold, as well as Lab-Grown Diamonds. With a focus on education and formal design, GEON ALPS incorporates elements of its Singaporean heritage, symbolized in its star and moon logo. The brand operates through its Shopify-powered online store, providing free shipping and a 30-day return policy. GEON ALPS aims to offer luxury with a blend of craftsmanship and cultural significance.",
+    "listItems": [
+      {
+        "title": "Industry",
+        "content": ["Luxury Goods & Jewelry", "Fashion and Accessories"]
+      },
+      {
+        "title": "Project",
+        "content": [
+          "Web Design & Development",
+          "E-commerce Platform Development",
+          "Branding & Digital Marketing"
+        ]
+      },
+      {
+        "title": "Technology",
+        "content": [
+          "Shopify Development",
+          "E-Commerce & Payments Integration",
+          "JSS & Bootstrap Framework",
+          "Cloudflare CDN",
+          "AutoMizely Marketing Automation"
+        ]
+      },
+      {
+        "title": "Visit",
+        "link": "https://geonalps.com/",
+        "text": "geonalps.com"
+      }
+    ],
+    "video": {
+      "image": "/assets/img/brand-details/geon-alps-brand-2.webp",
+      "videoUrl": "/assets/img/brand-details/shopify.png"
+    },
+    "challenge": "GEON ALPS faces several challenges with its website. Competing in the luxury jewelry market, the brand must differentiate itself from established players to attract attention. Building customer trust is crucial, as many shoppers may hesitate to purchase from a newer brand. Ensuring optimal website performance, particularly with high-quality product images and descriptions, is essential for a smooth shopping experience. Managing international shipping, logistics, and returns can be complex, especially across different regions with varying regulations. Additionally, optimizing the site for mobile devices is critical, given the growing number of mobile shoppers. These challenges require ongoing attention to maintain a seamless and trustworthy customer experience.",
+    "solution": "Our Team has implemented several key changes to improve its website. They optimized the design for better navigation and faster load times, ensuring a smoother shopping experience. Product descriptions were updated with detailed, accurate information and high-quality images to build customer trust. The brand added customer reviews, a clear return policy, and guarantees like free international shipping and coverage of return shipping costs to enhance credibility. Additionally, the website was optimized for mobile devices, providing a seamless shopping experience across all screens. These updates have helped The Site offer a more polished, accessible, and user-friendly online presence, enhancing customer satisfaction and engagement.",
+    "images": [
+      "/assets/img/brand-details/geon-alps-brand-3.webp",
+      "/assets/img/brand-details/geon-alps-brand-4.webp",
+      "/assets/img/brand-details/geon-alps-brand-5.webp"
+    ]
+  }
+]

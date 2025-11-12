@@ -1,0 +1,183 @@
+{
+    "ServicePageData": [
+      {
+        "heroSection": {
+          "bgImage": "/assets/img/hero/hero-bg-2.png",
+          "overlayImage": "/assets/img/hero/bg-shape.png",
+          "title": "Migrate from WordPress to Shopify Without Losing Traffic or Sales",
+          "content": "Is your WordPress e-commerce site holding back your growth? We specialize in seamless WordPress to Shopify migrations that protect your SEO rankings, customer data, and revenue — so you can scale confidently.",
+          "review": {
+            "image": "/assets/img/hero/client-demo.png",
+            "ratingStars": 5,
+            "totalStars": 5,
+            "text": "500+ migrations"
+          },
+          "badge": {
+            "image": "/assets/img/hero/clutchreview-2.png",
+            "alt": "clutchreview-img",
+            "height": "42px"
+          },
+          "buttons": [
+            {
+              "label": "GET A QUOTE",
+              "link": "/pricing"
+            },
+            {
+              "label": "LET'S COLLABORATE",
+              "link": "https://calendly.com/codersh-web-services/15min"
+            }
+          ]
+        }
+      },
+      {
+        "processSection": {
+          "subtitle": "Our Process",
+          "title": "How We Move Your Store Safely to Shopify",
+          "bgShape": "/assets/img/service/bg-shape.png",
+          "leftShape": "/assets/img/service/left-shape.png",
+          "rightShape": "/assets/img/service/right-shape.png",
+          "steps": [
+            {
+              "iconclass": "bi bi-search",
+              "title": "Full Site Audit",
+              "content": "We thoroughly review your WordPress setup, plugins, themes, and any custom code to plan a clean, efficient migration."
+            },
+            {
+              "iconclass": "bi bi-diagram-3",
+              "title": "Data Mapping & Planning",
+              "content": "Products, customers, orders, blogs, and SEO data are carefully mapped to align perfectly with Shopify’s architecture."
+            },
+            {
+              "iconclass": "bi bi-palette",
+              "title": "Design Rebuild",
+              "content": "We rebuild your store on Shopify with a fresh, mobile-optimized, and conversion-focused design."
+            },
+            {
+              "iconclass": "bi bi-upload",
+              "title": "Content & Product Transfer",
+              "content": "From product details to blog posts and images, all content is migrated seamlessly with clean formatting."
+            },
+            {
+              "iconclass": "bi bi-graph-up",
+              "title": "SEO Preservation",
+              "content": "We implement 301 redirects, retain all meta data, and preserve your URL structure to maintain and even improve your SEO rankings."
+            },
+            {
+              "iconclass": "bi bi-check2-circle",
+              "title": "Pre-Launch Testing",
+              "content": "A full staging site is tested rigorously across browsers and devices to ensure everything is perfect before going live."
+            }
+          ]
+        }
+      },
+      {
+        "whyChoose": {
+          "subtitle": "Why Choose Us",
+          "title": "Your Shopify Store, Seamlessly Delivered",
+          "content": "We don’t just migrate — we transform your online store into a faster, more secure, and conversion-focused experience. Our proven approach ensures you keep your traffic and sales momentum without any downtime.",
+          "img": "/assets/img/service/service-mockup-2.webp",
+          "listItems": [
+              "Zero Downtime on Launch",
+            "100+ WordPress Stores Successfully Migrated",
+            "SEO & Data Integrity Guaranteed",
+            "Dedicated Shopify Experts on Every Project"
+          ]
+        }
+      },
+      {
+        "KeyFeatures": {
+          "chooseHeading": {
+            "subtitle": "Key Features & Benefits",
+            "title": "Why Shopify Makes Business Sense",
+            "content": ""
+          },
+          "chooseContent": [
+            {
+              "iconclass": "bi bi-bag-check",
+              "title": "Built for E-Commerce",
+              "content": "Say goodbye to plugin conflicts — Shopify is purpose-built for seamless online selling."
+            },
+            {
+              "iconclass": "bi bi-lightning-charge",
+              "title": "Faster Site Speeds",
+              "content": "Stores we migrate often load 50% faster thanks to Shopify’s robust CDN and optimized infrastructure."
+            },
+            {
+              "iconclass": "bi bi-shield-lock",
+              "title": "Enterprise-Level Security",
+              "content": "SSL, PCI compliance, and automatic updates handled for you — no third-party security plugins needed."
+            },
+            {
+              "iconclass": "bi bi-phone",
+              "title": "Mobile-First Checkout",
+              "content": "Shopify themes deliver smooth, one-click checkouts optimized for mobile shoppers."
+            },
+            {
+              "iconclass": "bi bi-cash-coin",
+              "title": "Lower Total Cost of Ownership",
+              "content": "No server fees or plugin purchases — Shopify’s all-in-one solution reduces maintenance costs dramatically."
+            },
+            {
+              "iconclass": "bi bi-grid",
+              "title": "All-in-One Platform",
+              "content": "Built-in analytics, inventory, and marketing tools mean fewer apps and better performance."
+            }
+          ]
+        }
+      },
+      {
+        "realworldApp": {
+          "heading": {
+            "title": "Real-World Applications",
+            "subtitle": "See How We’ve Helped Brands Thrive",
+            "img": "/assets/img/service/service-mockup-6.webp"
+          },
+          "appContent": [
+            {
+              "apptitle": "Fashion Retailer",
+              "appContent": "Migrated from WordPress and achieved a 67% boost in mobile conversions with a streamlined, high-speed checkout experience."
+            },
+            {
+              "apptitle": "Home Decor Brand",
+              "appContent": "Reduced reliance on 15+ plugins, eliminating maintenance headaches and achieving 45% faster site speeds."
+            },
+            {
+              "apptitle": "Beauty Brand",
+              "appContent": "Preserved SEO authority and increased conversion rates by 23% after moving to a custom Shopify build."
+            },
+            {
+              "apptitle": "Electronics Supplier",
+              "appContent": "Simplified complex inventory and removed plugin conflicts using Shopify’s native tools and features."
+            }
+          ]
+        }
+      },
+      {
+        "faqSection": {
+          "faq": {
+            "faqtitle": "Technical Excellence",
+            "faqsubtitle": "We Don’t Just Migrate — We Optimize"
+          },
+          "faqlist": [
+            {
+              "title": "Clean Code Rebuilds",
+              "content": "<p>We eliminate bloated or outdated code and rebuild your Shopify theme from the ground up for maximum performance and maintainability.</p>"
+            },
+            {
+              "title": "Structured SEO Data",
+              "content": "<p>All meta tags, alt texts, and schema markup are migrated accurately and enhanced for better search visibility.</p>"
+            },
+            {
+              "title": "Responsive Redesign",
+              "content": "<p>We rigorously test layouts across devices and screen sizes, ensuring your site looks perfect from 320px to 1440px.</p>"
+            },
+            {
+              "title": "Launch-Ready Testing",
+              "content": "<p>Comprehensive cross-browser and device testing on Chrome, Safari, Firefox, and Edge — across Mac and Windows — ensures a flawless launch.</p>"
+            }
+          ]
+        }
+      }
+    ]
+  }
+  

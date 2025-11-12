@@ -1,0 +1,53 @@
+[
+  {
+    "seoTitle": "Vault Studio | Premium Interior & Renovation Web Design by Codersh",
+    "seoDescription": "See how Codersh developed a stylish, user-friendly website for Vault Studio, showcasing premium interior design and home renovation services.",
+    "seoKeywords": "Vault Studio, interior design website, home renovation services, Shopify development, eCommerce design",
+    "seoUrl": "https://agency-template-five.vercel.app/brands/vault-studio",
+    "img": "/assets/img/brand-details/vault-studio-1.webp",
+    "subtitle": "About Brand",
+    "title": "The Brief",
+    "content": "Vault Studio is a premier remodeling and interior design company based in Santa Barbara, specializing in high-quality home renovations and custom cabinetry. Founded by Romain Doussineau, the company offers personalized design solutions for kitchens, bathrooms, flooring, countertops, and more, using top-tier materials, including imported European products. With over 10 years of experience and more than 5,500 completed projects, Vault Studio is committed to exceptional craftsmanship and customer satisfaction. The company ensures that each home reflects the unique style and needs of its clients, providing tailored renovations that enhance the beauty and functionality of any space.",
+    "listItems": [
+      {
+        "title": "Industry",
+        "content": ["Home Remodeling & Renovation", "Interior Design"]
+      },
+      {
+        "title": "Project",
+        "content": [
+          "Web Design & Development",
+          "E-commerce Platform Development",
+          "Branding & Digital Marketing",
+          "Portfolio Showcase"
+        ]
+      },
+      {
+        "title": "Technology",
+        "content": [
+          "Shopify Development",
+          "E-Commerce & Payments Intigration",
+          "Cloudflare CDN & Security",
+          "HubSpot Marketing Automation &CRM",
+          "Google Analytics & GA4"
+        ]
+      },
+      {
+        "title": "Visit",
+        "link": "https://vault.studio/",
+        "text": "vault.studio"
+      }
+    ],
+    "video": {
+      "image": "/assets/img/brand-details/vault-studio-2.webp",
+      "videoUrl": "/assets/img/brand-details/shopify.png"
+    },
+    "challenge": "The Vault Studio website encountered several challenges in effectively showcasing its extensive range of products and services. Presenting detailed information about custom cabinetry, materials, and design options while maintaining user-friendly navigation was crucial, especially for customers unfamiliar with home renovations. The site also needed to convey the company’s premium craftsmanship while integrating a comprehensive online portfolio of past projects. Ensuring fast load times and responsiveness across both desktop and mobile devices, while offering an intuitive browsing experience, was another key challenge.",
+    "solution": "To overcome these challenges, Vault Studio created a visually rich, user-friendly website with clear categories for products, services, and past projects. High-quality images showcased the company’s craftsmanship, while interactive features like service filters and design galleries boosted user engagement. The responsive design ensured smooth access across all devices, enhancing the user experience. A blog section was added to share renovation tips and industry insights, improving SEO and establishing Vault Studio as a thought leader. This redesign built customer trust, strengthened connections, and significantly boosted conversions by effectively showcasing their high-quality custom services.",
+    "images": [
+      "/assets/img/brand-details/vault-studio-3.webp",
+      "/assets/img/brand-details/vault-studio-4.webp",
+      "/assets/img/brand-details/vault-studio-5.webp"
+    ]
+  }
+]

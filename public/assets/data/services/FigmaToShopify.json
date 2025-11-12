@@ -1,0 +1,177 @@
+{
+    "ServicePageData": [
+      {
+        "heroSection": {
+          "bgImage": "/assets/img/hero/hero-bg-2.png",
+          "overlayImage": "/assets/img/hero/bg-shape.png",
+          "title": "Transform Your Figma Designs <br/> into Pixel Perfect Shopify Stores",
+          "content": "Got a stunning design in Figma but struggling to bring it to life on Shopify? We specialize in <br/> pixel-perfect Figma to Shopify conversions that don't just look amazing – they sell like crazy.",
+          "review": {
+            "image": "/assets/img/hero/client-demo.png",
+            "ratingStars": 4,
+            "totalStars": 5,
+            "text": "450+ reviews"
+          },
+          "badge": {
+            "image": "/assets/img/hero/clutchreview-2.png",
+            "alt": "clutchreview-img",
+            "height": "42px"
+          },
+          "buttons": [
+            {
+              "label": "GET A QUOTE",
+              "link": "/pricing"
+            },
+            {
+              "label": "LET'S COLLABORATE",
+              "link": "https://calendly.com/codersh-web-services/15min"
+            }
+          ]
+        }
+      },
+      {
+        "processSection": {
+          "subtitle": "Our Process",
+          "title": "How We Turn Your Figma <br /> Vision into Shopify Reality",
+          "bgShape": "/assets/img/service/bg-shape.png",
+          "leftShape": "/assets/img/service/left-shape.png",
+          "rightShape": "/assets/img/service/right-shape.png",
+          "steps": [
+            {
+              "iconclass": "bi bi-easel",
+              "title": "Design Analysis & Planning",
+              "content": "We dive deep into your Figma files, understanding every element, interaction, and user flow you've envisioned."
+            },
+            {
+              "iconclass": "bi bi-code-slash",
+              "title": "Custom Code Development",
+              "content": "Our developers hand-code every section using clean HTML, CSS, and JavaScript – no bloated page builders that slow down your site."
+            },
+            {
+              "iconclass": "bi bi-phone",
+              "title": "Responsive Optimization",
+              "content": "Your design looks perfect on desktop, tablet, and mobile. We ensure every breakpoint is flawless."
+            },
+            {
+              "iconclass": "bi bi-cart-check",
+              "title": "Shopify Integration",
+              "content": "We seamlessly integrate all Shopify functionalities – cart, checkout, product pages, collections, and more"
+            },
+            {
+              "iconclass": "bi bi-speedometer2",
+              "title": "Speed & SEO Optimization",
+              "content": "Your store loads in under 3 seconds and is optimized for search engines from day one."
+            },
+            {
+              "iconclass": "bi bi-patch-check",
+              "title": "Quality Testing",
+              "content": "Rigorous testing across browsers and devices ensures everything works perfectly before launch."
+            }
+          ]
+        }
+      },
+      {
+        "whyChoose": {
+          "subtitle": "Why Choose Us",
+          "title": "The Numbers Don't Lie",
+          "content": "We specialize in transforming static Figma designs into lightning-fast, fully-responsive, and scalable Shopify storefronts. Our process ensures your brand’s vision is never compromised.",
+          "img": "/assets/img/service/service-mockup-1.webp",
+          "listItems": [
+            "99.8% Client Satisfaction Rate",
+            "150+ Successful Figma to Shopify Conversions",
+            "2-Week Average Delivery Time",
+            "Average 35% Increase in Conversion Rates"
+          ]
+        }
+      }, 
+      {
+        "KeyFeatures": {
+          "chooseHeading": {
+            "subtitle": "Key Features & Benefits",
+            "title": "What Makes Our <br> Figma to Shopify Service Different",
+            "content": ""
+          },
+          "chooseContent": [
+            {
+              "iconclass": "bi bi-bullseye",
+              "title": "Pixel-Perfect Accuracy",
+              "content": "Faithful Figma-to-code with exact spacing, colors, and fonts-no compromises."
+            },
+            {
+              "iconclass": "bi bi-lightning-charge-fill",
+              "title": "Lightning-Fast Performance",
+              "content": "Clean, optimized code for faster loads and higher conversions—up to 40% speed boost."
+            },
+            {
+              "iconclass": "bi bi-phone",
+              "title": "Mobile-First Approach",
+              "content": "Built for mobile-first users with smooth, responsive design."
+            },
+            {
+              "iconclass": "bi bi-cart-check-fill",
+              "title": "E-commerce Focused",
+              "content": "Conversion-driven layouts built for selling, not just looking good."
+            },
+            {
+              "iconclass": "bi bi-tools",
+              "title": " Easy Content Management",
+              "content": "Effortless updates via Shopify editor - no coding needed."
+            }
+          ]
+        }
+      },
+      {
+        "realworldApp": {
+          "heading": {
+            "title": "Real-World Applications",
+            "subtitle": "Perfect For These Types of Businesses",
+            "img": "/assets/img/service/service-mockup-4.webp"
+          },
+          "appContent": [
+            {
+              "apptitle": "Fashion & Apparel Brands",
+              "appContent": "We helped a clothing brand increase their conversion rate by 45% after converting their unique Figma design to a custom Shopify store."
+            },
+            {
+              "apptitle": "Beauty & Cosmetics",
+              "appContent": "Custom product configurators and before/after galleries that showcase products in the best light."
+            },
+            {
+              "apptitle": "Home & Garden",
+              "appContent": "Room visualizers and lifestyle imagery that help customers imagine products in their space."
+            },
+            {
+              "apptitle": "Tech & Electronics",
+              "appContent": "Detailed product specifications, comparison tools, and technical documentation integrated seamlessly."
+            }
+          ]
+        }
+      },
+      { "faqSection": {
+        "faq": {
+          "faqtitle": "Technical Excellence",
+          "faqsubtitle": "Built Right, Built to Last"
+        },
+        "faqlist": [
+          {
+            "title": "Clean, Maintainable Code",
+            "content": "<p>W3C-compliant, well-commented code that follows Shopify’s best practices - easy to update, scale, and hand off.</p>"
+          },
+          {
+            "title": "SEO-Optimized Structure",
+            "content": "<p>Semantic HTML, optimized meta tags, and fast load speeds help your store rank higher and perform better in search.</p>"
+          },
+          {
+            "title": "Cross-Browser Compatibility",
+            "content": "<p>Fully tested across all major browsers and devices to ensure a smooth, consistent user experience everywhere.</p>"
+          },
+          {
+            "title": "Future-Proof Development",
+            "content": "<p>Built to grow with your business-compatible with Shopify updates and easy to extend with new features.</p>"
+          }
+        ]
+      }
+      }
+    ]
+  }
+  

@@ -1,0 +1,178 @@
+{
+    "ServicePageData": [
+      {
+        "heroSection": {
+          "bgImage": "/assets/img/hero/hero-bg-2.png",
+          "overlayImage": "/assets/img/hero/bg-shape.png",
+          "title": "Seamless Shift4Shop to Shopify Migrations Without the Headaches",
+          "content": "Still stuck on Shift4Shop? We help you move to Shopify without losing sales, SEO, or sanity. <br/> From data transfer to design recreation and app setup - we handle every detail so you can focus on growth.",
+          "review": {
+            "image": "/assets/img/hero/client-demo.png",
+            "ratingStars": 5,
+            "totalStars": 5,
+            "text": "100+ Shopify migrations"
+          },
+          "badge": {
+            "image": "/assets/img/hero/clutchreview-2.png",
+            "alt": "clutchreview-img",
+            "height": "42px"
+          },
+          "buttons": [
+            {
+              "label": "GET A QUOTE",
+              "link": "/pricing"
+            },
+            {
+              "label": "LET'S COLLABORATE",
+              "link": "https://calendly.com/codersh-web-services/15min"
+            }
+          ]
+        }
+      },
+      {
+        "processSection": {
+          "subtitle": "Our Process",
+          "title": "How We Move You From Shift4Shop to Shopify",
+          "bgShape": "/assets/img/service/bg-shape.png",
+          "leftShape": "/assets/img/service/left-shape.png",
+          "rightShape": "/assets/img/service/right-shape.png",
+          "steps": [
+            {
+              "iconclass": "bi bi-search",
+              "title": "Platform Audit & Planning",
+              "content": "We thoroughly review your existing site and map out a tailored migration plan to ensure no surprises."
+            },
+            {
+              "iconclass": "bi bi-brush",
+              "title": "Design Recreation or Redesign",
+              "content": "We replicate your current design pixel-perfect on Shopify - or give your brand a complete fresh look if you prefer."
+            },
+            {
+              "iconclass": "bi bi-box-seam",
+              "title": "Product & Customer Data Migration",
+              "content": "Your products, customers, order history, and other critical data are securely transferred without loss or errors."
+            },
+            {
+              "iconclass": "bi bi-puzzle",
+              "title": "App & Feature Mapping",
+              "content": "We identify and configure the right Shopify apps to match or enhance your existing functionality."
+            },
+            {
+              "iconclass": "bi bi-graph-up",
+              "title": "SEO Preservation",
+              "content": "We manage redirects, metadata, and SEO settings to protect your search rankings and organic traffic."
+            },
+            {
+              "iconclass": "bi bi-rocket",
+              "title": "Testing & Launch",
+              "content": "Rigorous testing across devices and browsers ensures a smooth, error-free go-live with minimal downtime."
+            }
+          ]
+        }
+      },
+      {
+        "whyChoose": {
+          "subtitle": "Why Choose Us",
+          "title": "Migration Made Smooth",
+          "content": "We combine deep Shopify expertise with proven SEO and data migration strategies, ensuring a seamless move without losing momentum.",
+          "img": "/assets/img/service/service-mockup-6.webp",
+          "listItems": [
+              "In-House Shopify & SEO Experts",
+            "100+ Shopify Migrations Completed",
+            "2-Week Average Turnaround",
+            "98% Client Retention Post-Migration"
+          ]
+        }
+      },
+      {
+        "KeyFeatures": {
+          "chooseHeading": {
+            "subtitle": "Key Features & Benefits",
+            "title": "Why Brands Trust Our Migration Services",
+            "content": ""
+          },
+          "chooseContent": [
+            {
+              "iconclass": "bi bi-shield-check",
+              "title": "Zero Data Loss",
+              "content": "We ensure every product, order, and customer record transfers perfectly and remains intact."
+            },
+            {
+              "iconclass": "bi bi-bar-chart",
+              "title": "SEO-Safe Migration",
+              "content": "Your organic rankings and traffic are preserved with careful SEO strategy and technical redirects."
+            },
+            {
+              "iconclass": "bi bi-paint-bucket",
+              "title": "Flexible Design Options",
+              "content": "Get an exact replica of your current design or a fresh new Shopify look tailored to boost conversions."
+            },
+            {
+              "iconclass": "bi bi-lightning",
+              "title": "Minimal Downtime",
+              "content": "Your store stays online and operational during most of the migration process, avoiding lost revenue."
+            },
+            {
+              "iconclass": "bi bi-tools",
+              "title": "Post-Launch Support",
+              "content": "We stand by your side after launch to fix any issues and optimize as your business scales."
+            }
+          ]
+        }
+      },
+      {
+        "realworldApp": {
+          "heading": {
+            "subtitle": "Best For Businesses That",
+            "title": "Real-World Applications",
+            "img": "/assets/img/service/service-mockup-11.webp"
+          },
+          "appContent": [
+            {
+              "apptitle": "Outgrew Shift4Shop",
+              "appContent": "Brands ready to move beyond limited features and scale up on a more robust, modern platform."
+            },
+            {
+              "apptitle": "Need Better Flexibility",
+              "appContent": "Businesses wanting more design and integration flexibility to support growth and marketing initiatives."
+            },
+            {
+              "apptitle": "Seeking Advanced Apps",
+              "appContent": "Merchants who need Shopify’s powerful app ecosystem to enhance their store’s functionality."
+            },
+            {
+              "apptitle": "Ready to Scale on Shopify",
+              "appContent": "Companies aiming to leverage Shopify’s scalability and user-friendly management for long-term growth."
+            }
+          ]
+        }
+      },
+      {
+        "faqSection": {
+          "faq": {
+            "faqtitle": "Technical Excellence",
+            "faqsubtitle": "We Migrate With Precision"
+          },
+          "faqlist": [
+            {
+              "title": "Manual Data Verification",
+              "content": "<p>We manually check migrated data to guarantee accuracy and completeness - no blind automation.</p>"
+            },
+            {
+              "title": "Custom Redirect Strategy",
+              "content": "<p>We create precise redirects to preserve SEO value and avoid broken links or lost pages.</p>"
+            },
+            {
+              "title": "Shopify 2.0 Standards",
+              "content": "<p>We build on the latest Shopify 2.0 framework for better speed, flexibility, and future-proofing.</p>"
+            },
+            {
+              "title": "Launch Checklist & Support",
+              "content": "<p>Every migration follows a detailed launch checklist, plus ongoing support to ensure post-launch success.</p>"
+            }
+          ]
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,178 @@
+{
+    "ServicePageData": [
+      {
+        "heroSection": {
+          "bgImage": "/assets/img/hero/hero-bg-2.png",
+          "overlayImage": "/assets/img/hero/bg-shape.png",
+          "title": "Give Your Website a Fresh, <br/> Conversion-Driven Makeover",
+          "content": "Is your current website outdated or failing to convert visitors? Our redesign services blend modern aesthetics <br/> with high-performance functionality to elevate user experience and drive more sales.",
+          "review": {
+            "image": "/assets/img/hero/client-demo.png",
+            "ratingStars": 5,
+            "totalStars": 5,
+            "text": "200+ sites redesigned"
+          },
+          "badge": {
+            "image": "/assets/img/hero/clutchreview-2.png",
+            "alt": "clutchreview-img",
+            "height": "42px"
+          },
+          "buttons": [
+            {
+              "label": "GET A QUOTE",
+              "link": "/pricing"
+            },
+            {
+              "label": "LET'S COLLABORATE",
+              "link": "https://calendly.com/codersh-web-services/15min"
+            }
+          ]
+        }
+      },
+      {
+        "processSection": {
+          "subtitle": "Our Process",
+          "title": "How We Revamp Your Website",
+          "bgShape": "/assets/img/service/bg-shape.png",
+          "leftShape": "/assets/img/service/left-shape.png",
+          "rightShape": "/assets/img/service/right-shape.png",
+          "steps": [
+            {
+              "iconclass": "bi bi-search",
+              "title": "Discovery & Audit",
+              "content": "We thoroughly analyze your current website to identify strengths, weaknesses, and key improvement areas based on your goals."
+            },
+            {
+              "iconclass": "bi bi-people",
+              "title": "UX/UI Strategy",
+              "content": "Our design team creates wireframes and user flows focused on improving engagement and guiding visitors toward conversion."
+            },
+            {
+              "iconclass": "bi bi-palette",
+              "title": "Visual Redesign",
+              "content": "We craft fresh, modern layouts with updated graphics and on-brand styling to make your site visually compelling."
+            },
+            {
+              "iconclass": "bi bi-code-slash",
+              "title": "Development & Testing",
+              "content": "We rebuild your website to ensure it is fast, fully responsive, and works seamlessly across all major browsers and devices."
+            },
+            {
+              "iconclass": "bi bi-upload",
+              "title": "Content Migration",
+              "content": "We transfer all your valuable content smoothly, making sure your SEO rankings and data integrity are preserved."
+            },
+            {
+              "iconclass": "bi bi-rocket-takeoff",
+              "title": "Launch & Optimization",
+              "content": "We launch your new site with ongoing monitoring and iterative improvements to keep performance and user experience high."
+            }
+          ]
+        }
+      },
+      {
+        "whyChoose": {
+          "subtitle": "Why Choose Us",
+          "title": "We Turn Designs into Results",
+          "content": "Our approach combines strategic design thinking with technical execution. We focus on delivering real business results — not just pretty layouts.",
+          "img": "/assets/img/service/service-mockup-3.webp",
+          "listItems": [
+            "200+ Successful Website Redesigns",
+            "Average 30% Increase in Conversions Post-Redesign",
+            "Collaborative Process with Transparent Communication",
+            "Ongoing Support and Maintenance Packages"
+          ]
+        }
+      },
+      {
+        "KeyFeatures": {
+          "chooseHeading": {
+            "subtitle": "Key Features & Benefits",
+            "title": "Why Our Redesign Works",
+            "content": ""
+          },
+          "chooseContent": [
+            {
+              "iconclass": "bi bi-stars",
+              "title": "Modern & Attractive",
+              "content": "Your new site looks fresh, professional, and fully aligned with your brand, creating a stronger first impression."
+            },
+            {
+              "iconclass": "bi bi-cursor",
+              "title": "Improved Navigation & CTAs",
+              "content": "Streamlined navigation and clear calls-to-action guide visitors toward conversions more effectively."
+            },
+            {
+              "iconclass": "bi bi-phone",
+              "title": "Mobile Responsive & Accessible",
+              "content": "Your site works flawlessly across all devices and meets accessibility standards for wider reach."
+            },
+            {
+              "iconclass": "bi bi-graph-up-arrow",
+              "title": "Boosted Conversions",
+              "content": "Clients often see a 30% or higher lift in conversion rates after their redesign."
+            },
+            {
+              "iconclass": "bi bi-search",
+              "title": "SEO Optimized",
+              "content": "We embed SEO best practices so you maintain and grow your organic traffic post-redesign."
+            }
+          ]
+        }
+      },
+      {
+        "realworldApp": {
+          "heading": {
+            "subtitle": "Helping You Stay Ahead",
+            "title": "Real-World Applications",
+            "img": "/assets/img/service/service-mockup-4.webp"
+          },
+          "appContent": [
+            {
+              "apptitle": "Outdated Websites",
+              "appContent": "Businesses looking to modernize their online presence and improve credibility."
+            },
+            {
+              "apptitle": "Rebranding Companies",
+              "appContent": "Brands pivoting services or repositioning their identity need fresh visual language and updated messaging."
+            },
+            {
+              "apptitle": "eCommerce Stores",
+              "appContent": "Online shops that need a smoother, conversion-focused shopping experience to drive sales."
+            },
+            {
+              "apptitle": "Agencies",
+              "appContent": "Agencies partnering with us to deliver professional, high-quality redesigns for their clients."
+            }
+          ]
+        }
+      },
+      {
+        "faqSection": {
+          "faq": {
+            "faqtitle": "Technical Excellence",
+            "faqsubtitle": "Design Meets Best Practices"
+          },
+          "faqlist": [
+            {
+              "title": "Clean & Modern Code",
+              "content": "<p>We use semantic HTML, modern CSS, and advanced JavaScript frameworks for a maintainable, future-proof build.</p>"
+            },
+            {
+              "title": "Fast Loading & Optimized Delivery",
+              "content": "<p>Every redesign is optimized for fast load times and minimal asset bloat to improve user experience and SEO.</p>"
+            },
+            {
+              "title": "Cross-Browser & Device Testing",
+              "content": "<p>We rigorously test across all major browsers and devices to ensure consistent performance everywhere.</p>"
+            },
+            {
+              "title": "SEO & Accessibility Standards",
+              "content": "<p>We embed SEO best practices and adhere to accessibility guidelines to keep your site visible and inclusive.</p>"
+            }
+          ]
+        }
+      }
+    ]
+  }
+  

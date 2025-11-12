@@ -1,0 +1,174 @@
+{
+    "ServicePageData": [
+      {
+        "heroSection": {
+          "bgImage": "/assets/img/hero/hero-bg-2.png",
+          "overlayImage": "/assets/img/hero/bg-shape.png",
+          "title": "Stabilize Your OneBuilder Site <br/> and Eliminate Costly Glitches",
+          "content": "Is your OneBuilder site crashing, misaligned, or riddled with errors? We specialize in stabilizing <br/> And fixing broken sites, ensuring your design, structure, and speed perform flawlessly — on every device.",
+          "review": {
+            "image": "/assets/img/hero/client-demo.png",
+            "ratingStars": 5,
+            "totalStars": 5,
+            "text": "200+ site fixes"
+          },
+          "badge": {
+            "image": "/assets/img/hero/clutchreview-2.png",
+            "alt": "clutchreview-img",
+            "height": "42px"
+          },
+          "buttons": [
+            {
+              "label": "GET A QUOTE",
+              "link": "/pricing"
+            },
+            {
+              "label": "LET'S COLLABORATE",
+              "link": "https://calendly.com/codersh-web-services/15min"
+            }
+          ]
+        }
+      },
+      {
+        "processSection": {
+          "subtitle": "Our Process",
+          "title": "How We Fix and Stabilize Your OneBuilder Site",
+          "bgShape": "/assets/img/service/bg-shape.png",
+          "leftShape": "/assets/img/service/left-shape.png",
+          "rightShape": "/assets/img/service/right-shape.png",
+          "steps": [
+            {
+              "iconclass": "bi bi-search",
+              "title": "In-Depth Diagnosis",
+              "content": "We audit your entire site structure to identify recurring layout issues, speed bottlenecks, and compatibility problems."
+            },
+            {
+              "iconclass": "bi bi-bug",
+              "title": "Bug & Error Resolution",
+              "content": "We fix misalignments, mobile responsiveness issues, and broken scripts to restore full functionality."
+            },
+            {
+              "iconclass": "bi bi-speedometer2",
+              "title": "Speed Optimization",
+              "content": "We remove bloated assets, optimize scripts, and fine-tune your site for faster load speeds."
+            },
+            {
+              "iconclass": "bi bi-aspect-ratio",
+              "title": "UI & UX Consistency",
+              "content": "All elements are re-aligned, fonts standardized, and visuals stabilized to deliver a seamless user experience."
+            },
+            {
+              "iconclass": "bi bi-phone",
+              "title": "Mobile & Browser Compatibility",
+              "content": "We thoroughly test on all major devices and browsers to ensure consistent, glitch-free performance everywhere."
+            },
+            {
+              "iconclass": "bi bi-clipboard-check",
+              "title": "Post-Fix QA",
+              "content": "A comprehensive QA report is delivered with future-ready recommendations to keep your site healthy."
+            }
+          ]
+        }
+      },
+      {
+        "whyChoose": {
+          "subtitle": "Why Choose Us",
+          "title": "Your Site’s Health, Restored",
+          "content": "We don’t just patch up your site — we future-proof it for stability, speed, and scalability. With deep technical expertise and a focus on long-term results, your OneBuilder site will run smoother than ever.",
+          "img": "/assets/img/service/service-mockup-3.webp",
+          "listItems": [
+              "24/7 Emergency Fix Support",
+              "48-Hour Average Bug Resolution Time",
+              "Speed Improvements Up to 2.5x",
+              "200+ OneBuilder Fixes Completed"
+          ]
+        }
+      },
+      {
+        "KeyFeatures": {
+          "chooseHeading": {
+            "subtitle": "Key Features & Benefits",
+            "title": "Why Our Stabilization Works Long-Term",
+            "content": ""
+          },
+          "chooseContent": [
+            {
+              "iconclass": "bi bi-emoji-smile",
+              "title": "Improved UX & Trust",
+              "content": "Stabilized layouts enhance engagement and reduce bounce rates, building trust with visitors."
+            },
+            {
+              "iconclass": "bi bi-lightning",
+              "title": "Speed Boost",
+              "content": "Sites we fix typically load 35–60% faster, improving user satisfaction and SEO."
+            },
+            {
+              "iconclass": "bi bi-phone",
+              "title": "Responsive Design",
+              "content": "All breakpoints are carefully restructured for smooth mobile and tablet experiences."
+            },
+            {
+              "iconclass": "bi bi-check-circle",
+              "title": "Error-Free Execution",
+              "content": "We eliminate JavaScript errors and cross-browser conflicts for a frictionless experience."
+            },
+            {
+              "iconclass": "bi bi-shield-check",
+              "title": "No More Quick Fixes",
+              "content": "We repair root causes of instability instead of applying temporary patches — for lasting performance."
+            }
+          ]
+        }
+      },
+      {
+        "realworldApp": {
+          "heading": {
+            "title": "Real-World Applications",
+            "subtitle": "Real-World Fixes, Real Results",
+            "img": "/assets/img/service/service-mockup-8.webp"
+          },
+          "appContent": [
+            {
+              "apptitle": "Agency Sites Built on OneBuilder",
+              "appContent": "We resolved critical bugs on a marketing agency site that was crashing during form submissions, restoring lead flow and trust."
+            },
+            {
+              "apptitle": "Lead Generation Pages",
+              "appContent": "Stabilized 20+ high-converting landing pages for a SaaS brand suffering from high bounce rates and rendering errors."
+            },
+            {
+              "apptitle": "Outdated Page Builders",
+              "appContent": "We replaced legacy page components to build a faster, cleaner, and more stable framework."
+            }
+          ]
+        }
+      },
+      {
+        "faqSection": {
+          "faq": {
+            "faqtitle": "Technical Excellence",
+            "faqsubtitle": "We Don’t Just Patch — We Rebuild Where Needed"
+          },
+          "faqlist": [
+            {
+              "title": "Code Cleanup",
+              "content": "<p>We remove redundant code and unused elements to prevent future conflicts and reduce maintenance headaches.</p>"
+            },
+            {
+              "title": "W3C-Compliant Fixes",
+              "content": "<p>All fixes are built to technical standards, keeping your site valid, accessible, and future-ready.</p>"
+            },
+            {
+              "title": "Mobile-First Stability",
+              "content": "<p>All updates are rigorously tested from 320px to 1440px, ensuring smooth performance across devices.</p>"
+            },
+            {
+              "title": "Error-Free on Launch",
+              "content": "<p>We thoroughly test your site on Safari, Chrome, Firefox, and Edge — across both Mac and Windows — to guarantee a flawless launch.</p>"
+            }
+          ]
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,174 @@
+{
+    "ServicePageData": [
+      {
+        "heroSection": {
+          "bgImage": "/assets/img/hero/hero-bg-2.png",
+          "overlayImage": "/assets/img/hero/bg-shape.png",
+          "title": "Boost Your Website Speed <br/> And Skyrocket Conversions",
+          "content": "Slow websites lose sales. We optimize your site’s performance from the inside out-compressing code, <br/> cleaning clutter and improving loading times without compromising design or functionality.",
+          "review": {
+            "image": "/assets/img/hero/client-demo.png",
+            "ratingStars": 5,
+            "totalStars": 5,
+            "text": "100+ sites optimized"
+          },
+          "badge": {
+            "image": "/assets/img/hero/clutchreview-2.png",
+            "alt": "clutchreview-img",
+            "height": "42px"
+          },
+          "buttons": [
+            {
+              "label": "GET A QUOTE",
+              "link": "/pricing"
+            },
+            {
+              "label": "LET'S COLLABORATE",
+              "link": "https://calendly.com/codersh-web-services/15min"
+            }
+          ]
+        }
+      },
+      {
+        "processSection": {
+          "subtitle": "Our Process",
+          "title": "How We Speed Up Your Website",
+          "bgShape": "/assets/img/service/bg-shape.png",
+          "leftShape": "/assets/img/service/left-shape.png",
+          "rightShape": "/assets/img/service/right-shape.png",
+          "steps": [
+            {
+              "iconclass": "bi bi-search",
+              "title": "Performance Audit",
+              "content": "We identify what’s slowing down your site — scripts, heavy images, plugins, or bloated code — and map a clear optimization plan."
+            },
+            {
+              "iconclass": "bi bi-braces",
+              "title": "Code Cleanup",
+              "content": "We minify CSS and JavaScript, remove unused code, and defer non-critical assets to load only when needed."
+            },
+            {
+              "iconclass": "bi bi-image",
+              "title": "Image Optimization",
+              "content": "Images are compressed and converted to modern formats (like WebP) without sacrificing quality."
+            },
+            {
+              "iconclass": "bi bi-sliders",
+              "title": "App & Plugin Trimming",
+              "content": "We remove redundant apps, extensions, and scripts that bloat your site and slow down loading times."
+            },
+            {
+              "iconclass": "bi bi-cloud-arrow-down",
+              "title": "CDN & Caching",
+              "content": "We enable browser caching and leverage global CDN integrations for faster worldwide delivery."
+            },
+            {
+              "iconclass": "bi bi-check2-circle",
+              "title": "Post-Optimization Testing",
+              "content": "Your site is tested with PageSpeed Insights, GTmetrix, and real devices to verify measurable speed improvements."
+            }
+          ]
+        }
+      },
+      {
+        "whyChoose": {
+          "subtitle": "Why Choose Us",
+          "title": "We Don’t Just Talk Speed — We Deliver It",
+          "content": "Unlike quick fixes and automated plugins, we craft a tailored optimization strategy for your stack. We focus on sustainable, measurable speed improvements that impact your bottom line.",
+          "img": "/assets/img/service/service-mockup-9.webp",
+          "listItems": [
+            "Avg. 2–3x Speed Boost",
+            "100+ Websites Optimized",
+            "Core Web Vitals Passed",
+            "Non-Intrusive Optimization"
+          ]
+        }
+      },
+      {
+        "KeyFeatures": {
+          "chooseHeading": {
+            "subtitle": "Key Features & Benefits",
+            "title": "What You’ll Experience After Optimization",
+            "content": ""
+          },
+          "chooseContent": [
+            {
+              "iconclass": "bi bi-lightning",
+              "title": "Faster Load Times",
+              "content": "Most sites see a 40–70% improvement in load times after our optimization process."
+            },
+            {
+              "iconclass": "bi bi-graph-up",
+              "title": "Higher SEO Rankings",
+              "content": "Google rewards fast sites — better speed means better rankings and more organic traffic."
+            },
+            {
+              "iconclass": "bi bi-arrow-down-right",
+              "title": "Reduced Bounce Rate",
+              "content": "Users stay longer and convert better when your site loads in seconds rather than waiting."
+            },
+            {
+              "iconclass": "bi bi-phone",
+              "title": "Better Mobile Experience",
+              "content": "Your site will perform seamlessly across all devices, reducing friction for mobile users."
+            },
+            {
+              "iconclass": "bi bi-palette",
+              "title": "No Design Compromise",
+              "content": "Your UI and branding remain untouched — we optimize the engine, not the look."
+            }
+          ]
+        }
+      },
+      {
+        "realworldApp": {
+          "heading": {
+            "title": "Sites That Need This Service",
+            "subtitle": "Real-World Impact",
+            "img": "/assets/img/service/service-mockup-14.webp"
+          },
+          "appContent": [
+            {
+              "apptitle": "eCommerce Stores with Large Catalogs",
+              "appContent": "We optimized a Shopify Plus store with 6,000+ products, reducing load time from 9 seconds to under 3 seconds — boosting conversions dramatically."
+            },
+            {
+              "apptitle": "Sluggish WordPress Sites",
+              "appContent": "Replaced heavy page builders and removed bloated plugins for a 50% performance increase and improved UX."
+            },
+            {
+              "apptitle": "Agencies with Client Sites",
+              "appContent": "Helped agencies improve client site speed scores before launch, ensuring strong first impressions and happy end-users."
+            }
+          ]
+        }
+      },
+      {
+        "faqSection": {
+          "faq": {
+            "faqtitle": "Technical Excellence",
+            "faqsubtitle": "Optimized by Experts, Not Plugins"
+          },
+          "faqlist": [
+            {
+              "title": "Script Management",
+              "content": "<p>We only load what’s needed, when it’s needed — reducing resource waste and speeding up delivery.</p>"
+            },
+            {
+              "title": "Lazy Loading Setup",
+              "content": "<p>Images and videos are set to load only when they enter the viewport, cutting initial load times significantly.</p>"
+            },
+            {
+              "title": "App/Plugin Audit",
+              "content": "<p>We identify and remove third-party tools that slow your store down without adding meaningful value.</p>"
+            },
+            {
+              "title": "Custom Optimization",
+              "content": "<p>Each site receives a unique speed strategy tailored to its stack, design, and business goals.</p>"
+            }
+          ]
+        }
+      }
+    ]
+  }
+  

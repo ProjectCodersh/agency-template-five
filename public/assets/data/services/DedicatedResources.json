@@ -1,0 +1,178 @@
+{
+    "ServicePageData": [
+      {
+        "heroSection": {
+          "bgImage": "/assets/img/hero/hero-bg-2.png",
+          "overlayImage": "/assets/img/hero/bg-shape.png",
+          "title": "Extend Your Team with Reliable, <br/> White-Label Resources",
+          "content": "Need expert developers, designers, or marketers without the hiring hassle? Our white-label talent plugs seamlessly <br/> into your agency workflows - no training, no drama. Focus on scaling your agency while we handle the execution.",
+          "review": {
+            "image": "/assets/img/hero/client-demo.png",
+            "ratingStars": 5,
+            "totalStars": 5,
+            "text": "20+ agencies trust us"
+          },
+          "badge": {
+            "image": "/assets/img/hero/clutchreview-2.png",
+            "alt": "clutchreview-img",
+            "height": "42px"
+          },
+          "buttons": [
+            {
+              "label": "GET A QUOTE",
+              "link": "/pricing"
+            },
+            {
+              "label": "LET'S COLLABORATE",
+              "link": "https://calendly.com/codersh-web-services/15min"
+            }
+          ]
+        }
+      },
+      {
+        "processSection": {
+          "subtitle": "Our Process",
+          "title": "How We Integrate into Your Agency <br/> Like We’re In-House",
+          "bgShape": "/assets/img/service/bg-shape.png",
+          "leftShape": "/assets/img/service/left-shape.png",
+          "rightShape": "/assets/img/service/right-shape.png",
+          "steps": [
+            {
+              "iconclass": "bi bi-search",
+              "title": "Requirement Discovery",
+              "content": "We dive deep to understand your service stack, project pipeline, and quality expectations."
+            },
+            {
+              "iconclass": "bi bi-people",
+              "title": "Talent Match",
+              "content": "We pair you with pre-vetted experts based on tech stack, tools, timezone, and skill fit."
+            },
+            {
+              "iconclass": "bi bi-person-check",
+              "title": "Onboarding & Access",
+              "content": "Smooth onboarding into your tools and systems (Slack, Trello, ClickUp, Notion — whatever you use)."
+            },
+            {
+              "iconclass": "bi bi-chat-dots",
+              "title": "Daily Collaboration",
+              "content": "Daily updates, dedicated Slack channels, and real-time responses ensure we operate like your in-house team."
+            },
+            {
+              "iconclass": "bi bi-bar-chart-line",
+              "title": "Reporting & Reviews",
+              "content": "Weekly reports, KPI reviews, and feedback loops to maintain transparency and performance."
+            },
+            {
+              "iconclass": "bi bi-graph-up-arrow",
+              "title": "Scale As You Grow",
+              "content": "Easily scale resources up or down based on client demand without long-term commitments."
+            }
+          ]
+        }
+      },
+      {
+        "whyChoose": {
+          "subtitle": "Why Choose Us",
+          "title": "Our Agency Partners Get Results",
+          "content": "We don’t just provide talent — we become an extension of your agency, allowing you to scale with confidence and deliver consistently to your clients.",
+          "img": "/assets/img/service/service-mockup-16.webp",
+          "listItems": [
+            "20+ Agencies Already Use Our Dedicated Resources",
+            "95% Monthly Retention Rate",
+            "Onboard in 48 Hours or Less",
+            "We Adapt to Slack, Asana, Notion, Trello & More"
+          ]
+        }
+      },
+      {
+        "KeyFeatures": {
+          "chooseHeading": {
+            "subtitle": "Key Features & Benefits",
+            "title": "Why Agencies Love Working <br/> with Our Dedicated Teams",
+            "content": ""
+          },
+          "chooseContent": [
+            {
+              "iconclass": "bi bi-eye-slash",
+              "title": "100% White-Label Execution",
+              "content": "We work under your brand and processes — your clients never know we’re there."
+            },
+            {
+              "iconclass": "bi bi-person-badge",
+              "title": "Domain-Specific Experts",
+              "content": "Access to specialists — Shopify, WordPress, Klaviyo, GoHighLevel, and more."
+            },
+            {
+              "iconclass": "bi bi-clock",
+              "title": "Flexible Timezone Coverage",
+              "content": "We align to your working hours for seamless day-to-day communication."
+            },
+            {
+              "iconclass": "bi bi-arrows-expand",
+              "title": "Scalable Engagement",
+              "content": "Start small and grow fast — no rigid contracts, no overhead headaches."
+            },
+            {
+              "iconclass": "bi bi-check2-square",
+              "title": "Reliable Delivery",
+              "content": "Consistent task tracking, transparent progress updates, and dependable output every time."
+            }
+          ]
+        }
+      },
+      {
+        "realworldApp": {
+          "heading": {
+            "subtitle": "Ideal for Agencies That Want To:",
+            "title": "Real-World Applications",
+            "img": "/assets/img/service/service-mockup-17.webp"
+          },
+          "appContent": [
+            {
+              "apptitle": "Fulfill More Projects",
+              "appContent": "Expand delivery capacity without taking on in-house hires or freelancer headaches."
+            },
+            {
+              "apptitle": "Add New Services",
+              "appContent": "Offer services like Shopify dev, CRO, or Klaviyo marketing without in-house expertise."
+            },
+            {
+              "apptitle": "Stay Lean & Scalable",
+              "appContent": "Operate as a remote-first agency with the ability to scale teams up or down rapidly."
+            },
+            {
+              "apptitle": "Ensure Consistent Delivery",
+              "appContent": "Rely on a professional, dedicated team rather than unpredictable freelancers."
+            }
+          ]
+        }
+      },
+      {
+        "faqSection": {
+          "faq": {
+            "faqtitle": "Technical Excellence",
+            "faqsubtitle": "Professionals You Can Rely On"
+          },
+          "faqlist": [
+            {
+              "title": "Shopify, WordPress & GHL Experts",
+              "content": "<p>Our developers follow best practices for performance, scalability, and maintainability across major platforms.</p>"
+            },
+            {
+              "title": "Designers Skilled in Modern Tools",
+              "content": "<p>Fluent in Figma, Canva, brand systems, and adaptive design principles to deliver on-brand visuals.</p>"
+            },
+            {
+              "title": "Marketing Specialists",
+              "content": "<p>Experts in Klaviyo, Meta Ads, CRO, and advanced email flows to boost your clients’ growth.</p>"
+            },
+            {
+              "title": "Secure & Transparent",
+              "content": "<p>We work under NDAs, ensure data confidentiality, provide weekly timesheets, and maintain clear communication.</p>"
+            }
+          ]
+        }
+      }
+    ]
+  }
+  

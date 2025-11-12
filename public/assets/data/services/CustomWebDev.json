@@ -1,0 +1,178 @@
+{
+    "ServicePageData": [
+      {
+        "heroSection": {
+          "bgImage": "/assets/img/hero/hero-bg-2.png",
+          "overlayImage": "/assets/img/hero/bg-shape.png",
+          "title": "Build Tailor-Made Websites <br/> That Power Your Business",
+          "content": "Off-the-shelf just won’t cut it? We deliver custom web solutions crafted to fit your unique goals, <br/> whether it’s complex functionality, integrations, or advanced eCommerce features.",
+          "review": {
+            "image": "/assets/img/hero/client-demo.png",
+            "ratingStars": 5,
+            "totalStars": 5,
+            "text": "150+ projects delivered"
+          },
+          "badge": {
+            "image": "/assets/img/hero/clutchreview-2.png",
+            "alt": "clutchreview-img",
+            "height": "42px"
+          },
+          "buttons": [
+            {
+              "label": "GET A QUOTE",
+              "link": "/pricing"
+            },
+            {
+              "label": "LET'S COLLABORATE",
+              "link": "https://calendly.com/codersh-web-services/15min"
+            }
+          ]
+        }
+      },
+      {
+        "processSection": {
+          "subtitle": "Our Process",
+          "title": "How We Build Your Custom Website",
+          "bgShape": "/assets/img/service/bg-shape.png",
+          "leftShape": "/assets/img/service/left-shape.png",
+          "rightShape": "/assets/img/service/right-shape.png",
+          "steps": [
+            {
+              "iconclass": "bi bi-lightbulb",
+              "title": "Requirement Gathering",
+              "content": "We work closely with you to understand your business objectives, user needs, and must-have features."
+            },
+            {
+              "iconclass": "bi bi-diagram-3",
+              "title": "Technical Planning",
+              "content": "We design robust architecture and select the best technologies to support your vision and scalability."
+            },
+            {
+              "iconclass": "bi bi-code-slash",
+              "title": "Development & Coding",
+              "content": "Our engineers build everything from front-end interfaces to custom back-end systems — all from the ground up."
+            },
+            {
+              "iconclass": "bi bi-plug",
+              "title": "Third-Party Integrations",
+              "content": "We seamlessly integrate payment gateways, CRMs, APIs, analytics, and any other essential tools you need."
+            },
+            {
+              "iconclass": "bi bi-shield-check",
+              "title": "Quality Assurance",
+              "content": "We run intensive testing for performance, security, cross-browser compatibility, and user experience."
+            },
+            {
+              "iconclass": "bi bi-rocket-takeoff",
+              "title": "Launch & Support",
+              "content": "Smooth deployment, followed by ongoing maintenance and optimization as your business evolves."
+            }
+          ]
+        }
+      },
+      {
+        "whyChoose": {
+          "subtitle": "Why Choose Us",
+          "title": "Trusted by Innovators & Enterprises",
+          "content": "We bring deep technical expertise and a collaborative approach to every project. With agile processes and transparent updates, we build solutions that support your long-term success.",
+          "img": "/assets/img/service/service-mockup-1.webp",
+          "listItems": [
+            "150+ Custom Projects Delivered",
+            "Agile Development with Transparent Updates",
+            "Post-Launch Support Included",
+            "High Client Retention Rate"
+          ]
+        }
+      },
+      {
+        "KeyFeatures": {
+          "chooseHeading": {
+            "subtitle": "Key Features & Benefits",
+            "title": "Why Choose Our Custom Development",
+            "content": ""
+          },
+          "chooseContent": [
+            {
+              "iconclass": "bi bi-person-check",
+              "title": "Fully Tailored",
+              "content": "We create solutions designed specifically around your workflows, brand identity, and business needs."
+            },
+            {
+              "iconclass": "bi bi-graph-up-arrow",
+              "title": "Scalable Architecture",
+              "content": "Future-ready architecture that can grow seamlessly as your user base and feature set expand."
+            },
+            {
+              "iconclass": "bi bi-link-45deg",
+              "title": "Seamless Integrations",
+              "content": "Connect any third-party tools, from CRMs to inventory systems — no limitations."
+            },
+            {
+              "iconclass": "bi bi-lock-check",
+              "title": "Secure & Optimized",
+              "content": "Built with a focus on security, code maintainability, and performance from day one."
+            },
+            {
+              "iconclass": "bi bi-headset",
+              "title": "Dedicated Support",
+              "content": "You get proactive guidance and support before, during, and after launch."
+            }
+          ]
+        }
+      },
+      {
+        "realworldApp": {
+          "heading": {
+            "subtitle": "Who Benefits Most",
+            "title": "Real-World Applications",
+            "img": "/assets/img/service/service-mockup-9.webp"
+          },
+          "appContent": [
+            {
+              "apptitle": "Startups",
+              "appContent": "Need an MVP or proof of concept fast? We help startups go to market quickly with flexible, scalable solutions."
+            },
+            {
+              "apptitle": "Unique Business Models",
+              "appContent": "Custom product catalogs, advanced booking systems, or complex service offerings — all fully supported."
+            },
+            {
+              "apptitle": "Agencies",
+              "appContent": "Deliver white-label or client-specific projects with fully customized workflows and integrations."
+            },
+            {
+              "apptitle": "Enterprises",
+              "appContent": "Large organizations needing robust backend systems and specialized workflows benefit from our enterprise-level builds."
+            }
+          ]
+        }
+      },
+      {
+        "faqSection": {
+          "faq": {
+            "faqtitle": "Technical Excellence",
+            "faqsubtitle": "Crafted for Performance & Longevity"
+          },
+          "faqlist": [
+            {
+              "title": "Modern Frameworks & Clean Code",
+              "content": "<p>We use modern frameworks and write modular, maintainable code that’s easy to scale and update.</p>"
+            },
+            {
+              "title": "Security Best Practices",
+              "content": "<p>Security is woven into our process — from secure authentication to data validation and regular updates.</p>"
+            },
+            {
+              "title": "Mobile-First, Responsive Design",
+              "content": "<p>Every build is designed to perform beautifully on all screen sizes and devices, right from the start.</p>"
+            },
+            {
+              "title": "SEO & Accessibility Optimized",
+              "content": "<p>We follow SEO best practices and ensure accessibility standards are met to maximize reach and usability.</p>"
+            }
+          ]
+        }
+      }
+    ]
+  }
+  

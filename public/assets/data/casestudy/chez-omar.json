@@ -1,0 +1,54 @@
+{
+  "title": "Chez Omar - French Caribbean Cuisine: NYC's Digital Flavor",
+  "industry": "Restaurant & Hospitality",
+  "technology": "Custom Web Development",
+  "overview": "Chez Omar is a new French Caribbean restaurant in New York City, bringing a distinctive culinary experience to the local dining scene. To match Chef Omar Walters' unique vision, the team at Codersh Web Services designed and developed a sophisticated custom website that translates the restaurant’s ambiance and flavor into a compelling digital presence.",
+  "bulletLists": [
+    {
+      "items": [
+        "Design and develop a visually striking, user-friendly website reflecting Chez Omar’s brand identity.",
+        "Enable customers to make seamless reservations through OpenTable integration.",
+        "Showcase the restaurant’s interiors, dishes, and atmosphere with an immersive image-rich gallery."
+      ]
+    },
+    {
+      "items": [
+        "Implement a fully responsive design for optimal performance across all devices.",
+        "Develop multiple contact forms to streamline inquiries and event bookings.",
+        "Optimize website speed and performance to ensure an exceptional user experience."
+      ]
+    }
+  ],
+  "detailColumns": [
+    {
+      "heading": "Discovery & Planning",
+      "text": "The project began with in-depth consultations to understand Chef Omar’s vision, goals, and brand personality. The team conducted competitor analysis, target audience research, and defined key project functionalities."
+    },
+    {
+      "heading": "Wireframing & Mockups",
+      "text": "Initial wireframes were created to outline the website’s structure and navigation flow. Detailed mockups were developed for all key pages and refined iteratively based on client feedback."
+    },
+    {
+      "heading": "Design",
+      "text": "A custom design was crafted to reflect the French Caribbean fusion concept. The team selected a color palette and typography that complemented the restaurant’s ambiance and created visual elements for gallery and menu sections."
+    },
+    {
+      "heading": "Development",
+      "text": "Using modern web technologies, Codersh Web Services developed a responsive, high-performance website. The team integrated OpenTable’s API for reservations, created multiple contact forms, implemented a sticky reservation button, and built an engaging image gallery."
+    },
+    {
+      "heading": "Testing & Optimization",
+      "text": "Comprehensive testing was conducted across browsers and devices to ensure functionality and responsiveness. Performance optimizations were implemented to achieve fast load times and a smooth user experience."
+    },
+    {
+      "heading": "Launch & Support",
+      "text": "The team coordinated a successful website launch, provided staff training on content management, and continues to offer ongoing support and maintenance."
+    }
+  ],
+  "resultData": [
+    {
+      "text": "The launch of Chez Omar’s website was a success, delivering a visually striking, high-performance online presence. The seamless OpenTable integration simplified reservations, while the immersive design increased online visibility and engagement. Clients and customers praised the intuitive user experience and elegant presentation."
+    }
+  ],
+  "images": ["/assets/img/case-studies/details-1.webp", "/assets/img/case-studies/details-2.webp"]
+}

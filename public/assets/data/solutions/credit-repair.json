@@ -1,0 +1,59 @@
+{
+  "slug": "credit-repair",
+  "title": "Credit Repair",
+  "slider": [
+    { "src": "/assets/img/solution/CreditRepair/slider1.png", "alt": "Slide 1" },
+    { "src": "/assets/img/solution/CreditRepair/slider2.png", "alt": "Slide 1" },
+    { "src": "/assets/img/solution/CreditRepair/slider3.png", "alt": "Slide 1" },
+    { "src": "/assets/img/solution/CreditRepair/slider4.png", "alt": "Slide 1" },
+    { "src": "/assets/img/solution/CreditRepair/slider5.png", "alt": "Slide 1" },
+    { "src": "/assets/img/solution/CreditRepair/slider6.png", "alt": "Slide 1" },
+    { "src": "/assets/img/solution/CreditRepair/slider7.png", "alt": "Slide 1" }
+  ],
+  "whyChoose": {
+    "img": "/assets/img/team/01.png",
+    "subtitle": "Why Choose Us",
+    "title": "Your Partner in Building Credibility Online",
+    "content": "In today’s competitive credit repair industry, a professional website is essential to earn trust and grow your business. Your site is the first impression clients have of your services. At Codersh, we design custom credit repair websites that showcase your expertise, generate qualified leads, and highlight your credibility. From modern, responsive layouts to strategic lead capture tools and SEO optimization, we help you stand out and drive measurable results."
+    
+  },
+  "features": {
+    "chooseHeading": {
+      "subtitle": "KeyFeatures",
+      "title": "Our Key Benefits",
+      "content": ""
+    },
+    "chooseContent": [
+      {
+        "iconclass": "bi bi-phone",
+        "title": "Mobile-Responsive Design",
+        "content": "Your credit repair website will look and function perfectly on any device, ensuring a seamless experience for all visitors."
+      },
+      {
+        "iconclass": "bi bi-search",
+        "title": "SEO-Optimized Pages",
+        "content": "Our websites are built with SEO best practices to help you rank higher in search results and attract more organic traffic."
+      },
+      {
+        "iconclass": "bi bi-cursor",
+        "title": "Integrated Lead Capture Forms",
+        "content": "Convert visitors into clients with custom lead capture forms designed to grow your client base effectively."
+      },
+      {
+        "iconclass": "bi bi-grid",
+        "title": "User-Friendly Dashboard",
+        "content": "Easily update and manage your website content with an intuitive dashboard built for credit repair professionals."
+      },
+      {
+        "iconclass": "bi bi-lightning",
+        "title": "Fast Load Times",
+        "content": "Enjoy lightning-fast load speeds that improve user experience and boost your site’s search engine rankings."
+      },
+      {
+        "iconclass": "bi bi-lock",
+        "title": "Secure Payment Integration",
+        "content": "Enable safe and secure online payments to provide clients with convenient options to pay for your services."
+      }
+    ]
+  }
+}

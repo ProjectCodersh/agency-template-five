@@ -1,0 +1,99 @@
+{
+  "template": "third",
+  "seo": {
+    "title": "Split Grip – Shopify Migration & Redesign Case Study | Codersh",
+    "description": "Learn how Codersh migrated Split Grip’s large e-commerce store to Shopify, preserving SEO, improving UX, and achieving a 32% boost in conversions.",
+    "keywords": "Shopify migration, eCommerce redesign, SEO preservation, Split Grip, Shopify case study, custom Shopify theme, Codersh",
+    "url": "https://splitgrip.codersh.com/"
+  },
+  "title": "Split Grip – Shopify Migration & Redesign",
+  "location": "United States",
+  "projectname": "Split Grip Shopify Migration",
+  "url": "https://splitgrip.codersh.com/",
+  "overview": "Split Grip is a premium fitness equipment retailer offering over 300 SKUs for home and commercial gyms. Facing growth challenges, the brand needed a more robust e-commerce platform to handle complex product data, enhance customer experience, and scale operations efficiently.",
+  "objective": [
+    "Migrate Split Grip’s extensive product catalog and customer data to Shopify without losing critical information.",
+    "Preserve SEO rankings and customer loyalty features.",
+    "Improve site performance, mobile responsiveness, and user experience.",
+    "Implement advanced e-commerce functionality, including bundles, subscriptions, and integrations with warehouse and shipping systems."
+  ],
+  "challenges": [
+    "Managing a high-volume product catalog with complex variations and attributes.",
+    "Maintaining custom functionality for equipment bundling and warranty management.",
+    "Migrating 15,000+ customer accounts with order history and loyalty points.",
+    "Integrating with warehouse management, fulfillment, and subscription systems.",
+    "Preserving SEO for high-ranking product pages during migration."
+  ],
+  "solution": [
+    "Conducted a thorough store audit and mapped out critical plugins and data relationships.",
+    "Developed custom migration scripts to ensure seamless transfer of products, customers, and orders.",
+    "Recreated brand identity through custom Shopify theme development and improved mobile UX.",
+    "Implemented custom apps for equipment bundles, subscription management, and enhanced fulfillment processes."
+  ],
+  "implementation": [
+    {
+      "heading": "Product Data Migration",
+      "points": [
+        "Transferred 300+ products with all variations, attributes, and images.",
+        "Preserved product reviews and ratings.",
+        "Restructured product categories for improved navigation."
+      ]
+    },
+    {
+      "heading": "Customer & Order Migration",
+      "points": [
+        "Migrated 15,000+ customer accounts with complete order history.",
+        "Maintained loyalty points and wholesale pricing rules."
+      ]
+    },
+    {
+      "heading": "Design & UX",
+      "points": [
+        "Developed a custom Shopify theme reflecting the brand identity.",
+        "Improved mobile responsiveness, reducing page load times by 2.5x.",
+        "Enhanced product filtering and search functionality."
+      ]
+    },
+    {
+      "heading": "Extended Functionality",
+      "points": [
+        "Deployed custom apps for bundle creation.",
+        "Integrated with ShipStation for smoother order fulfillment.",
+        "Implemented subscription-based product management with ReCharge."
+      ]
+    }
+  ],
+  "results": [
+    "32% increase in conversion rate within 3 months.",
+    "18% reduction in cart abandonment.",
+    "47% growth in mobile sales.",
+    "2.5x faster page load times.",
+    "SEO rankings preserved with zero traffic loss post-migration."
+  ],
+  "techStack": [
+    {
+      "heading": "Frontend",
+      "text": "Shopify Liquid, React.js, Tailwind CSS"
+    },
+    {
+      "heading": "Backend",
+      "text": "Shopify Admin API, Custom Node.js Scripts"
+    },
+    {
+      "heading": "Database",
+      "text": "Shopify Storefront Data & Custom Data Migration"
+    },
+    {
+      "heading": "Integrations",
+      "text": "ShipStation, ReCharge, Klaviyo, SEO Manager"
+    },
+    {
+      "heading": "Hosting & Security",
+      "text": "Shopify Cloud Hosting with SSL & CDN"
+    }
+  ],
+  "images": [
+    "/assets/img/casestudy/splitgrip-overview.webp",
+    "/assets/img/casestudy/splitgrip-implementation.webp"
+  ]
+}

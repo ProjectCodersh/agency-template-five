@@ -1,0 +1,52 @@
+[
+  {
+    "seoTitle": "Vidl Life | Personalized Drinkware & Custom Bottles eCommerce Store",
+    "seoDescription": "See how Codersh built a streamlined, mobile-optimized eCommerce platform for Vidl Life, enhancing site performance, and delivering a seamless shopping experience for personalized drinkware.",
+    "seoKeywords": "Vidl Life eCommerce, personalized water bottles, custom drinkware online shop, Shopify customization store",
+    "seoUrl": "https://agency-template-five.vercel.app/brands/vidl-life",
+    "img": "/assets/img/brand-details/vidllife-brand-1.webp",
+    "subtitle": "About Brand",
+    "title": "The Brief",
+    "content": "VIDL Life is a lifestyle brand offering personalized stainless steel water bottles with motivational messages and Bible verses. Customers can customize their bottles by choosing color, lid type, base color, and message. The brand promotes vitality and purpose through its products, serving as daily reminders of one’s value. VIDL Life also engages its community with monthly blogs, challenges, and words of encouragement. In addition, they offer corporate gifting solutions and support fundraising initiatives for schools and organizations. Through these efforts, VIDL Life encourages positive living and fosters a sense of community.",
+    "listItems": [
+      {
+        "title": "Industry",
+        "content": ["Customization & Personalized Products", "E-commerce & Retail"]
+      },
+      {
+        "title": "Project",
+        "content": [
+          "Custom Product Design / Development",
+          "Digital Marketing",
+          "E-commerce Development"
+        ]
+      },
+      {
+        "title": "Technology",
+        "content": [
+          "Shopify Development",
+          "E-Commerce & Payments Integration",
+          "Klaviyo Marketing Automation",
+          "Cloudflare CDN Technology",
+          "Google Analytics & Tag Manager"
+        ]
+      },
+      {
+        "title": "Visit",
+        "link": "https://vidllife.com/",
+        "text": "vidllife.com"
+      }
+    ],
+    "video": {
+      "image": "/assets/img/brand-details/vidllife-brand-2.webp",
+      "videoUrl": "/assets/img/brand-details/shopify.png"
+    },
+    "challenge": "VIDL Life’s website faces several key challenges common to e-commerce platforms. First, offering multiple customization options (e.g., color, lid type, and message) can complicate the user experience, potentially making navigation less intuitive. Ensuring fast load times and smooth performance while displaying high-quality images and customizations is another challenge, especially as site traffic grows. As a newer brand, building customer trust and credibility is crucial, particularly in the competitive personalized product market. Mobile optimization is also essential, given the increasing number of shoppers using mobile devices. Additionally, managing orders for customized products and handling global shipping logistics can create complexities around cost, delivery time, and customer satisfaction. These challenges require ongoing attention to maintain an efficient, user-friendly website.",
+    "solution": "To address the challenges faced by its website, Our team has implemented several solutions. We’ve simplified the customization process by using an intuitive tool, allowing customers to personalize products with ease. To ensure optimal website performance, the brand has focused on fast-loading pages and image optimization, providing a smoother browsing experience. To build customer trust and credibility, VIDL Life includes customer reviews, secure payment options, and a clear return policy. The website is also fully optimized for mobile devices, offering a seamless shopping experience on all screens. Additionally, VIDL Life utilizes automated order processing and reliable shipping partners to efficiently manage inventory and streamline logistics, ensuring a smooth fulfillment process.",
+    "images": [
+      "/assets/img/brand-details/vidllife-brand-3.webp",
+      "/assets/img/brand-details/vidllife-brand-4.webp",
+      "/assets/img/brand-details/vidllife-brand-5.webp"
+    ]
+  }
+]

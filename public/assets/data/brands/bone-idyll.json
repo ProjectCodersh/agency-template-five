@@ -1,0 +1,51 @@
+[
+  {
+    "seoTitle": "Bone Idyll | Premium Small-Batch Spirits Shopify eCommerce Development",
+    "seoDescription": "Explore how Codersh developed a custom Shopify platform for Bone Idyll, enhancing product navigation, creating a premium digital experience for small-batch spirits.",
+    "seoKeywords": "Bone Idyll Shopify store, small-batch gin eCommerce, craft spirits online shop, premium liquor website design",
+    "seoUrl": "https://agency-template-five.vercel.app/brands/bone-idyll",
+    "img": "/assets/img/brand-details/bone-idyll-brand-1.webp",
+    "subtitle": "About Brand",
+    "title": "The Brief",
+    "content": "Bone Idyll is an urban distillery and bar in Kingston, London, specializing in small-batch spirits and cocktails. The website offers a range of premium products, including gin, rum, and vodka, along with bottled and canned cocktails. It provides an immersive experience, allowing visitors to explore the distilling process through its gin school and distillery tours. Bone Idyll emphasizes craftsmanship and quality in every product. The site also features exclusive gifts and merchandise, providing customers with unique and high-quality options for both personal enjoyment and special occasions. It's a destination for cocktail enthusiasts seeking premium, locally crafted spirits.",
+    "listItems": [
+      {
+        "title": "Industry",
+        "content": ["Beverage", "Alcoholic Drinks"]
+      },
+      {
+        "title": "Project",
+        "content": [
+          "(DTC) Ecommerce Platform Development",
+          "Product Branding & Marketing",
+          "Brand Experience Website"
+        ]
+      },
+      {
+        "title": "Technology",
+        "content": [
+          "Shopify E-Commerce Development",
+          "ReactJs & Bootstrap Framework",
+          "Cloudflare Web Hosting & CDN",
+          "MailChimp Marketing & Mail-Automation"
+        ]
+      },
+      {
+        "title": "Visit",
+        "link": "https://www.boneidyll.co.uk/",
+        "text": "boneidyll.co.uk"
+      }
+    ],
+    "video": {
+      "image": "/assets/img/brand-details/bone-idyll-brand-2.webp",
+      "videoUrl": "/assets/img/brand-details/shopify.png"
+    },
+    "challenge": "The Bone Idyll website faces several challenges. Ensuring a seamless user experience is key, given the variety of products and experiences offered. Complex navigation or unclear descriptions could lead to frustration. Shipping logistics are also a concern, especially with fragile or perishable items like bottled spirits, requiring careful handling and timely delivery. The site must maintain regulatory compliance for alcohol sales, including age verification and regional shipping restrictions. Additionally, to stand out in the competitive artisanal spirits market, brand differentiation and effective digital marketing strategies are essential for attracting and retaining customers.",
+    "solution": "To address these challenges, our team can enhance user experience by simplifying navigation, improving product descriptions, and adding user-friendly filters. For shipping logistics, they can collaborate with specialized couriers to ensure safe and timely deliveries of fragile, perishable items. To ensure regulatory compliance, integrating age verification systems and updating shipping policies will help meet legal requirements. In a competitive market, Bone Idyll can invest in targeted digital marketing strategies and compelling brand storytelling to increase visibility, differentiate the brand, and foster greater customer engagement. These solutions will improve user satisfaction and overall site performance.",
+    "images": [
+      "/assets/img/brand-details/bone-idyll-brand-3.webp",
+      "/assets/img/brand-details/bone-idyll-brand-4.webp",
+      "/assets/img/brand-details/bone-idyll-brand-5 .webp"
+    ]
+  }
+]

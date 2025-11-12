@@ -1,0 +1,59 @@
+{
+  "seo": {
+    "title": "Madame F Case Study | Inclusive Wine Brand Transformation | Codersh",
+    "description": "How Codersh redesigned Madame F’s Shopify 2.0 store to enhance inclusivity, usability, and conversions for an LGBTQ+ focused wine brand.",
+    "keywords": "Madame F, LGBTQ+ wine brand, Shopify 2.0 redesign, eCommerce design, case study",
+    "url": "https://agency-template-five.vercel.app/case-study/madame-f"
+  },
+  "title": "Madame F - Celebrating Diversity in Every Glass",
+  "industry": "Wine Brand (LGBTQ+ Focused)",
+  "technology": "Shopify 2.0",
+  "overview": "MADAME F is a bold, innovative wine brand celebrating individuality and the LGBTQ+ community. More than just a beverage, it represents a movement toward authenticity and inclusivity in the wine industry. Facing design and usability challenges on their Shopify website, Madame F partnered with Codersh Web Services to revamp their online presence and create a more engaging, conversion-focused experience.",
+  "bulletLists": [
+    {
+      "items": [
+        "Enhance website usability and aesthetic appeal to better reflect the brand’s identity.",
+        "Improve brand visibility and messaging to communicate the unique value proposition.",
+        "Create a more inclusive and engaging user experience tailored to the LGBTQ+ community."
+      ]
+    },
+    {
+      "items": [
+        "Optimize the website for higher conversions and customer engagement.",
+        "Redesign the site structure and visual elements for improved readability and consistency.",
+        "Build credibility and trust through social proof and streamlined shopping experiences."
+      ]
+    }
+  ],
+  "detailColumns": [
+    {
+      "heading": "Challenge",
+      "text": "Madame F’s existing Shopify website struggled with navigation issues, font inconsistencies, and readability problems. These limitations hindered the brand’s ability to connect effectively with its target audience and diminished the impact of its inclusive message."
+    },
+    {
+      "heading": "Solution Design",
+      "text": "The redesign process began with creating a refreshed visual direction in Canva, focusing on clarity and inclusivity. The new designs were then implemented on Shopify 2.0 to enhance usability and aesthetic appeal."
+    },
+    {
+      "heading": "Implementation",
+      "text": "Key improvements included increasing the header navigation font size to 22px for better visibility, enlarging the logo for a stronger brand presence, and updating the main call-to-action button to highlight a promotional offer. Additional refinements included adding a black background to the 'Who is Madame F?' sections for improved readability, removing empty image boxes, and introducing a product slider on product pages."
+    },
+    {
+      "heading": "Social Proof & Engagement",
+      "text": "To build trust and credibility, a Social Proof section was added to the website. This showcased customer testimonials and brand recognition, reinforcing Madame F’s reputation as a modern, inclusive wine brand."
+    },
+    {
+      "heading": "Testing & Optimization",
+      "text": "The updated website underwent thorough testing to ensure consistent performance across devices and browsers. Adjustments were made to improve load times, responsiveness, and accessibility."
+    }
+  ],
+  "resultData": [
+    {
+      "text": "The redesigned website received positive feedback from customers, who praised the improved usability and modern design. Madame F strengthened its brand perception as an inclusive, forward-thinking wine brand while driving higher engagement and conversions online."
+    }
+  ],
+  "images": [
+    "/assets/img/casestudy/madamef-casestudy-3.webp",
+    "/assets/img/casestudy/madamef-casestudy-2.webp"
+  ]
+}

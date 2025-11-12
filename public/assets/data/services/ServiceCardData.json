@@ -1,0 +1,116 @@
+{
+  "ServicePage": [
+    {
+      "OurServicesCard": [
+        {
+          "id": "1",
+          "headertag": "For Your Shopify & Shopify Plus Secure Store",
+          "img": "/assets/img/servicescards/hire-shopify-dev.webp",
+          "servicetitle": "Hire Shopify Dev Team",
+          "servicedescription": "Build your brand with a professional email address that matches your domain - like you@yourdomain.com.",
+          "servicebtn": "Explore offers",
+          "link": "#"
+        },
+        {
+          "id": "2",
+          "headertag": "To Manage Your Multiple Wordpress Projects ",
+          "img": "/assets/img/servicescards/hire-wp-dev.webp",
+          "servicetitle": "Hire Wordpress Dev Team",
+          "servicedescription": "Host anything from a simple portfolio to a high-traffic website. Get fast and secure hosting that grows with your needs.",
+          "servicebtn": "Explore offers",
+          "link": "#"
+        },
+        {
+          "id": "3",
+          "headertag": "Save 63%",
+          "img": "/assets/img/servicescards/stabilize-site-with-elementor.webp",
+          "servicetitle": "stabilize site With elementor",
+          "servicedescription": "Take full control over your server. Our virtual private servers offer great power, flexibility, and speed.",
+          "servicebtn": "Explore offers",
+          "link": "#"
+        },
+        {
+          "id": "4",
+          "headertag": "Save 80%",
+          "img": "/assets/img/servicescards/hire-team-unlimited-for-wp-work.webp",
+          "servicetitle": "Hire Team For Unlimited Wp Work",
+          "servicedescription": "Host anything from a simple portfolio to a high-traffic website. Get fast and secure hosting that grows with your needs.",
+          "servicebtn": "Explore offers",
+          "link": "#"
+        },
+        {
+          "id": "5",
+          "headertag": "For Your Non-Coding Repetitive Tasks",
+          "img": "/assets/img/servicescards/dedicated-virtual-assistance.webp",
+          "servicetitle": "Hire Dedicated VA",
+          "servicedescription": "Host anything from a simple portfolio to a high-traffic website. Get fast and secure hosting that grows with your needs.",
+          "servicebtn": "Explore offers",
+          "link": "#"
+        },
+        {
+          "id": "6",
+          "headertag": "Save 63%",
+          "img": "/assets/img/servicescards/restore-hacked-site.webp",
+          "servicetitle": "Restore Hacked Website",
+          "servicedescription": "Build your brand with a professional email address that matches your domain - like you@yourdomain.com.",
+          "servicebtn": "Explore offers",
+          "link": "#"
+        },
+        {
+          "id": "7",
+          "headertag": "Save 80%",
+          "img": "/assets/img/servicescards/optimize-speed-of-site.webp",
+          "servicetitle": "Optimize speed Of your Site",
+          "servicedescription": "Host anything from a simple portfolio to a high-traffic website. Get fast and secure hosting that grows with your needs.",
+          "servicebtn": "Explore offers",
+          "link": "#"
+        },
+        {
+          "id": "8",
+          "headertag": "Save 87%",
+          "img": "/assets/img/servicescards/wp-to-shopify-migration.webp",
+          "servicetitle": "Wordpress To Shopify Migration",
+          "servicedescription": "Build your brand with a proffessional email address that matches your domain - like you@yourdomain.com.",
+          "servicebtn": "Explore offers",
+          "link": "#"
+        },
+        {
+          "id": "9",
+          "headertag": "Save 87%",
+          "img": "/assets/img/servicescards/wp-site-malwar-removal.webp",
+          "servicetitle": "Remove Malware From The WP Site",
+          "servicedescription": "Build your brand with a professional email address that matches your domain - like you@yourdomain.com.",
+          "servicebtn": "Explore offers",
+          "link": "#"
+        },
+        {
+          "id": "10",
+          "headertag": "Save 80%",
+          "img": "/assets/img/servicescards/custom-website-development.webp",
+          "servicetitle": "New Custom WebSite Development",
+          "servicedescription": "Host anything from a simple portfolio to a high-traffic website. Get fast and secure hosting that grows with your needs.",
+          "servicebtn": "Explore offers",
+          "link": "#"
+        },
+        {
+          "id": "11",
+          "headertag": "Save 87%",
+          "img": "/assets/img/servicescards/redesign-website-with-cro.webp",
+          "servicetitle": "Redesign Your Website With CRO",
+          "servicedescription": "Build your brand with a professional email address that matches your domain - like you@yourdomain.com.",
+          "servicebtn": "Explore offers",
+          "link": "#"
+        },
+        {
+          "id": "12",
+          "headertag": "Save 83%",
+          "img": "/assets/img/servicescards/unlimited-ghl-developmemt-service.webp",
+          "servicetitle": "Remove Malware From The WP Site",
+          "servicedescription": "Build your brand with a professional email address that matches your domain - like you@yourdomain.com.",
+          "servicebtn": "Explore offers",
+          "link": "#"
+        }
+      ]
+    }
+  ]
+}

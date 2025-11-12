@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "img": "/assets/img/home-img-slider/1-img.webp",
+    "logo": "/assets/img/home-img-slider/1-logo.png",
+    "name": "Nikura"
+  },
+  {
+    "id": 2,
+    "img": "/assets/img/home-img-slider/2-img.webp",
+    "logo": "/assets/img/home-img-slider/2-logo.png",
+    "name": "Hay"
+  },
+  {
+    "id": 3,
+    "img": "/assets/img/home-img-slider/3-img.webp",
+    "logo": "/assets/img/home-img-slider/3-logo.webp",
+    "name": "Super Speciosa"
+  },
+  {
+    "id": 4,
+    "img": "/assets/img/home-img-slider/4-img.webp",
+    "logo": "/assets/img/home-img-slider/4-logo.webp",
+    "name": "Crescent Days"
+  },
+  {
+    "id": 5,
+    "img": "/assets/img/home-img-slider/5-img.webp",
+    "logo": "/assets/img/home-img-slider/5-logo.webp",
+    "name": "Miracle Noodel"
+  },
+  {
+    "id": 6,
+    "img": "/assets/img/home-img-slider/6-img.webp",
+    "logo": "/assets/img/home-img-slider/6-logo.png",
+    "name": "Naturealm"
+  },
+  {
+    "id": 7,
+    "img": "/assets/img/home-img-slider/7-img.webp",
+    "logo": "/assets/img/home-img-slider/7-logo.webp",
+    "name": "Oot Granola"
+  },
+  {
+    "id": 8,
+    "img": "/assets/img/home-img-slider/8-img.webp",
+    "logo": "/assets/img/home-img-slider/8-logo.webp",
+    "name": "Super Feels"
+  },
+  {
+    "id": 9,
+    "img": "/assets/img/home-img-slider/9-img.webp",
+    "logo": "/assets/img/home-img-slider/9-logo.webp",
+    "name": "Meroda"
+  },
+  {
+    "id": 10,
+    "img": "/assets/img/home-img-slider/10-img.webp",
+    "logo": "/assets/img/home-img-slider/10-logo.png",
+    "name": "Manukora"
+  },
+  {
+    "id": 11,
+    "img": "/assets/img/home-img-slider/11-img.webp",
+    "logo": "/assets/img/home-img-slider/11-logo.webp",
+    "name": "Crispy Fantasy"
+  }
+]

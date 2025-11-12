@@ -1,0 +1,92 @@
+{
+  "template": "third",
+  "seo": {
+    "title": "Baseball Bat Store – Shopify Migration & Customization | Codersh",
+    "description": "Discover how Codersh migrated the Baseball Bat Store from WordPress to Shopify while preserving complex customization features and improving performance.",
+    "keywords": "Shopify migration, eCommerce customization, Baseball Bat Store, Shopify case study, Codersh",
+    "url": "https://baseballbat.codersh.com/"
+  },
+  "title": "Baseball Bat Store – Shopify Migration & Customization",
+  "location": "United States",
+  "projectname": "Baseball Bat Store Shopify Migration",
+  "url": "https://baseballbat.codersh.com/",
+  "overview": "Baseball Bat Store, a premium baseball bat company, required a more robust e-commerce solution to handle their complex product customization options. The project involved migrating their entire store from WordPress to Shopify while enhancing their custom bat builder experience.",
+  "objective": [
+    "Implement an advanced visual product customization interface.",
+    "Preserve customer data and improve the overall shopping experience.",
+    "Enhance user experience with intuitive product customization.",
+    "Improve backend efficiency for order processing."
+  ],
+  "challenges": [
+    "Complex product customization options requiring multiple selection types (dropdowns, radio buttons, image swatches).",
+    "Need for real-time visual product preview with numerous color combinations.",
+    "Data migration issues, including initial order duplication.",
+    "Integration of essential third-party applications.",
+    "Custom code requirements for conditional product options."
+  ],
+  "solution": [
+    "Prioritized preserving the product customization experience while leveraging Shopify’s platform capabilities.",
+    "Integrated third-party apps such as Live Preview Options by Webyze for product visualization and Instafeed for Instagram integration.",
+    "Utilized Matrixify for WordPress data migration and Order Printer Pro for detailed order slips.",
+    "Created a comprehensive solution that addressed both front-end and back-end requirements."
+  ],
+  "implementation": [
+    {
+      "heading": "Data Mapping & Migration",
+      "points": [
+        "Ensured proper translation of WordPress configurations to Shopify.",
+        "Handled complex product data, images, and order records.",
+        "Maintained integrity of customer accounts and historical orders."
+      ]
+    },
+    {
+      "heading": "Custom Development",
+      "points": [
+        "Developed custom Liquid templates for product option relationships.",
+        "Rebuilt conditional logic for dynamic product customization.",
+        "Streamlined backend logic for efficient order processing."
+      ]
+    },
+    {
+      "heading": "UX & Product Page Redesign",
+      "points": [
+        "Consistently positioned product options on the right side of product pages.",
+        "Displayed live product visualization prominently on the left.",
+        "Thoroughly tested all customization options and color combinations."
+      ]
+    }
+  ],
+  "results": [
+    "Fully functional visual product customization system on Shopify.",
+    "Streamlined administrative processes using Shopify’s built-in capabilities.",
+    "Successful transfer of customer data and order history.",
+    "Enhanced inventory management for custom bat components.",
+    "Improved checkout process with clear customization details."
+  ],
+  "techStack": [
+    {
+      "heading": "Frontend",
+      "text": "Shopify Liquid, HTML5, CSS3, JavaScript"
+    },
+    {
+      "heading": "Backend",
+      "text": "Shopify Admin API, Custom Liquid Scripts"
+    },
+    {
+      "heading": "Database",
+      "text": "Shopify Store Data, WordPress Export Migration"
+    },
+    {
+      "heading": "Integrations",
+      "text": "Webyze Live Preview Options, Instafeed, Matrixify, Order Printer Pro"
+    },
+    {
+      "heading": "Hosting & Security",
+      "text": "Shopify Cloud Hosting with SSL & CDN"
+    }
+  ],
+  "images": [
+    "/assets/img/casestudy/baseballbat-overview.webp",
+    "/assets/img/casestudy/baseballbat-implementation.webp"
+  ]
+}

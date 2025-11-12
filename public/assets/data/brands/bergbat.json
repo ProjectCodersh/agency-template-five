@@ -1,0 +1,53 @@
+[
+  {
+    "seoTitle": "Berg Bat - Premium Custom Wood Bats",
+    "seoDescription": "Handcrafted premium bats from Berg Bat. Fully customizable with unparalleled quality and design flexibility.",
+    "seoKeywords": "Berg Bat, custom bats, handcrafted bats",
+    "seoUrl": "https://agency-template-five.vercel.app/brands/bergbat",
+    "img": "/assets/img/brand-details/bergbat-brand-1.webp",
+    "subtitle": "About Brand",
+    "title": "The Brief",
+    "content": "Berg Bat is committed to one principle – Quality. We craft each bat using premium Maple, Ash, and Birch billets, hand-turned, sanded, steel-pressed, and custom-finished to your exact specifications. Every bat is 100% handmade and personally inspected by Trevor before shipping. With unparalleled design flexibility and customizable finishes, Berg Bat is your top choice for a new wood bat.",
+    "listItems": [
+      {
+        "title": "Industry",
+        "content": ["Sports Equipment", "Custom Craftmanship"]
+      },
+      {
+        "title": "Project",
+        "content": [
+          "Brand Design / Development",
+          "Web Design & Development",
+          "manufacturing",
+          "custom product design."
+        ]
+      },
+      {
+        "title": "Technology",
+        "content": [
+          "Woocommerce Development",
+          "Wordpress for CMS",
+          "MySQL Database",
+          "PHP Programming language",
+          "MailChimp for Marketing & E-mail Service"
+        ]
+      },
+      {
+        "title": "Visit",
+        "link": "https://bergbat.com/",
+        "text": "bergbat.com"
+      }
+    ],
+    "video": {
+      "image": "/assets/img/brand-details/bergbat-brand-2.webp",
+      "videoUrl": "/assets/img/brand-details/shopify.png"
+    },
+    "challenge": "BergBat.com, a premium handcrafted bat brand, struggled with an outdated website, slow load times, poor user experience, and a high bounce rate. The site failed to effectively showcase their high-quality, custom-made bats, making it difficult for visitors to explore options or understand the brand’s value. These issues hindered customer engagement and conversions. A website redesign was essential to improve navigation, speed, and presentation, ensuring that the craftsmanship and customization of Berg Bat’s products were clearly highlighted. This would help convert visitors into customers and build stronger brand connections.",
+    "solution": "Our team redesigned BergBat.com's Shopify website with a sleek, modern layout that emphasized product visuals, improved navigation, and streamlined the checkout process. We optimized mobile responsiveness to ensure a seamless shopping experience across all devices. As a result, the bounce rate was reduced by 26%, sales increased by 80%, and brand perception improved, leading to higher customer trust and engagement. The redesign successfully showcased their high-quality custom bats, driving stronger connections with customers and significantly boosting conversions.",
+    "images": [
+      "/assets/img/brand-details/bergbat-brand-3.webp",
+      "/assets/img/brand-details/bergbat-brand-4.webp",
+      "/assets/img/brand-details/bergbat-brand-5.webp"
+    ]
+  }
+]

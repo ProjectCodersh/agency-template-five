@@ -1,0 +1,51 @@
+{
+  "template": "old",
+  "seo": {
+    "title": "Tire Base – AI Business Directory Portal | Codersh",
+    "description": "An AI-integrated business directory platform for the US tire and rubber recycling industry. Built to connect recyclers, manufacturers, and buyers in real time.",
+    "keywords": "AI directory, tire recycling, business listings, geo-location search, B2B portal",
+    "url": "https://tyrepages.codersh.com/"
+  },
+  "title": "Tire Base – AI Integrated Business Directory Portal for the Recycle Tire & Rubber Industry",
+  "location": "United States",
+  "projectname": "Tire Base – Scrap Tire & Rubber Users Portal",
+  "url": "https://tyrepages.codersh.com/",
+  "overview": "A comprehensive business portal for the scrap tire and rubber recycling industry. It allows users to discover, connect, and manage listings with AI-driven insights and real-time data visualization.",
+  "features": [
+    {
+      "heading": "Business Listings",
+      "text": "with company details, email/phone, and geo-location."
+    },
+    {
+      "heading": "AI-Powered Matching",
+      "text": "suggests relevant businesses, buyers, and recyclers based on category and location."
+    },
+    {
+      "heading": "Dynamic Search & Filters",
+      "text": "helps users refine searches by materials, states, or service types."
+    },
+    {
+      "heading": "Interactive Map Integration",
+      "text": "visualizes all businesses on Google Maps with clustering and detail popups."
+    },
+    {
+      "heading": "User Dashboard",
+      "text": "for managing profiles, business listings, and lead inquiries."
+    }
+  ],
+  "techStack": [
+    { "heading": "Frontend", "text": "React.js, Tailwind CSS, Redux Toolkit" },
+    { "heading": "Backend", "text": "Node.js, Express, MongoDB" },
+    { "heading": "AI & Geo Features", "text": "OpenAI API, Google Maps API, LocationIQ" },
+    { "heading": "Hosting & Infrastructure", "text": "Vercel, AWS S3, Cloudflare" }
+  ],
+  "resultData": [
+    {
+      "text": " "
+    }
+  ],
+  "images": [
+    "/assets/img/casestudy/tirebase-dashboard.webp",
+    "/assets/img/casestudy/tirebase-mapview.webp"
+  ]
+}

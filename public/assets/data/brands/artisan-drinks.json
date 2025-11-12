@@ -1,0 +1,52 @@
+[
+  {
+    "seoTitle": "Artisan Drinks | Sustainable Soft Drinks Shopify eCommerce Development",
+    "seoDescription": "See how Codersh optimized the Artisan Drinks Shopify platform with advanced product filtering, sustainable sourcing visibility, and mobile-friendly navigation, delivering a premium tonic and mixer shopping experience.",
+    "seoKeywords": "Artisan Drinks eCommerce, sustainable drinks online, Shopify beverage store, premium tonic water website design",
+    "seoUrl": "https://agency-template-five.vercel.app/brands/artisan-drinks",
+    "img": "/assets/img/brand-details/artisan-brand-1.webp",
+    "subtitle": "About Brand",
+    "pageTitle": "Artisan Drinks",
+    "title": "The Brief",
+    "content": "Artisan Drinks offers premium mixers, including tonics, ginger mixers, and craft sodas, designed to elevate cocktail experiences. Committed to quality and innovation, their products cater to diverse tastes and preferences. The company collaborates with craft spirit brands to inspire customers with cocktail recipes and serving ideas. Enjoy a seamless shopping experience with free delivery on orders over £20. Dedicated to sustainability, Artisan Drinks ensures eco-conscious practices in every product.",
+    "listItems": [
+      {
+        "title": "Industry",
+        "content": ["Beverages Industry", "Soft Drinks Manufacturing"]
+      },
+      {
+        "title": "Project",
+        "content": [
+          "(DTC) Ecommerce Platform",
+          "Product Development and Marketing",
+          "Web Design & Development"
+        ]
+      },
+      {
+        "title": "Technology",
+        "content": [
+          "Shopify Development",
+          "E-Commerce & Payments Integration",
+          "Cloudflare & Google CDN",
+          "Klaviyo Marketing Automation & Review"
+        ]
+      },
+      {
+        "title": "Visit",
+        "link": "https://artisandrinks.com/",
+        "text": "artisandrinks.com"
+      }
+    ],
+    "video": {
+      "image": "/assets/img/brand-details/artisan-brand-2.webp",
+      "videoUrl": "/assets/img/brand-details/shopify.png"
+    },
+    "challenge": "Artisan Drinks faces challenges in data collection and analysis, hindering the ability to measure the impact of sustainability initiatives and identify effective strategies. Implementing robust tracking systems would help align efforts with long-term goals and demonstrate progress to stakeholders. The website also faces issues with site navigation, particularly due to its diverse product range. Simplifying the layout and adding intuitive filters could enhance user experience. Mobile optimization is crucial, as many customers shop via smartphones. Improving product descriptions with details on ingredients, sourcing, and pairing suggestions could engage customers more. Lastly, clearer shipping and delivery information, including costs and timelines, would improve transparency, especially during peak seasons.",
+    "solution": "To address its challenges, Artisan Drinks can enhance site navigation by simplifying the menu and adding robust search functionality with filters. Optimizing the mobile experience through responsive design and mobile-friendly features will ensure seamless browsing and purchasing. Product information can be improved with detailed descriptions, ingredient lists, sourcing info, and cocktail pairing suggestions, supported by high-quality imagery. Visual consistency should be maintained with unified design elements and balanced layouts. Shipping and logistics can be clarified with transparent policies and real-time order tracking. For data collection, implementing analytics tools and conducting regular reviews will help measure progress and refine strategies. These solutions will improve user experience, streamline operations, and drive business growth.",
+    "images": [
+      "/assets/img/brand-details/artisan-brand-3.webp",
+      "/assets/img/brand-details/artisan-brand-4.webp",
+      "/assets/img/brand-details/artisan-brand-5.webp"
+    ]
+  }
+]
