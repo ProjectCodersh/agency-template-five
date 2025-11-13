@@ -7,7 +7,7 @@ const CaseStudy4 = () => {
       slug: 'shopify-based-wine-store',
       title: 'Shopify Based Wine Store',
       subtitle: 'Wine Brand (LGBTQ+ Focused)',
-      img: '/assets/img/casestudy/shopify-based-wine-store.webp',
+      img: '/assets/img/casestudy/new-imgs/shopify-based-wine-store-1.webp',
       description:
         'LGBTQ+ Focused Wine Brand is a bold, innovative wine brand celebrating individuality and the LGBTQ+ community. More than just a beverage, it represents a movement toward authenticity and inclusivity',
     },
@@ -15,7 +15,7 @@ const CaseStudy4 = () => {
       slug: 'e-commerce-cocktail-shop',
       title: 'E-Commerce Cocktail Shop',
       subtitle: 'E-Commerce (cocktail store)',
-      img: '/assets/img/casestudy/e-commerce-cocktail-shop.webp',
+      img: '/assets/img/casestudy/new-imgs/e-commerce-cocktail-shop-2.webp',
       description:
         'Cocktail Shop is a premium pre-mixed cocktail brand known for delivering exceptional taste and convenience. To elevate their online presence, Liberation Cocktails partnered',
     },
@@ -23,7 +23,7 @@ const CaseStudy4 = () => {
       slug: 'sparkling-wine-store',
       title: 'Sparkling Wine Store',
       subtitle: 'E-Commerce (wine store)',
-      img: '/assets/img/casestudy/sparkling-wine-store.webp',
+      img: '/assets/img/casestudy/new-imgs/sparkling-wine-store-3.webp',
       description:
         'Sparkling Wine Store is a vibrant South African brand crafting sparkling wines that bring a sense of fun to everyday moments. Their existing Shopify store wasn’t capturing the energy or quality of',
     },
@@ -31,7 +31,7 @@ const CaseStudy4 = () => {
       slug: 'grocery-remittance-platform',
       title: 'Grocery & Remittance Platform',
       subtitle: 'Wordpress',
-      img: '/assets/img/casestudy/grocery-remittance-platform.webp',
+      img: '/assets/img/casestudy/new-imgs/grocery-remittance-platform-4.webp',
       description:
         'Grocery & Remittance Platform is an innovative platform bridging families across borders by enabling US-based customers to send groceries and money to loved ones in Cuba. Evolving from a simple',
     },
@@ -39,7 +39,7 @@ const CaseStudy4 = () => {
       slug: 'financial-services-platform',
       title: 'Financial Services Platform',
       subtitle: 'Financial Services',
-      img: '/assets/img/casestudy/financial-services-platform.webp',
+      img: '/assets/img/casestudy/new-imgs/financial-services-platform-5.webp',
       description:
         'Financial Services Platform serves as a beacon of hope for individuals striving to improve their credit scores and achieve financial security. The project focused on building a digital platform that',
     },
@@ -47,7 +47,7 @@ const CaseStudy4 = () => {
       slug: 'baseball-bat-store-two',
       title: 'Baseball Bat Store',
       subtitle: 'E-Commerce',
-      img: '/assets/img/casestudy/baseball-bat-store-two.webp',
+      img: '/assets/img/casestudy/new-imgs/baseball-bat-store-two-6.webp',
       description:
         'Baseball Bat Store is a premium baseball bat company renowned for its highly customizable products. To better support their complex product configurations and enhance the customer',
     },
@@ -83,14 +83,14 @@ const CaseStudy4 = () => {
       description:
         'Split Grip is a premium fitness equipment retailer offering over 300 SKUs for home and commercial gyms. Facing growth challenges, the brand needed a more robust e-commerce platform to handle complex product data, enhance customer experience, and scale operations efficiently.',
     },
-    {
-      slug: 'baseball-bat-store',
-      title: 'Baseball Bat Store',
-      subtitle: 'E-Commerce',
-      img: '/assets/img/casestudy/baseball-bat-store-two.webp',
-      description:
-        'Baseball Bat Store, a premium baseball bat company, required a more robust e-commerce solution to handle their complex product customization options. The project involved migrating their entire store from WordPress to Shopify while enhancing their custom bat builder experience.',
-    },
+    // {
+    //   slug: 'baseball-bat-store',
+    //   title: 'Baseball Bat Store',
+    //   subtitle: 'E-Commerce',
+    //   img: '/assets/img/casestudy/new-imgs/baseball-bat-store-two-6.webp',
+    //   description:
+    //     'Baseball Bat Store, a premium baseball bat company, required a more robust e-commerce solution to handle their complex product customization options. The project involved migrating their entire store from WordPress to Shopify while enhancing their custom bat builder experience.',
+    // },
     {
       slug: 'jcc-site',
       title: 'JCC Site',

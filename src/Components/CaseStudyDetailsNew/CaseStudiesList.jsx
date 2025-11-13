@@ -2,32 +2,32 @@ export const caseStudiesList = [
   {
     title: 'Shopify Based Wine Store',
     slug: 'shopify-based-wine-store',
-    BgImg: '/assets/img/casestudy/shopify-based-wine-store.webp',
+    BgImg: '/assets/img/casestudy/new-imgs/shopify-based-wine-store-1.webp',
   },
   {
     title: 'E-Commerce Cocktail Shop',
     slug: 'e-commerce-cocktail-shop',
-    BgImg: '/assets/img/casestudy/e-commerce-cocktail-shop.webp',
+    BgImg: '/assets/img/casestudy/new-imgs/e-commerce-cocktail-shop-2.webp',
   },
   {
     title: 'Sparkling Wine Store',
     slug: 'sparkling-wine-store',
-    BgImg: '/assets/img/casestudy/sparkling-wine-store.webp',
+    BgImg: '/assets/img/casestudy/new-imgs/sparkling-wine-store-3.webp',
   },
   {
     title: 'Grocery & Remittance  Platform',
     slug: 'grocery-remittance-platform',
-    BgImg: '/assets/img/casestudy/grocery-remittance-platform.webp',
+    BgImg: '/assets/img/casestudy/new-imgs/grocery-remittance-platform-4.webp',
   },
   {
     title: 'Financial Services Platform',
     slug: 'financial-services-platform',
-    BgImg: '/assets/img/casestudy/financial-services-platform.webp',
+    BgImg: '/assets/img/casestudy/new-imgs/financial-services-platform-5.webp',
   },
   {
     title: 'Baseball Bat Store',
     slug: 'baseball-bat-store-two',
-    BgImg: '/assets/img/casestudy/baseball-bat-store-two.webp',
+    BgImg: '/assets/img/casestudy/new-imgs/baseball-bat-store-two-6.webp',
   },
   {
     title: 'Helmsford',
@@ -45,11 +45,11 @@ export const caseStudiesList = [
     slug: 'fitness-retailer-store',
     BgImg: '/assets/img/casestudy/SplitGrip-casestudy.webp',
   },
-  {
-    title: 'Baseball Bat Store',
-    slug: 'baseball-bat-store',
-    BgImg: '/assets/img/casestudy/baseball-bat-store-two.webp',
-  },
+  // {
+  //   title: 'Baseball Bat Store',
+  //   slug: 'baseball-bat-store',
+  //   BgImg: '/assets/img/casestudy/new-imgs/baseball-bat-store-two-6.webp',
+  // },
   {
     slug: 'jcc-site',
     title: 'JCC Site',
