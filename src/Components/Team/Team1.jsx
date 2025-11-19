@@ -60,9 +60,10 @@ const Team1 = () => {
   ];
 
   return (
-    <>      <BreadCumb bgimg="/assets/img/breadcrumb.jpg" Title="Pricing"></BreadCumb>
+    <>
+      {' '}
+      <BreadCumb bgimg="/assets/img/breadcrumb.jpg" Title="Work"></BreadCumb>
       <section className="team-section-3 fix section-padding">
-
         {/* <div className="container px-3">
           <div className="section-title-area">
             <div className="section-title">
@@ -96,7 +97,8 @@ const Team1 = () => {
             ))}
           </div>
         </div>
-      </section></>
+      </section>
+    </>
   );
 };
 
