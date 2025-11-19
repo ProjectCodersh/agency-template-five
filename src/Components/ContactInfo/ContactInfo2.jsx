@@ -19,7 +19,6 @@ const ContactInfo2 = () => {
 
   const [errors, setErrors] = useState({});
 
-  // HANDLE CHANGE
   const handleChange = (e) => {
     const { name, value } = e.target;
 
@@ -28,11 +27,9 @@ const ContactInfo2 = () => {
       [name]: value,
     }));
 
-    // Clear individual error
     setErrors((prev) => ({ ...prev, [name]: "" }));
   };
 
-  // VALIDATION (same as ContactInfo1)
   const validateForm = () => {
     let newErrors = {};
 
@@ -53,11 +50,10 @@ const ContactInfo2 = () => {
     return Object.keys(newErrors).length === 0;
   };
 
-  // HANDLE SUBMIT
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    if (!validateForm()) return; // stop if validation fails
+    if (!validateForm()) return;
 
     setSubmitting(true);
 
@@ -98,12 +94,10 @@ const ContactInfo2 = () => {
 
   return (
     <div>
-      {/* TOP SECTION SAME AS BEFORE */}
       <section className="contact-info-section fix section-padding">
         <div className="container px-3">
           <div className="row g-4">
 
-            {/* Address */}
             <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
               <div className="contact-info-items text-center active">
                 <div className="icon">
@@ -127,7 +121,6 @@ const ContactInfo2 = () => {
               </div>
             </div>
 
-            {/* Email */}
             <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".5s">
               <div className="contact-info-items text-center">
                 <div className="icon">
@@ -142,7 +135,6 @@ const ContactInfo2 = () => {
               </div>
             </div>
 
-            {/* Phone */}
             <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".7s">
               <div className="contact-info-items text-center">
                 <div className="icon">
@@ -161,13 +153,11 @@ const ContactInfo2 = () => {
         </div>
       </section>
 
-      {/* FORM SECTION */}
       <section className="contact-section-33 fix">
         <div className="container px-3">
           <div className="contact-wrapper-2">
             <div className="row g-4 align-items-center">
 
-              {/* IMAGE SECTION (UNCHANGED) */}
               <div className="col-xl-6 offset-xl-0 col-lg-10 offset-lg-1 d-flex align-items-center justify-content-center ">
                 <div className="contact-map p-4" data-background="/assets/img/audience-bg.jpg"
                   style={{ borderRadius: '20px' }}>
@@ -186,7 +176,6 @@ const ContactInfo2 = () => {
                 </div>
               </div>
 
-              {/* RIGHT SIDE FORM */}
               <div className="col-xl-6 mt-xl-4 mt-lg-5">
                 <div className="contact-content">
                   <h2>Let&#39;s Talk About Your Next Project</h2>
@@ -194,7 +183,6 @@ const ContactInfo2 = () => {
                   <form id="contact-form" className="contact-form-items" ref={formRef} onSubmit={handleSubmit} noValidate>
                     <div className="row g-4">
 
-                      {/* NAME */}
                       <div className="col-md-6">
                         <div className="form-clt">
                           <span>Your name*</span>
@@ -209,7 +197,6 @@ const ContactInfo2 = () => {
                         </div>
                       </div>
 
-                      {/* EMAIL */}
                       <div className="col-md-6">
                         <div className="form-clt">
                           <span>Your Email*</span>
@@ -224,7 +211,6 @@ const ContactInfo2 = () => {
                         </div>
                       </div>
 
-                      {/* NUMBER */}
                       <div className="col-md-6">
                         <div className="form-clt">
                           <span>Your Number*</span>
@@ -239,7 +225,6 @@ const ContactInfo2 = () => {
                         </div>
                       </div>
 
-                      {/* SUBJECT */}
                       <div className="col-md-6">
                         <div className="form-clt">
                           <span>Subject*</span>
@@ -256,7 +241,6 @@ const ContactInfo2 = () => {
 
                       <input type="hidden" name="user_email" value={formData.email} />
 
-                      {/* MESSAGE */}
                       <div className="col-lg-12">
                         <div className="form-clt">
                           <span>Write Message*</span>
@@ -270,7 +254,6 @@ const ContactInfo2 = () => {
                         </div>
                       </div>
 
-                      {/* BUTTON */}
                       <div className="col-lg-7">
                         <button type="submit" className="theme-btn" disabled={submitting}>
                           {submitting ? 'Sending...' : 'Send Message'} <i className="bi bi-arrow-right"></i>
