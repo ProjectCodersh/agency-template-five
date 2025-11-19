@@ -156,7 +156,6 @@ function Tools2() {
                 .masonry-grid {
                     column-count: 1;
                     column-gap: 2rem;
-                    padding: 2rem 0;
                 }
                 @media (min-width: 768px) {
                     .masonry-grid {
