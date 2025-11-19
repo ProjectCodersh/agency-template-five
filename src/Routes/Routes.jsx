@@ -17,6 +17,7 @@ import TeamPage from '../Pages/TeamPage';
 import AboutPage from '../Pages/AboutPage';
 import FaqPage from '../Pages/FaqPage';
 import ThankyouPage from '../Components/Thankyou/ThankyouPage';
+import Team1 from '../Components/Team/Team1';
 // import Testimonials from "../Pages/Testimonials";
 // import Casestudies from "../Pages/CaseStudyPageNew";
 // import Solutions from "../Pages/Solutions";
@@ -79,7 +80,6 @@ export const router = createBrowserRouter([
         path: '/our-team',
         element: <TeamPage></TeamPage>,
       },
-      // actually closed pages are above ones
       {
         path: '/contact-us',
         element: <ContactPage></ContactPage>,
@@ -119,6 +119,10 @@ export const router = createBrowserRouter([
       {
         path: "/thank-you",
         element: <ThankyouPage />
+      },
+      {
+        path: "/work",
+        element: <Team1 />
       }
     ],
   },
@@ -146,14 +150,4 @@ export const router = createBrowserRouter([
       },
     ],
   },
-  // {
-  //   path: 'home3',
-  //   element: <Layout2></Layout2>,
-  //   children: [
-  //     {
-  //       index: true,
-  //       element: <Home3></Home3>,
-  //     },
-  //   ],
-  // },
 ]);
