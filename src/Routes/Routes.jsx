@@ -16,6 +16,7 @@ import Error404Page from '../Pages/Error404Page';
 import TeamPage from '../Pages/TeamPage';
 import AboutPage from '../Pages/AboutPage';
 import FaqPage from '../Pages/FaqPage';
+import ThankyouPage from '../Components/Thankyou/ThankyouPage';
 // import Testimonials from "../Pages/Testimonials";
 // import Casestudies from "../Pages/CaseStudyPageNew";
 // import Solutions from "../Pages/Solutions";
@@ -115,6 +116,10 @@ export const router = createBrowserRouter([
         path: '*',
         element: <Error404Page></Error404Page>,
       },
+      {
+        path: "/thank-you",
+        element: <ThankyouPage />
+      }
     ],
   },
   {

@@ -1,10 +1,12 @@
 import { useRef, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const ContactInfo2 = () => {
   const formRef = useRef();
+  const navigate = useNavigate();
   const [submitting, setSubmitting] = useState(false);
 
   const [formData, setFormData] = useState({
@@ -28,18 +30,16 @@ const ContactInfo2 = () => {
     setSubmitting(true);
 
     try {
-      // Send inquiry to company
       await emailjs.sendForm(
         'service_yajqym9',
-        'template_h4wpbbi', // company template ID
+        'template_h4wpbbi',
         formRef.current,
         'K_wd5BSwBzwzzQXjf'
       );
 
-      // Send thank-you email to user
       await emailjs.sendForm(
         'service_yajqym9',
-        'template_pwefvuc', // user thank-you template ID
+        'template_pwefvuc',
         formRef.current,
         'K_wd5BSwBzwzzQXjf'
       );
@@ -53,6 +53,11 @@ const ContactInfo2 = () => {
         subject: '',
         message: '',
       });
+
+      setTimeout(() => {
+        navigate('/thank-you');
+      }, 1000);
+
     } catch (error) {
       console.error('EmailJS error:', error);
       toast.error('Failed to send message. Please try again.');
@@ -77,7 +82,6 @@ const ContactInfo2 = () => {
                       href="https://maps.app.goo.gl/TJP3CFjW6jSKHwsA6"
                       target="_blank"
                       rel="noopener noreferrer"
-                      // style={{ color: "white", textDecoration: "none" }}
                     >
                       Our Address
                     </a>
@@ -240,7 +244,6 @@ const ContactInfo2 = () => {
                         </div>
                       </div>
 
-                      {/* Hidden input to pass user_email to EmailJS */}
                       <input type="hidden" name="user_email" value={formData.email} />
 
                       <div className="col-lg-12 wow fadeInUp" data-wow-delay=".7s">
@@ -268,6 +271,7 @@ const ContactInfo2 = () => {
                   <ToastContainer />
                 </div>
               </div>
+
             </div>
           </div>
         </div>
