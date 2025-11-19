@@ -29,12 +29,12 @@ const Home = () => {
       <HeroBanner1 />
       <Brand1 />
       <WhatWeDo />
+      <HomeImgSlider />
       <Counter4 />
       <Tools1 />
       <Brandsection1 />
       <BrandSection2 />
       <Brandsection3 />
-      <HomeImgSlider />
       <Suspense fallback={<div className="loading">Loading FAQ...</div>}>
         <Faq1 addclass="faq-section section-padding2 pb-0" />
         <VideoTestimonialSlick />

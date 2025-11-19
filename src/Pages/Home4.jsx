@@ -36,6 +36,7 @@ const Home4 = () => {
       <WhatWeDo4></WhatWeDo4>
       {/* <About4 addclass="about-section-2 fix section-padding"></About4> */}
       {/* <About3></About3> */}
+      <HomeImgSlider />
       <Counter6></Counter6>
       <Tools2></Tools2>
       <Brandsection4></Brandsection4>
@@ -43,7 +44,6 @@ const Home4 = () => {
       <Brandsection6></Brandsection6>
       {/* <div className="section-padding3"></div> */}
       {/* <Testimonial4></Testimonial4> */}
-      <HomeImgSlider />
       <Faq2 addclass="faq-section section-padding2 pb-0"></Faq2>
       <VideoTestimonialSlick />
       {/* <VideoTestimonialSlickSecond></VideoTestimonialSlickSecond> */}
