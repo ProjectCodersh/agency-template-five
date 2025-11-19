@@ -23,7 +23,6 @@ function Tools1() {
     list2: 'Website Redesign',
     list3: 'Landing Page Creation',
     list4: 'Coming Soon Landing Page',
-    // list5: '90+ WP Development Experts',
     list6: 'Custom PHP Code',
     list7: 'All Popular Page Builders',
     list8: 'Theme Customization',

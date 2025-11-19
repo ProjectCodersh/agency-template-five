@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import BreadCumb from '../../Components/Common/BreadCumb';
 
 const Team3 = () => {
   const teamContent = [
@@ -70,6 +71,7 @@ const Team3 = () => {
 
   return (
     <section className="team-section-3 fix section-padding">
+      <BreadCumb bgimg="/assets/img/breadcrumb.jpg" Title="Pricing"></BreadCumb>
       <div className="container-fluid">
         <div className="row g-4">
           {teamContent.map((item, i) => (
@@ -86,15 +88,6 @@ const Team3 = () => {
                 </div>
                 <div className="icon-shape">
                   <img src="/assets/img/team/icon-shape-2.png" alt="img" />
-                  {/* <div className="social-profile">
-                                        <ul>
-                                            <li><Link to={item.content}><i className="bi bi-instagram"></i></Link></li>
-                                            <li><Link to={item.content}><i className="bi bi-facebook"></i></Link></li>
-                                            <li><Link to={item.content}><i className="bi bi-twitter-x"></i></Link></li>
-                                            <li><Link to={item.content}><i className="bi bi-linkedin"></i></Link></li>
-                                        </ul>
-                                        <span className="plus-btn"><div><img src="/assets/img/team/team-company-icon.png" alt="Comapny Logo" className="teams-card-logo" /></div></span>
-                                    </div> */}
                 </div>
               </div>
             </div>
