@@ -1,10 +1,11 @@
 import SEO from '../Components/DynamicSEO/SEO';
-
 import { useEffect } from 'react';
 import loadBackgroudImages from '../Components/Common/loadBackgroudImages';
 import { Link } from 'react-router-dom';
 import parse from 'html-react-parser';
+
 const Error404Page = () => {
+
   useEffect(() => {
     loadBackgroudImages();
   }, []);
@@ -24,12 +25,14 @@ const Error404Page = () => {
 
   return (
     <div>
+
       <SEO
         title="404 - Page Not Found | Codersh"
         description="The page you're looking for doesn't exist. Return to our homepage or explore our services."
         keywords="404, page not found, error"
         url="https://agency-template-five.vercel.app/404"
       />
+
       <section
         className="hero-section hero-3 breadcrumb-wrapper-margin-top"
         data-background={heroContent.bg}

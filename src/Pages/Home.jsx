@@ -26,6 +26,7 @@ const Home = () => {
         keywords="unlimited WordPress services, WordPress SEO, WordPress development agency, page builder integration, digital agency tools"
         url="https://agency-template-five.vercel.app/"
       />
+
       <HeroBanner1 />
       <Brand1 />
       <WhatWeDo />

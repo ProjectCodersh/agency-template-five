@@ -57,7 +57,6 @@ function Tools2() {
     list37: 'amWebmail / Outlook Setupd',
   };
 
-  // Grouped service data for each column
   const serviceGroups = [
     {
       title: chooseHeading.plantitle1,

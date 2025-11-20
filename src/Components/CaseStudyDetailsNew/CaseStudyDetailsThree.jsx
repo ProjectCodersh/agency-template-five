@@ -7,7 +7,6 @@ function CaseStudyDetailsThirdTemplate({ data, list = [] }) {
 
   if (!data) return null;
 
-  // Destructure all keys safely
   const {
     title,
     location,
@@ -24,7 +23,6 @@ function CaseStudyDetailsThirdTemplate({ data, list = [] }) {
     slug,
   } = data;
 
-  // Navigation setup
   const currentIndex = list?.length ? list.findIndex((item) => item.slug === slug) : -1;
   const prevItem = currentIndex > 0 ? list[currentIndex - 1] : null;
   const nextItem =

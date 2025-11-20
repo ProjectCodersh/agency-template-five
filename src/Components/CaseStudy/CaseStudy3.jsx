@@ -57,6 +57,7 @@ const CaseStudy3 = () => {
           </h2>
         </div>
       </div>
+
       <div className="container-fluid">
         <div className="swiper project-slider">
           <div className="swiper-wrapper cs_slider_gap_30">

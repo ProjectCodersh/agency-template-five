@@ -7,7 +7,6 @@ function Counter6() {
     subtitle: 'Page Builders',
     title: ' Seamless integration <br/> with page builders',
     content: '',
-    // " We work with all major page builders,<br/> including Elementor. Whether you prefer to leverage <br/> existing page builder functionality or need custom .",
     img: '/assets/img/feature-img.png',
   };
 

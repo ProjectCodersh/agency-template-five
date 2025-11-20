@@ -14,19 +14,19 @@ import WhatWeDo2 from '../Components/WhatWeDo/WhatWeDo2';
 const Home2 = () => {
   return (
     <div>
-      <HeroBanner2></HeroBanner2>
-      <Brand1></Brand1>
-      <WhatWeDo2></WhatWeDo2>
-      <Counter1></Counter1>
-      <Services1></Services1>
-      <Cta1></Cta1>
-      <About2 addclass="about-section-2 fix section-padding pt-0"></About2>
-      <CaseStudy2></CaseStudy2>
-      <Faq1 addclass="faq-section section-padding pb-0"></Faq1>
-      <Cta2></Cta2>
-      <Testimonial2></Testimonial2>
-      <Blog1></Blog1>
-    </div>
+      <HeroBanner2 />
+      <Brand1 />
+      <WhatWeDo2 />
+      <Counter1 />
+      <Services1 />
+      <Cta1 />
+      <About2 addclass="about-section-2 fix section-padding pt-0" />
+      <CaseStudy2 />
+      <Faq1 addclass="faq-section section-padding pb-0" />
+      <Cta2 />
+      <Testimonial2 />
+      <Blog1 />
+    </div >
   );
 };
 

@@ -1,6 +1,5 @@
 import { useEffect } from 'react';
 import loadBackgroudImages from '../Common/loadBackgroudImages';
-// import parse from 'html-react-parser';
 import { Link } from 'react-router-dom';
 
 const About3 = () => {

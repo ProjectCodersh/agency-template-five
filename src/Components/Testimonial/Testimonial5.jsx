@@ -35,7 +35,6 @@ const Testimonial5 = () => {
       content:
         'Work was great! I Will definitely use in the future. Arvind delivered good work on this project and I enjoyed working with him. His communication was top-notch, he met all deadlines, and his skills were reasonably strong.',
     },
-    // Add more testimonials as needed
   ];
 
   return (

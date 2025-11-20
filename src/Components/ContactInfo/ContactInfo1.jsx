@@ -118,7 +118,7 @@ const ContactInfo1 = () => {
                       </div>
                     </div>
 
-                    {/* Email */}
+                    {/* EMAIL */}
                     <div className="col-lg-6">
                       <div className="form-clt">
                         <input

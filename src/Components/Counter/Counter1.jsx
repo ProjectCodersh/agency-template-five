@@ -1,6 +1,5 @@
 import { useEffect } from 'react';
 import loadBackgroudImages from '../Common/loadBackgroudImages';
-// import { Link } from "react-router-dom";
 
 const Counter1 = () => {
   const counterContent = [

@@ -245,6 +245,7 @@ const BlogDetails = () => {
                     </ul>
                   </div>
                 </div>
+
                 <div className="single-sidebar-widget">
                   <div className="wid-title">
                     <h3>Recent Post</h3>
@@ -306,6 +307,7 @@ const BlogDetails = () => {
                     </div>
                   </div>
                 </div>
+
               </div>
             </div>
           </div>

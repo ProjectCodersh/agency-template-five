@@ -6,7 +6,7 @@ const Counter4 = () => {
   const heading = {
     subtitle: 'Page Builders',
     title: ' Seamless integration <br/> with page builders',
-    content: '', // Add content here if needed
+    content: '',
     img: '/assets/img/feature-img.png',
   };
 
@@ -39,10 +39,6 @@ const Counter4 = () => {
       img: '/assets/img/pagebuilder/builder7.webp',
       title: 'builder-seven',
     },
-    // {
-    //   img: '/assets/img/pagebuilder/builder8.webp',
-    //   title: 'builder-eight',
-    // },
   ];
 
   useEffect(() => {
@@ -61,6 +57,7 @@ const Counter4 = () => {
             <h2 className="wow fadeInUp" data-wow-delay=".3s">
               {parse(heading.title)}
             </h2>
+
           </div>
 
           {heading.content && (

@@ -20,6 +20,7 @@ const Blog2 = () => {
           </h2>
         </div>
       </div>
+
       <div className="container-fluid">
         <div className="row">
           {blogContent.map((item, i) => (

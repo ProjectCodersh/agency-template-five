@@ -22,34 +22,33 @@ const BrandDetailsPage = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+
     const fetchBrandData = async () => {
       setLoading(true);
       try {
         const response = await axios.get(`/assets/data/brands/${slug}.json`, {
           responseType: 'json',
-          validateStatus: (status) => status === 200, // only accept 200 OK
+          validateStatus: (status) => status === 200,
         });
 
-        // if the response isn't a proper object, treat as invalid
         if (!response.data || typeof response.data !== 'object') {
           throw new Error('Invalid brand data');
         }
 
-        // if you expect array (like in your code: res.data[0]), handle it
         setData(Array.isArray(response.data) ? response.data[0] : response.data);
       } catch (err) {
         console.error('Failed to load brand data', err);
-        setData(null); // force 404
+        setData(null);
       } finally {
         setLoading(false);
       }
     };
 
     fetchBrandData();
+
   }, [slug]);
 
   if (loading) return <SimpleLoader />;
-  // if (!data) return <div className="p-4">No data available for `{slug}`.</div>;
   if (!data) return <Error404Page />;
 
   const brandFromList = brandList.find((item) => item.slug === slug);
@@ -63,12 +62,14 @@ const BrandDetailsPage = () => {
         keywords={data.seoKeywords}
         url={data.seoUrl}
       />
+
       <BreadCumb
         bgimg={brandFromList?.BgImg || '/assets/img/breadcrumb.jpg'}
         Title={dynamicTitle}
         hasOverlay={true}
         customTrail={[{ label: 'Brands', link: '/brands' }, { label: dynamicTitle }]}
       />
+
       <Suspense fallback={<SimpleLoader />}>
         <Section1 data={data} />
         <Section2 data={data.video} />

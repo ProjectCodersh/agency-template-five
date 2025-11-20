@@ -25,6 +25,7 @@ const Work = () => {
 
     return (
         <>
+            {/* BREADCRUMB */}
             <BreadCumb bgimg="/assets/img/breadcrumb.jpg" Title="Work" />
 
             <section className="team-section-3 fix section-padding">

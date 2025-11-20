@@ -45,11 +45,6 @@ export const caseStudiesList = [
     slug: 'fitness-retailer-store',
     BgImg: '/assets/img/casestudy/SplitGrip-casestudy.webp',
   },
-  // {
-  //   title: 'Baseball Bat Store',
-  //   slug: 'baseball-bat-store',
-  //   BgImg: '/assets/img/casestudy/new-imgs/baseball-bat-store-two-6.webp',
-  // },
   {
     slug: 'jcc-site',
     title: 'JCC Site',

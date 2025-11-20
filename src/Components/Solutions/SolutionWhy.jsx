@@ -1,4 +1,3 @@
-// ServiceWhyChoose.jsx
 const SolutionWhy = ({ data }) => {
   if (!data) return null;
 
@@ -11,6 +10,7 @@ const SolutionWhy = ({ data }) => {
     <section className="team-section fix section-padding" style={{ background: '#F6F3FE' }}>
       <div className="container px-3">
         <div className="team-wrapper">
+
           <div className="row g-4">
             <div className="col-lg-6">
               <div className="team-image">
@@ -23,6 +23,7 @@ const SolutionWhy = ({ data }) => {
                 />
               </div>
             </div>
+
             <div className="col-lg-6">
               <div className="team-content">
                 <div className="section-title" id="section-title">
@@ -55,6 +56,7 @@ const SolutionWhy = ({ data }) => {
                         ))}
                       </ul>
                     </div>
+
                     <div className="col-sm-6">
                       <ul>
                         {secondCol.map((item, index) => (
@@ -69,7 +71,6 @@ const SolutionWhy = ({ data }) => {
                     </div>
                   </div>
                 </div>
-                {/* End two-column list */}
               </div>
             </div>
           </div>
@@ -79,7 +80,6 @@ const SolutionWhy = ({ data }) => {
   );
 };
 
-// Reusable SVG Icon
 const Icon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"

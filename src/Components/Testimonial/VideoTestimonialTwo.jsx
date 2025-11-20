@@ -45,7 +45,6 @@ const VideoTestimonialSlickSecond = () => {
     });
   }, []);
 
-  // helper: pause all videos
   const pauseAllVideos = () => {
     const allVideos = document.querySelectorAll('.video-testimonial-slide video');
     allVideos.forEach((v) => {

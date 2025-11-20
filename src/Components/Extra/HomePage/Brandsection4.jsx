@@ -3,7 +3,6 @@ import gmailLogo from '/assets/img/tools/gmail-logo.webp';
 import asanaLogo from '/assets/img/tools/asana-logo.webp';
 import loomLogo from '/assets/img/tools/loom-logo.webp';
 import zoomLogo from '/assets/img/tools/zoom-logo.webp';
-// import googleMeetLogo from '/assets/img/tools/tool5.webp';
 import clickupLogo from '/assets/img/tools/clickup-logo.webp';
 import trelloLogo from '/assets/img/tools/trello-logo.webp';
 import jiraLogo from '/assets/img/tools/jira-logo.webp';
@@ -15,7 +14,6 @@ const Brandsection4 = () => {
     { name: 'Asana', logo: asanaLogo },
     { name: 'Loom', logo: loomLogo },
     { name: 'Zoom', logo: zoomLogo },
-    // { name: 'Google Meet', logo: googleMeetLogo },
   ];
 
   const compatible = [

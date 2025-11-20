@@ -1,5 +1,3 @@
-// import { Link } from "react-router-dom";
-
 const About2 = ({ addclass }) => {
   const aboutContent = {
     img: '/assets/img/about/01.jpg',

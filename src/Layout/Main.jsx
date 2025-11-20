@@ -8,9 +8,9 @@ const Main = () => {
   return (
     <div className="main-page-area">
       <ScrollToTop />
-      <Header1></Header1>
-      <Outlet></Outlet>
-      <Footer1></Footer1>
+      <Header1 />
+      <Outlet />
+      <Footer1 />
       <WhatsAppButton />
     </div>
   );

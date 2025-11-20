@@ -5,7 +5,7 @@ const ServiceDetailsPage = () => {
   return (
     <div>
       <BreadCumb bgimg="/assets/img/breadcrumb.jpg" Title="Service Details"></BreadCumb>
-      <ServiceDetails></ServiceDetails>
+      <ServiceDetails />
     </div>
   );
 };

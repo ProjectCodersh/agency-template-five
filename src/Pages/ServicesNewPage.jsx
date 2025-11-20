@@ -1,4 +1,3 @@
-// src/pages/ServicePage.jsx
 import { useParams } from 'react-router-dom';
 import { useEffect, useState, Suspense } from 'react';
 import { serviceSlugMap } from '../Components/ServicesNew/ServicesIndex';
@@ -60,7 +59,7 @@ export default function ServicePage() {
       <ServiceKeyFeatures data={data.find((d) => d.KeyFeatures)?.KeyFeatures} />
       <ServiceRealWorld data={data.find((d) => d.realworldApp)?.realworldApp} />
       <ServiceTechExcellence data={data.find((d) => d.faqSection)?.faqSection} />
-      <VideoTestimonialSlickSecond></VideoTestimonialSlickSecond>
+      <VideoTestimonialSlickSecond />
     </Suspense>
   );
 }

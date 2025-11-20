@@ -4,7 +4,6 @@ import canvaLogo from '/assets/img/tools/canva-icon.webp';
 import photoshopLogo from '/assets/img/tools/photoshop-icon.webp';
 import adobeLogo from '/assets/img/tools/adobecloud-icon.webp';
 
-// ✅ Reusable Grid Component
 const ToolGrid = ({ tools, cols }) => (
   <div className="row gy-4">
     {tools.map((tool) => (

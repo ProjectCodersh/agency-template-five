@@ -30,7 +30,6 @@ const About1 = () => {
   return (
     <section className="about-section fix section-padding" style={{ backgroundColor: '#f6f3fe' }}>
       <div className="left-shape float-bob-y">
-        {/* <img src="/assets/img/about/left-shape.png" alt="img" /> */}
       </div>
       <div className="container px-3">
         <div className="about-wrapper mt-0">
@@ -55,7 +54,6 @@ const About1 = () => {
                   <img src="/assets/img/about/box-shape.png" alt="img" />
                 </div>
                 <div className="emoji-shape">
-                  {/* <img src="/assets/img/about/emoji.png" alt="img" /> */}
                 </div>
               </div>
             </div>

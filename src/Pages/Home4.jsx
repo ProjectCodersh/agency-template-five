@@ -24,32 +24,26 @@ import HomeImgSlider from '@/Components/ImageSliderNew/HomeImgSlider';
 
 const Home4 = () => {
   return (
-    <div>
+    <>
       <SEO
         title="Unlimited Shopify Services | Scale Your E-Commerce Business with Codersh"
         description="Get unlimited Shopify design, development, and SEO services with CODERSH. Save time, boost sales, and grow your e-commerce store."
         keywords="unlimited Shopify services, Shopify design, Shopify development, Shopify SEO, Shopify agency, Shopify store optimization,"
         url="https://agency-template-five.vercel.app/unlimited-shopify"
       />
-      <HeroBanner4></HeroBanner4>
-      <Brand2></Brand2>
-      <WhatWeDo4></WhatWeDo4>
-      {/* <About4 addclass="about-section-2 fix section-padding"></About4> */}
-      {/* <About3></About3> */}
+
+      <HeroBanner4 />
+      <Brand2 />
+      <WhatWeDo4 />
       <HomeImgSlider />
-      <Counter6></Counter6>
-      <Tools2></Tools2>
-      <Brandsection4></Brandsection4>
-      {/* <BrandSection5></BrandSection5> */}
-      <Brandsection6></Brandsection6>
-      {/* <div className="section-padding3"></div> */}
-      {/* <Testimonial4></Testimonial4> */}
-      <Faq2 addclass="faq-section section-padding2 pb-0"></Faq2>
+      <Counter6 />
+      <Tools2 />
+      <Brandsection4 />
+      <Brandsection6 />
+      <Faq2 addclass="faq-section section-padding2 pb-0" />
       <VideoTestimonialSlick />
-      {/* <VideoTestimonialSlickSecond></VideoTestimonialSlickSecond> */}
-      {/* <div className="section-padding3"></div> */}
-      <ContactInfo1></ContactInfo1>
-    </div>
+      <ContactInfo1 />
+    </>
   );
 };
 

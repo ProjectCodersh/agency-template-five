@@ -97,9 +97,9 @@ const VideoTestimonialSlick = () => {
     slidesToScroll: 1,
     arrows: false,
     swipeToSlide: true,
-    autoplay: false, // removed auto-slide
+    autoplay: false,
     beforeChange: () => {
-      pauseAllVideos(); // pause videos on manual swipe or button click
+      pauseAllVideos();
     },
     responsive: [
       { breakpoint: 1280, settings: { slidesToShow: 4 } },
@@ -146,7 +146,7 @@ const VideoTestimonialSlick = () => {
                           src={slide.src}
                           preload="metadata"
                           playsInline
-                          controlsList="nodownload" // disable download button
+                          controlsList="nodownload"
                         ></video>
                         <div className="play-btn-vr">
                           <svg

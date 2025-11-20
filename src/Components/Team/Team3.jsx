@@ -66,7 +66,6 @@ const Team3 = () => {
       twitter: '#',
       linkedin: '#',
     },
-    // { img: '/assets/img/team/01.jpg', name: 'Aditya Mistry', content: 'FullStack Developer', instagram: '#', facebook: '#', twitter: '#', linkedin: '#' },
   ];
 
   return (

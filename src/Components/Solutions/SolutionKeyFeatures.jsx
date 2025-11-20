@@ -1,4 +1,3 @@
-// ServiceKeyFetures.jsx
 import { useEffect } from 'react';
 import loadBackgroudImages from '../Common/loadBackgroudImages';
 import parse from 'html-react-parser';
@@ -14,7 +13,10 @@ const SolutionKeyFeatures = ({ data }) => {
 
   return (
     <section className="feature-secton section-padding fix">
-      <div className="bg-shape">{/* <img src="/assets/img/bg-shape-2.png" alt="img" /> */}</div>
+      <div className="bg-shape">
+        {/* <img src="/assets/img/bg-shape-2.png" alt="img" /> */}
+      </div>
+
       <div className="container px-3">
         <div className="section-title-area">
           <div className="section-title">

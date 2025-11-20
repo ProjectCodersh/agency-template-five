@@ -16,7 +16,7 @@ function CaseStudyDetailsNew({ data, list = [] }) {
     detailColumns = [],
     resultData = [],
     images = [],
-    slug, // ✅ used to find current index
+    slug,
   } = data;
 
   const currentIndex = list.findIndex((item) => item.slug === slug);
@@ -108,7 +108,6 @@ function CaseStudyDetailsNew({ data, list = [] }) {
                     <div className="details-image">
                       <img
                         src={imgSrc}
-                        // alt={`case-study-img-${index}`}
                         alt={
                           imgSrc
                             ? imgSrc.split('/').pop().split('.')[0].replace(/[-_]/g, ' ')
@@ -124,7 +123,6 @@ function CaseStudyDetailsNew({ data, list = [] }) {
             )}
           </div>
 
-          {/* ✅ Navigation Buttons */}
           <div className="slider-button d-flex align-items-center justify-content-between mt-5">
             <div className="d-flex align-items-center gap-xxl-4 gap-3 gap-2">
               <button

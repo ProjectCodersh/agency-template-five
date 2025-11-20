@@ -4,9 +4,9 @@ import BreadCumb from '../Components/Common/BreadCumb';
 const BlogPage = () => {
   return (
     <div>
-      <BreadCumb bgimg="/assets/img/breadcrumb.jpg" Title="Blog"></BreadCumb>
-      <Blog4></Blog4>
-    </div>
+      <BreadCumb bgimg="/assets/img/breadcrumb.jpg" Title="Blog" />
+      <Blog4 />
+    </div >
   );
 };
 
