@@ -30,12 +30,29 @@ const Team1 = () => {
   ];
 
   return (
-    <>
-      {/* WORK BREADCRUMB */}
-      <BreadCumb bgimg="/assets/img/breadcrumb.jpg" Title="Pricing"></BreadCumb>
-
-      {/* WORK CARDS */}
+    <>      <BreadCumb bgimg="/assets/img/breadcrumb.jpg" Title="Pricing"></BreadCumb>
       <section className="team-section-3 fix section-padding">
+
+        {/* <div className="container px-3">
+          <div className="section-title-area">
+            <div className="section-title">
+              <div className="sub-title wow fadeInUp">
+                <span>OUR WORK</span>
+              </div>
+              <h2 className="wow fadeInUp" data-wow-delay=".3s">
+                Use SEO to Drive Growth <br /> at Your Business
+              </h2>
+            </div>
+            <div className="main-button wow fadeInUp" data-wow-delay=".5s">
+              <Link to="/team">
+                <span className="theme-btn">EXPLORE MORE </span>
+                <span className="arrow-btn">
+                  <i className="bi bi-arrow-up-right"></i>
+                </span>
+              </Link>
+            </div>
+          </div>
+        </div> */}
         <div className="container-fluid">
           <div className="row">
             {teamContent.map((item, i) => (
@@ -49,7 +66,8 @@ const Team1 = () => {
             ))}
           </div>
         </div>
-      </section></>
+      </section>
+    </>
   );
 };
 

@@ -27,7 +27,7 @@ export default function OurWorkdata() {
           boxShadow: '0 0 30px rgba(106, 71, 237, 0.5)', // soft glow/shadow
         }}
       >
-        <div className="project-details-content home-img-slider-section">
+        {/* <div className="project-details-content home-img-slider-section">
           <h3
             className="text-white"
             style={{
@@ -40,7 +40,7 @@ export default function OurWorkdata() {
           >
             Recent Work with Big Brands
           </h3>
-        </div>
+        </div> */}
 
         {/* <div className="section-title">
           <div
@@ -59,6 +59,29 @@ export default function OurWorkdata() {
             Recent work with Big Brands
           </h2>
         </div> */}
+
+        <div className="project-details-content home-img-slider-section section-title d-flex flex-column align-items-center justify-content-center">
+          <div
+            className="sub-title wow fadeInUp"
+            style={{ backgroundColor: 'rgb(246 243 254 / 50%)' }}
+            data-wow-delay=".1s"
+          >
+            <span>Recent Work</span>
+          </div>
+          <h2
+            className="text-white"
+            style={{
+              textAlign: 'center',
+              color: 'white !important',
+              // fontSize: '2rem',
+              // fontWeight: '700',
+              marginBottom: '40px',
+            }}
+          >
+            {/* Recent Work with Big Brands */}
+            Creative Work Portfolio
+          </h2>
+        </div>
 
         <div
           style={{
