@@ -5,61 +5,38 @@ const Team1 = () => {
   const teamContent = [
     {
       img: '/assets/img/work/work1.webp',
-      name: 'Reful Miya',
     },
     {
       img: '/assets/img/work/work2.webp',
-      name: 'Shikhon Islam',
     },
     {
       img: '/assets/img/work/work3.webp',
-      name: 'Abdullah Islam',
     },
     {
       img: '/assets/img/work/work1.webp',
-      name: 'Leslie Alexander',
     },
     {
       img: '/assets/img/work/work2.webp',
-      name: 'Leslie Alexander',
     },
     {
       img: '/assets/img/work/work3.webp',
-      name: 'Leslie Alexander',
     },
   ];
 
   return (
-    <>      <BreadCumb bgimg="/assets/img/breadcrumb.jpg" Title="Pricing"></BreadCumb>
-      <section className="team-section-3 fix section-padding">
+    <>
+      <BreadCumb bgimg="/assets/img/breadcrumb.jpg" Title="Work" />
 
-        {/* <div className="container px-3">
-          <div className="section-title-area">
-            <div className="section-title">
-              <div className="sub-title wow fadeInUp">
-                <span>OUR WORK</span>
-              </div>
-              <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                Use SEO to Drive Growth <br /> at Your Business
-              </h2>
-            </div>
-            <div className="main-button wow fadeInUp" data-wow-delay=".5s">
-              <Link to="/team">
-                <span className="theme-btn">EXPLORE MORE </span>
-                <span className="arrow-btn">
-                  <i className="bi bi-arrow-up-right"></i>
-                </span>
-              </Link>
-            </div>
-          </div>
-        </div> */}
+      <section className="team-section-3 fix section-padding">
         <div className="container-fluid">
           <div className="row">
             {teamContent.map((item, i) => (
-              <div key={i} className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
-                <div className="team-card-items">
-                  <div className="team-image">
-                    <img src={item.img} alt="img" />
+              <div key={i} className="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
+                <div className="team-card-items team-work-card">
+                  <div className="team-image-wrapper">
+                    <div className="team-image">
+                      <img src={item.img} alt="work" />
+                    </div>
                   </div>
                 </div>
               </div>

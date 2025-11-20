@@ -16,7 +16,6 @@
   border: 1px solid #daceff;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
   overflow: visible;
-  /* ✅ changed from hidden */
   padding: 0;
   position: relative;
   display: flex;
@@ -110,7 +109,6 @@
   display: -webkit-box;
   line-clamp: 3;
   -webkit-line-clamp: 3;
-  /* ✅ clamp to 2 lines */
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
