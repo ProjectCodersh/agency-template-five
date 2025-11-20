@@ -140,15 +140,11 @@ const HeroBanner4 = () => {
               </Link>
             </div>
             <div className="main-button">
-              <a
-                href="https://calendly.com/codersh-web-services/15min"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <Link to="/contact-us">
                 <span className="hero-theme-btn-second" style={{ minWidth: '209px' }}>
                   Let&#39;s Collaborate
                 </span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

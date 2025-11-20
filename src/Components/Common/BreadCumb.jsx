@@ -1,4 +1,3 @@
-// BreadCumb.jsx
 import { useEffect } from 'react';
 import loadBackgroudImages from './loadBackgroudImages';
 import { Link } from 'react-router-dom';

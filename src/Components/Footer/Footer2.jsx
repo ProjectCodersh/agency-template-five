@@ -29,13 +29,9 @@ const Footer2 = () => {
               Stay Connected With <br /> Cutting Edge IT
             </h2>
             <div className="main-button wow fadeInUp" data-wow-delay=".5s">
-              <a
-                href="https://calendly.com/codersh-web-services/15min"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <Link to="/contact-us">
                 <span className="theme-btn">Let&#39;s Collaborate</span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -105,10 +101,10 @@ const Footer2 = () => {
                       </Link>
                     </li>
                     <li>
-                      <Link to="/contact-us">
+                      <a href="https://calendly.com/codersh-web-services/15min" target='_blank'>
                         <i className="bi bi-arrow-right"></i>
                         Contact
-                      </Link>
+                      </a>
                     </li>
                   </ul>
                 </div>
