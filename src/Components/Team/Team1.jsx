@@ -6,64 +6,33 @@ const Team1 = () => {
     {
       img: '/assets/img/work/work1.webp',
       name: 'Reful Miya',
-      content: 'CO-Leader',
-      instagram: '#',
-      facebook: '#',
-      twitter: '#',
-      linkedin: '#',
     },
     {
       img: '/assets/img/work/work2.webp',
       name: 'Shikhon Islam',
-      content: 'Web Developer',
-      instagram: '#',
-      facebook: '#',
-      twitter: '#',
-      linkedin: '#',
     },
     {
       img: '/assets/img/work/work3.webp',
       name: 'Abdullah Islam',
-      content: 'Web Development',
-      instagram: '#',
-      facebook: '#',
-      twitter: '#',
-      linkedin: '#',
     },
     {
       img: '/assets/img/work/work1.webp',
       name: 'Leslie Alexander',
-      content: 'Nursing Assistant',
-      instagram: '#',
-      facebook: '#',
-      twitter: '#',
-      linkedin: '#',
     },
     {
       img: '/assets/img/work/work2.webp',
       name: 'Leslie Alexander',
-      content: 'Nursing Assistant',
-      instagram: '#',
-      facebook: '#',
-      twitter: '#',
-      linkedin: '#',
     },
     {
       img: '/assets/img/work/work3.webp',
       name: 'Leslie Alexander',
-      content: 'Nursing Assistant',
-      instagram: '#',
-      facebook: '#',
-      twitter: '#',
-      linkedin: '#',
     },
   ];
 
   return (
-    <>
-      {' '}
-      <BreadCumb bgimg="/assets/img/breadcrumb.jpg" Title="Work"></BreadCumb>
+    <>      <BreadCumb bgimg="/assets/img/breadcrumb.jpg" Title="Pricing"></BreadCumb>
       <section className="team-section-3 fix section-padding">
+
         {/* <div className="container px-3">
           <div className="section-title-area">
             <div className="section-title">
