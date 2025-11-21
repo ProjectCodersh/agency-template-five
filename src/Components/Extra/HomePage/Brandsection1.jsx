@@ -1,12 +1,12 @@
 import React from 'react';
-import gmailLogo from '/assets/img/tools/gmail-logo.webp';
-import asanaLogo from '/assets/img/tools/asana-logo.webp';
-import loomLogo from '/assets/img/tools/loom-logo.webp';
-import zoomLogo from '/assets/img/tools/zoom-logo.webp';
-import clickupLogo from '/assets/img/tools/clickup-logo.webp';
-import trelloLogo from '/assets/img/tools/trello-logo.webp';
-import jiraLogo from '/assets/img/tools/jira-logo.webp';
-import githubLogo from '/assets/img/tools/github-logo.webp';
+import gmailLogo from '/assets/img/tools/thumbnails/gmail-thumbnail.webp';
+import asanaLogo from '/assets/img/tools/thumbnails/asana-thumbnail.webp';
+import loomLogo from '/assets/img/tools/thumbnails/loom-thumbnail.webp';
+import zoomLogo from '/assets/img/tools/thumbnails/zoom-thumbnail.webp';
+import clickupLogo from '/assets/img/tools/thumbnails/clickup-thumbnail.webp';
+import trelloLogo from '/assets/img/tools/thumbnails/trello-thumbnail.webp';
+import jiraLogo from '/assets/img/tools/thumbnails/jira-thumbnail.webp';
+import githubLogo from '/assets/img/tools/thumbnails/github-thumbnail.webp';
 
 const chooseHeading = {
   subtitle: 'Our Services',
@@ -16,35 +16,80 @@ const chooseHeading = {
   plantitle2: 'We are Also compatible with',
 };
 
+// Updated data format
 const recommended = [
-  { name: 'Gmail', logo: gmailLogo },
-  { name: 'Asana', logo: asanaLogo },
-  { name: 'Loom', logo: loomLogo },
-  { name: 'Zoom', logo: zoomLogo },
+  {
+    iconclass: 'fa-brands fa-google',
+    title: 'Gmail',
+    content: 'Email and communication tool',
+    logo: gmailLogo,
+  },
+  {
+    iconclass: 'fa-solid fa-list-check',
+    title: 'Asana',
+    content: 'Task and project management',
+    logo: asanaLogo,
+  },
+  {
+    iconclass: 'fa-solid fa-video',
+    title: 'Loom',
+    content: 'Video messaging platform',
+    logo: loomLogo,
+  },
+  {
+    iconclass: 'fa-solid fa-video',
+    title: 'Zoom',
+    content: 'Online meeting platform',
+    logo: zoomLogo,
+  },
 ];
 
 const compatible = [
-  { name: 'ClickUp', logo: clickupLogo },
-  { name: 'Trello', logo: trelloLogo },
-  { name: 'Jira', logo: jiraLogo },
-  { name: 'GitHub', logo: githubLogo },
+  {
+    iconclass: 'fa-solid fa-diagram-project',
+    title: 'ClickUp',
+    content: 'All-in-one productivity tool',
+    logo: clickupLogo,
+  },
+  {
+    iconclass: 'fa-brands fa-trello',
+    title: 'Trello',
+    content: 'Kanban-based project tracking',
+    logo: trelloLogo,
+  },
+  {
+    iconclass: 'fa-brands fa-jira',
+    title: 'Jira',
+    content: 'Agile project management',
+    logo: jiraLogo,
+  },
+  {
+    iconclass: 'fa-brands fa-github',
+    title: 'GitHub',
+    content: 'Code hosting & collaboration',
+    logo: githubLogo,
+  },
 ];
 
+// New ToolGrid based on your provided structure
 const ToolGrid = ({ tools }) => (
-  <div className="row gy-4 mx-2 mx-md-0">
-    {tools.map((tool) => (
-      <div
-        key={tool.name}
-        className="col-6 col-sm-4 col-md-4 col-lg-3 text-center d-flex align-items-center justify-content-center flex-column"
-      >
-        <img
-          src={tool.logo}
-          alt={tool.name}
-          loading="lazy"
-          className="img-fluid mb-2 brandsection-brands"
-        />
-      </div>
-    ))}
+  <div className="row">
+    {Array.isArray(tools) &&
+      tools.map((item, i) => (
+        <div key={i} className="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay=".3s">
+          <div className="service-box-items text-center flex-column brandsection-box">
+            <div className="d-flex justify-content-center justify-content-md-start service-box-items-icon">
+              <div
+                className="d-flex justify-content-center align-items-center w-100"
+                style={{ fontSize: '40px', color: '#6a47ed', gap: '20px' }}
+              >
+                <img className="brandsection-img" src={item.logo} alt={item.title} />
+                <h3 className="text-center text-md-start">{item.title}</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      ))}
   </div>
 );
 
@@ -60,6 +105,7 @@ const Brandsection1 = () => {
           </div>
         </div>
 
+        {/* Recommended Section */}
         <div className="mb-4">
           <div className="section-title mb-0">
             <div className="sub-title wow fadeInUp my-4" style={{ backgroundColor: '#384bff1a' }}>
@@ -69,6 +115,7 @@ const Brandsection1 = () => {
           <ToolGrid tools={recommended} />
         </div>
 
+        {/* Compatible Section */}
         <div>
           <div className="section-title mb-0">
             <div className="sub-title wow fadeInUp my-4" style={{ backgroundColor: '#384bff1a' }}>

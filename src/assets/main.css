@@ -10461,6 +10461,26 @@ casestudy details breadcrumb dynamic image n text
   transform: scale(1.1);
 }
 
+/* 20-11-2025 */
+/* brandsection pages css */
+.brandsection-img {
+  height: 50px;
+  width: auto;
+}
+.brandsection-box {
+  padding: 30px 20px;
+}
+@media (max-width: 575px) {
+  .brandsection-img {
+    height: 40px;
+    width: auto;
+  }
+  .brandsection-box {
+    padding: 16px;
+  }
+}
+
+
 /* ====== Team Work Card Styles ====== */
 .team-work-card {
   border-radius: 16px;
@@ -10516,3 +10536,5 @@ casestudy details breadcrumb dynamic image n text
     transform: scale(1.08);
   }
 }
+
+ 
