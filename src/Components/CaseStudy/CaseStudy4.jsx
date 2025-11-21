@@ -101,7 +101,6 @@ const CaseStudy4 = () => {
     },
   ];
 
-  // ✅ Pagination logic with session persistence
   const [currentPage, setCurrentPage] = useState(() => {
     const savedPage = sessionStorage.getItem('caseStudyCurrentPage');
     return savedPage ? Number(savedPage) : 1;
@@ -116,7 +115,7 @@ const CaseStudy4 = () => {
   const goToPage = (pageNum) => {
     if (pageNum >= 1 && pageNum <= totalPages) {
       setCurrentPage(pageNum);
-      sessionStorage.setItem('caseStudyCurrentPage', pageNum); // ✅ Save page to session
+      sessionStorage.setItem('caseStudyCurrentPage', pageNum);
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
   };
@@ -160,7 +159,6 @@ const CaseStudy4 = () => {
           ))}
         </div>
 
-        {/* ✅ Custom Pagination using your slider-button design */}
         {totalPages > 1 && (
           <div className="slider-button d-flex align-items-center justify-content-between mt-5">
             {/* Prev */}
@@ -182,9 +180,8 @@ const CaseStudy4 = () => {
               {Array.from({ length: totalPages }, (_, i) => i + 1).map((pageNum) => (
                 <button
                   key={pageNum}
-                  className={`pagination-btn cmn-border d-flex align-items-center justify-content-center rounded-circle cmn-numbers ${
-                    currentPage === pageNum ? 'active' : ''
-                  }`}
+                  className={`pagination-btn cmn-border d-flex align-items-center justify-content-center rounded-circle cmn-numbers ${currentPage === pageNum ? 'active' : ''
+                    }`}
                   onClick={() => goToPage(pageNum)}
                   style={{
                     padding: '0.5rem 1rem',

@@ -10,12 +10,15 @@ import SimpleLoader from '../Components/Loader/NormalLoader';
 const CaseStudyDetails = lazy(
   () => import('../Components/CaseStudyDetailsNew/CaseStudyDetailsNew')
 );
+
 const CaseStudyDetailsSecond = lazy(
   () => import('../Components/CaseStudyDetailsNew/CaseStudyDetailsSecondTemplate')
 );
+
 const CaseStudyDetailsThird = lazy(
   () => import('../Components/CaseStudyDetailsNew/CaseStudyDetailsThree')
 );
+
 const JCCSiteDetails = lazy(() => import('../Components/CaseStudyDetailsNew/JccSiteDetails'));
 
 function CaseStudyDetailsPage() {
@@ -43,10 +46,10 @@ function CaseStudyDetailsPage() {
         setCaseStudyData(null);
       })
       .finally(() => setLoading(false));
+
   }, [slug]);
 
   if (loading) return <SimpleLoader />;
-  // if (!caseStudyData) return <div style={{ padding: '2rem' }}>Case study not found.</div>;
   if (!caseStudyData) return <Error404Page />;
 
   const caseStudyFromList = caseStudiesList.find((item) => item.slug === slug);
@@ -60,12 +63,14 @@ function CaseStudyDetailsPage() {
         keywords={caseStudyData.seo?.keywords}
         url={caseStudyData.seo?.url}
       />
+
       <BreadCumb
         bgimg={caseStudyFromList?.BgImg || '/assets/img/breadcrumb.jpg'}
         Title={dynamicTitle}
         hasOverlay={true}
         customTrail={[{ label: 'Case Study', link: '/case-study' }, { label: dynamicTitle }]}
       />
+
       <Suspense fallback={<SimpleLoader />}>
         {slug === 'jcc-site' ? (
           <JCCSiteDetails />

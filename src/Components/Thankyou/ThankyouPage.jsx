@@ -4,14 +4,14 @@ import team from "/assets/img/team/team1.webp";
 function ThankyouPage() {
     return (
         <div className="thankyou-wrapper">
-            {/* Top spacing */}
+            {/* TOP SPACING */}
             <div className="Brand-breadcrumb">
                 <div className="container">
                     <br /><br /><br />
                 </div>
             </div>
 
-            {/* Main Section */}
+            {/* MAIN SECTION */}
             <div className="section thanku-section-padding">
                 <div className="container text-center">
 

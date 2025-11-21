@@ -29,13 +29,9 @@ const Footer2 = () => {
               Stay Connected With <br /> Cutting Edge IT
             </h2>
             <div className="main-button wow fadeInUp" data-wow-delay=".5s">
-              <a
-                href="https://calendly.com/codersh-web-services/15min"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <Link to="/contact-us">
                 <span className="theme-btn">Let&#39;s Collaborate</span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -62,7 +58,7 @@ const Footer2 = () => {
                         <i className="bi bi-facebook"></i>
                       </a>
                       <a href="https://x.com/CodershWeb/">
-                        <i className="bi bi-twitter"></i>
+                        <i className="bi bi-twitter-x"></i>
                       </a>
                       <a href="https://www.instagram.com/codersh.web/">
                         <i className="bi bi-instagram"></i>
@@ -93,6 +89,12 @@ const Footer2 = () => {
                       </Link>
                     </li>
                     <li>
+                      <Link to="/work">
+                        <i className="bi bi-arrow-right"></i>
+                        Work
+                      </Link>
+                    </li>
+                    <li>
                       <Link to="/case-study">
                         <i className="bi bi-arrow-right"></i>
                         Case Study
@@ -104,63 +106,16 @@ const Footer2 = () => {
                         Pricing
                       </Link>
                     </li>
-                    <li>
-                      <Link to="/contact-us">
-                        <i className="bi bi-arrow-right"></i>
-                        Contact
-                      </Link>
-                    </li>
+                    {/* <li>
+                          <a href="https://calendly.com/codersh-web-services/15min" target='_blank'>
+                            <i className="bi bi-arrow-right"></i>
+                            Contact
+                          </a>
+                        </li> */}
                   </ul>
                 </div>
               </div>
 
-              {/* <div className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".6s">
-                                <div className="single-footer-widget">
-                                    <div className="widget-head">
-                                        <h3>Recent Posts</h3>
-                                    </div>
-                                    <div className="recent-post-area">
-                                        <div className="recent-post-items">
-                                            <div className="thumb">
-                                                <img src="/assets/img/news/pp1.jpg" alt="post-img" />
-                                            </div>
-                                            <div className="content">
-                                                <ul className="post-date">
-                                                    <li>
-                                                        <i className="fa-solid fa-calendar-days me-2"></i>
-                                                        20 Feb, 2024
-                                                    </li>
-                                                </ul>
-                                                <h6>
-                                                    <Link to="/blog/blog-details">
-                                                        Top 5 Most Famous <br />
-                                                        Technology Trend In 2024
-                                                    </Link>
-                                                </h6>
-                                            </div>
-                                        </div>
-                                        <div className="recent-post-items mb-0">
-                                            <div className="thumb">
-                                                <img src="/assets/img/news/pp2.jpg" alt="post-img" />
-                                            </div>
-                                            <div className="content">
-                                                <ul className="post-date">
-                                                    <li>
-                                                        <i className="fa-solid fa-calendar-days me-2"></i>
-                                                        15 Dec, 2024
-                                                    </li>
-                                                </ul>
-                                                <h6>
-                                                    <Link to="/blog/blog-details">
-                                                        The Surfing Man Will Blow <br />
-                                                        Your Mind
-                                                    </Link>
-                                                </h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> */}
               <div className="col-xl-4 col-lg-4 col-md-6 ps-xl-5 wow fadeInUp" data-wow-delay=".8s">
                 <div className="single-footer-widget">
                   <div className="widget-head">
@@ -177,7 +132,7 @@ const Footer2 = () => {
                         <a href="tel:+9998134094">+91 99981 34094</a>
                       </li>
 
-                      {/* India Address */}
+                      {/* INDIA ADDRESS */}
                       <li style={{ display: 'flex', alignItems: 'flex-start' }}>
                         <img
                           src="/assets/img/india.svg"
@@ -189,6 +144,7 @@ const Footer2 = () => {
                             marginTop: '8px',
                           }}
                         />
+
                         <div>
                           <strong>INDIA:</strong>
                           <div style={{ color: 'white' }}>
@@ -206,7 +162,7 @@ const Footer2 = () => {
                         </div>
                       </li>
 
-                      {/* USA Address */}
+                      {/* USA ADDRESS */}
                       <li style={{ display: 'flex', alignItems: 'flex-start', marginTop: '8px' }}>
                         <img
                           src="/assets/img/united-states.svg"
@@ -235,25 +191,13 @@ const Footer2 = () => {
                         </div>
                       </li>
                     </ul>
-
-                    {/* <div className="footer-input">
-                                            <input type="email" id="email2" placeholder="Your email address" />
-                                            <button className="newsletter-btn" type="submit">
-                                                <i className="bi bi-arrow-right"></i>
-                                            </button>
-                                        </div>
-                                        <div className="form-check">
-                                            <input className="form-check-input" type="checkbox" id="flexCheckChecked" />
-                                            <label className="form-check-label" htmlFor="flexCheckChecked">
-                                                I agree to the <a href="#">Privacy Policy.</a>
-                                            </label>
-                                        </div> */}
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+
         <div className="footer-bottom">
           <div className="container px-3">
             <div className="footer-wrapper d-flex align-items-center justify-content-center">
@@ -270,6 +214,7 @@ const Footer2 = () => {
             <i className="bi bi-arrow-up"></i>
           </a>
         </div>
+
       </section>
     </div>
   );

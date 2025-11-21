@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
-// import projectData from '/assets/data/homeimgslider/homeimgslider.json'; // ✅ Import JSON data
 
 export default function OurWorkdata() {
   const [projectData, setProjectData] = useState([]);
@@ -20,11 +19,11 @@ export default function OurWorkdata() {
           position: 'relative',
           width: '100%',
           padding: '60px 0',
-          background: 'rgba(106, 71, 237, 0.5)', // translucent dark background
-          backdropFilter: 'blur(10px)', // actual blur effect
-          WebkitBackdropFilter: 'blur(10px)', // for Safari
+          background: 'rgba(106, 71, 237, 0.5)',
+          backdropFilter: 'blur(10px)',
+          WebkitBackdropFilter: 'blur(10px)',
           borderRadius: '20px',
-          boxShadow: '0 0 30px rgba(106, 71, 237, 0.5)', // soft glow/shadow
+          boxShadow: '0 0 30px rgba(106, 71, 237, 0.5)',
         }}
       >
         {/* <div className="project-details-content home-img-slider-section">
@@ -73,12 +72,9 @@ export default function OurWorkdata() {
             style={{
               textAlign: 'center',
               color: 'white !important',
-              // fontSize: '2rem',
-              // fontWeight: '700',
               marginBottom: '40px',
             }}
           >
-            {/* Recent Work with Big Brands */}
             Creative Work Portfolio
           </h2>
         </div>

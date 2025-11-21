@@ -11,9 +11,10 @@ const ContactPage = () => {
         keywords="contact Codersh, web development contact, WordPress agency contact, Shopify agency contact, Ahmedabad web design company, get in touch Codersh"
         url="https://agency-template-five.vercel.app/contact-us"
       />
-      <BreadCumb bgimg="/assets/img/breadcrumb.jpg" Title="Contact"></BreadCumb>
-      <ContactInfo2></ContactInfo2>
-    </div>
+
+      <BreadCumb bgimg="/assets/img/breadcrumb.jpg" Title="Contact" />
+      <ContactInfo2 />
+    </div >
   );
 };
 

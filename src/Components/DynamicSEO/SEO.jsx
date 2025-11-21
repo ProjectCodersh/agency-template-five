@@ -1,4 +1,3 @@
-// import React from 'react';
 import { Title, Meta, Link } from 'react-head';
 
 export default function SEO({ title, description, keywords, url, image }) {

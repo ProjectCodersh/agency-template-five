@@ -23,8 +23,8 @@ const Services1 = () => {
   return (
     <section className="service-section fix section-bg section-padding pt-0">
       <div className="bg-shape-2">
-        {/* <img src="/assets/img/service/bg-shape-2.png" alt="img" /> */}
       </div>
+
       <div className="container px-3">
         <div className="section-title-area">
           <div className="section-title">
@@ -45,6 +45,7 @@ const Services1 = () => {
             </Link>
           </div>
         </div>
+
         <div className="row">
           {chooseContent.map((item, i) => (
             <div key={i} className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
@@ -65,6 +66,7 @@ const Services1 = () => {
             </div>
           ))}
         </div>
+
       </div>
     </section>
   );

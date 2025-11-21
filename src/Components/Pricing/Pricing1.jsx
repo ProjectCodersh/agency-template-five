@@ -9,9 +9,11 @@ const Pricing1 = ({ CoulmnClass }) => {
       <div className="left-shape float-bob-y">
         <img src="/assets/img/pricing-left.png" alt="img" />
       </div>
+
       <div className="right-shape float-bob-y">
         <img src="/assets/img/pricing-right.png" alt="img" />
       </div>
+
       <div className="container px-3">
         <div className="row">
           <div className="col-xl-4">
@@ -24,10 +26,12 @@ const Pricing1 = ({ CoulmnClass }) => {
                   Our awesome <br /> Pricing Plan
                 </h2>
               </div>
+
               <div className="pricing-tab-header mt-4 mt-md-0">
                 <div className="arrow-shape">
                   <img src="/assets/img/arrow.png" alt="img" />
                 </div>
+
                 <ul className="nav" role="tablist">
                   <li
                     className={`nav-item wow fadeInUp ${isActive === 'monthly' ? 'active' : ''}`}
@@ -45,6 +49,7 @@ const Pricing1 = ({ CoulmnClass }) => {
                       Monthly
                     </a>
                   </li>
+
                   <li
                     className={`nav-item ${isActive === 'yearly' ? 'active' : ''}`}
                     onClick={() => setIsActive('yearly')}
@@ -62,11 +67,13 @@ const Pricing1 = ({ CoulmnClass }) => {
                       Yearly
                     </a>
                   </li>
+
                 </ul>
                 <div className="save-text">Save 25%</div>
               </div>
             </div>
           </div>
+
           <div className="col-xl-8">
             <div className="tab-content">
               <div
@@ -94,6 +101,7 @@ const Pricing1 = ({ CoulmnClass }) => {
                       btnname="Get Started Now"
                     ></PricingCard>
                   </div>
+
                   <div className="col-xl-6 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
                     <PricingCard
                       addclass="pricing-box-items style-2"
@@ -115,6 +123,7 @@ const Pricing1 = ({ CoulmnClass }) => {
                   </div>
                 </div>
               </div>
+
               <div
                 id="yearly"
                 className={`tab-pane ${isActive === 'yearly' ? 'active' : ''}`}

@@ -22,7 +22,9 @@ const CaseStudy1 = () => {
       <div className="right-shape float-bob-x">
         {/* <img src="/assets/img/case-studies/right-shaape.png" alt="img" /> */}
       </div>
+
       <div className="container px-3">
+
         <div className="section-title-area">
           <div className="section-title">
             <div className="sub-title wow fadeInUp">
@@ -33,6 +35,7 @@ const CaseStudy1 = () => {
               Marketing Agency
             </h2>
           </div>
+
           <div className="main-button wow fadeInUp" data-wow-delay=".5s">
             <Link to="/about">
               {' '}
@@ -42,6 +45,7 @@ const CaseStudy1 = () => {
               </span>
             </Link>
           </div>
+
         </div>
         <div className="case-study-wrapper">
           <div className="row">

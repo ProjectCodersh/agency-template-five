@@ -1,4 +1,3 @@
-// === ServiceCard.jsx ===
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
@@ -11,8 +10,6 @@ const ServiceCard = ({ service, index }) => {
     >
       <div className="svc-header-tag">{service.headertag}</div>
       <div className="page-speed-badge">
-        {/* <span className="icon">⚡</span>
-                PageSpeed <span className="score">99</span> */}
         <span className="icon">
           <img
             src="/assets/img/check-mark.png"
@@ -35,8 +32,7 @@ const ServiceCard = ({ service, index }) => {
         <p className="svc-description">{service.servicedescription}</p>
         <Link
           className="svc-btn"
-          to="/services" // Adjust this path as needed
-          // to={`/services/${service.slug}`}
+          to="/services"
           aria-label={service.servicebtn}
         >
           {service.servicebtn}

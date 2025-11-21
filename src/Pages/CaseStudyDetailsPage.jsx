@@ -4,9 +4,9 @@ import BreadCumb from '../Components/Common/BreadCumb';
 const CaseStudyDetailsPage = () => {
   return (
     <div>
-      <BreadCumb bgimg="/assets/img/breadcrumb.jpg" Title="Case study Details"></BreadCumb>
-      <CaseStudyDetails></CaseStudyDetails>
-    </div>
+      <BreadCumb bgimg="/assets/img/breadcrumb.jpg" Title="Case study Details" />
+      <CaseStudyDetails />
+    </div >
   );
 };
 

@@ -8,84 +8,103 @@ const Marquee1 = () => {
               <img src="/assets/img/star.png" alt="img" />
               THE BEST SOULTION
             </div>
+
             <div className="cmn-textslide">
               <img src="/assets/img/star.png" alt="img" />
               THE BEST SOULTION
             </div>
+
             <div className="cmn-textslide">
               <img src="/assets/img/star.png" alt="img" />
               THE BEST SOULTION
             </div>
+
             <div className="cmn-textslide">
               <img src="/assets/img/star.png" alt="img" />
               THE BEST SOULTION
             </div>
-            <div className="cmn-textslide">
-              <img src="/assets/img/star.png" alt="img" />
-              THE BEST SOULTION
-            </div>
-          </div>
-          <div className="comm">
-            <div className="cmn-textslide">
-              <img src="/assets/img/star.png" alt="img" />
-              THE BEST SOULTION
-            </div>
-            <div className="cmn-textslide">
-              <img src="/assets/img/star.png" alt="img" />
-              THE BEST SOULTION
-            </div>
-            <div className="cmn-textslide">
-              <img src="/assets/img/star.png" alt="img" />
-              THE BEST SOULTION
-            </div>
-            <div className="cmn-textslide">
-              <img src="/assets/img/star.png" alt="img" />
-              THE BEST SOULTION
-            </div>
+
             <div className="cmn-textslide">
               <img src="/assets/img/star.png" alt="img" />
               THE BEST SOULTION
             </div>
           </div>
+
           <div className="comm">
             <div className="cmn-textslide">
               <img src="/assets/img/star.png" alt="img" />
               THE BEST SOULTION
             </div>
+
             <div className="cmn-textslide">
               <img src="/assets/img/star.png" alt="img" />
               THE BEST SOULTION
             </div>
+
             <div className="cmn-textslide">
               <img src="/assets/img/star.png" alt="img" />
               THE BEST SOULTION
             </div>
+
             <div className="cmn-textslide">
               <img src="/assets/img/star.png" alt="img" />
               THE BEST SOULTION
             </div>
+
             <div className="cmn-textslide">
               <img src="/assets/img/star.png" alt="img" />
               THE BEST SOULTION
             </div>
           </div>
+
           <div className="comm">
             <div className="cmn-textslide">
               <img src="/assets/img/star.png" alt="img" />
               THE BEST SOULTION
             </div>
+
             <div className="cmn-textslide">
               <img src="/assets/img/star.png" alt="img" />
               THE BEST SOULTION
             </div>
+
             <div className="cmn-textslide">
               <img src="/assets/img/star.png" alt="img" />
               THE BEST SOULTION
             </div>
+
             <div className="cmn-textslide">
               <img src="/assets/img/star.png" alt="img" />
               THE BEST SOULTION
             </div>
+
+            <div className="cmn-textslide">
+              <img src="/assets/img/star.png" alt="img" />
+              THE BEST SOULTION
+            </div>
+          </div>
+
+          <div className="comm">
+            <div className="cmn-textslide">
+              <img src="/assets/img/star.png" alt="img" />
+              THE BEST SOULTION
+            </div>
+
+            <div className="cmn-textslide">
+              <img src="/assets/img/star.png" alt="img" />
+              THE BEST SOULTION
+            </div>
+
+            <div className="cmn-textslide">
+              <img src="/assets/img/star.png" alt="img" />
+              THE BEST SOULTION
+            </div>
+
+            <div className="cmn-textslide">
+              <img src="/assets/img/star.png" alt="img" />
+              THE BEST SOULTION
+            </div>
+
             <div className="cmn-textslide">
               <img src="/assets/img/star.png" alt="img" />
               THE BEST SOULTION
@@ -93,6 +112,7 @@ const Marquee1 = () => {
           </div>
         </div>
       </div>
+
       <div className="mycustom-marque style-3">
         <div className="scrolling-wrap">
           <div className="comm">
@@ -100,84 +120,103 @@ const Marquee1 = () => {
               <img src="/assets/img/star.png" alt="img" />
               THE BEST SOULTION
             </div>
+
             <div className="cmn-textslide">
               <img src="/assets/img/star.png" alt="img" />
               THE BEST SOULTION
             </div>
+
             <div className="cmn-textslide">
               <img src="/assets/img/star.png" alt="img" />
               THE BEST SOULTION
             </div>
+
             <div className="cmn-textslide">
               <img src="/assets/img/star.png" alt="img" />
               THE BEST SOULTION
             </div>
-            <div className="cmn-textslide">
-              <img src="/assets/img/star.png" alt="img" />
-              THE BEST SOULTION
-            </div>
-          </div>
-          <div className="comm">
-            <div className="cmn-textslide">
-              <img src="/assets/img/star.png" alt="img" />
-              THE BEST SOULTION
-            </div>
-            <div className="cmn-textslide">
-              <img src="/assets/img/star.png" alt="img" />
-              THE BEST SOULTION
-            </div>
-            <div className="cmn-textslide">
-              <img src="/assets/img/star.png" alt="img" />
-              THE BEST SOULTION
-            </div>
-            <div className="cmn-textslide">
-              <img src="/assets/img/star.png" alt="img" />
-              THE BEST SOULTION
-            </div>
+
             <div className="cmn-textslide">
               <img src="/assets/img/star.png" alt="img" />
               THE BEST SOULTION
             </div>
           </div>
+
           <div className="comm">
             <div className="cmn-textslide">
               <img src="/assets/img/star.png" alt="img" />
               THE BEST SOULTION
             </div>
+
             <div className="cmn-textslide">
               <img src="/assets/img/star.png" alt="img" />
               THE BEST SOULTION
             </div>
+
             <div className="cmn-textslide">
               <img src="/assets/img/star.png" alt="img" />
               THE BEST SOULTION
             </div>
+
             <div className="cmn-textslide">
               <img src="/assets/img/star.png" alt="img" />
               THE BEST SOULTION
             </div>
+
             <div className="cmn-textslide">
               <img src="/assets/img/star.png" alt="img" />
               THE BEST SOULTION
             </div>
           </div>
+
           <div className="comm">
             <div className="cmn-textslide">
               <img src="/assets/img/star.png" alt="img" />
               THE BEST SOULTION
             </div>
+
             <div className="cmn-textslide">
               <img src="/assets/img/star.png" alt="img" />
               THE BEST SOULTION
             </div>
+
             <div className="cmn-textslide">
               <img src="/assets/img/star.png" alt="img" />
               THE BEST SOULTION
             </div>
+
             <div className="cmn-textslide">
               <img src="/assets/img/star.png" alt="img" />
               THE BEST SOULTION
             </div>
+
+            <div className="cmn-textslide">
+              <img src="/assets/img/star.png" alt="img" />
+              THE BEST SOULTION
+            </div>
+          </div>
+
+          <div className="comm">
+            <div className="cmn-textslide">
+              <img src="/assets/img/star.png" alt="img" />
+              THE BEST SOULTION
+            </div>
+
+            <div className="cmn-textslide">
+              <img src="/assets/img/star.png" alt="img" />
+              THE BEST SOULTION
+            </div>
+
+            <div className="cmn-textslide">
+              <img src="/assets/img/star.png" alt="img" />
+              THE BEST SOULTION
+            </div>
+
+            <div className="cmn-textslide">
+              <img src="/assets/img/star.png" alt="img" />
+              THE BEST SOULTION
+            </div>
+
             <div className="cmn-textslide">
               <img src="/assets/img/star.png" alt="img" />
               THE BEST SOULTION

@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import { FaWhatsapp } from 'react-icons/fa';
-import '../../assets/WhatsAppButton.css'; // Ensure you have the appropriate CSS for styling
+import '../../assets/WhatsAppButton.css';
 
 const WhatsAppButton = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -9,7 +9,6 @@ const WhatsAppButton = () => {
   const message = 'Hello, I want to inquire about your services.';
 
   useEffect(() => {
-    // Only run this client-side
     if (typeof navigator !== 'undefined') {
       setIsMobile(/iPhone|Android|iPad/i.test(navigator.userAgent));
     }

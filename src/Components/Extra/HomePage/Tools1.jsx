@@ -57,7 +57,6 @@ function Tools1() {
     list37: 'Webmail / Outlook Setup',
   };
 
-  // Grouped service data for each column
   const serviceGroups = [
     {
       title: sectionHead.plantitle1,
@@ -154,7 +153,8 @@ function Tools1() {
         </div>
       </div>
 
-      <style>{`
+      <style>
+        {`
                 .masonry-grid {
                     column-count: 1;
                     column-gap: 2rem;
@@ -199,7 +199,8 @@ function Tools1() {
                     color: #6A47ED;
                     font-weight: bold;
                 }
-            `}</style>
+            `}
+      </style>
     </section>
   );
 }

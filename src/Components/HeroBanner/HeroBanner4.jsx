@@ -133,18 +133,15 @@ const HeroBanner4 = () => {
             data-wow-delay=".4s"
           >
             <div className="main-button">
-              <Link to="/pricing">
+              <Link to="/work">
                 <span className="hero-theme-btn" style={{ minWidth: '209px' }}>
-                  GET A FREE QUOTE
+                  View Our Work
                 </span>
               </Link>
             </div>
+
             <div className="main-button">
-              <a
-                href="https://calendly.com/codersh-web-services/15min"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href="https://calendly.com/codersh-web-services/15min" target='_blank' rel='noopener noreferrer'>
                 <span className="hero-theme-btn-second" style={{ minWidth: '209px' }}>
                   Let&#39;s Collaborate
                 </span>

@@ -38,11 +38,7 @@ const Footer1 = () => {
               Stay Connected With <br /> Cutting Edge IT
             </h2>
             <div className="main-button wow fadeInUp" data-wow-delay=".5s">
-              <a
-                href="https://calendly.com/codersh-web-services/15min"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href="https://calendly.com/codersh-web-services/15min" target='_blank'>
                 <span className="theme-btn">Let&#39;s Collaborate</span>
               </a>
             </div>
@@ -61,17 +57,19 @@ const Footer1 = () => {
                       <img src="/assets/img/logo/Vector.svg" alt="img" />
                     </a>
                   </div>
+
                   <div className="footer-content">
                     <p>
                       We are a web design and development company aiming to provide high quality
                       website development to its clients.
                     </p>
+
                     <div className="social-icon d-flex align-items-center">
                       <a href="https://www.facebook.com/Codershweb/">
                         <i className="bi bi-facebook"></i>
                       </a>
                       <a href="https://x.com/CodershWeb/">
-                        <i className="bi bi-twitter"></i>
+                        <i className="bi bi-twitter-x"></i>
                       </a>
                       <a href="https://www.instagram.com/codersh.web/">
                         <i className="bi bi-instagram"></i>
@@ -80,9 +78,11 @@ const Footer1 = () => {
                         <i className="bi bi-linkedin"></i>
                       </a>
                     </div>
+
                   </div>
                 </div>
               </div>
+
               <div className="col-xl-4 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp" data-wow-delay=".4s">
                 <div className="single-footer-widget">
                   <div className="widget-head">
@@ -102,6 +102,12 @@ const Footer1 = () => {
                       </Link>
                     </li>
                     <li>
+                      <Link to="/work">
+                        <i className="bi bi-arrow-right"></i>
+                        Work
+                      </Link>
+                    </li>
+                    <li>
                       <Link to="/case-study">
                         <i className="bi bi-arrow-right"></i>
                         Case Study
@@ -113,12 +119,14 @@ const Footer1 = () => {
                         Pricing
                       </Link>
                     </li>
-                    <li>
-                      <Link to="/contact-us">
-                        <i className="bi bi-arrow-right"></i>
-                        Contact
-                      </Link>
-                    </li>
+                    {/* <li>
+                      <li>
+                        <a href="https://calendly.com/codersh-web-services/15min" target='_blank'>
+                          <i className="bi bi-arrow-right"></i>
+                          Contact
+                        </a>
+                      </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>
@@ -128,6 +136,7 @@ const Footer1 = () => {
                   <div className="widget-head">
                     <h3>Contact Us</h3>
                   </div>
+
                   <div className="footer-content">
                     <ul className="contact-info">
                       <li>
@@ -151,6 +160,7 @@ const Footer1 = () => {
                             marginTop: '8px',
                           }}
                         />
+
                         <div>
                           <strong>INDIA:</strong>
                           <div style={{ color: 'white' }}>
@@ -168,7 +178,7 @@ const Footer1 = () => {
                         </div>
                       </li>
 
-                      {/* USA Address */}
+                      {/* USA ADDRESS */}
                       <li style={{ display: 'flex', alignItems: 'flex-start', marginTop: '8px' }}>
                         <img
                           src="/assets/img/united-states.svg"
@@ -180,6 +190,7 @@ const Footer1 = () => {
                             marginTop: '8px',
                           }}
                         />
+
                         <div>
                           <strong>USA:</strong>
                           <div style={{ color: 'white' }}>
@@ -195,6 +206,7 @@ const Footer1 = () => {
                             </a>
                           </div>
                         </div>
+
                       </li>
                     </ul>
                   </div>
@@ -216,9 +228,11 @@ const Footer1 = () => {
               </p>
             </div>
           </div>
+
           <button onClick={handleScrollToTop} id="scrollUp" className="scroll-icon" title="Scroll to top">
             <i className="bi bi-arrow-up"></i>
           </button>
+
         </div>
       </section>
     </div>

@@ -78,6 +78,7 @@ const Testimonial3 = () => {
           <div className="client-4">
             <img src="/assets/img/testimonial/09.png" alt="img" />
           </div>
+
           <div className="swiper testimonial-slider-2">
             <div className="swiper-wrapper">
               <Slider {...settings}>
@@ -103,6 +104,7 @@ const Testimonial3 = () => {
               </Slider>
             </div>
           </div>
+
         </div>
       </div>
     </section>

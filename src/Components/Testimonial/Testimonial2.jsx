@@ -126,6 +126,7 @@ const Testimonial2 = () => {
                     </Slider>
                   </div>
                 </div>
+
                 <div className="array-button">
                   <button onClick={previous} className="array-prev">
                     <i className="bi bi-arrow-up"></i>
@@ -134,6 +135,7 @@ const Testimonial2 = () => {
                     <i className="bi bi-arrow-down"></i>
                   </button>
                 </div>
+
               </div>
             </div>
           </div>

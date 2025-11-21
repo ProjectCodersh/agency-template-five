@@ -8221,10 +8221,10 @@ input.main-search-input::placeholder {
   opacity: 1;
   visibility: visible;
 }
-
+/* 
 .team-card-items .team-image {
   padding: 12px 12px 12px 12px;
-}
+} */
 
 .team-card-items .team-image img {
   width: 100%;
@@ -10415,12 +10415,12 @@ casestudy details breadcrumb dynamic image n text
   }
 }
 
-/* ===== breadcrumb margin-top for layout-2 ===== */
 @media (min-width: 1200px) {
   .breadcrumb-wrapper-margin-top {
     margin-top: 60px;
   }
 }
+
 /* ======= Error Page Css ======= */
 .error-page-hero-content {
   display: flex;
@@ -10445,7 +10445,6 @@ casestudy details breadcrumb dynamic image n text
   }
 }
 
-/* simple loader css */
 .loader-container {
   display: flex;
   justify-content: center;
@@ -10453,9 +10452,6 @@ casestudy details breadcrumb dynamic image n text
   height: 100px;
 }
 
-/* === 29/8/25 new changes === */
-
-/* pagebuilder img hover effect */
 .pagebuilder-hover-effect {
   transform: scale(1);
   transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
@@ -10483,3 +10479,62 @@ casestudy details breadcrumb dynamic image n text
     padding: 16px;
   }
 }
+
+
+/* ====== Team Work Card Styles ====== */
+.team-work-card {
+  border-radius: 16px;
+  transition: all 0.4s ease-in-out;
+  position: relative;
+  background: var(--white);
+  box-shadow:
+    rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  border: 12px solid var(--bg);
+  overflow: visible !important;
+  transition: all 0.5s ease-in-out;
+}
+
+.team-image-wrapper {
+  position: relative;
+  overflow: visible !important;
+}
+
+.team-card-items .team-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+}
+
+.team-work-card:hover {
+  transform: scale(1.05);
+}
+
+.team-info-overlay {
+  display: none;
+}
+
+.team-member-name {
+  display: none;
+}
+
+@media (max-width: 1199px) {
+  .team-work-card:hover .team-image img {
+    transform: scale(1.1);
+  }
+}
+
+@media (max-width: 767px) {
+  .team-work-card {
+    border-radius: 12px;
+  }
+
+  .team-work-card:hover .team-image img {
+    transform: scale(1.08);
+  }
+}
+
+ 

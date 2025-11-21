@@ -1,4 +1,3 @@
-// === ServicesCards.jsx ===
 import { useEffect, useState, memo, useCallback } from 'react';
 import axios from 'axios';
 import ServiceCard from './ServicesCard';

@@ -73,6 +73,7 @@ const HeroBanner1 = () => {
 
           <div className="col-12">
             <div className="client-items d-flex justify-content-center align-items-center flex-wrap gap-3">
+
               <div className="clutchreview">
                 <a
                   href="https://clutch.co/profile/codersh-web-services"
@@ -99,6 +100,7 @@ const HeroBanner1 = () => {
                   <span className="d-block mt-0 mt-md-1 text-white">{heroContent.review}</span>
                 </div>
               </div>
+
             </div>
           </div>
 
@@ -107,23 +109,21 @@ const HeroBanner1 = () => {
             data-wow-delay=".4s"
           >
             <div className="main-button">
-              <Link to="/pricing">
+              <Link to="/work">
                 <span className="hero-theme-btn" style={{ minWidth: '209px' }}>
-                  GET A FREE QUOTE
+                  View Our Work
                 </span>
               </Link>
             </div>
+
             <div className="main-button">
-              <a
-                href="https://calendly.com/codersh-web-services/15min"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href="https://calendly.com/codersh-web-services/15min" target='_blank' rel='noopener noreferrer'>
                 <span className="hero-theme-btn-second" style={{ minWidth: '209px' }}>
                   Let&#39;s Collaborate
                 </span>
               </a>
             </div>
+
           </div>
         </div>
       </div>

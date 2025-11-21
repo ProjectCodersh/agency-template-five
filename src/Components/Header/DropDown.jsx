@@ -1,7 +1,6 @@
 import { useState } from 'react';
 
 export default function DropDown({ children }) {
-  // Mobile Toggle
   const [mobileToggle, setMobileToggle] = useState(false);
   const handelMobileToggle = () => {
     setMobileToggle(!mobileToggle);

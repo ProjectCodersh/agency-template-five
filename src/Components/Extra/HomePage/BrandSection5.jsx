@@ -7,8 +7,6 @@ import blueHostLogo from '/assets/img/tools/bluehost-logo.png';
 import kinstaLogo from '/assets/img/tools/kinsta-logo.png';
 import namecheapLogo from '/assets/img/tools/namecheap-logo.png';
 import onetwothreeRegLogo from '/assets/img/tools/123reg-logo.png';
-// import ionosLogo from "/assets/img/tools/tool18.png";
-// import hostgatorLogo from "/assets/img/tools/tool19.png";
 
 const BrandSection5 = () => {
   const recommended = [
@@ -16,7 +14,6 @@ const BrandSection5 = () => {
     { name: 'Flywheel', logo: flyWheelLogo },
     { name: 'HighLevel', logo: HighLevelLogo },
     { name: 'Hostinger', logo: HostingerLogo },
-    // { name: "Hostinger", logo: HostingerLogo },
   ];
 
   const compatible = [

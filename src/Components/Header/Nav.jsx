@@ -1,5 +1,3 @@
-// import React, { useState } from "react";
-// import DropDown from "./DropDown";
 import { Link, useLocation } from 'react-router-dom';
 
 const Nav = ({ setMobileToggle, headerType }) => {
@@ -16,6 +14,7 @@ const Nav = ({ setMobileToggle, headerType }) => {
             Unlimited Wordpress
           </Link>
         </li>
+
         <li>
           <Link
             to="/unlimited-shopify"
@@ -25,6 +24,17 @@ const Nav = ({ setMobileToggle, headerType }) => {
             Unlimited Shopify
           </Link>
         </li>
+
+        <li>
+          <Link
+            to="/work"
+            onClick={() => setMobileToggle(false)}
+            className={getActiveClass('/unlimited-shopify')}
+          >
+            Work
+          </Link>
+        </li>
+
         <li>
           <Link
             to="/case-study"
@@ -34,6 +44,7 @@ const Nav = ({ setMobileToggle, headerType }) => {
             Case Study
           </Link>
         </li>
+
         <li>
           <Link
             to="/pricing"
@@ -43,12 +54,13 @@ const Nav = ({ setMobileToggle, headerType }) => {
             Pricing
           </Link>
         </li>
+
         <div className="main-button d-flex d-xl-none">
-          <Link to="/contact-us" className="px-2">
-            {' '}
-            <span className="theme-btn-contact"> Contact Us </span>
-          </Link>
+          <a href="https://calendly.com/codersh-web-services/15min" target='_blank' rel='noopener noreferrer'>
+            <span className="theme-btn-contact">Free Consultation</span>
+          </a>
         </div>
+
       </ul>
     </>
   );

@@ -40,27 +40,26 @@ export default function Header1({ variant }) {
   }, []);
 
   useEffect(() => {
-    setMobileToggle(false); // Close menu on route change
+    setMobileToggle(false);
   }, [location.pathname]);
 
   return (
     <div>
       <header
-        className={`cs_site_header header_style_2 cs_style_1 header_sticky_style1 ${
-          variant ? variant : ''
-        } cs_sticky_header cs_site_header_full_width ${
-          mobileToggle ? 'cs_mobile_toggle_active' : ''
-        } ${isSticky ? isSticky : ''}`}
-        // style={{ backdropFilter: "blur(15px)" }}
+        className={`cs_site_header header_style_2 cs_style_1 header_sticky_style1 ${variant ? variant : ''
+          } cs_sticky_header cs_site_header_full_width ${mobileToggle ? 'cs_mobile_toggle_active' : ''
+          } ${isSticky ? isSticky : ''}`}
       >
         <div className="cs_main_header">
           <div className="container px-3">
             <div className="cs_main_header_in">
+
               <div className="cs_main_header_left">
                 <Link className="cs_site_branding" to="/">
                   <img src="/assets/img/logo/Vector.svg" alt="Logo" className="agencyLogo" />
                 </Link>
               </div>
+
               <div className="cs_main_header_center">
                 <div className="cs_nav cs_primary_font fw-medium" ref={navRef}>
                   <span
@@ -72,16 +71,16 @@ export default function Header1({ variant }) {
                   <Nav setMobileToggle={setMobileToggle} headerType="header1" />
                 </div>
               </div>
+
               <div className="cs_main_header_right">
                 <div className="header-btn d-flex align-items-center">
-                  {/* <a onClick={() => setSearchToggle(!searchToggle)} className="search-trigger search-icon"><i className="bi bi-search"></i></a> */}
 
                   <div className="main-button">
-                    <Link to="/contact-us">
-                      {' '}
-                      <span className="theme-btn"> Contact Us </span>
-                    </Link>
+                    <a href="https://calendly.com/codersh-web-services/15min" target='_blank' rel='noopener noreferrer'>
+                      <span className="theme-btn">Free Consultation</span>
+                    </a>
                   </div>
+
                 </div>
               </div>
             </div>

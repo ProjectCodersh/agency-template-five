@@ -18,6 +18,7 @@ import AboutPage from '../Pages/AboutPage';
 import FaqPage from '../Pages/FaqPage';
 import ThankyouPage from '../Components/Thankyou/ThankyouPage';
 import Team1 from '../Components/Team/Team1';
+import Work from '../Components/Work/Work';
 // import Testimonials from "../Pages/Testimonials";
 // import Casestudies from "../Pages/CaseStudyPageNew";
 // import Solutions from "../Pages/Solutions";
@@ -34,7 +35,7 @@ import Team1 from '../Components/Team/Team1';
 export const router = createBrowserRouter([
   {
     path: '/',
-    element: <Layout2></Layout2>,
+    element: <Layout2 />,
     children: [
       // {
       //   path: "/team/team-details",
@@ -70,51 +71,51 @@ export const router = createBrowserRouter([
       // },
       {
         path: '/about',
-        element: <AboutPage></AboutPage>,
+        element: <AboutPage />,
       },
       {
         path: '/faq',
-        element: <FaqPage></FaqPage>,
+        element: <FaqPage />,
       },
       {
         path: '/our-team',
-        element: <TeamPage></TeamPage>,
+        element: <TeamPage />,
       },
       {
         path: '/contact-us',
-        element: <ContactPage></ContactPage>,
+        element: <ContactPage />,
       },
       {
         path: '/pricing',
-        element: <PricingPage></PricingPage>,
+        element: <PricingPage />,
       },
       {
         path: '/case-study',
-        element: <CaseStudyPage></CaseStudyPage>,
+        element: <CaseStudyPage />,
       },
       {
         path: '/case-study/:slug',
-        element: <CaseStudyPageNew></CaseStudyPageNew>,
+        element: <CaseStudyPageNew />,
       },
       {
-        path: '/services/',
-        element: <ServicesNewCards></ServicesNewCards>,
+        path: '/services',
+        element: <ServicesNewCards />,
       },
       {
         path: '/solutions/:slug',
-        element: <SolutionsPage></SolutionsPage>,
+        element: <SolutionsPage />,
       },
       {
         path: '/brands',
-        element: <BrandsCardpage></BrandsCardpage>,
+        element: <BrandsCardpage />,
       },
       {
         path: '/brands/:slug',
-        element: <BrandDetailsPage></BrandDetailsPage>,
+        element: <BrandDetailsPage />,
       },
       {
         path: '*',
-        element: <Error404Page></Error404Page>,
+        element: <Error404Page />,
       },
       {
         path: "/thank-you",
@@ -122,31 +123,31 @@ export const router = createBrowserRouter([
       },
       {
         path: "/work",
-        element: <Team1 />
+        element: <Work />
       }
     ],
   },
   {
     path: '/',
-    element: <Main></Main>,
+    element: <Main />,
     children: [
       {
         index: true,
-        element: <Home></Home>,
+        element: <Home />,
       },
       {
         path: '/services/:slug',
-        element: <ServicesNewPage></ServicesNewPage>,
+        element: <ServicesNewPage />,
       },
     ],
   },
   {
     path: 'unlimited-shopify',
-    element: <Main></Main>,
+    element: <Main />,
     children: [
       {
         index: true,
-        element: <Home4></Home4>,
+        element: <Home4 />,
       },
     ],
   },

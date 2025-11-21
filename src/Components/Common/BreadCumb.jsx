@@ -1,4 +1,3 @@
-// BreadCumb.jsx
 import { useEffect } from 'react';
 import loadBackgroudImages from './loadBackgroudImages';
 import { Link } from 'react-router-dom';
@@ -14,7 +13,6 @@ const BreadCumb = ({ Title, bgimg, customTrail = null, hasOverlay = false }) => 
       className="breadcrumb-wrapper bg-cover breadcrumb-wrapper-margin-top"
       data-background={bgimg}
     >
-      {/* Add this overlay */}
       {hasOverlay && <div className="breadcrumb-overlay" />}
 
       <div className="left-shape"></div>

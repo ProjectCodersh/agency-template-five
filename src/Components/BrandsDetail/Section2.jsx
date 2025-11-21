@@ -10,11 +10,6 @@ const Section2 = ({ data }) => {
     loadBackgroudImages();
   }, []);
 
-  // const handleClick = () => {
-  //   setIframeSrc(data.videoUrl);
-  //   setToggle(true);
-  // };
-
   const handleClose = () => {
     setIframeSrc('about:blank');
     setToggle(false);
