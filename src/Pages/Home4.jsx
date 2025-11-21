@@ -18,9 +18,9 @@ import Brandsection6 from '../Components/Extra/HomePage/BrandSection6';
 import Brand2 from '../Components/Brand/Brand2';
 import VideoTestimonialSlick from '../Components/Testimonial/VideoTestimonial';
 // import VideoTestimonialSlickSecond from '../Components/Testimonial/VideoTestimonialTwo';
+// import About4 from "../Components/About/About4";
 import SEO from '../Components/DynamicSEO/SEO';
 import HomeImgSlider from '@/Components/ImageSliderNew/HomeImgSlider';
-// import About4 from "../Components/About/About4";
 
 const Home4 = () => {
   return (
