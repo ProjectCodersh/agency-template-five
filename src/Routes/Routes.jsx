@@ -17,8 +17,8 @@ import TeamPage from '../Pages/TeamPage';
 import AboutPage from '../Pages/AboutPage';
 import FaqPage from '../Pages/FaqPage';
 import ThankyouPage from '../Components/Thankyou/ThankyouPage';
-import Team1 from '../Components/Team/Team1';
 import Work from '../Components/Work/Work';
+// import Team1 from '../Components/Team/Team1';
 // import Testimonials from "../Pages/Testimonials";
 // import Casestudies from "../Pages/CaseStudyPageNew";
 // import Solutions from "../Pages/Solutions";
@@ -118,13 +118,13 @@ export const router = createBrowserRouter([
         element: <Error404Page />,
       },
       {
-        path: "/thank-you",
-        element: <ThankyouPage />
+        path: '/thank-you',
+        element: <ThankyouPage />,
       },
       {
-        path: "/work",
-        element: <Work />
-      }
+        path: '/work',
+        element: <Work />,
+      },
     ],
   },
   {

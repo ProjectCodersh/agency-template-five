@@ -57,7 +57,6 @@ const Counter4 = () => {
             <h2 className="wow fadeInUp" data-wow-delay=".3s">
               {parse(heading.title)}
             </h2>
-
           </div>
 
           {heading.content && (
