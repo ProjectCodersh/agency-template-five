@@ -174,6 +174,7 @@ const AppointmentBooking = () => {
 
         .left-text-content p {
           font-size: 18px;
+          
           line-height: 1.7;
           color: #333;
           margin-bottom: 12px;
