@@ -11,6 +11,7 @@ import BrandSection2 from '@/Components/Extra/HomePage/BrandSection2';
 import Brandsection3 from '@/Components/Extra/HomePage/BrandSection3';
 import SEO from '../Components/DynamicSEO/SEO';
 import HomeImgSlider from '@/Components/ImageSliderNew/HomeImgSlider';
+import ShopifyPartnerHero from '../Components/Extra/HomePage/ShopifyPartnerHero';
 
 // Lazy load below-the-fold components
 const Faq1 = lazy(() => import('@/Components/Faq/Faq1'));
@@ -39,6 +40,7 @@ const Home = () => {
       <Suspense fallback={<div className="loading">Loading FAQ...</div>}>
         <Faq1 addclass="faq-section section-padding2 pb-0" />
         <VideoTestimonialSlick />
+        <ShopifyPartnerHero />
         <ContactInfo1 />
       </Suspense>
     </div>
