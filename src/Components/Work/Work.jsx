@@ -30,9 +30,9 @@ const Work = () => {
         {
             img: '/assets/img/work/work9.png',
         },
-        {
-            img: '/assets/img/work/work10.png',
-        },
+        // {
+        //     img: '/assets/img/work/work10.png',
+        // },
         {
             img: '/assets/img/work/work11.png',
         },
