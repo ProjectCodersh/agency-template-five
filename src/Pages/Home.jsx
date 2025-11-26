@@ -1,4 +1,3 @@
-// src/Pages/Home.jsx
 import { lazy, Suspense } from 'react';
 
 import HeroBanner1 from '@/Components/HeroBanner/HeroBanner1';
@@ -13,7 +12,6 @@ import SEO from '../Components/DynamicSEO/SEO';
 import HomeImgSlider from '@/Components/ImageSliderNew/HomeImgSlider';
 import AppointmentBooking from '@/Components/AppointmentBooking/AppointmentBooking';
 
-// Lazy load below-the-fold components
 const Faq1 = lazy(() => import('@/Components/Faq/Faq1'));
 const VideoTestimonialSlick = lazy(() => import('@/Components/Testimonial/VideoTestimonial'));
 const ContactInfo1 = lazy(() => import('@/Components/ContactInfo/ContactInfo1'));
