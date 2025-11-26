@@ -1,6 +1,5 @@
 import { lazy, Suspense, memo } from 'react';
 import BreadCumb from '../Components/Common/BreadCumb';
-import '../assets/servicecards.css';
 
 const VideoTestimonialSlickSecond = lazy(
   () => import('../Components/Testimonial/VideoTestimonialTwo')

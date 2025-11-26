@@ -8,6 +8,10 @@ import 'slick-carousel/slick/slick.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import './assets/main.css';
+import './assets/servicecards.css';
+import './assets/ShopifyPartnerHero.css';
+import './assets/style.css';
+import './assets/WhatsAppButton.css';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

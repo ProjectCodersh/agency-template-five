@@ -1,6 +1,5 @@
 import { useEffect, useRef } from 'react';
 import Slider from 'react-slick';
-import '../../assets/aditya.css';
 
 const VideoTestimonialSlickSecond = () => {
   const sliderRef = useRef(null);
