@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import '../../../assets/calendlypopup.css';
 
 const CalendlyPopup = () => {
     return (

@@ -1,4 +1,3 @@
-import '@/assets/ShopifyPartnerHero.css';
 
 const ShopifyPartnerHero = () => {
   // Review platforms data

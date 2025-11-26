@@ -1,6 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
 import { FaWhatsapp } from 'react-icons/fa';
-import '../../assets/WhatsAppButton.css';
 
 const WhatsAppButton = () => {
   const [isMobile, setIsMobile] = useState(false);
