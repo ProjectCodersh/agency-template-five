@@ -21,6 +21,8 @@ import Brand2 from '../Components/Brand/Brand2';
 import VideoTestimonialSlick from '../Components/Testimonial/VideoTestimonial';
 import SEO from '../Components/DynamicSEO/SEO';
 import HomeImgSlider from '@/Components/ImageSliderNew/HomeImgSlider';
+import ShopifyPartnerSection from '@/Components/Extra/HomePage/ShopifyPartnerSection';
+import AppointmentBooking from '@/Components/AppointmentBooking/AppointmentBooking';
 
 const Home4 = () => {
   return (
@@ -41,6 +43,8 @@ const Home4 = () => {
       <Brandsection6></Brandsection6>
       <Faq2 addclass="faq-section section-padding2 pb-0"></Faq2>
       <VideoTestimonialSlick />
+      <ShopifyPartnerSection />
+        <AppointmentBooking/>
       <ContactInfo1></ContactInfo1>
       {/* <About4 addclass="about-section-2 fix section-padding"></About4> */}
       {/* <About3></About3> */}
