@@ -40,8 +40,8 @@ const Home = () => {
       <Brandsection3 />
       <Suspense fallback={<div className="loading">Loading FAQ...</div>}>
         <Faq1 addclass="faq-section section-padding2 pb-0" />
-        <VideoTestimonialSlick />
         <AppointmentBooking />
+        <VideoTestimonialSlick />
         {/* <ShopifyPartnerSection /> */}
         <ContactInfo1 />
       </Suspense>

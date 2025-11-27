@@ -26,7 +26,7 @@ const ShopifyPartnerSection = () => {
   const videoThumbnail = '/assets/img/team/team.webp';
 
   return (
-    <section className="section-padding">
+    <section className="section-padding" style={{ background: '#f6f3fe' }}>
       <div className="container px-3">
         <div className="section-title mb-0">
           <div className="sub-title wow fadeInUp mb-4" style={{ backgroundColor: '#384bff1a' }}>
