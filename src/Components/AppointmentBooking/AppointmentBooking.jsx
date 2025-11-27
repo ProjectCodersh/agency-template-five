@@ -22,16 +22,21 @@ const AppointmentBooking = () => {
   }, []);
 
   return (
-    <section className="appointment-section">
+    <section className="appointment-section section-padding">
       <div className="container">
-        <div className="row g-4 align-items-center">
+        <div className="row g-4">
           <div className="col-lg-8 left-col">
+            <div className="section-title mb-0">
+              <div className="sub-title wow fadeInUp my-4" style={{ backgroundColor: '#384bff1a' }}>
+                <span>Let&apos;s connect! </span>
+              </div>
+            </div>
             <div className="d-flex gap-4">
-              <div className="person-image-wrapper text-center">
+              <div className="person-image-wrapper">
                 <img src="/assets/img/image.webp" alt="Harsh Shah" className="person-image" />
               </div>
 
-              <div className="left-text-content">
+              <div className="left-text-content text-start">
                 <h1>Hi,Harsh Shah here</h1>
 
                 <p>

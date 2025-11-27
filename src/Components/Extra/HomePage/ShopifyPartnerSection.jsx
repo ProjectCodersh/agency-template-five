@@ -26,11 +26,16 @@ const ShopifyPartnerSection = () => {
   const videoThumbnail = '/assets/img/team/team.webp';
 
   return (
-    <section className="shopify-partner-section section-padding">
+    <section className="section-padding">
       <div className="container px-3">
-        <div className="row g-4 g-lg-5 align-items-center">
-          <div className="col-12 col-lg-6">
-            <div className="partner-section-content">
+        <div className="section-title mb-0">
+          <div className="sub-title wow fadeInUp mb-4" style={{ backgroundColor: '#384bff1a' }}>
+            <span>Let&apos;s connect! </span>
+          </div>
+        </div>
+        <div className="row g-4 g-lg-5">
+          <div className="col-12 col-lg-6 mt-4 lg-mt-6">
+            <div className="partner-section-content text-start">
               <h1 className="partner-section-headline wow fadeInUp" data-wow-delay=".2s">
                 Proud Shopify Premier Partner
               </h1>
@@ -56,7 +61,7 @@ const ShopifyPartnerSection = () => {
                   href="https://calendly.com/codersh-web-services/15min"
                   target="_blank"
                   rel="noopener noreferrer"
-                  // className="partner-cta-btn"
+                  className="mt-4"
                 >
                   <span className="theme-btn">LET&apos;S GET IN TOUCH</span>
                 </a>
@@ -64,7 +69,7 @@ const ShopifyPartnerSection = () => {
             </div>
           </div>
 
-          <div className="col-12 col-lg-6">
+          <div className="col-12 col-lg-6 mt-4 lg-mt-6">
             <div className="partner-section-right">
               <div className="video-thumbnail-wrapper wow fadeInUp" data-wow-delay=".4s">
                 <div className="video-thumbnail-container">
