@@ -43,8 +43,8 @@ const Home4 = () => {
       <Brandsection6></Brandsection6>
       <Faq2 addclass="faq-section section-padding2 pb-0"></Faq2>
       <VideoTestimonialSlick />
+      <AppointmentBooking />
       <ShopifyPartnerSection />
-        <AppointmentBooking/>
       <ContactInfo1></ContactInfo1>
       {/* <About4 addclass="about-section-2 fix section-padding"></About4> */}
       {/* <About3></About3> */}

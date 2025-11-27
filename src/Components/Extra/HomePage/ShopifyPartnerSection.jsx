@@ -51,14 +51,14 @@ const ShopifyPartnerSection = () => {
                 success.
               </p>
 
-              <div className="partner-section-cta wow fadeInUp" data-wow-delay=".5s">
+              <div className="main-button main-btn-area2" data-wow-delay=".5s">
                 <a
                   href="https://calendly.com/codersh-web-services/15min"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="partner-cta-btn"
+                  // className="partner-cta-btn"
                 >
-                  LET&apos;S GET IN TOUCH
+                  <span className="theme-btn">LET&apos;S GET IN TOUCH</span>
                 </a>
               </div>
             </div>
@@ -67,14 +67,13 @@ const ShopifyPartnerSection = () => {
           <div className="col-12 col-lg-6">
             <div className="partner-section-right">
               <div className="video-thumbnail-wrapper wow fadeInUp" data-wow-delay=".4s">
-                  <div className="video-thumbnail-container">
-                    <img
-                      src={videoThumbnail}
-                      alt="Codersh Web Services Office"
-                      className="video-thumbnail-img"
-                    />
-                  </div>
-           
+                <div className="video-thumbnail-container">
+                  <img
+                    src={videoThumbnail}
+                    alt="Codersh Web Services Office"
+                    className="video-thumbnail-img"
+                  />
+                </div>
               </div>
 
               <div className="review-widgets-container">
@@ -86,11 +85,7 @@ const ShopifyPartnerSection = () => {
                   >
                     <div className="review-widget-badge">{platform.reviews}</div>
                     <div className="review-widget-logo">
-                      <img
-                        src={platform.logo}
-                        alt={platform.name}
-                        className="platform-logo-img"
-                      />
+                      <img src={platform.logo} alt={platform.name} className="platform-logo-img" />
                     </div>
                     <div className="review-widget-rating">
                       <div className="rating-stars">
@@ -124,4 +119,3 @@ const ShopifyPartnerSection = () => {
 };
 
 export default ShopifyPartnerSection;
-

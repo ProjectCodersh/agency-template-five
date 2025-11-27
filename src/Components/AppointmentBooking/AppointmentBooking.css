@@ -1,0 +1,292 @@
+.appointment-section {
+  display: flex;
+  align-items: center;
+  background: #f6f3fe;
+  min-height: 100vh;
+  padding: 60px 0;
+}
+
+.left-col {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.person-image-wrapper {
+  width: 100%;
+  text-align: center;
+}
+
+.person-image {
+  max-width: 430px;
+  width: 100%;
+  height: auto;
+}
+
+.left-text-content h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.left-text-content p {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+.email-link {
+  font-size: 24px;
+  font-weight: 700;
+  color: #6a47ed;
+  text-decoration: none;
+}
+
+.calendly-wrapper {
+  background: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.calendly-wrapper iframe {
+  border: none;
+  width: 100%;
+  height: 100%;
+  flex: 1;
+  overflow: hidden;
+}
+
+/* Hide scrollbar but keep scrolling functionality */
+.calendly-wrapper ::-webkit-scrollbar {
+  display: none;
+}
+
+/* Target Calendly iframe content to hide logo and scrollbar */
+.calendly-inline-widget {
+  overflow: auto !important;
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+  position: relative;
+}
+
+.calendly-inline-widget::-webkit-scrollbar {
+  display: none !important;
+}
+
+.calendly-inline-widget iframe {
+  overflow: auto !important;
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+
+.calendly-inline-widget iframe::-webkit-scrollbar {
+  display: none !important;
+}
+
+/* Hide Calendly branding/logo using overlay */
+.calendly-wrapper::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 150px;
+  height: 60px;
+  background: #fff;
+  z-index: 10;
+  pointer-events: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .appointment-section {
+    padding: 50px 0;
+    min-height: auto;
+  }
+
+  .appointment-section .row {
+    flex-direction: column;
+  }
+
+  .appointment-section .col-lg-8,
+  .appointment-section .col-lg-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .left-col {
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .left-col .d-flex {
+    flex-direction: column;
+    gap: 30px !important;
+    align-items: center;
+  }
+
+  .person-image-wrapper {
+    text-align: center;
+  }
+
+  .person-image {
+    max-width: 300px;
+    width: 100%;
+  }
+
+  .left-text-content {
+    text-align: center;
+  }
+
+  .left-text-content h1 {
+    font-size: 36px;
+    line-height: 1.3;
+    margin-bottom: 15px;
+  }
+
+  .left-text-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 12px;
+  }
+
+  .email-link {
+    font-size: 20px;
+  }
+
+  .calendly-wrapper {
+    height: 650px;
+    padding: 15px;
+    margin-top: 0;
+    width: 100%;
+  }
+
+  .calendly-inline-widget {
+    min-width: 100% !important;
+    width: 100% !important;
+  }
+
+  .calendly-inline-widget iframe {
+    width: 100% !important;
+    min-width: 100% !important;
+  }
+}
+
+@media (max-width: 992px) and (min-width: 769px) {
+  .appointment-section {
+    padding: 50px 0;
+    min-height: auto;
+  }
+
+  .left-col .d-flex {
+    gap: 20px !important;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .person-image {
+    max-width: 280px;
+  }
+
+  .left-text-content {
+    text-align: center;
+  }
+
+  .left-text-content h1 {
+    font-size: 34px;
+    line-height: 1.3;
+  }
+
+  .left-text-content p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .email-link {
+    font-size: 20px;
+  }
+
+  .calendly-wrapper {
+    height: 650px;
+    padding: 15px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  .appointment-section {
+    padding: 40px 0;
+  }
+
+  .left-col {
+    align-items: center;
+    text-align: center;
+  }
+
+  .left-col .d-flex {
+    flex-direction: column;
+    gap: 30px !important;
+  }
+
+  .person-image-wrapper {
+    text-align: center;
+  }
+
+  .person-image {
+    max-width: 300px;
+  }
+
+  .left-text-content h1 {
+    font-size: 32px;
+    line-height: 1.2;
+  }
+
+  .left-text-content p {
+    font-size: 16px;
+  }
+
+  .email-link {
+    font-size: 20px;
+  }
+
+  .calendly-wrapper {
+    height: 600px;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .appointment-section {
+    padding: 30px 0;
+  }
+
+  .left-text-content h1 {
+    font-size: 28px;
+  }
+
+  .left-text-content p {
+    font-size: 15px;
+  }
+
+  .email-link {
+    font-size: 18px;
+  }
+
+  .calendly-wrapper {
+    height: 500px;
+    padding: 10px;
+    border-radius: 15px;
+  }
+}

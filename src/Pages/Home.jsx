@@ -5,7 +5,7 @@ import Brand1 from '@/Components/Brand/Brand1';
 import WhatWeDo from '@/Components/WhatWeDo/WhatWeDo';
 import Counter4 from '@/Components/WhatWeDo/WhatWeDo3';
 import Tools1 from '@/Components/Extra/HomePage/Tools1';
-import WordPressToolsSection from '@/Components/Extra/HomePage/WordPressToolsSection';
+// import WordPressToolsSection from '@/Components/Extra/HomePage/WordPressToolsSection';
 import Brandsection1 from '@/Components/Extra/HomePage/Brandsection1';
 import BrandSection2 from '@/Components/Extra/HomePage/BrandSection2';
 import Brandsection3 from '@/Components/Extra/HomePage/BrandSection3';
@@ -41,8 +41,8 @@ const Home = () => {
       <Suspense fallback={<div className="loading">Loading FAQ...</div>}>
         <Faq1 addclass="faq-section section-padding2 pb-0" />
         <VideoTestimonialSlick />
+        <AppointmentBooking />
         <ShopifyPartnerSection />
-        <AppointmentBooking/>
         <ContactInfo1 />
       </Suspense>
     </div>
