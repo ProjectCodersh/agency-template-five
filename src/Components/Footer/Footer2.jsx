@@ -7,6 +7,33 @@ const Footer2 = () => {
     loadBackgroudImages();
   }, []);
 
+  const reviewPlatforms = [
+    {
+      id: 'clutch',
+      name: 'Clutch',
+      reviews: '120 Reviews',
+      rating: 5.0,
+      badgeColor: 'purple',
+      url: '/assets/img/clutchlogo.webp',
+    },
+    {
+      id: 'upwork',
+      name: 'Upwork',
+      reviews: '2000+ Reviews',
+      rating: 5.0,
+      badgeColor: 'purple',
+      url: '/assets/img/upwork.webp',
+    },
+    {
+      id: 'goodfirms',
+      name: 'GoodFirms',
+      reviews: '169 Reviews',
+      rating: 5.0,
+      badgeColor: 'purple',
+      url: '/assets/img/goodfirmslogo.webp',
+    },
+  ];
+
   return (
     <div>
       <section className="cta-section section-padding pb-0">
@@ -200,6 +227,44 @@ const Footer2 = () => {
 
         <div className="footer-bottom">
           <div className="container px-3">
+            <div className="footer-review-wrapper mb-5">
+              <div className="partner-review-cards">
+                {reviewPlatforms.map((platform, index) => (
+                  <div
+                    key={platform.id}
+                    className="review-card wow fadeInUp"
+                    data-wow-delay={`${0.3 + index * 0.1}s`}
+                  >
+                    <div className={`review-badge badge-${platform.badgeColor}`}>
+                      {platform.reviews}
+                    </div>
+                    <div className="review-platform">
+                      <img src={platform.url} alt={platform.name} className="img-fluid" />
+                    </div>
+                    <div className="review-rating">
+                      <div className="rating-stars">
+                        {[...Array(5)].map((_, i) => (
+                          <svg
+                            key={i}
+                            width="20"
+                            height="20"
+                            viewBox="0 0 24 24"
+                            fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
+                              fill="currentColor"
+                            />
+                          </svg>
+                        ))}
+                      </div>
+                      <div className="rating-score">{platform.rating}</div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
             <div className="footer-wrapper d-flex align-items-center justify-content-center">
               <p className="wow fadeInLeft color-2" data-wow-delay=".3s">
                 © 2014 – 2025. All Rights Reserved.{' '}

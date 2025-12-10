@@ -17,6 +17,33 @@ const Footer1 = () => {
     });
   };
 
+  const reviewPlatforms = [
+    {
+      id: 'clutch',
+      name: 'Clutch',
+      reviews: '120 Reviews',
+      rating: 5.0,
+      badgeColor: 'purple',
+      url: '/assets/img/clutchlogo.webp',
+    },
+    {
+      id: 'upwork',
+      name: 'Upwork',
+      reviews: '2000+ Reviews',
+      rating: 5.0,
+      badgeColor: 'purple',
+      url: '/assets/img/upwork.webp',
+    },
+    {
+      id: 'goodfirms',
+      name: 'GoodFirms',
+      reviews: '169 Reviews',
+      rating: 5.0,
+      badgeColor: 'purple',
+      url: '/assets/img/goodfirmslogo.webp',
+    },
+  ];
+  
   return (
     <div>
       <section className="cta-section section-bg section-padding pb-0">
@@ -77,6 +104,85 @@ const Footer1 = () => {
                       <a href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2F30213091%2Fadmin%2Fanalytics%2Ffollowers%2F">
                         <i className="bi bi-linkedin"></i>
                       </a>
+                    </div>
+
+                    <div className="footer-review-logos d-flex flex-column gap-3 mt-4">
+                      {reviewPlatforms.map((platform) => (
+                        <div
+                          key={platform.id}
+                          style={{
+                            background: '#ffffff',
+                            borderRadius: '10px',
+                            padding: '12px',
+                            boxShadow: '0 4px 12px rgba(0,0,0,0.1)',
+                            display: 'flex',
+                            alignItems: 'center',
+                            transition: 'all 0.3s ease',
+                            border: '1px solid rgba(255,255,255,0.1)',
+                            maxWidth: '280px',
+                            width: '100%',
+                          }}
+                          onMouseEnter={(e) => {
+                            e.currentTarget.style.transform = 'translateY(-2px)';
+                            e.currentTarget.style.boxShadow = '0 6px 16px rgba(0,0,0,0.15)';
+                          }}
+                          onMouseLeave={(e) => {
+                            e.currentTarget.style.transform = 'translateY(0)';
+                            e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.1)';
+                          }}
+                        >
+                          <div style={{ 
+                            flexShrink: 0,
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                            minWidth: '100px'
+                          }}>
+                            <img
+                              src={platform.url}
+                              alt={platform.name}
+                              style={{ 
+                                height: '32px', 
+                                width: 'auto', 
+                                display: 'block',
+                                objectFit: 'contain',
+                                maxWidth: '100px'
+                              }}
+                              onError={(e) => {
+                                e.target.style.display = 'none';
+                              }}
+                            />
+                          </div>
+                          <div style={{ 
+                            display: 'flex', 
+                            alignItems: 'center', 
+                            gap: '8px',
+                            flex: 1,
+                          }}>
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
+                              {[...Array(5)].map((_, i) => (
+                                <i 
+                                  key={i} 
+                                  className="bi bi-star-fill" 
+                                  style={{ 
+                                    color: '#ffb400', 
+                                    fontSize: '16px',
+                                    lineHeight: '1'
+                                  }}
+                                ></i>
+                              ))}
+                            </div>
+                            <span style={{ 
+                              fontWeight: 700, 
+                              color: '#1a1a1a',
+                              fontSize: '16px',
+                              marginLeft: '4px'
+                            }}>
+                              {platform.rating}
+                            </span>
+                          </div>
+                        </div>
+                      ))}
                     </div>
 
                   </div>

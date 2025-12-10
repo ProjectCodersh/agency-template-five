@@ -1,8 +1,8 @@
 import { Outlet } from 'react-router-dom';
 import Header2 from '../Components/Header/Header2';
-import Footer2 from '../Components/Footer/Footer2';
 import ScrollToTop from '../Components/Common/ScrollToTop';
 import WhatsAppButton from '../Components/Common/WhatsAppButton';
+import Footer1 from '../Components/Footer/Footer1';
 
 const Layout2 = () => {
   return (
@@ -10,7 +10,7 @@ const Layout2 = () => {
       <ScrollToTop />
       <Header2 />
       <Outlet />
-      <Footer2 />
+      <Footer1 />
       <WhatsAppButton />
     </div >
   );
