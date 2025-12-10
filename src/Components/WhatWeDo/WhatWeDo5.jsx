@@ -1,111 +1,118 @@
-import { useEffect } from 'react';
-import loadBackgroudImages from '../Common/loadBackgroudImages';
+import { useEffect, memo } from 'react';
 import parse from 'html-react-parser';
+import loadBackgroudImages from '../Common/loadBackgroudImages';
 
-function Counter6() {
-  const chooseHeading = {
+const Counter4 = () => {
+  const heading = {
     subtitle: 'Page Builders',
     title: ' Seamless integration <br/> with page builders',
     content: '',
     img: '/assets/img/feature-img.png',
   };
 
-  const chooseContent = [
+  const builders = [
     {
       img: '/assets/img/pagebuilder/builder13.webp',
-      title: 'Better audiences',
+      title: 'PageFly',
       content:
         'Collaboratively formulate principle capital. Progressively evolve user revolutionary hosting services.',
     },
     {
       img: '/assets/img/pagebuilder/builder14.webp',
-      title: 'Better Analytics',
+      title: 'Klaviyo',
       content:
         'Collaboratively formulate principle capital. Progressively evolve user revolutionary hosting services.',
     },
     {
       img: '/assets/img/pagebuilder/builder16.webp',
-      title: 'Better Output',
+      title: 'Shopify Flow',
       content:
         'Collaboratively formulate principle capital. Progressively evolve user revolutionary hosting services.',
     },
     {
       img: '/assets/img/pagebuilder/builder17.webp',
-      title: 'Better Output',
+      title: 'Bold Commerce',
       content:
         'Collaboratively formulate principle capital. Progressively evolve user revolutionary hosting services.',
     },
     {
       img: '/assets/img/pagebuilder/builder18.webp',
-      title: 'Better Output',
+      title: 'Loox',
       content:
         'Collaboratively formulate principle capital. Progressively evolve user revolutionary hosting services.',
     },
     {
       img: '/assets/img/pagebuilder/builder19.webp',
-      title: 'Better Output',
+      title: 'Recharge',
       content:
         'Collaboratively formulate principle capital. Progressively evolve user revolutionary hosting services.',
     },
     {
       img: '/assets/img/pagebuilder/builder20.webp',
-      title: 'Better Output',
+      title: 'Loox',
       content:
         'Collaboratively formulate principle capital. Progressively evolve user revolutionary hosting services.',
     },
     {
       img: '/assets/img/pagebuilder/builder21.webp',
-      title: 'Better Output',
+      title: 'Rebuy',
       content:
         'Collaboratively formulate principle capital. Progressively evolve user revolutionary hosting services.',
     },
     {
       img: '/assets/img/pagebuilder/builder23.webp',
-      title: 'Better Output',
+      title: 'REVIEWS',
       content:
         'Collaboratively formulate principle capital. Progressively evolve user revolutionary hosting services.',
     },
     {
       img: '/assets/img/pagebuilder/builder24.webp',
-      title: 'Better Output',
+      title: 'Yotpo',
       content:
         'Collaboratively formulate principle capital. Progressively evolve user revolutionary hosting services.',
     },
   ];
-
   useEffect(() => {
     loadBackgroudImages();
   }, []);
 
   return (
-    <section className="feature-secton section-padding fix" style={{ background: '#f6f3fe' }}>
-      {/* <div className="bg-shape">
-                <img src="/assets/img/bg-shape-2.png" alt="img" />
-            </div> */}
+    <section className="feature-secton section-padding fix" style={{ backgroundColor: '#f6f3fe' }}>
       <div className="container px-3">
         <div className="section-title-area">
           <div className="section-title">
             <div className="sub-title wow fadeInUp" style={{ backgroundColor: '#384bff1a' }}>
-              <span>{chooseHeading.subtitle}</span>
+              <span>{heading.subtitle}</span>
             </div>
+
             <h2 className="wow fadeInUp" data-wow-delay=".3s">
-              {parse(chooseHeading.title)}
+              {parse(heading.title)}
             </h2>
           </div>
-          <p className="wow fadeInUp" data-wow-delay=".5s">
-            {parse(chooseHeading.content)}
-          </p>
+
+          {heading.content && (
+            <p className="wow fadeInUp" data-wow-delay=".5s">
+              {parse(heading.content)}
+            </p>
+          )}
         </div>
+
         <div className="row">
-          {chooseContent.map((item, i) => (
+          {builders.map((item, index) => (
             <div
-              key={i}
-              className="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-3 wow fadeInUp"
-              data-wow-delay=".2s"
+              key={index}
+              className="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp"
+              data-wow-delay={`${0.2 + (index % 4) * 0.1}s`}
             >
-              <div className="feature-box-items3  text-center p-3 bg-white rounded-3 shadow-sm pagebuilder-hover-effect">
-                <div className="icon w-100 h-100 ">
-                  <img src={item.img} alt={item.title} />
+              <div className="service-box-items text-center flex-column brandsection-box">
+                <div className="d-flex justify-content-center justify-content-md-start service-box-items-icon">
+                  <div
+                    className="d-flex justify-content-center align-items-center w-100"
+                    style={{ fontSize: '40px', color: '#6a47ed', gap: '20px' }}
+                  >
+                    <img className="brandsection-img" src={item.img} alt={item.title} loading="lazy" />
+                    <h3 className="text-center text-md-start">{item.title}</h3>
+                  </div>
                 </div>
               </div>
             </div>
@@ -114,6 +121,6 @@ function Counter6() {
       </div>
     </section>
   );
-}
+};
 
-export default Counter6;
+export default memo(Counter4);
