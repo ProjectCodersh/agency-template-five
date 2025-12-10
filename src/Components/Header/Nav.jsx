@@ -45,7 +45,7 @@ const Nav = ({ setMobileToggle, headerType }) => {
           </Link>
         </li>
 
-        <li>
+        {/* <li>
           <Link
             to="/pricing"
             onClick={() => setMobileToggle(false)}
@@ -53,7 +53,7 @@ const Nav = ({ setMobileToggle, headerType }) => {
           >
             Pricing
           </Link>
-        </li>
+        </li> */}
 
         <div className="main-button d-flex d-xl-none">
           <a

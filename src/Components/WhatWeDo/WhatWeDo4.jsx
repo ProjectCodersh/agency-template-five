@@ -2,8 +2,8 @@ import parse from 'html-react-parser';
 
 const WhatWeDo4 = () => {
   const heading = {
-    subtitle: 'WHY Choose US',
-    title: 'What’s Included in <br> Our Shopify SEO Services',
+    subtitle: 'What We Do',
+    title: 'What’s Included in <br> Our Shopify Services',
     content: '',
   };
 

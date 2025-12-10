@@ -50,4 +50,9 @@ export const caseStudiesList = [
     title: 'JCC Site',
     BgImg: '/assets/img/casestudy/RosenJcc-casestudy.webp',
   },
+  {
+    slug: 'silicon-signals',
+    title: 'Silicon Signals',
+    BgImg: ' ',
+  },
 ];

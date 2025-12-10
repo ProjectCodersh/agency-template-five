@@ -73,11 +73,11 @@ const compatible = [
 
 // New ToolGrid based on your provided structure
 const ToolGrid = ({ tools }) => (
-  <div className="row">
+  <div className="row gy-4">
     {Array.isArray(tools) &&
       tools.map((item, i) => (
         <div key={i} className="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp" data-wow-delay=".3s">
-          <div className="service-box-items text-center flex-column brandsection-box">
+          <div className="service-box-items text-center flex-column brandsection-box brandsection-box-mb">
             <div className="d-flex justify-content-center justify-content-md-start service-box-items-icon">
               <div
                 className="d-flex justify-content-center align-items-center w-100"

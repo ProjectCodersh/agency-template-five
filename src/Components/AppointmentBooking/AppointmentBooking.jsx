@@ -26,18 +26,21 @@ const AppointmentBooking = () => {
       <div className="container">
         <div className="row g-4">
           <div className="col-lg-8 left-col">
-            <div className="section-title mb-0">
-              <div className="sub-title wow fadeInUp my-4" style={{ backgroundColor: '#384bff1a' }}>
-                <span>Let&apos;s connect! </span>
-              </div>
-            </div>
             <div className="d-flex gap-4">
               <div className="person-image-wrapper">
                 <img src="/assets/img/image.webp" alt="Harsh Shah" className="person-image" />
               </div>
 
               <div className="left-text-content text-start">
-                <h1>Hi,Harsh Shah here</h1>
+                <div className="section-title mb-0">
+                  <div
+                    className="sub-title wow fadeInUp my-4"
+                    style={{ backgroundColor: '#384bff1a' }}
+                  >
+                    <span>Let&apos;s connect! </span>
+                  </div>
+                </div>
+                <h1>Hi,Shah here</h1>
 
                 <p>
                   Let&apos;s connect! Let me help you choose the right plan and start building
@@ -51,8 +54,8 @@ const AppointmentBooking = () => {
 
                 <p>or send me an email at</p>
 
-                <a href="mailto:bdm.codersh@gmail.com" className="email-link">
-                  bdm.codersh@gmail.com
+                <a href="mailto:arvind@codersh.com" className="email-link">
+                  arvind@codersh.com
                 </a>
               </div>
             </div>

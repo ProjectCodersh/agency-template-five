@@ -20,6 +20,9 @@ const CaseStudyDetailsThird = lazy(
 );
 
 const JCCSiteDetails = lazy(() => import('../Components/CaseStudyDetailsNew/JccSiteDetails'));
+const SiliconSignalsDetails = lazy(
+  () => import('../Components/CaseStudyDetailsNew/Custom/SiliconSignals')
+);
 
 function CaseStudyDetailsPage() {
   const { slug } = useParams();
@@ -29,6 +32,12 @@ function CaseStudyDetailsPage() {
   useEffect(() => {
     if (!slug) return;
     if (slug === 'jcc-site') {
+      setCaseStudyData({ slug });
+      setLoading(false);
+      return;
+    }
+
+    if (slug === 'silicon-signals') {
       setCaseStudyData({ slug });
       setLoading(false);
       return;
@@ -46,7 +55,6 @@ function CaseStudyDetailsPage() {
         setCaseStudyData(null);
       })
       .finally(() => setLoading(false));
-
   }, [slug]);
 
   if (loading) return <SimpleLoader />;
@@ -74,6 +82,8 @@ function CaseStudyDetailsPage() {
       <Suspense fallback={<SimpleLoader />}>
         {slug === 'jcc-site' ? (
           <JCCSiteDetails />
+        ) : slug === 'silicon-signals' ? (
+          <SiliconSignalsDetails />
         ) : caseStudyData?.template === 'old' ? (
           <CaseStudyDetailsSecond data={caseStudyData} list={caseStudiesList} />
         ) : caseStudyData?.template === 'third' ? (

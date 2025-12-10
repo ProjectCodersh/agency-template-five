@@ -62,7 +62,8 @@ export default function OurWorkdata() {
         <div className="project-details-content home-img-slider-section section-title d-flex flex-column align-items-center justify-content-center">
           <div
             className="sub-title wow fadeInUp"
-            style={{ backgroundColor: 'rgb(246 243 254 / 50%)' }}
+            // style={{ backgroundColor: 'rgb(246 243 254 / 50%)' }}
+            style={{ backgroundColor: '#f6f3fe' }}
             data-wow-delay=".1s"
           >
             <span>Recent Work</span>

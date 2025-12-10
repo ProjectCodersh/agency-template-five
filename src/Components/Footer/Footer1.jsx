@@ -17,38 +17,10 @@ const Footer1 = () => {
     });
   };
 
-  const reviewPlatforms = [
-    {
-      id: 'clutch',
-      name: 'Clutch',
-      reviews: '120 Reviews',
-      rating: 5.0,
-      badgeColor: 'purple',
-      url: '/assets/img/clutchlogo.webp',
-    },
-    {
-      id: 'upwork',
-      name: 'Upwork',
-      reviews: '2000+ Reviews',
-      rating: 5.0,
-      badgeColor: 'purple',
-      url: '/assets/img/upwork.webp',
-    },
-    {
-      id: 'goodfirms',
-      name: 'GoodFirms',
-      reviews: '169 Reviews',
-      rating: 5.0,
-      badgeColor: 'purple',
-      url: '/assets/img/goodfirmslogo.webp',
-    },
-  ];
-  
   return (
     <div>
       <section className="cta-section section-bg section-padding pb-0">
-        <div className="rokect-shape float-bob-y">
-        </div>
+        <div className="rokect-shape float-bob-y"></div>
         <div className="container px-3">
           <div
             className="cta-wrapper bg-cover mt-1 mt-xl-0"
@@ -65,7 +37,7 @@ const Footer1 = () => {
               Stay Connected With <br /> Cutting Edge IT
             </h2>
             <div className="main-button wow fadeInUp" data-wow-delay=".5s">
-              <a href="https://calendly.com/codersh-web-services/15min" target='_blank'>
+              <a href="https://calendly.com/codersh-web-services/15min" target="_blank">
                 <span className="theme-btn">Let&#39;s Collaborate</span>
               </a>
             </div>
@@ -105,86 +77,6 @@ const Footer1 = () => {
                         <i className="bi bi-linkedin"></i>
                       </a>
                     </div>
-
-                    <div className="footer-review-logos d-flex flex-column gap-3 mt-4">
-                      {reviewPlatforms.map((platform) => (
-                        <div
-                          key={platform.id}
-                          style={{
-                            background: '#ffffff',
-                            borderRadius: '10px',
-                            padding: '12px',
-                            boxShadow: '0 4px 12px rgba(0,0,0,0.1)',
-                            display: 'flex',
-                            alignItems: 'center',
-                            transition: 'all 0.3s ease',
-                            border: '1px solid rgba(255,255,255,0.1)',
-                            maxWidth: '280px',
-                            width: '100%',
-                          }}
-                          onMouseEnter={(e) => {
-                            e.currentTarget.style.transform = 'translateY(-2px)';
-                            e.currentTarget.style.boxShadow = '0 6px 16px rgba(0,0,0,0.15)';
-                          }}
-                          onMouseLeave={(e) => {
-                            e.currentTarget.style.transform = 'translateY(0)';
-                            e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.1)';
-                          }}
-                        >
-                          <div style={{ 
-                            flexShrink: 0,
-                            display: 'flex',
-                            alignItems: 'center',
-                            justifyContent: 'center',
-                            minWidth: '100px'
-                          }}>
-                            <img
-                              src={platform.url}
-                              alt={platform.name}
-                              style={{ 
-                                height: '32px', 
-                                width: 'auto', 
-                                display: 'block',
-                                objectFit: 'contain',
-                                maxWidth: '100px'
-                              }}
-                              onError={(e) => {
-                                e.target.style.display = 'none';
-                              }}
-                            />
-                          </div>
-                          <div style={{ 
-                            display: 'flex', 
-                            alignItems: 'center', 
-                            gap: '8px',
-                            flex: 1,
-                          }}>
-                            <div style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
-                              {[...Array(5)].map((_, i) => (
-                                <i 
-                                  key={i} 
-                                  className="bi bi-star-fill" 
-                                  style={{ 
-                                    color: '#ffb400', 
-                                    fontSize: '16px',
-                                    lineHeight: '1'
-                                  }}
-                                ></i>
-                              ))}
-                            </div>
-                            <span style={{ 
-                              fontWeight: 700, 
-                              color: '#1a1a1a',
-                              fontSize: '16px',
-                              marginLeft: '4px'
-                            }}>
-                              {platform.rating}
-                            </span>
-                          </div>
-                        </div>
-                      ))}
-                    </div>
-
                   </div>
                 </div>
               </div>
@@ -219,12 +111,12 @@ const Footer1 = () => {
                         Case Study
                       </Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link to="/pricing">
                         <i className="bi bi-arrow-right"></i>
                         Pricing
                       </Link>
-                    </li>
+                    </li> */}
                     {/* <li>
                       <li>
                         <a href="https://calendly.com/codersh-web-services/15min" target='_blank'>
@@ -247,7 +139,8 @@ const Footer1 = () => {
                     <ul className="contact-info">
                       <li>
                         <i className="bi bi-envelope"></i>
-                        <a href="mailto:bdm.codersh@gmail.com">bdm.codersh@gmail.com</a>
+                        {/* <a href="mailto:bdm.codersh@gmail.com">bdm.codersh@gmail.com</a> */}
+                        <a href="mailto:arvind@codersh.com">arvind@codersh.com</a>
                       </li>
                       <li>
                         <i className="bi bi-telephone"></i>
@@ -312,7 +205,6 @@ const Footer1 = () => {
                             </a>
                           </div>
                         </div>
-
                       </li>
                     </ul>
                   </div>
@@ -335,10 +227,14 @@ const Footer1 = () => {
             </div>
           </div>
 
-          <button onClick={handleScrollToTop} id="scrollUp" className="scroll-icon" title="Scroll to top">
+          <button
+            onClick={handleScrollToTop}
+            id="scrollUp"
+            className="scroll-icon"
+            title="Scroll to top"
+          >
             <i className="bi bi-arrow-up"></i>
           </button>
-
         </div>
       </section>
     </div>

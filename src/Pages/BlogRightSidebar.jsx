@@ -6,7 +6,7 @@ const BlogRightSidebar = () => {
     <div>
       <BreadCumb bgimg="/assets/img/breadcrumb.jpg" Title="Blog Standard" />
       <Blog3 />
-    </div >
+    </div>
   );
 };
 

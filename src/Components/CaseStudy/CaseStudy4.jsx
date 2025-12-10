@@ -99,6 +99,14 @@ const CaseStudy4 = () => {
       description:
         'The website was suffering from legacy bloat, poor performance, and disjointed user experiences. Admins struggled with inconsistent backend tools, while users encountered login friction and outdated donation flows. Scalability was nearly impossible without a structured cleanup and short-term system upgrades.',
     },
+    {
+      slug: 'silicon-signals',
+      title: 'Silicon Signals',
+      subtitle: 'technology solutions platform',
+      img: '/assets/img/casestudy/RosenJcc-casestudy.webp',
+      description:
+        ' Silicon Signals came to us at a time when their business was getting real traction at tech events in Germany and India. Their products and services were strong, their team was solid, but their website didn’t match the level of their work. They needed something modern, smooth, and trustworthy so they could confidently promote themselves at events and online. That’s where we stepped in.',
+    },
   ];
 
   const [currentPage, setCurrentPage] = useState(() => {
@@ -180,8 +188,9 @@ const CaseStudy4 = () => {
               {Array.from({ length: totalPages }, (_, i) => i + 1).map((pageNum) => (
                 <button
                   key={pageNum}
-                  className={`pagination-btn cmn-border d-flex align-items-center justify-content-center rounded-circle cmn-numbers ${currentPage === pageNum ? 'active' : ''
-                    }`}
+                  className={`pagination-btn cmn-border d-flex align-items-center justify-content-center rounded-circle cmn-numbers ${
+                    currentPage === pageNum ? 'active' : ''
+                  }`}
                   onClick={() => goToPage(pageNum)}
                   style={{
                     padding: '0.5rem 1rem',
