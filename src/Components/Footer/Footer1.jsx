@@ -212,6 +212,75 @@ const Footer1 = () => {
               </div>
             </div>
           </div>
+
+          {/* Reviews Section */}
+          {/* <div
+            className="row mt-5 pt-4"
+            style={{ borderTop: '1px solid rgba(255, 255, 255, 0.1)' }}
+          >
+            <div className="col-12">
+              <div className="single-footer-widget wow fadeInUp" data-wow-delay=".2s">
+                <div className="footer-content mb-5">
+                  <div className="footer-reviews-container">
+                    {[
+                      {
+                        id: 'clutch',
+                        name: 'Clutch',
+                        logo: '/assets/img/footer/clutch-footer-1.png',
+                        rating: 5.0,
+                      },
+                      {
+                        id: 'upwork',
+                        name: 'Upwork',
+                        logo: '/assets/img/footer/upwork-footer-1.png',
+                        rating: 5.0,
+                      },
+                      {
+                        id: 'goodfirms',
+                        name: 'GoodFirms',
+                        logo: '/assets/img/footer/goodfirms-footer.png',
+                        rating: 5.0,
+                      },
+                    ].map((platform, index) => (
+                      <div
+                        key={platform.id}
+                        className="footer-review-item wow fadeInUp"
+                        data-wow-delay={`${0.3 + index * 0.1}s`}
+                      >
+                        <div className="footer-review-rating">
+                          <div className="footer-rating-stars">
+                            {[...Array(5)].map((_, i) => (
+                              <svg
+                                key={i}
+                                width="14"
+                                height="14"
+                                viewBox="0 0 24 24"
+                                fill="currentColor"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
+                                  fill="currentColor"
+                                />
+                              </svg>
+                            ))}
+                          </div>
+                          <span className="footer-rating-value">{platform.rating}</span>
+                        </div>
+                        <div className="footer-review-logo">
+                          <img
+                            src={platform.logo}
+                            alt={platform.name}
+                            className="footer-platform-logo"
+                          />
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> */}
         </div>
 
         <div className="footer-bottom">

@@ -30,7 +30,7 @@ const ShopifyPartnerSection = () => {
       <div className="container px-3">
         <div className="section-title mb-0">
           <div className="sub-title wow fadeInUp mb-4" style={{ backgroundColor: '#384bff1a' }}>
-            <span>Let&apos;s connect! </span>
+            <span>Trusted Shopify Partner </span>
           </div>
         </div>
         <div className="row g-4 g-lg-5">
@@ -56,14 +56,18 @@ const ShopifyPartnerSection = () => {
                 success.
               </p>
 
-              <div className="main-button main-btn-area2" data-wow-delay=".5s">
+              <div
+                className="main-button main-btn-area2 wow fadeInUp"
+                style={{ width: 'fit-content' }}
+                data-wow-delay=".5s"
+              >
                 <a
                   href="https://calendly.com/codersh-web-services/15min"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mt-4"
                 >
-                  <span className="theme-btn">LET&apos;S GET IN TOUCH</span>
+                  <span className="theme-btn">Partner With Us</span>
                 </a>
               </div>
             </div>

@@ -53,6 +53,6 @@ export const caseStudiesList = [
   {
     slug: 'silicon-signals',
     title: 'Silicon Signals',
-    BgImg: ' ',
+    BgImg: '/assets/img/casestudy/case-silicon-thumb.webp',
   },
 ];

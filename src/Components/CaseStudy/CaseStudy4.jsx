@@ -103,7 +103,7 @@ const CaseStudy4 = () => {
       slug: 'silicon-signals',
       title: 'Silicon Signals',
       subtitle: 'technology solutions platform',
-      img: '/assets/img/casestudy/RosenJcc-casestudy.webp',
+      img: '/assets/img/casestudy/case-silicon-thumb.webp',
       description:
         ' Silicon Signals came to us at a time when their business was getting real traction at tech events in Germany and India. Their products and services were strong, their team was solid, but their website didn’t match the level of their work. They needed something modern, smooth, and trustworthy so they could confidently promote themselves at events and online. That’s where we stepped in.',
     },

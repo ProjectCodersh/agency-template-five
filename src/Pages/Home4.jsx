@@ -21,8 +21,8 @@ import Brand2 from '../Components/Brand/Brand2';
 import VideoTestimonialSlick from '../Components/Testimonial/VideoTestimonial';
 import SEO from '../Components/DynamicSEO/SEO';
 import HomeImgSlider from '@/Components/ImageSliderNew/HomeImgSlider';
-import ShopifyPartnerSection from '@/Components/Extra/HomePage/ShopifyPartnerSection';
 import AppointmentBooking from '@/Components/AppointmentBooking/AppointmentBooking';
+import ShopifyPartnerSection from '../Components/PartnerSection/ShopifyPartnerSection';
 
 const Home4 = () => {
   return (

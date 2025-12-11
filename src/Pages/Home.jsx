@@ -12,6 +12,7 @@ import Brandsection3 from '@/Components/Extra/HomePage/BrandSection3';
 import SEO from '../Components/DynamicSEO/SEO';
 import HomeImgSlider from '@/Components/ImageSliderNew/HomeImgSlider';
 import AppointmentBooking from '@/Components/AppointmentBooking/AppointmentBooking';
+import WpPartnerSection from '../Components/PartnerSection/WpPartnerSection';
 // import ShopifyPartnerSection from '@/Components/Extra/HomePage/ShopifyPartnerSection';
 
 const Faq1 = lazy(() => import('@/Components/Faq/Faq1'));
@@ -32,9 +33,9 @@ const Home = () => {
       <Brand1 />
       <WhatWeDo />
       <HomeImgSlider />
+      <WpPartnerSection />
       <Counter4 />
       <Tools1 />
-      {/* <WordPressToolsSection /> */}
       <Brandsection1 />
       <BrandSection2 />
       <Brandsection3 />
@@ -42,7 +43,6 @@ const Home = () => {
         <Faq1 addclass="faq-section section-padding2 pb-0" />
         <AppointmentBooking />
         <VideoTestimonialSlick />
-        {/* <ShopifyPartnerSection /> */}
         <ContactInfo1 />
       </Suspense>
     </div>

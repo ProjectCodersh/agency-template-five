@@ -74,9 +74,9 @@ function SiliconSignals({ list = [] }) {
             <h3 className="fw-bold mb-3">Problem Statement</h3>
             {/* <h5 className="fw-semibold">Problem Statement:</h5> */}
             <p>
-              The main issue was simple:"Great company, average website". Their old website looked
-              outdated, lacked performance, and wasn’t ready for heavy marketing activities. They
-              didn’t have technical SEO in place, and tracking tools like Google Analytics and
+              The main issue was simple:&#34;Great company, average website&#34;. Their old website
+              looked outdated, lacked performance, and wasn’t ready for heavy marketing activities.
+              They didn’t have technical SEO in place, and tracking tools like Google Analytics and
               Search Console were missing.Updating content was a headache because everything
               required technical help.
             </p>
@@ -126,11 +126,8 @@ function SiliconSignals({ list = [] }) {
             <h3 className="mt-5">Features and Functionality Integrated</h3>
             <div className="row g-5">
               <p>
-                The main issue was simple:"Great company, average website". Their old website looked
-                outdated, lacked performance, and wasn’t ready for heavy marketing activities. They
-                didn’t have technical SEO in place, and tracking tools like Google Analytics and
-                Search Console were missing.Updating content was a headache because everything
-                required technical help.
+                Once we agreed on timelines and pricing, we rebuilt their website from the ground up
+                with features that actually matter to a tech company:
               </p>
               {/* Column 1 */}
               <div className="col-lg-6">
@@ -176,7 +173,7 @@ function SiliconSignals({ list = [] }) {
                   <img
                     alt="Stripe Integration"
                     className="img-fluid shadow-sm"
-                    src="/assets/img/casestudy/RosenJcc-casestudy-2.webp"
+                    src="/assets/img/casestudy/case-silicon-thumb-3.webp"
                   />
                 </div>
               </div>
@@ -185,7 +182,7 @@ function SiliconSignals({ list = [] }) {
                   <img
                     alt="Extra Feature"
                     className="img-fluid shadow-sm"
-                    src="/assets/img/casestudy/RosenJcc-casestudy-3.webp"
+                    src="/assets/img/casestudy/case-silicon-thumb-4.webp"
                   />
                 </div>
               </div>
@@ -231,7 +228,7 @@ function SiliconSignals({ list = [] }) {
                   <img
                     alt="Stripe Integration"
                     className="img-fluid shadow-sm"
-                    src="/assets/img/casestudy/RosenJcc-casestudy-2.webp"
+                    src="/assets/img/casestudy/case-silicon-thumb-1.webp"
                   />
                 </div>
               </div>
@@ -240,7 +237,7 @@ function SiliconSignals({ list = [] }) {
                   <img
                     alt="Extra Feature"
                     className="img-fluid shadow-sm"
-                    src="/assets/img/casestudy/RosenJcc-casestudy-3.webp"
+                    src="/assets/img/casestudy/case-silicon-thumb-2.webp"
                   />
                 </div>
               </div>
@@ -250,8 +247,8 @@ function SiliconSignals({ list = [] }) {
           {/* =================== Testimonial =================== */}
           <div className="project-details-content">
             <h3 className="fw-semibold">Client Testimonial</h3>
-            <div className="row g-4 mt-3">
-              <div className="col-lg-4">
+            <div className="row g-4">
+              {/* <div className="col-lg-4">
                 <div className="mb-5">
                   <img
                     alt="Stripe Integration"
@@ -259,8 +256,8 @@ function SiliconSignals({ list = [] }) {
                     src="/assets/img/casestudy/RosenJcc-casestudy-2.webp"
                   />
                 </div>
-              </div>
-              <div className="col-lg-8">
+              </div> */}
+              <div className="col-lg-12">
                 <blockquote className="mt-3 ps-3 border-start border-3 border-dark">
                   <p className="fst-italic">
                     “The new setup helped us breathe easier. For the first time in months, our

@@ -10371,7 +10371,7 @@ casestudy details breadcrumb dynamic image n text
   left: 0;
   height: 100%;
   width: 100%;
-  background: rgba(225, 225, 225, 0.75);
+  background: rgba(75, 75, 75, 0.75);
 }
 
 .breadcrumb-wrapper .page-heading {
@@ -10454,7 +10454,9 @@ casestudy details breadcrumb dynamic image n text
 
 .pagebuilder-hover-effect {
   transform: scale(1);
-  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transition:
+    transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .pagebuilder-hover-effect:hover {

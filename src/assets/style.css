@@ -469,7 +469,9 @@
 
 .review-widget:hover {
   transform: translateY(-4px);
-  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px !important;
+  box-shadow:
+    rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px !important;
 }
 
 .review-widget-badge {
@@ -641,3 +643,121 @@
   }
 }
 
+/* Footer Reviews Section - Clean Inline Design */
+.footer-reviews-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.footer-review-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  transition: opacity 0.3s ease;
+}
+
+.footer-review-item:hover {
+  opacity: 0.9;
+}
+
+.footer-review-rating {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.footer-rating-stars {
+  display: flex;
+  gap: 2px;
+  color: #ffa500;
+}
+
+.footer-rating-stars svg {
+  width: 14px;
+  height: 14px;
+}
+
+.footer-rating-value {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--white);
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.footer-review-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 32px;
+  filter: brightness(0) invert(1);
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+}
+
+.footer-review-logo:hover {
+  opacity: 1;
+}
+
+.footer-platform-logo {
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+@media (max-width: 991px) {
+  .footer-reviews-container {
+    justify-content: center;
+    gap: 2.5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer-reviews-container {
+    gap: 2rem;
+  }
+
+  .footer-review-item {
+    gap: 0.5rem;
+  }
+
+  .footer-rating-stars svg {
+    width: 12px;
+    height: 12px;
+  }
+
+  .footer-rating-value {
+    font-size: 0.9375rem;
+  }
+
+  .footer-review-logo {
+    height: 28px;
+  }
+}
+
+@media (max-width: 575px) {
+  .footer-reviews-container {
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+  }
+
+  .footer-review-item {
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .footer-review-rating {
+    order: 2;
+  }
+
+  .footer-review-logo {
+    order: 1;
+    height: 24px;
+  }
+}
