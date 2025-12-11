@@ -10454,11 +10454,12 @@ casestudy details breadcrumb dynamic image n text
 
 .pagebuilder-hover-effect {
   transform: scale(1);
-  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .pagebuilder-hover-effect:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12) !important;
 }
 
 /* 20-11-2025 */

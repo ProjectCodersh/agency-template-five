@@ -13,31 +13,31 @@ const Counter4 = () => {
   const builders = [
     {
       img: '/assets/img/pagebuilder/builder1.webp',
-      title: 'builder-one',
+      title: 'Brizy',
     },
     {
       img: '/assets/img/pagebuilder/builder2.webp',
-      title: 'builder-two',
+      title: 'Elementor',
     },
     {
-      img: '/assets/img/pagebuilder/builder3.webp',
-      title: 'builder-three',
+      img: '/assets/img/pagebuilder/avad.svg',
+      title: 'Avanda',
     },
     {
       img: '/assets/img/pagebuilder/builder4.webp',
-      title: 'builder-four',
+      title: 'Beaver Builder',
     },
     {
       img: '/assets/img/pagebuilder/builder5.webp',
-      title: 'builder-five',
+      title: 'Visual Composer',
     },
     {
       img: '/assets/img/pagebuilder/builder6.webp',
-      title: 'builder-six',
+      title: 'Oxygen Builder',
     },
     {
       img: '/assets/img/pagebuilder/builder7.webp',
-      title: 'builder-seven',
+      title: 'ACF',
     },
   ];
 
@@ -70,12 +70,18 @@ const Counter4 = () => {
           {builders.map((item, index) => (
             <div
               key={index}
-              className="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-3 wow fadeInUp"
+              className="col-xl-3 col-lg-4 col-md-6 col-6 wow fadeInUp"
               data-wow-delay={`${0.2 + (index % 4) * 0.1}s`}
             >
-              <div className="feature-box-items2 text-center p-3 bg-white rounded-3 shadow-sm  pagebuilder-hover-effect">
-                <div className="icon w-100 h-100">
-                  <img src={item.img} alt={item.title} loading="lazy" />
+              <div className="service-box-items text-center flex-column brandsection-box">
+                <div className="d-flex justify-content-center justify-content-md-start service-box-items-icon">
+                  <div
+                    className="d-flex justify-content-center align-items-center w-100"
+                    style={{ fontSize: '40px', color: '#6a47ed', gap: '20px' }}
+                  >
+                    <img className="brandsection-img" src={item.img} alt={item.title} loading="lazy" />
+                    <h3 className="text-center text-md-start">{item.title}</h3>
+                  </div>
                 </div>
               </div>
             </div>

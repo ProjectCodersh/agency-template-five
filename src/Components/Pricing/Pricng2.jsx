@@ -40,7 +40,7 @@ const Pricng2 = () => {
               month="Month"
               description="How we work?"
               FeatureList={[
-                'Your Project Management Tool',
+                'Your Project Management Toocdsdmscdsl',
                 'Live Chat / Instant Messaging',
                 'Dedicated Project Manager',
                 '24-48 Hours Turn-around Time',
