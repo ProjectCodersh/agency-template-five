@@ -25,7 +25,7 @@ const AppointmentBooking = () => {
     <section className="appointment-section section-padding">
       <div className="container">
         <div className="row g-4">
-          <div className="col-lg-8 left-col">
+          <div className="col-lg-8 left-col justify-content-center">
             <div className="d-flex gap-4">
               <div className="person-image-wrapper">
                 <img src="/assets/img/image.webp" alt="Harsh Shah" className="person-image" />

@@ -10371,13 +10371,29 @@ casestudy details breadcrumb dynamic image n text
   left: 0;
   height: 100%;
   width: 100%;
-  background: rgba(75, 75, 75, 0.75);
+  background: rgba(25, 25, 25, 0.8);
 }
 
 .breadcrumb-wrapper .page-heading {
   position: relative;
   z-index: 2;
-  color: white;
+  color: white !important;
+}
+
+.case-study-breadcrumb .page-heading h1 {
+  color: white !important;
+}
+
+.case-study-breadcrumb .page-heading .breadcrumb-items li {
+  color: white !important;
+}
+
+.case-study-breadcrumb .page-heading .breadcrumb-items li a {
+  color: white !important;
+}
+
+.case-study-breadcrumb .page-heading .breadcrumb-items li i {
+  color: white !important;
 }
 
 /* ====== casestudy card description clamp 2 lines ====== */
@@ -10541,5 +10557,19 @@ casestudy details breadcrumb dynamic image n text
 
   .team-work-card:hover .team-image img {
     transform: scale(1.08);
+  }
+}
+
+/* pagebuilder icon image css */
+
+.pagebuilder-img {
+  height: 60px;
+  width: auto;
+}
+
+@media (max-width: 575px) {
+  .pagebuilder-img {
+    height: 40px;
+    width: auto;
   }
 }

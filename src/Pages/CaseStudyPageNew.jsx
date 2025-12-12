@@ -31,6 +31,11 @@ function CaseStudyDetailsPage() {
 
   useEffect(() => {
     if (!slug) return;
+
+    // Reset state when slug changes
+    setCaseStudyData(null);
+    setLoading(true);
+
     if (slug === 'jcc-site') {
       setCaseStudyData({ slug });
       setLoading(false);
@@ -43,7 +48,6 @@ function CaseStudyDetailsPage() {
       return;
     }
 
-    setLoading(true);
     fetch(`/assets/data/casestudy/${slug}.json`)
       .then((res) => {
         if (!res.ok) throw new Error('Not found');
@@ -66,10 +70,10 @@ function CaseStudyDetailsPage() {
   return (
     <>
       <SEO
-        title={caseStudyData.seo?.title}
-        description={caseStudyData.seo?.description}
-        keywords={caseStudyData.seo?.keywords}
-        url={caseStudyData.seo?.url}
+        title={caseStudyData?.seo?.title}
+        description={caseStudyData?.seo?.description}
+        keywords={caseStudyData?.seo?.keywords}
+        url={caseStudyData?.seo?.url}
       />
 
       <BreadCumb
@@ -77,13 +81,14 @@ function CaseStudyDetailsPage() {
         Title={dynamicTitle}
         hasOverlay={true}
         customTrail={[{ label: 'Case Study', link: '/case-study' }, { label: dynamicTitle }]}
+        className="case-study-breadcrumb"
       />
 
       <Suspense fallback={<SimpleLoader />}>
         {slug === 'jcc-site' ? (
-          <JCCSiteDetails />
+          <JCCSiteDetails list={caseStudiesList} />
         ) : slug === 'silicon-signals' ? (
-          <SiliconSignalsDetails />
+          <SiliconSignalsDetails list={caseStudiesList} />
         ) : caseStudyData?.template === 'old' ? (
           <CaseStudyDetailsSecond data={caseStudyData} list={caseStudiesList} />
         ) : caseStudyData?.template === 'third' ? (

@@ -1,4 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
+import DropDown from './DropDown';
 
 const Nav = ({ setMobileToggle, headerType }) => {
   const location = useLocation();
@@ -9,20 +10,36 @@ const Nav = ({ setMobileToggle, headerType }) => {
   return (
     <>
       <ul className={`cs_nav_list`}>
-        <li>
-          <Link to="/" onClick={() => setMobileToggle(false)} className={getActiveClass('/')}>
-            Unlimited Wordpress
-          </Link>
-        </li>
-
-        <li>
-          <Link
-            to="/unlimited-shopify"
-            onClick={() => setMobileToggle(false)}
-            className={getActiveClass('/unlimited-shopify')}
+        <li className="menu-item-has-children">
+          <a
+            href="#"
+            onClick={(e) => e.preventDefault()}
+            className={
+              getActiveClass('/') || getActiveClass('/unlimited-shopify')
+                ? 'active ${headerType}-active'
+                : ''
+            }
           >
-            Unlimited Shopify
-          </Link>
+            Section
+          </a>
+          <DropDown>
+            <ul>
+              <li>
+                <Link to="/" onClick={() => setMobileToggle(false)} className={getActiveClass('/')}>
+                  Unlimited Wordpress
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/unlimited-shopify"
+                  onClick={() => setMobileToggle(false)}
+                  className={getActiveClass('/unlimited-shopify')}
+                >
+                  Unlimited Shopify
+                </Link>
+              </li>
+            </ul>
+          </DropDown>
         </li>
 
         <li>
@@ -42,6 +59,16 @@ const Nav = ({ setMobileToggle, headerType }) => {
             className={getActiveClass('/case-study')}
           >
             Case Study
+          </Link>
+        </li>
+
+        <li>
+          <Link
+            to="/partners"
+            onClick={() => setMobileToggle(false)}
+            className={getActiveClass('/partners')}
+          >
+            Partners
           </Link>
         </li>
 

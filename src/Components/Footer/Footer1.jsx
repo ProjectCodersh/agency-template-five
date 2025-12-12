@@ -76,6 +76,9 @@ const Footer1 = () => {
                       <a href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2F30213091%2Fadmin%2Fanalytics%2Ffollowers%2F">
                         <i className="bi bi-linkedin"></i>
                       </a>
+                      <a href="https://wa.me/9998134094?text=Hello%2C%20I%20want%20to%20inquire%20about%20your%20services.">
+                        <i className="bi bi-whatsapp"></i>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -214,7 +217,7 @@ const Footer1 = () => {
           </div>
 
           {/* Reviews Section */}
-          {/* <div
+          <div
             className="row mt-5 pt-4"
             style={{ borderTop: '1px solid rgba(255, 255, 255, 0.1)' }}
           >
@@ -230,15 +233,15 @@ const Footer1 = () => {
                         rating: 5.0,
                       },
                       {
-                        id: 'upwork',
-                        name: 'Upwork',
-                        logo: '/assets/img/footer/upwork-footer-1.png',
-                        rating: 5.0,
-                      },
-                      {
                         id: 'goodfirms',
                         name: 'GoodFirms',
                         logo: '/assets/img/footer/goodfirms-footer.png',
+                        rating: 5.0,
+                      },
+                      {
+                        id: 'upwork',
+                        name: 'Upwork',
+                        logo: '/assets/img/footer/upwork-footer-1.png',
                         rating: 5.0,
                       },
                     ].map((platform, index) => (
@@ -280,7 +283,7 @@ const Footer1 = () => {
                 </div>
               </div>
             </div>
-          </div> */}
+          </div>
         </div>
 
         <div className="footer-bottom">

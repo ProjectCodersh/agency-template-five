@@ -18,6 +18,7 @@ import AboutPage from '../Pages/AboutPage';
 import FaqPage from '../Pages/FaqPage';
 import ThankyouPage from '../Components/Thankyou/ThankyouPage';
 import Work from '../Components/Work/Work';
+import PartnersPage from '../Pages/PartnersPage';
 // import Team1 from '../Components/Team/Team1';
 // import Testimonials from "../Pages/Testimonials";
 // import Casestudies from "../Pages/CaseStudyPageNew";
@@ -124,6 +125,10 @@ export const router = createBrowserRouter([
       {
         path: '/work',
         element: <Work />,
+      },
+      {
+        path: '/partners',
+        element: <PartnersPage />,
       },
     ],
   },

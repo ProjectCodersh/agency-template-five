@@ -20,7 +20,7 @@ const Counter4 = () => {
       title: 'Elementor',
     },
     {
-      img: '/assets/img/pagebuilder/avad.svg',
+      img: '/assets/img/pagebuilder/avad.webp',
       title: 'Avanda',
     },
     {
@@ -79,7 +79,12 @@ const Counter4 = () => {
                     className="d-flex justify-content-center align-items-center w-100"
                     style={{ fontSize: '40px', color: '#6a47ed', gap: '20px' }}
                   >
-                    <img className="brandsection-img" src={item.img} alt={item.title} loading="lazy" />
+                    <img
+                      className="brandsection-img"
+                      src={item.img}
+                      alt={item.title}
+                      loading="lazy"
+                    />
                     <h3 className="text-center text-md-start">{item.title}</h3>
                   </div>
                 </div>

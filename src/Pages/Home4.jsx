@@ -22,7 +22,7 @@ import VideoTestimonialSlick from '../Components/Testimonial/VideoTestimonial';
 import SEO from '../Components/DynamicSEO/SEO';
 import HomeImgSlider from '@/Components/ImageSliderNew/HomeImgSlider';
 import AppointmentBooking from '@/Components/AppointmentBooking/AppointmentBooking';
-import ShopifyPartnerSection from '../Components/PartnerSection/ShopifyPartnerSection';
+import ShopifyPartnerSection from '../Components/ServicePartner/ShopifyPartnerSection';
 
 const Home4 = () => {
   return (

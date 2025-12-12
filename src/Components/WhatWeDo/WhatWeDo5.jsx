@@ -37,7 +37,7 @@ const Counter4 = () => {
     },
     {
       img: '/assets/img/pagebuilder/builder18.webp',
-      title: 'Loox',
+      title: 'Instafeed',
       content:
         'Collaboratively formulate principle capital. Progressively evolve user revolutionary hosting services.',
     },
@@ -110,7 +110,12 @@ const Counter4 = () => {
                     className="d-flex justify-content-center align-items-center w-100"
                     style={{ fontSize: '40px', color: '#6a47ed', gap: '20px' }}
                   >
-                    <img className="brandsection-img" src={item.img} alt={item.title} loading="lazy" />
+                    <img
+                      className="brandsection-img pagebuilder-img"
+                      src={item.img}
+                      alt={item.title}
+                      loading="lazy"
+                    />
                     <h3 className="text-center text-md-start">{item.title}</h3>
                   </div>
                 </div>

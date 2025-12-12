@@ -12,7 +12,7 @@ import Brandsection3 from '@/Components/Extra/HomePage/BrandSection3';
 import SEO from '../Components/DynamicSEO/SEO';
 import HomeImgSlider from '@/Components/ImageSliderNew/HomeImgSlider';
 import AppointmentBooking from '@/Components/AppointmentBooking/AppointmentBooking';
-import WpPartnerSection from '../Components/PartnerSection/WpPartnerSection';
+import WpPartnerSection from '../Components/ServicePartner/WpPartnerSection';
 // import ShopifyPartnerSection from '@/Components/Extra/HomePage/ShopifyPartnerSection';
 
 const Faq1 = lazy(() => import('@/Components/Faq/Faq1'));

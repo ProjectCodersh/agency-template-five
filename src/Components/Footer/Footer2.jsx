@@ -66,6 +66,9 @@ const Footer2 = () => {
                       <a href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2F30213091%2Fadmin%2Fanalytics%2Ffollowers%2F">
                         <i className="bi bi-linkedin"></i>
                       </a>
+                      <a href="https://wa.me/9998134094?text=Hello%2C%20I%20want%20to%20inquire%20about%20your%20services.">
+                        <i className="bi bi-whatsapp"></i>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -199,34 +202,31 @@ const Footer2 = () => {
           </div>
 
           {/* Reviews Section */}
-          {/* <div
+          <div
             className="row mt-5 pt-4"
             style={{ borderTop: '1px solid rgba(255, 255, 255, 0.1)' }}
           >
             <div className="col-12">
               <div className="single-footer-widget wow fadeInUp" data-wow-delay=".2s">
-                <div className="widget-head">
-                  <h3>Our Reviews</h3>
-                </div>
-                <div className="footer-content mt-4">
+                <div className="footer-content mb-5">
                   <div className="footer-reviews-container">
                     {[
                       {
                         id: 'clutch',
                         name: 'Clutch',
-                        logo: '/assets/img/clutchlogo.webp',
-                        rating: 5.0,
-                      },
-                      {
-                        id: 'upwork',
-                        name: 'Upwork',
-                        logo: '/assets/img/upwork.webp',
+                        logo: '/assets/img/footer/clutch-footer-1.png',
                         rating: 5.0,
                       },
                       {
                         id: 'goodfirms',
                         name: 'GoodFirms',
-                        logo: '/assets/img/goodfirmslogo.webp',
+                        logo: '/assets/img/footer/goodfirms-footer.png',
+                        rating: 5.0,
+                      },
+                      {
+                        id: 'upwork',
+                        name: 'Upwork',
+                        logo: '/assets/img/footer/upwork-footer-1.png',
                         rating: 5.0,
                       },
                     ].map((platform, index) => (
@@ -268,7 +268,7 @@ const Footer2 = () => {
                 </div>
               </div>
             </div>
-          </div> */}
+          </div>
         </div>
 
         <div className="footer-bottom">

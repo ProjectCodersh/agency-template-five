@@ -1,16 +1,23 @@
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 import loadBackgroudImages from './loadBackgroudImages';
 import { Link } from 'react-router-dom';
 import React from 'react';
 
-const BreadCumb = ({ Title, bgimg, customTrail = null, hasOverlay = false }) => {
+const BreadCumb = ({ Title, bgimg, customTrail = null, hasOverlay = false, className = '' }) => {
+  const wrapperRef = useRef(null);
+
   useEffect(() => {
+    if (wrapperRef.current && bgimg) {
+      wrapperRef.current.style.backgroundImage = `url('${bgimg}')`;
+    }
+    // Also call the original function for any other elements
     loadBackgroudImages();
-  }, []);
+  }, [bgimg]);
 
   return (
     <div
-      className="breadcrumb-wrapper bg-cover breadcrumb-wrapper-margin-top"
+      ref={wrapperRef}
+      className={`breadcrumb-wrapper bg-cover breadcrumb-wrapper-margin-top ${className}`}
       data-background={bgimg}
     >
       {hasOverlay && <div className="breadcrumb-overlay" />}
