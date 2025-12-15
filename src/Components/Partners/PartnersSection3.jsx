@@ -95,3 +95,4 @@ const PartnersSection3 = () => {
 };
 
 export default React.memo(PartnersSection3);
+

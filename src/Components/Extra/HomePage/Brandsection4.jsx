@@ -1,5 +1,6 @@
 import React from 'react';
-import gmailLogo from '/assets/img/tools/thumbnails/gmail-thumbnail.webp';
+// import gmailLogo from '/assets/img/tools/thumbnails/gmail-thumbnail.webp';
+import slackLogo from '/assets/img/tools/thumbnails/slack-thumbnail.webp';
 import asanaLogo from '/assets/img/tools/thumbnails/asana-thumbnail.webp';
 import loomLogo from '/assets/img/tools/thumbnails/loom-thumbnail.webp';
 import zoomLogo from '/assets/img/tools/thumbnails/zoom-thumbnail.webp';
@@ -18,11 +19,17 @@ const chooseHeading = {
 
 // Updated data format
 const recommended = [
+  // {
+  //   iconclass: 'fa-brands fa-google',
+  //   title: 'Gmail',
+  //   content: 'Email and communication tool',
+  //   logo: gmailLogo,
+  // },
   {
-    iconclass: 'fa-brands fa-google',
-    title: 'Gmail',
-    content: 'Email and communication tool',
-    logo: gmailLogo,
+    iconclass: 'fa-brands fa-slack',
+    title: 'Slack',
+    content: 'Team communication and collaboration tool',
+    logo: slackLogo,
   },
   {
     iconclass: 'fa-solid fa-list-check',

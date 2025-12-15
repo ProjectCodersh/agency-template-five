@@ -4,8 +4,8 @@ const chooseHeading = {
   subtitle: 'Partners & Integrations',
   title: 'Web Hosting & Domain Management',
   content: '',
-  plantitle1: 'Hosting Providers',
-  plantitle2: 'Domain & Marketplace Services',
+  plantitle1: 'Hosting & Domain Providers',
+  plantitle2: 'Marketplace Services',
 };
 
 // Web Hosting Providers

@@ -15,7 +15,7 @@ const WhatWeDo4 = () => {
         'Get a detailed SEO audit that covers critical issues affecting your clients’ sites. By fixing these issues, we enhance site performance, leading to higher rankings and increased traffic.',
     },
     {
-      img: '/assets/img/serviceIcon/migration.webp',
+      img: '/assets/img/serviceIcon/migration-1.webp',
       title: 'Shopify Migration',
       content:
         'Increase your clients’ local visibility and attract more customers. Our local SEO services ensure your clients stand out in local searches.',
@@ -27,7 +27,7 @@ const WhatWeDo4 = () => {
         'Our Shopify SEO experts optimize your clients’ content and site structure, internal linking, ensuring top crawlability and rankings. This enhances user experience and boosts search engine performance.',
     },
     {
-      img: '/assets/img/serviceIcon/add-to-cart.webp',
+      img: '/assets/img/serviceIcon/add-to-cart-1.webp',
       title: 'Shopify Plus',
       content:
         'Get a detailed SEO audit that covers critical issues affecting your clients’ sites. By fixing these issues, we enhance site performance, leading to higher rankings and increased traffic.',
@@ -39,7 +39,7 @@ const WhatWeDo4 = () => {
         'Increase your clients’ local visibility and attract more customers. Our local SEO services ensure your clients stand out in local searches.',
     },
     {
-      img: '/assets/img/serviceIcon/recruitment.webp',
+      img: '/assets/img/serviceIcon/recruitment-1.webp',
       title: 'Shopify CRO Agency',
       content:
         'Our Shopify SEO experts optimize your clients’ content and site structure, internal linking, ensuring top crawlability and rankings. This enhances user experience and boosts search engine performance.',

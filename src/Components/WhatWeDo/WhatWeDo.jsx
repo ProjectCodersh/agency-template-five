@@ -22,7 +22,7 @@ const WhatWeDo = () => {
       title: 'Wordpress plugin development Service',
     },
     {
-      img: '/assets/img/serviceIcon/layout.webp',
+      img: '/assets/img/serviceIcon/layout-1.webp',
       title: 'Wordpress theme development & customization',
     },
     {
@@ -34,7 +34,7 @@ const WhatWeDo = () => {
       title: 'Woocommerce Development Service',
     },
     {
-      img: '/assets/img/serviceIcon/blogging.webp',
+      img: '/assets/img/serviceIcon/blogging-1.webp',
       title: 'Wordpress Blog Development Service',
     },
     {
