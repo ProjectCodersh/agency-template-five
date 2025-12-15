@@ -80,14 +80,17 @@ const Testimonial4 = () => {
   ];
 
   return (
-    <section className="testimonial-section section-padding fix">
+    <section
+      className="testimonial-section section-padding fix"
+      // style={{ backgroundColor: '#f6f3fe' }}
+    >
       <div className="container px-3">
         <div className="testimonial-wrapper">
           <div className="section-title-area">
             <div className="section-title">
               <div
                 className="sub-title bg-color-2 wow fadeInUp"
-                style={{ backgroundColor: '#f6f3fe' }}
+                style={{ backgroundColor: '#384bff1a' }}
               >
                 <span>TESTIMONIALS</span>
               </div>

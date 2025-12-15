@@ -27,13 +27,13 @@ const Value1 = () => {
   ];
 
   return (
-    <section className="value-section fix section-padding section-bg pt-0">
-      <div className="value-shape">
+    <section className="value-section fix section-padding section-bg ">
+      {/* <div className="value-shape">
         <img src="/assets/img/value-shape.png" alt="img" />
       </div>
       <div className="value-shape-2">
         <img src="/assets/img/value-shape-2.png" alt="img" />
-      </div>
+      </div> */}
       <div className="container px-3">
         <div className="section-title text-center wow fadeInUp" data-wow-delay=".3s">
           <h2>Our values</h2>

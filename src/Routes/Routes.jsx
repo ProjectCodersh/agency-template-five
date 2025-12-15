@@ -19,6 +19,8 @@ import FaqPage from '../Pages/FaqPage';
 import ThankyouPage from '../Components/Thankyou/ThankyouPage';
 import Work from '../Components/Work/Work';
 import PartnersPage from '../Pages/PartnersPage';
+import NewServicesPage from '../Pages/NewServicesPage';
+import NewSingleServicePage from '../Pages/NewSingleServicePage';
 // import Team1 from '../Components/Team/Team1';
 // import Testimonials from "../Pages/Testimonials";
 // import Casestudies from "../Pages/CaseStudyPageNew";
@@ -27,7 +29,7 @@ import PartnersPage from '../Pages/PartnersPage';
 // import ServiceDetailsPage from "../Pages/ServiceDetailsPage";
 // import Home2 from "../Pages/Home2";
 // import Home3 from "../Pages/Home3";
-// import TeamDetailsPage from "../Pages/TeamDetailsPage";
+import TeamDetailsPage from '../Pages/TeamDetailsPage';
 // import CaseStudyDetailsPage from "../Pages/CaseStudyDetailsPage";
 // import BlogRightSidebar from "../Pages/BlogRightSidebar";
 // import BlogPage from "../Pages/BlogPage";
@@ -38,10 +40,10 @@ export const router = createBrowserRouter([
     path: '/',
     element: <Layout2 />,
     children: [
-      // {
-      //   path: "/team/team-details",
-      //   element: <TeamDetailsPage></TeamDetailsPage>,
-      // },
+      {
+        path: '/team/team-details',
+        element: <TeamDetailsPage></TeamDetailsPage>,
+      },
       // {
       //   path: "/service",
       //   element: <ServicesPage></ServicesPage>,
@@ -129,6 +131,14 @@ export const router = createBrowserRouter([
       {
         path: '/partners',
         element: <PartnersPage />,
+      },
+      {
+        path: '/new-services',
+        element: <NewServicesPage />,
+      },
+      {
+        path: '/new-services/single-service',
+        element: <NewSingleServicePage />,
       },
     ],
   },

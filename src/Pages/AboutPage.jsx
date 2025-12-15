@@ -1,6 +1,6 @@
 import About2 from '../Components/About/About2';
 import BreadCumb from '../Components/Common/BreadCumb';
-import Counter3 from '../Components/Counter/Counter3';
+// import Counter3 from '../Components/Counter/Counter3';
 import Value1 from '../Components/Value/Value1';
 
 const AboutPage = () => {
@@ -8,9 +8,9 @@ const AboutPage = () => {
     <div>
       <BreadCumb bgimg="/assets/img/breadcrumb.jpg" Title="about us" />
       <About2 addclass="about-section-2 fix section-padding" />
-      <Counter3 />
+      {/* <Counter3 /> */}
       <Value1 />
-    </div >
+    </div>
   );
 };
 

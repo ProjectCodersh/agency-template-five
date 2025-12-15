@@ -83,7 +83,11 @@ const Work = () => {
   return (
     <>
       {/* BREADCRUMB */}
-      <BreadCumb bgimg="/assets/img/breadcrumb.jpg" Title="Work" />
+      <BreadCumb
+        bgimg="/assets/img/work/Group-1171275783.png"
+        Title="Work"
+        className="breadcrumb-wrapper bg-cover breadcrumb-wrapper-margin-top case-study-breadcrumb"
+      />
 
       {/* Image section */}
       <section className="team-section-3 fix section-padding">

@@ -10,21 +10,25 @@ const TeamDetails = () => {
               </div>
               <div className="content">
                 <div className="cont">
-                  <h4>Kenneth Z. Burke</h4>
-                  <span>Gemini market</span>
+                  <h4>Harsh Shah</h4>
+                  <span>Founder & CEO, Codersh Web Services</span>
                 </div>
                 <p className="mb-3">
-                  Prior to joining company, she spent 20+ years at Inmosys, where he held a wide
-                  range of global leadership roles, from services to products, and across operations
-                  and sales. Most recently, he was SVP & Global Head of the Manufacturing business..
+                  Harsh Shah is a seasoned entrepreneur and technology leader with over 8+ years of
+                  experience in building and scaling digital solutions for global clients. As the
+                  Founder and CEO of Codersh Web Services, he has spearheaded the delivery of
+                  high-quality web, mobile, and e-commerce development projects — helping startups
+                  and established businesses grow their online presence with robust and
+                  performance-driven products.
                 </p>
                 <p>
-                  as well as a board member of their software subsidiary. He is also an avid cook
-                  and history buff. You can find him dining late at night with the chefs of the
-                  hotels where he stays during his travels
+                  Harsh is passionate about mentoring young developers, sharing insights on emerging
+                  tech trends, and building thriving tech communities. Outside of work, he enjoys
+                  exploring new innovations in web development and advocating for client-focused
+                  design solutions.
                 </p>
                 <div className="signature">
-                  <img src="/assets/img/team/signature.png" alt="img" />
+                  {/* <img src="/assets/img/team/signature.png" alt="img" /> */}
                 </div>
                 <div className="team-contact-info">
                   <div className="icon-items">
@@ -32,7 +36,7 @@ const TeamDetails = () => {
                       <i className="bi bi-telephone-fill"></i>
                     </div>
                     <h5>
-                      <a href="tel:+9156980036420">+91 5698 0036 420</a>
+                      <a href="tel:+919998134094">+91 99981 34094</a>
                     </h5>
                   </div>
                   <div className="icon-items">
@@ -40,7 +44,7 @@ const TeamDetails = () => {
                       <i className="bi bi-envelope-fill"></i>
                     </div>
                     <h5>
-                      <a href="mailto:info@example.com">info@example.com</a>
+                      <a href="mailto:arvind@codersh.com">arvind@codersh.com</a>
                     </h5>
                   </div>
                   <div className="icon-items">
@@ -48,8 +52,8 @@ const TeamDetails = () => {
                       <i className="bi bi-geo-alt-fill"></i>
                     </div>
                     <h5>
-                      <a href="https://www.google.com/maps/place/Egens+Lab/@23.8340712,90.3631117,17z/data=!3m1!4b1!4m6!3m5!1s0x3755c14c8682a473:0xa6c74743d52adb88!8m2!3d23.8340663!4d90.3656866!16s%2Fg%2F11rs9vlwsk?entry=ttu">
-                        26 Manor St, Braintree UK
+                      <a href="https://maps.app.goo.gl/TJP3CFjW6jSKHwsA6">
+                        A-307, Empire Business Hub, <br /> Science City Rd, Sola, Ahmedabad
                       </a>
                     </h5>
                   </div>
@@ -65,22 +69,24 @@ const TeamDetails = () => {
           <div className="personal-information-wrapper">
             <h3>Personal Information</h3>
             <p className="mt-3">
-              There are many variations of passages of Lorem Ipsum available, but the majority have
-              suffered alteration in some form, by injected humour, or randomised words which do not
-              look even slightly believable. If you are going to use a passage of Lorem Ipsum, you
-              need to be sure there is not anything embarrassing hidden in the middle of text. All
-              the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as
-              necessary,
+              Harsh Shah is the visionary behind Codersh Web Services, a thriving digital agency
+              that specializes in custom web development, e-commerce solutions, and strategic
+              digital experiences. With a career built on passion and constant learning, Harsh
+              started his journey in technology over a decade ago and has since helped hundreds of
+              businesses launch, grow, and scale their digital products.
             </p>
             <p className="mt-3">
-              There are many variations of passages of Lorem Ipsum available, but the majority have
-              suffered alteration in some form, by injected humour, or randomised words which do not
-              look even slightly believable. If you are going to use a passage of Lorem Ipsum, you
-              need to be sure there is not anything embarrassing hidden in the middle of text. All
-              the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as
-              necessary,
+              Harsh believes in transparent communication, strategic problem-solving, and delivering
+              solutions that not only look great but perform exceptionally in real business
+              environments. His leadership has helped Codersh maintain a strong reputation for
+              quality and client satisfaction.
             </p>
-            <div className="personal-skill-wrapper">
+            <p className="mt-3">
+              When he’s not leading projects, Harsh enjoys speaking on tech topics, contributing to
+              online developer communities, and exploring new tools and frameworks in the web
+              ecosystem.
+            </p>
+            {/* <div className="personal-skill-wrapper">
               <h4>Personal skills</h4>
               <div className="row g-5">
                 <div className="col-lg-6">
@@ -136,7 +142,7 @@ const TeamDetails = () => {
                 of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined
                 chunks as necessary,
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
