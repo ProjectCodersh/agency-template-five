@@ -8,7 +8,7 @@ const ServiceContentOne = () => {
     title: 'Why Choose Shopify for Your Store',
     content:
       'Choose Codersh Web Services and Shopify to build a secure, scalable, and easy-to-manage eCommerce store. Discover the advantages of using Shopify for your growing online business.',
-    img: '/assets/img/team/02.png',
+    img: '/assets/img/newservices/shopify-service-2.png',
     list1: 'Easy-to-Use Dashboard',
     list2: 'Secure & Reliable Hosting',
     list3: 'Wide Range of Themes',

@@ -1,0 +1,67 @@
+{
+  "singleServiceSections": [
+    {
+      "type": "boxTwo",
+      "subtitle": "TAILORED SHOPIFY SOLUTIONS",
+      "title": "Transform Your Store with a Custom Shopify 2.0 Theme",
+      "content": "At CWS, we specialize in designing and developing bespoke Shopify and Shopify Plus themes that reflect your brand’s unique identity while delivering a seamless and engaging user experience. Our mission is to combine stunning designs with cutting-edge technology to build online stores that not only stand out but also perform exceptionally well.",
+      "img": "/assets/img/newsingleservice/service-1.webp",
+      "buttonText": "Hire Us Now",
+      "buttonLink": "/case-study"
+    },
+    {
+      "type": "boxOne",
+      "subtitle": "CUSTOM SHOPIFY THEMES",
+      "title": "Built for Your Revenue Goals, Powered by Expertise",
+      "content": "Whether you’re a growing startup or an established brand, we craft custom Shopify themes tailored to your business goals. Our team focuses on performance-driven design—optimizing for speed, engagement, and long-term growth to help your store reach its full potential.",
+      "img": "/assets/img/newsingleservice/service-2.webp",
+      "buttonText": "Get Free Quotes Now!",
+      "buttonLink": "/case-study"
+    },
+    {
+      "type": "boxTwo",
+      "subtitle": "STORE FOUNDATIONS",
+      "title": "Discovery, Strategy & Planning",
+      "content": "Our process starts with a deep understanding of your brand, audience, and industry. We analyze competitors, map user journeys, and create clear sitemaps to ensure a smooth, conversion-focused Shopify experience that delivers real business results.",
+      "img": "/assets/img/newsingleservice/service-1.webp",
+      "buttonText": "Hire Us Now",
+      "buttonLink": "/case-study"
+    },
+    {
+      "type": "boxOne",
+      "subtitle": "UNIQUE DESIGNS",
+      "title": "CRO-Optimized Design That Captivates & Converts",
+      "content": "Guided by insights from our discovery phase, we create bespoke Shopify designs that resonate with your audience and reflect your brand’s personality. From wireframes to high-fidelity visuals, every element is crafted to boost engagement, increase conversions, and leave a lasting impression.",
+      "img": "/assets/img/newsingleservice/service-2.webp",
+      "buttonText": "Get Free Quotes Now!",
+      "buttonLink": "/case-study"
+    },
+    {
+      "type": "boxTwo",
+      "subtitle": "POWERFUL FUNCTIONALITY",
+      "title": "Shopify Development Optimized for Results",
+      "content": "Our expert Shopify developers turn designs into pixel-perfect, high-performing themes. We build fully responsive stores optimized for speed, SEO, and scalability-while supporting custom integrations and private Shopify apps to meet your unique business needs.",
+      "img": "/assets/img/newsingleservice/service-1.webp",
+      "buttonText": "Hire Us Now",
+      "buttonLink": "/case-study"
+    },
+    {
+      "type": "boxOne",
+      "subtitle": "SMOOTH LAUNCH",
+      "title": "Seamless Testing & Launch",
+      "content": "Before your store goes live, we conduct rigorous testing to eliminate bugs and ensure a smooth experience for your customers. Our team handles every detail, so your launch day is as seamless as possible.",
+      "img": "/assets/img/newsingleservice/service-2.webp",
+      "buttonText": "Get Free Quotes Now!",
+      "buttonLink": "/case-study"
+    },
+    {
+      "type": "boxTwo",
+      "subtitle": "LONG-TERM GROWTH",
+      "title": "Beyond Launch: Optimization & Support",
+      "content": "Our commitment doesn’t end at launch. We offer ongoing optimization and support to ensure your store evolves to meet your customers’ needs. From performance enhancements to feature updates, we’re here to help your business thrive long-term.",
+      "img": "/assets/img/newsingleservice/service-1.webp",
+      "buttonText": "Hire Us Now",
+      "buttonLink": "/case-study"
+    }
+  ]
+}

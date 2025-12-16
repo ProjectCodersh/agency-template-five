@@ -1,5 +1,4 @@
 import ServiceCardSection from '../Components/NewServices/ServiceCardSection';
-import ServiceHeroSection from '../Components/NewServices/ServiceHeroSection';
 import HomeImgSlider from '../Components/ImageSliderNew/HomeImgSlider';
 import ServiceActionSection from '../Components/NewServices/ServiceActionSectio';
 import ServicesContentOne from '../Components/NewServices/ServiceContentOne';
@@ -7,12 +6,15 @@ import ServiceContentTwo from '../Components/NewServices/ServiceContentTwo';
 // import Testimonial4 from '../Components/Testimonial/Testimonial4';
 import VideoTestimonialSlickSecond from '../Components/Testimonial/VideoTestimonialTwo';
 import CaseStudy1 from '../Components/CaseStudy/CaseStudy3';
+import HeroSection from '../Components/WhiteLabelServices/HeroSection';
+import FAQSection from '../Components/WhiteLabelServices/FAQSection';
 
-function NewServicesPage() {
+function WhiteLabelServicePage() {
   return (
     <div>
       {/* <BreadCumb bgimg="/assets/img/breadcrumb.jpg" Title="Our Services" /> */}
-      <ServiceHeroSection />
+      <HeroSection />
+      <FAQSection />
       <ServiceCardSection />
       <HomeImgSlider />
       <ServiceActionSection />
@@ -25,4 +27,4 @@ function NewServicesPage() {
   );
 }
 
-export default NewServicesPage;
+export default WhiteLabelServicePage;

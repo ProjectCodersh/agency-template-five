@@ -21,12 +21,13 @@ import Work from '../Components/Work/Work';
 import PartnersPage from '../Pages/PartnersPage';
 import NewServicesPage from '../Pages/NewServicesPage';
 import NewSingleServicePage from '../Pages/NewSingleServicePage';
+import WhiteLabelServicePage from '../Pages/WhiteLabelServicePage';
 // import Team1 from '../Components/Team/Team1';
 // import Testimonials from "../Pages/Testimonials";
 // import Casestudies from "../Pages/CaseStudyPageNew";
 // import Solutions from "../Pages/Solutions";
-// import ServicesPage from "../Pages/ServicesPage";
-// import ServiceDetailsPage from "../Pages/ServiceDetailsPage";
+import ServicesPage from '../Pages/ServicesPage';
+import ServiceDetailsPage from '../Pages/ServiceDetailsPage';
 // import Home2 from "../Pages/Home2";
 // import Home3 from "../Pages/Home3";
 import TeamDetailsPage from '../Pages/TeamDetailsPage';
@@ -44,14 +45,14 @@ export const router = createBrowserRouter([
         path: '/team/team-details',
         element: <TeamDetailsPage></TeamDetailsPage>,
       },
-      // {
-      //   path: "/service",
-      //   element: <ServicesPage></ServicesPage>,
-      // },
-      // {
-      //   path: "/service/service-details",
-      //   element: <ServiceDetailsPage></ServiceDetailsPage>,
-      // },
+      {
+        path: '/service',
+        element: <ServicesPage></ServicesPage>,
+      },
+      {
+        path: '/service/service-details',
+        element: <ServiceDetailsPage></ServiceDetailsPage>,
+      },
       // {
       //   path: "/project/project-details",
       //   element: <CaseStudyDetailsPage></CaseStudyDetailsPage>,
@@ -139,6 +140,10 @@ export const router = createBrowserRouter([
       {
         path: '/new-services/single-service',
         element: <NewSingleServicePage />,
+      },
+      {
+        path: '/new-services/white-label-service',
+        element: <WhiteLabelServicePage />,
       },
     ],
   },

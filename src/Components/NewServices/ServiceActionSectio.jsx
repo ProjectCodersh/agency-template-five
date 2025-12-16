@@ -3,17 +3,17 @@ import { Link } from 'react-router-dom';
 const ServiceActionSection = () => {
   const chooseContent = [
     {
-      img: '/assets/img/service/01.png',
+      img: '/assets/img/newservices/modle-3.png',
       title: 'SEO Marketing',
       content: 'Collaboratively formulate principle capital doing progressively evolve user',
     },
     {
-      img: '/assets/img/service/05.png',
+      img: '/assets/img/newservices/modle-2.png',
       title: 'Social Media Marketing',
       content: 'Collaboratively formulate principle capital doing progressively evolve user',
     },
     {
-      img: '/assets/img/service/06.png',
+      img: '/assets/img/newservices/modle-1.png',
       title: 'Email Marketing',
       content: 'Collaboratively formulate principle capital doing progressively evolve user',
     },

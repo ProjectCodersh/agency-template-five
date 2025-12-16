@@ -81,22 +81,19 @@ const Footer1 = () => {
                       </a>
                     </div>
 
-                    {/* Reviews Section (moved under social icons, stacked vertically) */}
-                    <div
-                      className="footer-reviews-container"
-                      style={{ flexDirection: 'column', alignItems: 'flex-start', gap: '1rem' }}
-                    >
+                    {/* Reviews Section */}
+                    <div className="footer-reviews-container">
                       {[
-                        {
-                          id: 'clutch',
-                          name: 'Clutch',
-                          logo: '/assets/img/footer/clutch-footer-1.png',
-                          rating: 5.0,
-                        },
                         {
                           id: 'goodfirms',
                           name: 'GoodFirms',
                           logo: '/assets/img/footer/goodfirms-footer.png',
+                          rating: 5.0,
+                        },
+                        {
+                          id: 'clutch',
+                          name: 'Clutch',
+                          logo: '/assets/img/footer/clutch-footer-1.png',
                           rating: 5.0,
                         },
                         {
@@ -173,6 +170,24 @@ const Footer1 = () => {
                       <Link to="/case-study">
                         <i className="bi bi-arrow-right"></i>
                         Case Study
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/new-services">
+                        <i className="bi bi-arrow-right"></i>
+                        Shopify Services Page
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/new-services/single-service">
+                        <i className="bi bi-arrow-right"></i>
+                        Shopify Singe Service
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/new-services/white-label-service">
+                        <i className="bi bi-arrow-right"></i>
+                        White Label Shopify Service
                       </Link>
                     </li>
                     {/* <li>

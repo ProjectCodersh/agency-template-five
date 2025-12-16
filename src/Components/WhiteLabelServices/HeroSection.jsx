@@ -3,18 +3,18 @@ import loadBackgroudImages from '../Common/loadBackgroudImages';
 import { Link } from 'react-router-dom';
 import parse from 'html-react-parser';
 
-const ServiceHeroSection = () => {
+const HeroSection = () => {
   useEffect(() => {
     loadBackgroudImages();
   }, []);
 
   const heroContent = {
     bg: '/assets/img/hero/hero-bg-3.jpg',
-    subtitle: 'go for SHOPIFY',
+    subtitle: 'WHITE-LABEL SOLUTIONS',
     // title: ' Achieve <span>Top Search </span> Rankings With Our <br/> SEO services',
-    title: ' Shopify <span> Development </span> Service',
+    title: ' White Label <span> Shopify Development </span> Service',
     content:
-      'Scale your online business with Codersh Web Services, your trusted partner in delivering high-performance and conversion-focused Shopify stores. Whether you’re launching a new brand,migrating from another platform, or optimizing your existing store, our Shopify experts ensure a smooth, powerful, and growth-ready online presence tailored to your business needs.',
+      'Are you looking to deliver high-quality Shopify projects without hiring, training, or managing anin-house team? Codersh Web Services offers reliable White Label Shopify Development Services designed exclusively for agencies, consultants, and freelancers who want to scale profitably.',
     img: '/assets/img/newservices/shopify-service-vector-1.png',
     btnname: 'HIRE EXPERTS',
     linkname: 'VIEW OUR WORK',
@@ -35,7 +35,7 @@ const ServiceHeroSection = () => {
               <h1 className="wow fadeInUp" data-wow-delay=".3s">
                 {parse(heroContent.title)}
               </h1>
-              <p className="wow fadeInUp" data-wow-delay=".5s">
+              <p className="wow fadeInUp mt-4" data-wow-delay=".5s">
                 {heroContent.content}
               </p>
               <div className="hero-button">
@@ -70,4 +70,4 @@ const ServiceHeroSection = () => {
   );
 };
 
-export default ServiceHeroSection;
+export default HeroSection;

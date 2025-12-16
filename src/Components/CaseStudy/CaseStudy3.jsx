@@ -35,12 +35,25 @@ const CaseStudy3 = () => {
   };
 
   const chooseContent = [
-    { subtitle: 'Marketing', title: 'Digital Marketing', img: '/assets/img/case-studies/02.jpg' },
-    { subtitle: 'Seo Design', title: 'PPC Advertising', img: '/assets/img/case-studies/03.jpg' },
     {
-      subtitle: 'Designer',
-      title: 'Construction Planning',
-      img: '/assets/img/case-studies/04.jpg',
+      subtitle: 'Wine Brand (LGBTQ+ Focused)',
+      title: 'Shopify Based Wine Store',
+      img: '/assets/img/casestudy/new-imgs/shopify-based-wine-store-1.webp',
+    },
+    {
+      subtitle: 'E-Commerce (cocktail store)',
+      title: 'E-Commerce Cocktail Shop',
+      img: '/assets/img/casestudy/new-imgs/e-commerce-cocktail-shop-2.webp',
+    },
+    {
+      subtitle: 'Wine Brand (LGBTQ+ Focused)',
+      title: 'Shopify Based Wine Store',
+      img: '/assets/img/casestudy/new-imgs/shopify-based-wine-store-1.webp',
+    },
+    {
+      subtitle: 'E-Commerce (cocktail store)',
+      title: 'E-Commerce Cocktail Shop',
+      img: '/assets/img/casestudy/new-imgs/e-commerce-cocktail-shop-2.webp',
     },
   ];
 

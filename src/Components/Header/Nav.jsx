@@ -20,12 +20,16 @@ const Nav = ({ setMobileToggle, headerType }) => {
                 : ''
             }
           >
-            Section
+            Services
           </a>
           <DropDown>
             <ul>
               <li>
-                <Link to="/" onClick={() => setMobileToggle(false)} className={getActiveClass('/')}>
+                <Link
+                  to="/"
+                  onClick={() => setMobileToggle(false)}
+                  className={`dropdown-menu-link ${currentPath === '/' ? 'active' : ''}`}
+                >
                   Unlimited Wordpress
                 </Link>
               </li>
@@ -33,7 +37,7 @@ const Nav = ({ setMobileToggle, headerType }) => {
                 <Link
                   to="/unlimited-shopify"
                   onClick={() => setMobileToggle(false)}
-                  className={getActiveClass('/unlimited-shopify')}
+                  className={`dropdown-menu-link ${currentPath === '/unlimited-shopify' ? 'active' : ''}`}
                 >
                   Unlimited Shopify
                 </Link>

@@ -8152,6 +8152,106 @@ input.main-search-input::placeholder {
   position: relative;
 }
 
+/* Work page industry filter dropdown */
+.work-filter {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-style: italic;
+  border-left: 1px solid #6a47ed;
+  padding-left: 20px;
+}
+
+.work-filter-label {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 175%;
+  color: #504e4e;
+  text-transform: uppercase;
+}
+
+.work-filter-dropdown {
+  position: relative;
+}
+
+.work-filter-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 230px;
+  padding: 10px 16px;
+  background-color: #fff;
+  border: none;
+  /* border-radius: 5px 5px 0 0; */
+  border-top: 2px solid #7444fd;
+  box-shadow: 0px 1px 2px 0px rgba(2, 0, 181, 0.1);
+  cursor: pointer;
+  font-size: 15px;
+  color: #05092b;
+}
+
+.work-filter-toggle-icon {
+  position: relative;
+  transition: transform 0.4s ease;
+}
+
+.work-filter-dropdown.open .work-filter-toggle-icon {
+  transform: rotate(180deg);
+}
+
+.work-filter-menu {
+  width: 230px;
+  background-color: #fff;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  border-top: 2px solid #7444fd;
+  box-shadow: 0px 1px 2px 0px rgba(2, 0, 181, 0.1);
+  padding: 10px 0;
+  z-index: 50;
+  opacity: 0;
+  visibility: hidden;
+  border-radius: 0 0 5px 5px;
+  color: red;
+}
+
+.work-filter-dropdown.open .work-filter-menu {
+  opacity: 1;
+  visibility: visible;
+}
+
+.work-filter-menu li {
+  list-style: none;
+}
+
+.work-filter-menu .dropdown-menu-link {
+  width: 100%;
+  text-align: left;
+  padding: 8px 20px;
+  background: transparent;
+  border: none;
+  font-size: 15px;
+  color: #05092b;
+  cursor: pointer;
+}
+
+.work-filter-menu .dropdown-menu-link:hover {
+  padding-left: 25px;
+}
+
+.work-filter-menu .dropdown-menu-link.active {
+  color: #7444fd;
+  font-weight: 600;
+}
+
+@media (max-width: 767px) {
+  .work-filter {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+/************** team card css  **************/
 .team-card-items .icon-shape {
   position: absolute;
   bottom: 30px;
@@ -9391,6 +9491,20 @@ input.main-search-input::placeholder {
     display: block;
     line-height: inherit;
     padding: 10px 20px;
+  }
+
+  /* Dropdown menu link styles - hover and active states */
+  .cs_nav .cs_nav_list ul .dropdown-menu-link {
+    transition: all 0.3s ease;
+  }
+
+  .cs_nav .cs_nav_list ul .dropdown-menu-link:hover {
+    padding-left: 25px;
+  }
+
+  .cs_nav .cs_nav_list ul .dropdown-menu-link.active {
+    color: #7444fd !important;
+    font-weight: 600;
   }
 
   .cs_nav .cs_nav_list ul ul {
