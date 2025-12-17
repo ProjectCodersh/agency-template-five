@@ -108,7 +108,10 @@ const VideoTestimonialSlickSecond = () => {
   };
 
   return (
-    <section className="testimonial-section section-padding fix" style={{ background: '#F6F3FE' }}>
+    <section
+      className="testimonial-section section-padding fix pb-0"
+      style={{ background: '#F6F3FE' }}
+    >
       <div className="container px-3">
         <div className="testimonial-wrapper g-3">
           <div className="section-title-area">

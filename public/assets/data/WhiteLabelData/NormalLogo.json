@@ -1,0 +1,62 @@
+{
+  "enabled": true,
+  "styles": {
+    "sectionBgColor": "#f6f3fe",
+    "chipBgColor": "#384bff1a"
+  },
+  "heading": {
+    "subtitle": "Payment Gateways",
+
+    "title": "Experience With Diverse Set of <br/> Payment Gateways"
+  },
+  "builders": [
+    {
+      "img": "/assets/img/white-label/stripe-pay.webp",
+      "title": "Stripe"
+    },
+    {
+      "img": "/assets/img/white-label/authorize-pay.webp",
+      "title": "Authorize"
+    },
+    {
+      "img": "/assets/img/white-label/shopify-pay.webp",
+      "title": "Shopify"
+    },
+    {
+      "img": "/assets/img/white-label/paypal-pay.webp",
+      "title": "Paypal"
+    },
+    {
+      "img": "/assets/img/white-label/square-pay.webp",
+      "title": "Square"
+    },
+    {
+      "img": "/assets/img/white-label/apple-pay.webp",
+      "title": "Apple"
+    },
+    {
+      "img": "/assets/img/white-label/google-pay.webp",
+      "title": "Google"
+    },
+    {
+      "img": "/assets/img/white-label/affirm-pay.webp",
+      "title": "Affirm"
+    },
+    {
+      "img": "/assets/img/white-label/sezzle-pay.webp",
+      "title": "Sezzle"
+    },
+    {
+      "img": "/assets/img/white-label/after-pay.webp",
+      "title": "Afterpay"
+    },
+    {
+      "img": "/assets/img/white-label/klarna-pay.webp",
+      "title": "Klarna"
+    },
+    {
+      "img": "/assets/img/white-label/amazon-pay.webp",
+      "title": "Amazon"
+    }
+  ]
+}

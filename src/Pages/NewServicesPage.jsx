@@ -4,9 +4,9 @@ import HomeImgSlider from '../Components/ImageSliderNew/HomeImgSlider';
 import ServiceActionSection from '../Components/NewServices/ServiceActionSectio';
 import ServicesContentOne from '../Components/NewServices/ServiceContentOne';
 import ServiceContentTwo from '../Components/NewServices/ServiceContentTwo';
-// import Testimonial4 from '../Components/Testimonial/Testimonial4';
 import VideoTestimonialSlickSecond from '../Components/Testimonial/VideoTestimonialTwo';
-import CaseStudy1 from '../Components/CaseStudy/CaseStudy3';
+// import Testimonial4 from '../Components/Testimonial/Testimonial4';
+// import CaseStudy1 from '../Components/CaseStudy/CaseStudy3';
 
 function NewServicesPage() {
   return (
@@ -15,10 +15,10 @@ function NewServicesPage() {
       <ServiceHeroSection />
       <ServiceCardSection />
       <HomeImgSlider />
-      <ServiceActionSection />
       <ServicesContentOne />
       <ServiceContentTwo />
-      <CaseStudy1 />
+      <ServiceActionSection />
+      {/* <CaseStudy1 /> */}
       <VideoTestimonialSlickSecond />
       {/* <Testimonial4 /> */}
     </div>

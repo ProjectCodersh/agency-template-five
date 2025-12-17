@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 
 const FAQSection = ({ addclass }) => {
   const faqContent = [
@@ -71,12 +71,12 @@ const FAQSection = ({ addclass }) => {
   return (
     <section
       className={`${addclass} section-padding`}
-      style={{ borderBottom: '1px solid #e5e5e5' }}
+      style={{ borderBottom: '1px solid #e5e5e5', backgroundColor: '#f6f3fe' }}
     >
       <div className="container px-3">
         <div className="section-title text-center mb-5">
-          <div className="sub-title">
-            <span>FAQs</span>
+          <div className="sub-title" style={{ backgroundColor: '#384bff1a' }}>
+            <span>Need Clarity?</span>
           </div>
           <h2>Frequently Asked Questions</h2>
         </div>
@@ -92,7 +92,11 @@ const FAQSection = ({ addclass }) => {
                   return (
                     <div key={index} className={`accordion-item mb-3 ${isOpen ? 'active' : ''}`}>
                       <h5 className="accordion-header" onClick={() => handleItemClick(index)}>
-                        <button className="accordion-button collapsed" type="button">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          style={{ textTransform: 'none' }}
+                        >
                           {item.title}
                         </button>
                       </h5>
@@ -129,7 +133,11 @@ const FAQSection = ({ addclass }) => {
                       className={`accordion-item mb-3 ${isOpen ? 'active' : ''}`}
                     >
                       <h5 className="accordion-header" onClick={() => handleItemClick(actualIndex)}>
-                        <button className="accordion-button collapsed" type="button">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          style={{ textTransform: 'none' }}
+                        >
                           {item.title}
                         </button>
                       </h5>

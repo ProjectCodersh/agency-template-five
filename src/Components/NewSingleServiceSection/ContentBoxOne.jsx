@@ -15,10 +15,11 @@ const ContentBoxOne = ({ data }) => {
       <div className="container px-3">
         <div className="team-wrapper style-3">
           <div className="row g-4">
+            {/* left side image */}
             <div className="col-lg-6 text-center">
               <img src={data.img} alt="img" style={{ maxHeight: '535px', borderRadius: '24px' }} />
             </div>
-
+            {/* right side content */}
             <div className="col-lg-6">
               <div className="team-content">
                 <div className="section-title">

@@ -35,7 +35,7 @@ const ServiceHeroSection = () => {
               <h1 className="wow fadeInUp" data-wow-delay=".3s">
                 {parse(heroContent.title)}
               </h1>
-              <p className="wow fadeInUp" data-wow-delay=".5s">
+              <p className="wow fadeInUp mt-4" data-wow-delay=".5s">
                 {heroContent.content}
               </p>
               <div className="hero-button">

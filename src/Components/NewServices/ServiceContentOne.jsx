@@ -8,7 +8,7 @@ const ServiceContentOne = () => {
     title: 'Why Choose Shopify for Your Store',
     content:
       'Choose Codersh Web Services and Shopify to build a secure, scalable, and easy-to-manage eCommerce store. Discover the advantages of using Shopify for your growing online business.',
-    img: '/assets/img/newservices/shopify-service-2.png',
+    img: '/assets/img/newservices/shopify-service-4.png',
     list1: 'Easy-to-Use Dashboard',
     list2: 'Secure & Reliable Hosting',
     list3: 'Wide Range of Themes',
@@ -36,13 +36,7 @@ const ServiceContentOne = () => {
   }, []);
 
   return (
-    <section
-      className="team-section fix section-padding bg-cover"
-      data-background="/assets/img/team/team-bg.jpg"
-    >
-      {/* <div className="shape-img float-bob-y">
-        <img src="/assets/img/service/rocket-shape.png" alt="img" />
-      </div> */}
+    <section className="team-section fix section-padding bg-cover">
       <div className="container px-3">
         <div className="team-wrapper style-3">
           <div className="row g-4">
@@ -55,18 +49,6 @@ const ServiceContentOne = () => {
                   data-wow-duration="1.5s"
                   data-wow-delay="0.3s"
                 />
-                {/* <div className="client-shape float-bob-x">
-                  <img src="/assets/img/team/client-shape.png" alt="img" />
-                </div>
-                <div className="box-shape float-bob-y">
-                  <img src="/assets/img/team/box-shape.png" alt="img" />
-                </div> */}
-                {/* <a href="team.html" className="circle-button">
-                  <i className="bi bi-arrow-up-right"></i>
-                  <span className="text-circle">
-                    <img src="/assets/img/about/white-text.png" alt="img" />
-                  </span>
-                </a> */}
               </div>
             </div>
             <div className="col-lg-6">
@@ -129,9 +111,6 @@ const ServiceContentOne = () => {
                 <div className="main-button wow fadeInUp" data-wow-delay=".5s">
                   <Link to="/team">
                     <span className="theme-btn"> Get Free Quotes Now! </span>
-                    {/* <span className="arrow-btn">
-                      <i className="bi bi-arrow-up-right"></i>
-                    </span> */}
                   </Link>
                 </div>
               </div>

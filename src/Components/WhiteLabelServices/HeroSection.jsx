@@ -14,7 +14,7 @@ const HeroSection = () => {
     // title: ' Achieve <span>Top Search </span> Rankings With Our <br/> SEO services',
     title: ' White Label <span> Shopify Development </span> Service',
     content:
-      'Are you looking to deliver high-quality Shopify projects without hiring, training, or managing anin-house team? Codersh Web Services offers reliable White Label Shopify Development Services designed exclusively for agencies, consultants, and freelancers who want to scale profitably.',
+      'Are you looking to deliver high-quality Shopify projects <strong> without hiring, training, or managing an in-house team? </strong> Codersh Web Services offers <strong> reliable White Label Shopify Development Services </strong> designed exclusively for agencies, consultants, and freelancers who want to scale profitably.',
     img: '/assets/img/newservices/shopify-service-vector-1.png',
     btnname: 'HIRE EXPERTS',
     linkname: 'VIEW OUR WORK',
@@ -36,7 +36,7 @@ const HeroSection = () => {
                 {parse(heroContent.title)}
               </h1>
               <p className="wow fadeInUp mt-4" data-wow-delay=".5s">
-                {heroContent.content}
+                {parse(heroContent.content)}
               </p>
               <div className="hero-button">
                 <div className="main-button wow fadeInUp" data-wow-delay=".3s">

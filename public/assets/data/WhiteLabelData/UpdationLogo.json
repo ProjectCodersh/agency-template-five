@@ -1,0 +1,40 @@
+{
+  "enabled": true,
+
+  "heading": {
+    "subtitle": "Communication Tools",
+
+    "title": "How We Update To You",
+    "content": "Our team brings time-tested experience with project management tools <br/> like ClickUp, Basecamp, Trello, Teamwork, Asana, Jira, and Monday."
+  },
+  "builders": [
+    {
+      "img": "/assets/img/tools/thumbnails/clickup-thumbnail.webp",
+      "title": "ClickUp"
+    },
+    {
+      "img": "/assets/img/white-label/basecamp.webp",
+      "title": "BaseCamp"
+    },
+    {
+      "img": "/assets/img/tools/thumbnails/trello-thumbnail.webp",
+      "title": "Trello"
+    },
+    {
+      "img": "/assets/img/white-label/teamwork.webp",
+      "title": "Teamwork"
+    },
+    {
+      "img": "/assets/img/tools/thumbnails/asana-thumbnail.webp",
+      "title": "Asana"
+    },
+    {
+      "img": "/assets/img/tools/thumbnails/jira-thumbnail.webp",
+      "title": "Jira"
+    },
+    {
+      "img": "/assets/img/white-label/monday.webp",
+      "title": "Monday"
+    }
+  ]
+}

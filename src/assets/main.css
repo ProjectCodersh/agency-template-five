@@ -8236,7 +8236,8 @@ input.main-search-input::placeholder {
 }
 
 .work-filter-menu .dropdown-menu-link:hover {
-  padding-left: 25px;
+  /* padding-left: 25px; */
+  background-color: #f6f3fe;
 }
 
 .work-filter-menu .dropdown-menu-link.active {
