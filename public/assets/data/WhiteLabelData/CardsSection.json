@@ -1,0 +1,42 @@
+{
+  "bg": "/assets/img/team/team-bg.jpg",
+  "heading": {
+    "subtitle": "Built for Agencies",
+    "title": "Who Is This Service For?",
+    "content": "If Shopify is part of your offering, <br/>Codersh is your backend team.</b>"
+  },
+  "cards": [
+    {
+      "img": "/assets/img/white-label/digital-marketing.webp",
+      "title": "Digital marketing agencies"
+    },
+    {
+      "img": "/assets/img/white-label/freelancing.webp",
+      "title": "Freelancers scaling to agency level"
+    },
+    {
+      "img": "/assets/img/white-label/development-services.webp",
+      "title": "Web design <br/> agencies"
+    },
+    {
+      "img": "/assets/img/white-label/addons.webp",
+      "title": "SaaS companies offering Shopify add-ons"
+    },
+    {
+      "img": "/assets/img/white-label/consultancy.webp",
+      "title": "Shopify <br/> consultants"
+    },
+    {
+      "img": "/assets/img/white-label/partnership.webp",
+      "title": "Shopify Plus Partner agencies"
+    },
+    {
+      "img": "/assets/img/white-label/cro-performance.webp",
+      "title": "CRO & performance agencies"
+    },
+    {
+      "img": "/assets/img/white-label/option-selection.webp",
+      "title": "Shopify Select Partner agencies"
+    }
+  ]
+}

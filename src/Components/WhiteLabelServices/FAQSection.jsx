@@ -1,64 +1,57 @@
 import { useRef, useState } from 'react';
 
-const FAQSection = ({ addclass }) => {
-  const faqContent = [
-    {
-      title: 'How does your white label Shopify development work?',
-      content:
-        'We work as your backend Shopify development team. You manage the client relationship, branding, and pricing, while we handle development, testing, and delivery under a strict NDA.',
-    },
-    {
-      title: 'Will you communicate directly with my clients?',
-      content:
-        'No. We never contact your clients. All communication stays strictly between you and our team to ensure a true white label experience.',
-    },
-    {
-      title: 'Where is your Shopify development team located?',
-      content:
-        'Our Shopify development team is based in India. We work with agencies across the USA, UK, and Australia, delivering cost-efficient and high-quality Shopify solutions.',
-    },
-    {
-      title: 'Will I own the source code and project assets?',
-      content:
-        'Yes. Once the project is completed and paid for, you or your client will have full ownership of the source code, files, and all intellectual property.',
-    },
-    {
-      title: 'Can you match my working hours or time zone?',
-      content:
-        'Yes. We offer overlapping working hours for US, UK, and Australian time zones to ensure smooth communication and faster project delivery.',
-    },
-    {
-      title: 'How do we communicate and track progress?',
-      content:
-        'We adapt to your preferred tools such as Slack, ClickUp, Jira, Trello, or Asana, and provide regular updates, progress tracking, and detailed reports.',
-    },
-    {
-      title: 'What type of Shopify work can you handle?',
-      content:
-        'We handle everything from Shopify store development and theme customization to Shopify Plus, headless builds, migrations, and third-party app integrations.',
-    },
-    {
-      title: 'What hiring or engagement models do you offer?',
-      content:
-        'We offer flexible engagement models including Fixed Cost, Time & Material, and Hourly or Dedicated Shopify Developer options.',
-    },
-    {
-      title: 'What if my workload increases or I need faster delivery?',
-      content:
-        'We can quickly scale developers or working hours based on your needs, without disrupting your ongoing projects or timelines.',
-    },
-    {
-      title: 'Is there any long-term contract or minimum commitment?',
-      content:
-        'No. We keep our engagement flexible. You can start small and scale as your agency grows, with no mandatory long-term contracts.',
-    },
-  ];
-
-  const firstColumnFaqs = faqContent.slice(0, 5);
-  const secondColumnFaqs = faqContent.slice(5, 10);
-
+/**
+ * FAQSection
+ * - Fully driven by `data` prop (no internal defaults)
+ * - If no data or no FAQs, returns null
+ *
+ * Expected `data` shape:
+ * {
+ *   "addclass": "optional-css-class",
+ *   "backgroundColor": "#f6f3fe",
+ *   "borderBottom": "1px solid #e5e5e5",
+ *   "heading": {
+ *     "subtitle": "Need Clarity?",
+ *     "subtitleBgColor": "#384bff1a",
+ *     "title": "Frequently Asked Questions"
+ *   },
+ *   "faqs": [
+ *     {
+ *       "title": "Question text",
+ *       "content": "Answer text"
+ *     },
+ *     ...
+ *   ]
+ * }
+ */
+const FAQSection = ({ data }) => {
+  // Hooks must be called before any early returns
   const [openItemIndex, setOpenItemIndex] = useState(0);
   const contentRefs = useRef([]);
+
+  if (!data) return null;
+
+  const {
+    addclass = '',
+    backgroundColor = '#f6f3fe',
+    borderBottom = '1px solid #e5e5e5',
+    heading = {},
+    faqs = [],
+  } = data;
+
+  const { subtitle, subtitleBgColor = '#384bff1a', title } = heading;
+
+  const hasHeading = subtitle || title;
+  const hasFaqs = Array.isArray(faqs) && faqs.length > 0;
+
+  if (!hasHeading && !hasFaqs) {
+    return null;
+  }
+
+  // Split FAQs into two columns (first 5, then rest)
+  const midPoint = Math.ceil(faqs.length / 2);
+  const firstColumnFaqs = faqs.slice(0, midPoint);
+  const secondColumnFaqs = faqs.slice(midPoint);
 
   const setContentRef = (el, index) => {
     contentRefs.current[index] = el;
@@ -69,99 +62,107 @@ const FAQSection = ({ addclass }) => {
   };
 
   return (
-    <section
-      className={`${addclass} section-padding`}
-      style={{ borderBottom: '1px solid #e5e5e5', backgroundColor: '#f6f3fe' }}
-    >
+    <section className={`${addclass} section-padding`} style={{ borderBottom, backgroundColor }}>
       <div className="container px-3">
-        <div className="section-title text-center mb-5">
-          <div className="sub-title" style={{ backgroundColor: '#384bff1a' }}>
-            <span>Need Clarity?</span>
-          </div>
-          <h2>Frequently Asked Questions</h2>
-        </div>
-
-        <div className="faq-wrapper">
-          <div className="row g-4">
-            {/* LEFT COLUMN */}
-            <div className="col-lg-6">
-              <div className="accordion">
-                {firstColumnFaqs.map((item, index) => {
-                  const isOpen = index === openItemIndex;
-
-                  return (
-                    <div key={index} className={`accordion-item mb-3 ${isOpen ? 'active' : ''}`}>
-                      <h5 className="accordion-header" onClick={() => handleItemClick(index)}>
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          style={{ textTransform: 'none' }}
-                        >
-                          {item.title}
-                        </button>
-                      </h5>
-
-                      <div
-                        ref={(el) => setContentRef(el, index)}
-                        className="accordion-collapse"
-                        style={{
-                          overflow: 'hidden',
-                          transition: 'max-height 0.4s ease',
-                          maxHeight: isOpen
-                            ? `${contentRefs.current[index]?.scrollHeight}px`
-                            : '0px',
-                        }}
-                      >
-                        <div className="accordion-body">{item.content}</div>
-                      </div>
-                    </div>
-                  );
-                })}
+        {hasHeading && (
+          <div className="section-title text-center mb-5">
+            {subtitle && (
+              <div className="sub-title" style={{ backgroundColor: subtitleBgColor }}>
+                <span>{subtitle}</span>
               </div>
-            </div>
+            )}
+            {title && <h2>{title}</h2>}
+          </div>
+        )}
 
-            {/* RIGHT COLUMN */}
-            <div className="col-lg-6">
-              <div className="accordion">
-                {secondColumnFaqs.map((item, index) => {
-                  const actualIndex = index + 5;
-                  const isOpen = actualIndex === openItemIndex;
+        {hasFaqs && (
+          <div className="faq-wrapper">
+            <div className="row g-4">
+              {/* LEFT COLUMN */}
+              <div className="col-lg-6">
+                <div className="accordion">
+                  {firstColumnFaqs.map((item, index) => {
+                    const isOpen = index === openItemIndex;
 
-                  return (
-                    <div
-                      key={actualIndex}
-                      className={`accordion-item mb-3 ${isOpen ? 'active' : ''}`}
-                    >
-                      <h5 className="accordion-header" onClick={() => handleItemClick(actualIndex)}>
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          style={{ textTransform: 'none' }}
+                    return (
+                      <div key={index} className={`accordion-item mb-3 ${isOpen ? 'active' : ''}`}>
+                        <h5 className="accordion-header" onClick={() => handleItemClick(index)}>
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            style={{ textTransform: 'none' }}
+                          >
+                            {item.title}
+                          </button>
+                        </h5>
+
+                        <div
+                          ref={(el) => setContentRef(el, index)}
+                          className="accordion-collapse"
+                          style={{
+                            overflow: 'hidden',
+                            transition: 'max-height 0.4s ease',
+                            maxHeight: isOpen
+                              ? `${contentRefs.current[index]?.scrollHeight}px`
+                              : '0px',
+                          }}
                         >
-                          {item.title}
-                        </button>
-                      </h5>
-
-                      <div
-                        ref={(el) => setContentRef(el, actualIndex)}
-                        className="accordion-collapse"
-                        style={{
-                          overflow: 'hidden',
-                          transition: 'max-height 0.4s ease',
-                          maxHeight: isOpen
-                            ? `${contentRefs.current[actualIndex]?.scrollHeight}px`
-                            : '0px',
-                        }}
-                      >
-                        <div className="accordion-body">{item.content}</div>
+                          <div className="accordion-body">{item.content}</div>
+                        </div>
                       </div>
-                    </div>
-                  );
-                })}
+                    );
+                  })}
+                </div>
               </div>
+
+              {/* RIGHT COLUMN */}
+              {secondColumnFaqs.length > 0 && (
+                <div className="col-lg-6">
+                  <div className="accordion">
+                    {secondColumnFaqs.map((item, index) => {
+                      const actualIndex = index + midPoint;
+                      const isOpen = actualIndex === openItemIndex;
+
+                      return (
+                        <div
+                          key={actualIndex}
+                          className={`accordion-item mb-3 ${isOpen ? 'active' : ''}`}
+                        >
+                          <h5
+                            className="accordion-header"
+                            onClick={() => handleItemClick(actualIndex)}
+                          >
+                            <button
+                              className="accordion-button collapsed"
+                              type="button"
+                              style={{ textTransform: 'none' }}
+                            >
+                              {item.title}
+                            </button>
+                          </h5>
+
+                          <div
+                            ref={(el) => setContentRef(el, actualIndex)}
+                            className="accordion-collapse"
+                            style={{
+                              overflow: 'hidden',
+                              transition: 'max-height 0.4s ease',
+                              maxHeight: isOpen
+                                ? `${contentRefs.current[actualIndex]?.scrollHeight}px`
+                                : '0px',
+                            }}
+                          >
+                            <div className="accordion-body">{item.content}</div>
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+              )}
             </div>
           </div>
-        </div>
+        )}
       </div>
     </section>
   );

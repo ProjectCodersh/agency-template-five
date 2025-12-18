@@ -1,9 +1,5 @@
 {
   "enabled": true,
-  "styles": {
-    "sectionBgColor": "#f6f3fe",
-    "chipBgColor": "#384bff1a"
-  },
   "heading": {
     "subtitle": "Payment Gateways",
 

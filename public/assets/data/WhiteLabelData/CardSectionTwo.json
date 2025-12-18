@@ -1,0 +1,31 @@
+{
+  "bg": "/assets/img/team/team-bg.jpg",
+  "heading": {
+    "subtitle": "WHY we do",
+    "title": "Use SEO to Drive Growth <br/> at Your Business",
+    "content": "The a long established fact that a reader will be <br/> distracted the readable content of page when <br/> looking at layout the point.",
+    "img": "/assets/img/feature-img.png"
+  },
+  "cards": [
+    {
+      "iconclass": "bi bi-people",
+      "title": "Better audiences",
+      "content": "Collaboratively formulate principle capital. Progressively evolve user revolutionary hosting services."
+    },
+    {
+      "iconclass": "bi bi-pie-chart",
+      "title": "Better Analytics",
+      "content": "Collaboratively formulate principle capital. Progressively evolve user revolutionary hosting services."
+    },
+    {
+      "iconclass": "bi bi-check-circle",
+      "title": "Better Output",
+      "content": "Collaboratively formulate principle capital. Progressively evolve user revolutionary hosting services."
+    },
+    {
+      "iconclass": "bi bi-people",
+      "title": "Better audiences",
+      "content": "Collaboratively formulate principle capital. Progressively evolve user revolutionary hosting services."
+    }
+  ]
+}

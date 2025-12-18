@@ -2,24 +2,6 @@ import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import loadBackgroudImages from '../Common/loadBackgroudImages';
 
-/*---  Static Content (outside component)  ---*/
-const CHOOSE_CONTENT = {
-  bg: '/assets/img/team/team-bg.jpg',
-  subtitle: 'What makes us different',
-  title: 'Why Choose Codersh for White Label Shopify Development',
-  content:
-    'White labeling isn’t just about outsourcing development; it’s about trust, consistency, and accountability. That’s where Codersh stands apart.',
-  img: '/assets/img/newservices/shopify-service-3.png',
-  features: [
-    '100% White Label (No branding, no client contact)',
-    ' NDA-protected, agency-first process',
-    'Transparent communication & delivery timelines',
-    'Senior Shopify developers (not freelancers)',
-    'Speed-optimized, conversion-ready builds ',
-    'USA, UK, EU & AU market experience',
-  ],
-};
-
 /*--- Reusable SVG Icon Component  --*/
 const CheckIcon = () => (
   <svg
@@ -38,79 +20,104 @@ const CheckIcon = () => (
 );
 
 /*--- Main Component  --*/
-const RightContentBox = () => {
+const RightContentBox = ({ data }) => {
   useEffect(() => {
     loadBackgroudImages();
   }, []);
 
-  // 🔹 Split features evenly into two columns
-  const features = CHOOSE_CONTENT.features;
+  // If no data is provided, don't render the block at all
+  if (!data) return null;
+
+  const { bg, subtitle, title, content, img, features = [], buttonText, buttonLink } = data;
+
+  // If there is effectively no content, don't render the block
+  const hasTextContent = subtitle || title || content;
+  const hasFeatures = Array.isArray(features) && features.length > 0;
+  const hasButton = buttonText && buttonLink;
+  const hasImage = !!img;
+
+  if (!hasTextContent && !hasFeatures && !hasButton && !hasImage) {
+    return null;
+  }
+
+  // 🔹 Split features into two columns
   const midIndex = Math.ceil(features.length / 2);
   const leftColumn = features.slice(0, midIndex);
   const rightColumn = features.slice(midIndex);
 
   return (
-    <section
-      className="team-section fix section-padding bg-cover"
-      data-background={CHOOSE_CONTENT.bg}
-    >
+    <section className="team-section fix section-padding bg-cover" data-background={bg || ''}>
       <div className="container px-3">
         <div className="team-wrapper style-3">
-          <div className="row g-4 align-items-center">
+          <div className="row g-4">
             {/* LEFT IMAGE */}
-            <div className="col-lg-6 text-center">
-              <img
-                src={CHOOSE_CONTENT.img}
-                alt="Hire Shopify Developer"
-                className="wow img-custom-anim-left"
-                data-wow-duration="1.5s"
-                data-wow-delay="0.3s"
-                loading="lazy"
-              />
-            </div>
+            {hasImage && (
+              <div className="col-lg-6 text-center ">
+                <img
+                  src={img}
+                  alt="Hire Shopify Developer"
+                  className="wow img-custom-anim-left img-fluid"
+                  data-wow-duration="1.5s"
+                  data-wow-delay="0.3s"
+                  loading="lazy"
+                />
+              </div>
+            )}
 
             {/* RIGHT CONTENT */}
-            <div className="col-lg-6">
+            <div className="col-lg-6 ">
               <div className="team-content">
-                <div className="section-title">
-                  <div className="sub-title bg-color-2 wow fadeInUp">
-                    <span>{CHOOSE_CONTENT.subtitle}</span>
+                {(subtitle || title) && (
+                  <div className="section-title">
+                    {subtitle && (
+                      <div className="sub-title bg-color-2 wow fadeInUp">
+                        <span>{subtitle}</span>
+                      </div>
+                    )}
+                    {title && (
+                      <h2 className="wow fadeInUp" data-wow-delay=".3s">
+                        {title}
+                      </h2>
+                    )}
                   </div>
-                  <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                    {CHOOSE_CONTENT.title}
-                  </h2>
-                </div>
+                )}
 
-                <p className="mt-3 wow fadeInUp" data-wow-delay=".5s">
-                  {CHOOSE_CONTENT.content}
-                </p>
+                {content && (
+                  <p className="mt-3 wow fadeInUp" data-wow-delay=".5s">
+                    {content}
+                  </p>
+                )}
 
                 {/* FEATURES LIST */}
-                <div className="list-items wow fadeInUp" data-wow-delay=".3s">
-                  <ul>
-                    {leftColumn.map((item) => (
-                      <li key={item}>
-                        <CheckIcon />
-                        {item}
-                      </li>
-                    ))}
-                  </ul>
+                {hasFeatures && (
+                  <div className="list-items wow fadeInUp" data-wow-delay=".3s">
+                    <ul>
+                      {leftColumn.map((item) => (
+                        <li key={item}>
+                          <CheckIcon />
+                          {item}
+                        </li>
+                      ))}
+                    </ul>
 
-                  <ul>
-                    {rightColumn.map((item) => (
-                      <li key={item}>
-                        <CheckIcon />
-                        {item}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
+                    <ul>
+                      {rightColumn.map((item) => (
+                        <li key={item}>
+                          <CheckIcon />
+                          {item}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
 
-                <div className="main-button wow fadeInUp" data-wow-delay=".5s">
-                  <Link to="/team">
-                    <span className="theme-btn">Hire Us Now</span>
-                  </Link>
-                </div>
+                {hasButton && (
+                  <div className="main-button wow fadeInUp" data-wow-delay=".5s">
+                    <Link to={buttonLink}>
+                      <span className="theme-btn">{buttonText}</span>
+                    </Link>
+                  </div>
+                )}
               </div>
             </div>
           </div>

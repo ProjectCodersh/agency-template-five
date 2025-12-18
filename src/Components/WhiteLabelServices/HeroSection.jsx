@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import loadBackgroudImages from '../Common/loadBackgroudImages';
 import { Link } from 'react-router-dom';
 import parse from 'html-react-parser';
+import HomeImgSlider from '@/Components/ImageSliderNew/HomeImgSliderTwo';
 
 const HeroSection = () => {
   useEffect(() => {
@@ -61,7 +62,8 @@ const HeroSection = () => {
               data-wow-duration="1.5s"
               data-wow-delay="0.3s"
             >
-              <img src={heroContent.img} alt="img" />
+              {/* <img src={heroContent.img} alt="img" /> */}
+              <HomeImgSlider />
             </div>
           </div>
         </div>

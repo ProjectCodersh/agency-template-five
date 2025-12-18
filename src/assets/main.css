@@ -2472,6 +2472,17 @@ span {
   padding: 40px 30px;
   position: relative;
   z-index: 9;
+  /* hover effect animation */
+  transition:
+    transform 0.8s cubic-bezier(0.4, 2, 0.6, 1),
+    box-shadow 0.3s cubic-bezier(0.4, 2, 0.6, 1);
+}
+
+/* hover effect animation */
+.feature-box-items:hover {
+  transform: translateY(-8px) scale(1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12) !important;
+  z-index: 10;
 }
 
 .feature-box-items .icon {

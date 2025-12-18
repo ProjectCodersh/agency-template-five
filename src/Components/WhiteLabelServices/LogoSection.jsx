@@ -53,14 +53,16 @@ const LogoSection = ({ data }) => {
                 <div className="d-flex justify-content-center justify-content-md-start service-box-items-icon">
                   <div
                     className="d-flex justify-content-center align-items-center w-100"
-                    style={{ fontSize: '40px', color: '#6a47ed', gap: '20px' }}
+                    style={{ fontSize: '40px', color: '#6a47ed', gap: item.img ? '20px' : '0' }}
                   >
-                    <img
-                      className="brandsection-img"
-                      src={item.img}
-                      alt={item.title}
-                      loading="lazy"
-                    />
+                    {item.img && (
+                      <img
+                        className="brandsection-img"
+                        src={item.img}
+                        alt={item.title}
+                        loading="lazy"
+                      />
+                    )}
                     <h3 className="text-center text-md-start">{item.title}</h3>
                   </div>
                 </div>

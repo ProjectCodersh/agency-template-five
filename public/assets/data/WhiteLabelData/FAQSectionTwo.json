@@ -1,0 +1,28 @@
+{
+  "addclass": "",
+  "bg": "/assets/img/team/team-bg.jpg",
+  "heading": {
+    "subtitle": "FAQs",
+    "subtitleBgColor": "#f6f3fe",
+    "title": "Let’s make something awesome together",
+    "description": "We are Codersh Web Services, your trusted digital solutions partner since 2014. Our team delivers measurable results that boost your business forward."
+  },
+  "faqs": [
+    {
+      "title": "Can I assign unlimited WordPress tasks?",
+      "content": "Yes! You can assign unlimited WordPress tasks to our expert developers. We handle one task at a time to ensure quality work."
+    },
+    {
+      "title": "How long does it take to complete different types of tasks?",
+      "content": "Simple tasks take 24-48 hours, medium projects need 5-7 business days. Full website builds typically require 3-4 weeks, depending on complexity."
+    },
+    {
+      "title": "What types of WordPress tasks can I assign to Codersh?",
+      "content": "Any WordPress-related work including development, customization, plugins, security, SEO, and maintenance. We don't restrict the type of development work you can assign."
+    },
+    {
+      "title": "How do I track my project progress?",
+      "content": "You can track progress in real-time and receive regular updates from our dedicated project manager via emails."
+    }
+  ]
+}

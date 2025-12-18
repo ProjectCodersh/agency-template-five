@@ -1,0 +1,17 @@
+{
+  "bg": "/assets/img/team/team-bg.jpg",
+  "subtitle": "What makes us different",
+  "title": "Why Choose Codersh for White Label Shopify Development",
+  "content": "White labeling isn’t just about outsourcing development; it’s about trust, consistency, and accountability. That’s where Codersh stands apart.",
+  "img": "/assets/img/white-label/why-choose-whitelabel.webp",
+  "features": [
+    "100% White Label (No branding, no client contact)",
+    "NDA-protected, agency-first process",
+    "Transparent communication & delivery timelines",
+    "Senior Shopify developers (not freelancers)",
+    "Speed-optimized, conversion-ready builds",
+    "USA, UK, EU & AU market experience"
+  ],
+  "buttonText": "Hire Us Now",
+  "buttonLink": "/team"
+}

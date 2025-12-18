@@ -1,0 +1,47 @@
+{
+  "enabled": true,
+  "styles": {
+    "sectionBgColor": "#f6f3fe",
+    "chipBgColor": "#384bff1a"
+  },
+  "heading": {
+    "subtitle": "SHOPIFY THEMES",
+
+    "title": "Our Experience Across <br/>Leading Shopify Themes",
+    "content": ""
+  },
+  "builders": [
+    {
+      "img": "/assets/img/white-label/out-of-the-sandbox.webp",
+      "title": "Sandbox"
+    },
+    {
+      "img": "/assets/img/white-label/icon.webp",
+      "title": "Icon"
+    },
+    {
+      "img": "/assets/img/white-label/debut.webp",
+      "title": "Debut"
+    },
+    {
+      "img": "/assets/img/white-label/warehouse.webp",
+      "title": "Warehouse"
+    },
+    {
+      "img": "/assets/img/white-label/motion.webp",
+      "title": "Motion"
+    },
+    {
+      "img": "/assets/img/white-label/pipeline.webp",
+      "title": "Pipeline"
+    },
+    {
+      "img": "/assets/img/white-label/prestige.webp",
+      "title": "prestige"
+    },
+    {
+      "img": "/assets/img/white-label/down.webp",
+      "title": "Monday"
+    }
+  ]
+}
