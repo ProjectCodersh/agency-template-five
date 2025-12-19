@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import loadBackgroudImages from '../Common/loadBackgroudImages';
+import parse from 'html-react-parser';
 
 /*--- Reusable SVG Icon Component  --*/
 const CheckIcon = () => (
@@ -84,7 +85,7 @@ const RightContentBox = ({ data }) => {
 
                 {content && (
                   <p className="mt-3 wow fadeInUp" data-wow-delay=".5s">
-                    {content}
+                    {parse(content)}
                   </p>
                 )}
 
@@ -112,7 +113,11 @@ const RightContentBox = ({ data }) => {
                 )}
 
                 {hasButton && (
-                  <div className="main-button wow fadeInUp" data-wow-delay=".5s">
+                  <div
+                    className="main-button wow fadeInUp mt-4"
+                    data-wow-delay=".5s"
+                    style={{ width: 'fit-content' }}
+                  >
                     <Link to={buttonLink}>
                       <span className="theme-btn">{buttonText}</span>
                     </Link>

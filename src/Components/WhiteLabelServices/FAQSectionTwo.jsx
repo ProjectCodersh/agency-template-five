@@ -72,25 +72,25 @@ const FAQSectionTwo = ({ data, addclass = '' }) => {
               <div className="faq-content">
                 {hasHeading && (
                   <>
-                    <div className="section-title">
+                <div className="section-title">
                       {subtitle && (
-                        <div
-                          className="sub-title bg-color-2 wow fadeInUp"
+                  <div
+                    className="sub-title bg-color-2 wow fadeInUp"
                           style={{ backgroundColor: subtitleBgColor }}
-                        >
+                  >
                           <span>{subtitle}</span>
-                        </div>
+                  </div>
                       )}
                       {title && (
-                        <h2 className="wow fadeInUp" data-wow-delay=".3s">
+                  <h2 className="wow fadeInUp" data-wow-delay=".3s">
                           {title}
-                        </h2>
+                  </h2>
                       )}
-                    </div>
+                </div>
                     {description && (
-                      <p className="wow fadeInUp" data-wow-delay=".5s">
+                <p className="wow fadeInUp" data-wow-delay=".5s">
                         {description}
-                      </p>
+                </p>
                     )}
                   </>
                 )}

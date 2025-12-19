@@ -34,7 +34,7 @@ const CardSectionTwo = ({ data }) => {
   if (!data) return null;
 
   const { bg, heading = {}, cards = [] } = data;
-  const { subtitle, title, content, img } = heading;
+  const { subtitle, title, content } = heading;
 
   const hasHeading = subtitle || title || content;
   const hasCards = Array.isArray(cards) && cards.length > 0;
@@ -70,21 +70,29 @@ const CardSectionTwo = ({ data }) => {
 
         {hasCards && (
           <div className="row">
-            {cards.map((item, i) => (
-              <div key={i} className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
-                <div className="feature-box-items">
-                  {item.iconclass && (
-                    <div className="icon">
-                      <i className={item.iconclass}></i>
+            {cards.map((item, i) => {
+              const hasIcon = !!item.iconclass;
+
+              return (
+                <div
+                  key={i}
+                  className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
+                  data-wow-delay=".2s"
+                >
+                  <div className="feature-box-items">
+                    {hasIcon && (
+                      <div className="icon">
+                        <i className={item.iconclass}></i>
+                      </div>
+                    )}
+                    <div className="content" style={!hasIcon ? { marginTop: 0 } : undefined}>
+                      {item.title && <h3>{parse(item.title)}</h3>}
+                      {item.content && <p>{item.content}</p>}
                     </div>
-                  )}
-                  <div className="content">
-                    {item.title && <h3>{item.title}</h3>}
-                    {item.content && <p>{item.content}</p>}
                   </div>
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         )}
       </div>

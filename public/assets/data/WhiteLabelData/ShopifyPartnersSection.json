@@ -1,0 +1,69 @@
+{
+  "bg": "",
+  "title": "Transform Your E-commerce with Elite Shopify Development",
+  "introContent": "We're more than just developers – we're your strategic partners in Shopify's success. As certified Shopify Plus experts, we combine technical mastery with deep platform knowledge to elevate your online store to new heights.",
+  "advantageTitle": "Our Advantage:",
+  "advantages": [
+    "Monthly Payment",
+    "No Setup Expenses",
+    "Transparent Billing with Tracked Hours",
+    "Assurance of No Hidden Fees"
+  ],
+  "conclusionContent": "We don't just move your store to Shopify – we optimize it. Through careful curation of the most powerful apps and custom feature development, we create seamless e-commerce experiences that grow with your business. Our partnerships with industry-leading Shopify Plus providers ensure you get access to cutting-edge solutions that deliver real results.",
+  "logos": [
+    {
+      "img": "/assets/img/partners/shopify-plus.png",
+      "alt": "Shopify Plus",
+      "name": "Shopify Plus",
+      "color": "monochrome"
+    },
+    {
+      "img": "/assets/img/partners/recharge.png",
+      "alt": "ReCharge",
+      "name": "ReCharge",
+      "color": "monochrome"
+    },
+    {
+      "img": "/assets/img/partners/klarna.png",
+      "alt": "Klarna",
+      "name": "Klarna",
+      "color": "monochrome"
+    },
+    {
+      "img": "/assets/img/partners/klaviyo.png",
+      "alt": "Klaviyo",
+      "name": "Klaviyo",
+      "color": "monochrome"
+    },
+    {
+      "img": "/assets/img/partners/brightpearl.png",
+      "alt": "Brightpearl",
+      "name": "Brightpearl",
+      "color": "monochrome"
+    },
+    {
+      "img": "/assets/img/partners/apple-google-pay.png",
+      "alt": "Apple Pay & Google Pay",
+      "name": "Apple Pay & Google Pay",
+      "color": "monochrome"
+    },
+    {
+      "img": "/assets/img/partners/okendo.png",
+      "alt": "Okendo",
+      "name": "Okendo",
+      "color": "monochrome"
+    },
+    {
+      "img": "/assets/img/partners/gorgias.png",
+      "alt": "Gorgias",
+      "name": "Gorgias",
+      "color": "monochrome"
+    },
+    {
+      "img": "/assets/img/partners/loyaltylion.png",
+      "alt": "LoyaltyLion",
+      "name": "LoyaltyLion",
+      "color": "monochrome"
+    }
+  ]
+}

@@ -2466,9 +2466,11 @@ span {
 }
 
 .feature-box-items {
+  height: -webkit-fill-available;
   margin-top: 30px;
   background-color: var(--white);
-  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.06) !important;
+  /* box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.06) !important; */
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
   padding: 40px 30px;
   position: relative;
   z-index: 9;

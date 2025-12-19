@@ -13,7 +13,11 @@ export default function HomeImgSliderTwo() {
   return (
     <div
       className=""
-      style={{ background: '#6a47ed', borderRadius: '24px', border: '3px solid #6a47ed' }}
+      style={{
+        background: '#9578ff33',
+        borderRadius: '24px',
+        border: '3px solid rgba(149, 120, 255, 1)',
+      }}
     >
       <div
         className="container"
@@ -22,7 +26,7 @@ export default function HomeImgSliderTwo() {
           position: 'relative',
           width: '100%',
           padding: '60px 0',
-          background: '#6a47ed',
+          background: '#9578ff33',
           backdropFilter: 'blur(10px)',
           WebkitBackdropFilter: 'blur(10px)',
           borderRadius: '20px',
@@ -37,7 +41,7 @@ export default function HomeImgSliderTwo() {
             width: '100%',
             height: '100%',
             background:
-              'linear-gradient(90deg, rgba(106, 71, 237,1) 0%, rgba(106, 71, 237,0) 10%, rgba(106, 71, 237,0) 90%, rgba(106, 71, 237,1) 100%)',
+              'linear-gradient(90deg,rgba(149, 120, 255, 0.7) 0%, rgba(106, 71, 237,0) 10%, rgba(106, 71, 237,0) 90%, rgba(149, 120, 255, 0.7) 100%)',
             pointerEvents: 'none',
 
             zIndex: 2,

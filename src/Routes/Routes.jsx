@@ -22,6 +22,7 @@ import PartnersPage from '../Pages/PartnersPage';
 import NewServicesPage from '../Pages/NewServicesPage';
 import NewSingleServicePage from '../Pages/NewSingleServicePage';
 import WhiteLabelServicePage from '../Pages/WhiteLabelServicePage';
+import ShopifyMigratioPage from '../Pages/ShopifyMigratioPage';
 // import Team1 from '../Components/Team/Team1';
 // import Testimonials from "../Pages/Testimonials";
 // import Casestudies from "../Pages/CaseStudyPageNew";
@@ -144,6 +145,10 @@ export const router = createBrowserRouter([
       {
         path: '/new-services/white-label-service',
         element: <WhiteLabelServicePage />,
+      },
+      {
+        path: '/new-services/shopify-migration',
+        element: <ShopifyMigratioPage />,
       },
     ],
   },

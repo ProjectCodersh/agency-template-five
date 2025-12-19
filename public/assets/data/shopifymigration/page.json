@@ -1,0 +1,178 @@
+{
+  "pageTitle": "Shopify Migration",
+  "sections": [
+    {
+      "type": "breadcrumb",
+      "data": {
+        "bgimg": "/assets/img/breadcrumb.jpg",
+        "title": "Shopify Migration"
+      }
+    },
+    {
+      "type": "leftContentBox",
+      "data": {
+        "subtitle": "TRUSTED SHOPIFY MIGRATION PARTNER",
+        "title": "Shopify Migration Experts - Replatform to Shopify with Confidence",
+        "content": "At Codersh Web Services, we specialize in seamless Shopify migrations, helping businesses shift from platforms like Magento, WooCommerce, and BigCommerce to Shopify or Shopify Plus. With a focus on precision and strategy, our migration services ensure your transition is smooth, secure, and optimized for success.",
+        "img": "/assets/img/white-label/why-choose-whitelabel.webp",
+        "buttonText": "MIGRATE TO SHOPIFY",
+        "buttonLink": "/team"
+      }
+    },
+    {
+      "type": "rightContentBox",
+      "data": {
+        "bg": "/assets/img/team/team-bg.jpg",
+        "subtitle": "SEAMLESS SHOPIFY REPLATFORMING",
+        "title": "Shopify Migration Services",
+        "content": "At Codersh, we specialize in seamless Shopify and Shopify Plus migrations, helping businesses re-platform with confidence. Whether you're moving from Magento, WooCommerce, BigCommerce, or other platforms, our proven migration process ensures a secure, hassle-free transition optimized for performance and scalability.",
+        "img": "/assets/img/white-label/why-choose-whitelabel.webp",
+        "buttonText": "Talk to Migration Experts",
+        "buttonLink": "/team"
+      }
+    },
+    {
+      "type": "cardSectionTwo",
+      "data": {
+        "heading": {
+          "subtitle": "MIGRATION WORKFLOW",
+          "title": "Our Shopify Migration Process",
+          "content": "",
+          "img": "/assets/img/feature-img.png"
+        },
+        "cards": [
+          {
+            "title": "1. In-Depth Planning & Consultation",
+            "content": "We work closely with you to understand your business requirements, identify potential challenges, and create a strategic migration roadmap."
+          },
+          {
+            "title": "2. Data Migration",
+            "content": "Transfer your products, customer details, order history, and content safely and securely, ensuring no data loss during the process."
+          },
+          {
+            "title": "3. Custom Design & Theme Integration",
+            "content": "Whether you want to replicate your current store's look or start fresh with a unique Shopify 2.0 theme, we've got you covered."
+          },
+          {
+            "title": "4. SEO Retention & URL Redirection",
+            "content": "Protect your hard-earned search rankings with precise URL mapping and SEO optimizations to ensure a smooth transition."
+          },
+          {
+            "title": "5. Third-Party Integration",
+            "content": "Seamlessly integrate your existing tools and apps, or explore Shopify's vast ecosystem of plugins to enhance your store's functionality."
+          },
+          {
+            "title": "6. Quality Assurance & Testing",
+            "content": "From functionality to responsiveness, we rigorously test your store to guarantee it delivers a flawless user experience across all devices."
+          },
+          {
+            "title": "7. Launch & Post-Migration Support",
+            "content": "Experience a stress-free launch with our end-to-end support. Post-launch, we offer continuous optimization to help your store perform at its best."
+          }
+        ]
+      }
+    },
+    {
+      "type": "faqSection",
+      "data": {
+        "addclass": "",
+        "bg": "/assets/img/team/team-bg.jpg",
+        "heading": {
+          "subtitle": "FAQs",
+          "title": "Why Migrate to Shopify?",
+          "description": "At Codersh Web Services, we believe in using cutting-edge technology and growth-driven strategies to deliver exceptional results. When you migrate to Shopify & Shopify Plus, we ensure your store is fast, engaging, and easy to manage for the long haul. We follow best practices to make sure your store is optimized for performance and scalability, so you can focus on what matters; growing your business."
+        },
+        "faqs": [
+          {
+            "title": "What features and benefits does Shopify offer for ecommerce businesses?",
+            "content": "Shopify is the go-to platform for ecommerce, known for its scalability, rich features, and constant updates. With 6,000+ apps and continuous improvements, Shopify provides unmatched flexibility and power for long-term business growth."
+          },
+          {
+            "title": "Can Shopify support omnichannel selling and international expansion?",
+            "content": "Shopify's omnichannel feature lets you sell on platforms like eBay, Amazon, Instagram, and more, while managing everything in one place. It also supports international expansion, helping businesses grow their reach globally."
+          },
+          {
+            "title": "How powerful and user-friendly is Shopify's admin dashboard?",
+            "content": "Shopify's user-friendly admin panel allows merchants to easily manage sales, customers, and orders. Its intuitive dashboard and powerful CMS make it easy to update content without technical knowledge or relying on a developer."
+          },
+          {
+            "title": "How reliable and secure is Shopify for running an online store?",
+            "content": "Shopify ensures 99.999% uptime, handling 1 million page views per minute and over 10,000 transactions per minute. With PCI-DSS Level 1 compliance and a dedicated security team, your store is safe from cyber threats."
+          }
+        ]
+      }
+    },
+    {
+      "type": "shopifyPartnersSection",
+      "data": {
+        "bg": "",
+        "title": "Transform Your E-commerce with Elite Shopify Development",
+        "introContent": "We're more than just developers – we're your strategic partners in Shopify's success. As certified Shopify Plus experts, we combine technical mastery with deep platform knowledge to elevate your online store to new heights.",
+        "advantageTitle": "Our Advantage:",
+        "advantages": [
+          "Monthly Payment",
+          "No Setup Expenses",
+          "Transparent Billing with Tracked Hours",
+          "Assurance of No Hidden Fees"
+        ],
+        "conclusionContent": "We don't just move your store to Shopify – we optimize it. Through careful curation of the most powerful apps and custom feature development, we create seamless e-commerce experiences that grow with your business. Our partnerships with industry-leading Shopify Plus providers ensure you get access to cutting-edge solutions that deliver real results.",
+        "logos": [
+          {
+            "img": "/assets/img/partners/shopify-plus.png",
+            "alt": "Shopify Plus",
+            "name": "Shopify Plus",
+            "color": "monochrome"
+          },
+          {
+            "img": "/assets/img/partners/recharge.png",
+            "alt": "ReCharge",
+            "name": "ReCharge",
+            "color": "monochrome"
+          },
+          {
+            "img": "/assets/img/partners/klarna.png",
+            "alt": "Klarna",
+            "name": "Klarna",
+            "color": "monochrome"
+          },
+          {
+            "img": "/assets/img/partners/klaviyo.png",
+            "alt": "Klaviyo",
+            "name": "Klaviyo",
+            "color": "monochrome"
+          },
+          {
+            "img": "/assets/img/partners/brightpearl.png",
+            "alt": "Brightpearl",
+            "name": "Brightpearl",
+            "color": "monochrome"
+          },
+          {
+            "img": "/assets/img/partners/apple-google-pay.png",
+            "alt": "Apple Pay & Google Pay",
+            "name": "Apple Pay & Google Pay",
+            "color": "monochrome"
+          },
+          {
+            "img": "/assets/img/partners/okendo.png",
+            "alt": "Okendo",
+            "name": "Okendo",
+            "color": "monochrome"
+          },
+          {
+            "img": "/assets/img/partners/gorgias.png",
+            "alt": "Gorgias",
+            "name": "Gorgias",
+            "color": "monochrome"
+          },
+          {
+            "img": "/assets/img/partners/loyaltylion.png",
+            "alt": "LoyaltyLion",
+            "name": "LoyaltyLion",
+            "color": "monochrome"
+          }
+        ]
+      }
+    }
+  ]
+}

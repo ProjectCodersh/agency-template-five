@@ -1,0 +1,38 @@
+{
+  "heading": {
+    "subtitle": "MIGRATION WORKFLOW",
+    "title": "Our Shopify Migration Process",
+    "content": "",
+    "img": "/assets/img/feature-img.png"
+  },
+  "cards": [
+    {
+      "title": "1. In-Depth Planning & Consultation",
+      "content": "We work closely with you to understand your business requirements, identify potential challenges, and create a strategic migration roadmap."
+    },
+    {
+      "title": "2. Data Migration",
+      "content": "Transfer your products, customer details, order history, and content safely and securely, ensuring no data loss during the process."
+    },
+    {
+      "title": "3. Custom Design & Theme Integration",
+      "content": "Whether you want to replicate your current store’s look or start fresh with a unique Shopify 2.0 theme, we’ve got you covered."
+    },
+    {
+      "title": "4. SEO Retention & URL Redirection",
+      "content": "Protect your hard-earned search rankings with precise URL mapping and SEO optimizations to ensure a smooth transition."
+    },
+    {
+      "title": "5. Third-Party Integration",
+      "content": "Seamlessly integrate your existing tools and apps, or explore Shopify’s vast ecosystem of plugins to enhance your store’s functionality."
+    },
+    {
+      "title": "6. Quality Assurance & Testing",
+      "content": "From functionality to responsiveness, we rigorously test your store to guarantee it delivers a flawless user experience across all devices."
+    },
+    {
+      "title": "7. Launch & Post-Migration Support",
+      "content": "Experience a stress-free launch with our end-to-end support. Post-launch, we offer continuous optimization to help your store perform at its best."
+    }
+  ]
+}
