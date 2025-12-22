@@ -22,7 +22,7 @@ import FAQSectionData from '../../public/assets/data/WhiteLabelData/FAQSection.j
 // import FAQSectionTwoData from '../../public/assets/data/WhiteLabelData/FAQSectionTwo.json';
 // import CardSectionTwoData from '../../public/assets/data/WhiteLabelData/CardSectionTwo.json';
 import ContentSection from '../Components/WhiteLabelServices/ContentSection';
-import ContentSectionData from '../../public/assets/data/shopifysubscriptions/contentsection.json';
+import ContentSectionData from '../../public/assets/data/shopifysubscriptions/contentSection.json';
 function WhiteLabelServicePage() {
   return (
     <div>
