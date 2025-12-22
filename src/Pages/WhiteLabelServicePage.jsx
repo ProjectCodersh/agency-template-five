@@ -7,6 +7,7 @@ import CardsSection from '../Components/WhiteLabelServices/CardsSection';
 import HeroSection from '../Components/WhiteLabelServices/HeroSection';
 import LogoSection from '../Components/WhiteLabelServices/LogoSection';
 // import ShopifyPartnersSection from '../Components/WhiteLabelServices/ShopifyPartnersSection';
+// import DarkSection from '../Components/WhiteLabelServices/DarkSection';
 import VideoTestimonialSlickSecond from '../Components/Testimonial/VideoTestimonial';
 
 // json data files
@@ -16,11 +17,12 @@ import PaymentData from '../../public/assets/data/WhiteLabelData/PaymentLogo.jso
 import LeftRightSectionData from '../../public/assets/data/WhiteLabelData/LeftRightSection.json';
 import CardsSectionData from '../../public/assets/data/WhiteLabelData/CardsSection.json';
 import FAQSectionData from '../../public/assets/data/WhiteLabelData/FAQSection.json';
-import DarkSection from '../Components/WhiteLabelServices/DarkSection';
+// import DarkSectionData from '../../public/assets/data/shopifymigration/darksection.json';
 // import ShopifyPartnersSectionData from '../../public/assets/data/WhiteLabelData/ShopifyPartnersSection.json';
 // import FAQSectionTwoData from '../../public/assets/data/WhiteLabelData/FAQSectionTwo.json';
 // import CardSectionTwoData from '../../public/assets/data/WhiteLabelData/CardSectionTwo.json';
-
+import ContentSection from '../Components/WhiteLabelServices/ContentSection';
+import ContentSectionData from '../../public/assets/data/shopifysubscriptions/contentsection.json';
 function WhiteLabelServicePage() {
   return (
     <div>
@@ -34,7 +36,8 @@ function WhiteLabelServicePage() {
       <LogoSection data={ProjectLogo} />
       <LogoSection data={ThemesLogo} />
       <LogoSection data={PaymentData} />
-      <DarkSection />
+      {/* <DarkSection data={DarkSectionData} /> */}
+      <ContentSection data={ContentSectionData} />
       <FAQSection data={FAQSectionData} />
       <VideoTestimonialSlickSecond />
     </div>

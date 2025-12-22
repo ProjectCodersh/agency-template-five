@@ -1,0 +1,104 @@
+{
+  "pageTitle": "Shopify B2B Whole Sale",
+  "sections": [
+    {
+      "type": "breadcrumb",
+      "data": {
+        "bgimg": "/assets/img/breadcrumb.jpg",
+        "title": "Shopify B2B Whole Sale"
+      }
+    },
+    {
+      "type": "rightContentBox",
+      "data": {
+        "subtitle": "SEAMLESS SHOPIFY REPLATFORMING",
+        "title": "What is Shopify B2B and Wholesale?",
+        "content": "As businesses expand globally on Shopify, adapting to international markets is crucial. Going global enables merchants to access a broader customer base, increase transactions, and boost revenue. Recent data shows that 35% of Shopify traffic is international, emphasizing the need for a global ecommerce strategy. Additionally, 92% of these visitors prefer shopping in their local currency, with 33% likely to abandon purchases if prices are only in US dollars.",
+        "img": "/assets/img/white-label/why-choose-whitelabel.webp",
+        "features": [
+          "Password-Protected Storefront",
+          "Shopify’s B2B Ecommerce Channel",
+          "Shopify Plus for Advanced B2B Solutions",
+          "B2B Solutions Without Shopify Plus"
+        ],
+        "buttonText": " ",
+        "buttonLink": ""
+      }
+    },
+    {
+      "type": "contentSection",
+      "data": {
+        "bg": "/assets/img/team/team-bg.jpg",
+        "heading": {
+          "subtitle": "SHOPIFY SUBSCRIPTIONS",
+          "title": "How Shopify Subscriptions <br/>Work & What They Offer"
+        },
+        "overview": "",
+        "columns": [
+          {
+            "icon": "01",
+            "subtitle": "Why Choose Shopify and Shopify Plus for B2B and Wholesale?",
+            "content": "Shopify and Shopify Plus offer a powerful, integrated solution for B2B and wholesale businesses, streamlining operations and enhancing efficiency. By consolidating inventory, orders, and customer data in one location, Shopify makes it easy to manage retail and wholesale clients alongside your direct-to-consumer (DTC) customers. B2B features like custom pricing, volume-based discounts, and tailored customer experiences allow businesses to operate from a single platform while offering flexible billing options, including pricing in multiple currencies and custom price lists. <br/> <br/> Shopify’s wholesale functionality includes a dedicated order center, enabling clients to place orders at their convenience, eliminating manual order forms and lengthy processes. This feature is particularly valuable for businesses expanding globally or serving diverse markets, making wholesale orders as seamless as DTC transactions. Ready to elevate your wholesale business with Shopify? Contact Codersh Web Services today!",
+            "highlights": []
+          },
+          {
+            "icon": "02",
+            "subtitle": "What Are the Challenges of Using Shopify for B2B?",
+            "content": "Before integrating B2B functionality into your Shopify store, consider these key factors to ensure the best experience for both your business and customers:",
+            "highlights": [
+              "<b>Customer Accounts:</b> You'll need to create separate customer accounts for B2B transactions to utilize Shopify’s B2B features.",
+              "<b>Third-Party App Compatibility:</b>Since Shopify B2B is a newer feature, some third-party apps may not yet be compatible. Check compatibility before integrating.",
+              "<b>Subscription Limitations:</b> B2B functionality does not currently support subscription models. If your business relies on subscriptions, alternative solutions may be needed.",
+              "<b>Order Limits?:</b> The B2B system limits orders to 500 line items. Orders exceeding this will be rejected, so plan accordingly for large bulk orders."
+            ]
+          },
+          {
+            "icon": "03",
+            "subtitle": "What Features Does Shopify Offer for B2B and Wholesale?",
+            "content": "At Codersh, we specialize in tailored Shopify Wholesale and B2B solutions designed to help merchants grow their business. Whether you're starting to sell to businesses or looking for cost-effective alternatives to the $2,000/month Shopify Plus plan, we’ve got you covered.<br/> <br/> <b>Explore key Shopify B2B and Wholesale features:</b>",
+            "highlights": [
+              "<b>Dedicated Wholesale Storefront:</b> Create a separate wholesale storefront while maintaining your direct-to-consumer (DTC) operations.",
+              "<b>Exclusive Discounts:</b> Offer custom discount codes for wholesale customers or targeted client groups.",
+              "<b>Volume-Based Pricing:</b> Implement tiered pricing structures to reward B2B customers for larger purchase volumes.",
+              "<b>Custom Price Lists:</b> Provide personalized pricing and product lists for different customers, ensuring a tailored buying experience.",
+              "<b>Flexible Payment Terms:</b> Offer net payment terms to simplify transactions and improve cash flow for your clients.",
+              "<b>Handshake Integration:</b> Seamlessly connect with the Shopify Handshake marketplace to expand your wholesale reach.",
+              "<b>Streamlined Checkout:</b> Deliver a customized checkout experience with credit limits and NET payment terms.",
+              "<b>Scalable Hosting & Security:</b> Leverage Shopify’s reliable infrastructure to support both DTC and B2B customers securely.",
+              "<b>Wholesale-Ready Storefronts:</b> Enhance the buying experience using B2B-focused apps designed specifically for wholesale needs."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "leftContentBox",
+      "data": {
+        "subtitle": "SHOPIFY B2B STOREFRONT",
+        "title": "Create a Custom Domain and B2B Storefront on Shopify",
+        "content": "Shopify’s B2B features integrate seamlessly with Shopify Plus, letting you manage retail and wholesale customers in one storefront. Pricing and checkout adjust automatically based on the logged-in customer. For a fully customized B2B experience with dynamic content, custom coding may be needed. <br/> <br/> Shopify Plus offers a dedicated Wholesale Channel with a password-protected storefront for wholesale customers, keeping B2B pricing hidden from retail clients. Pricing adjusts automatically, and you can customize the domain for a branded B2B experience. For advanced features and deeper customization, We can help enhance your B2B operations.",
+        "img": "/assets/img/team/02.png",
+        "buttonText": "LET'S CONNECT",
+        "buttonLink": "/contact"
+      }
+    },
+    {
+      "type": "rightContentBox",
+      "data": {
+        "bg": "/assets/img/team/team-bg.jpg",
+        "subtitle": "SHOPIFY B2B STOREFRONT",
+        "title": "Processing B2B Orders on Shopify",
+        "content": "Managing B2B and wholesale orders is simple with Shopify Wholesale’s advanced order processing features. Orders placed through your wholesale store appear as draft orders in your Shopify admin, allowing easy review and invoice creation with payment instructions. <br/> <br/> <b>Here’s how you can process orders:</b>",
+        "features": [
+          "invoices with payment requests by Shopify’s integrated payment provider.",
+          "Customize invoices and offer payment via methods like bank wire transfers.",
+          "Accept upfront payments through credit cards, checks, and other options.",
+          "Provide flexible payment terms with gateways."
+        ],
+        "img": "/assets/img/team/02.png",
+        "buttonText": "LET'S CONNECT",
+        "buttonLink": "/contact"
+      }
+    }
+  ]
+}

@@ -96,7 +96,7 @@ const RightContentBox = ({ data }) => {
                       {leftColumn.map((item) => (
                         <li key={item}>
                           <CheckIcon />
-                          {item}
+                          {parse(item)}
                         </li>
                       ))}
                     </ul>
@@ -105,7 +105,7 @@ const RightContentBox = ({ data }) => {
                       {rightColumn.map((item) => (
                         <li key={item}>
                           <CheckIcon />
-                          {item}
+                          {parse(item)}
                         </li>
                       ))}
                     </ul>

@@ -6,6 +6,8 @@ import CardsSectionTwo from '../Components/WhiteLabelServices/CardSectionTwo';
 import FaqSection from '../Components/WhiteLabelServices/FAQSectionTwo';
 import CTASection from '../Components/WhiteLabelServices/CTASection';
 import ShopifyPartnersSection from '../Components/WhiteLabelServices/ShopifyPartnersSection';
+import DarkSection from '../Components/WhiteLabelServices/DarkSection';
+import ContentSection from '../Components/WhiteLabelServices/ContentSection';
 
 /**
  * Section Registry
@@ -71,6 +73,12 @@ export const sectionRegistry = {
   },
   shopifyPartnersSection: {
     component: ShopifyPartnersSection,
+  },
+  darkSection: {
+    component: DarkSection,
+  },
+  contentSection: {
+    component: ContentSection,
   },
 };
 

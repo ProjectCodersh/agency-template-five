@@ -32,6 +32,8 @@ import ServiceDetailsPage from '../Pages/ServiceDetailsPage';
 // import Home2 from "../Pages/Home2";
 // import Home3 from "../Pages/Home3";
 import TeamDetailsPage from '../Pages/TeamDetailsPage';
+import ShopifySubscriptions from '../Pages/ShopifySubscriptions';
+import ShopifyB2BWholeSale from '../Pages/ShopifyB2BWholeSale';
 // import CaseStudyDetailsPage from "../Pages/CaseStudyDetailsPage";
 // import BlogRightSidebar from "../Pages/BlogRightSidebar";
 // import BlogPage from "../Pages/BlogPage";
@@ -134,6 +136,7 @@ export const router = createBrowserRouter([
         path: '/partners',
         element: <PartnersPage />,
       },
+      // .ca services pages
       {
         path: '/new-services',
         element: <NewServicesPage />,
@@ -146,9 +149,18 @@ export const router = createBrowserRouter([
         path: '/new-services/white-label-service',
         element: <WhiteLabelServicePage />,
       },
+      // dynamic page builder routes
       {
         path: '/new-services/shopify-migration',
         element: <ShopifyMigratioPage />,
+      },
+      {
+        path: '/new-services/shopify-subscriptions',
+        element: <ShopifySubscriptions />,
+      },
+      {
+        path: '/new-services/shopify-b2b-wholesale',
+        element: <ShopifyB2BWholeSale />,
       },
     ],
   },
