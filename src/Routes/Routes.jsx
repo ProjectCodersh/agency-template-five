@@ -34,6 +34,7 @@ import ServiceDetailsPage from '../Pages/ServiceDetailsPage';
 import TeamDetailsPage from '../Pages/TeamDetailsPage';
 import ShopifySubscriptions from '../Pages/ShopifySubscriptions';
 import ShopifyB2BWholeSale from '../Pages/ShopifyB2BWholeSale';
+import ShopifyDynamicServices from '../Pages/ShopifyDynamicServices';
 // import CaseStudyDetailsPage from "../Pages/CaseStudyDetailsPage";
 // import BlogRightSidebar from "../Pages/BlogRightSidebar";
 // import BlogPage from "../Pages/BlogPage";
@@ -161,6 +162,14 @@ export const router = createBrowserRouter([
       {
         path: '/new-services/shopify-b2b-wholesale',
         element: <ShopifyB2BWholeSale />,
+      },
+      {
+        path: '/new-services/shopify-dynamic-services',
+        element: <ShopifyDynamicServices />,
+      },
+      {
+        path: '/new-services/cms/:slug',
+        element: <ShopifyDynamicServices />,
       },
     ],
   },

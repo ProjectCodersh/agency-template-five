@@ -1,43 +1,25 @@
 {
-  "pageTitle": "Shopify B2B Wholesale",
+  "pageTitle": "Shopify Subscriptions",
   "sections": [
     {
       "type": "breadcrumb",
       "data": {
         "bgimg": "/assets/img/breadcrumb.jpg",
-        "title": "Shopify B2B Wholesale"
+        "title": "Shopify Subscriptions"
       }
     },
     {
       "type": "rightContentBox",
       "data": {
         "subtitle": "OUR SUBSCRIPTION SERVICES",
-        "title": "What is Shopify B2B and Wholesale?",
-        "content": "As businesses expand globally on Shopify, adapting to international markets is crucial. Going global enables merchants to access a broader customer base, increase transactions, and boost revenue. Recent data shows that 35% of Shopify traffic is international, emphasizing the need for a global ecommerce strategy. Additionally, 92% of these visitors prefer shopping in their local currency, with 33% likely to abandon purchases if prices are only in US dollars.",
+        "title": "Our subscription services includes?",
+        "content": "",
         "img": "/assets/img/white-label/why-choose-whitelabel.webp",
         "features": [
-          "Password-Protected Storefront",
-          "Shopify’s B2B Ecommerce Channel",
-          "Shopify Plus for Advanced B2B Solutions",
-          "B2B Solutions Without Shopify Plus"
-        ],
-        "buttonText": "",
-        "buttonLink": ""
-      }
-    },
-    {
-      "type": "leftContentBox",
-      "bg": "/assets/img/team/team-bg.jpg",
-      "data": {
-        "subtitle": "OUR SUBSCRIPTION SERVICES",
-        "title": "What is Shopify B2B and Wholesale?",
-        "content": "As businesses expand globally on Shopify, adapting to international markets is crucial. Going global enables merchants to access a broader customer base, increase transactions, and boost revenue. Recent data shows that 35% of Shopify traffic is international, emphasizing the need for a global ecommerce strategy. Additionally, 92% of these visitors prefer shopping in their local currency, with 33% likely to abandon purchases if prices are only in US dollars.",
-        "img": "/assets/img/white-label/why-choose-whitelabel.webp",
-        "features": [
-          "Password-Protected Storefront",
-          "Shopify’s B2B Ecommerce Channel",
-          "Shopify Plus for Advanced B2B Solutions",
-          "B2B Solutions Without Shopify Plus"
+          "<b>Custom Design Integration:</b> <br/>Align subscription features with your brand’s identity.",
+          "<b>Subscription Management Portals:</b><br/>Enable customers to manage their subscriptions effortlessly.",
+          "<b>Optimized Retention Strategies:</b><br/>Boost LTV with smart subscription offerings. ",
+          "<b>Powerful App Integration:</b><br/>Leverage tools like ReCharge to streamline the process."
         ],
         "buttonText": "",
         "buttonLink": ""
