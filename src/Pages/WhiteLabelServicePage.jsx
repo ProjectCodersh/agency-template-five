@@ -21,8 +21,8 @@ import FAQSectionData from '../../public/assets/data/WhiteLabelData/FAQSection.j
 // import ShopifyPartnersSectionData from '../../public/assets/data/WhiteLabelData/ShopifyPartnersSection.json';
 // import FAQSectionTwoData from '../../public/assets/data/WhiteLabelData/FAQSectionTwo.json';
 // import CardSectionTwoData from '../../public/assets/data/WhiteLabelData/CardSectionTwo.json';
-import ContentSection from '../Components/WhiteLabelServices/ContentSection';
-import ContentSectionData from '../../public/assets/data/shopifysubscriptions/contentSection.json';
+// import ContentSection from '../Components/WhiteLabelServices/ContentSection';
+// import ContentSectionData from '../../public/assets/data/shopifysubscriptions/contentSection.json';
 function WhiteLabelServicePage() {
   return (
     <div>
@@ -37,7 +37,7 @@ function WhiteLabelServicePage() {
       <LogoSection data={ThemesLogo} />
       <LogoSection data={PaymentData} />
       {/* <DarkSection data={DarkSectionData} /> */}
-      <ContentSection data={ContentSectionData} />
+      {/* <ContentSection data={ContentSectionData} /> */}
       <FAQSection data={FAQSectionData} />
       <VideoTestimonialSlickSecond />
     </div>
