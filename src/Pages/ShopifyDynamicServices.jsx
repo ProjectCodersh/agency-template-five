@@ -17,7 +17,20 @@ const PAGE_QUERY = `
     "sections": sections[]{
       "type": _type,
       "data": {
-        ...
+        ...,
+        // Convert image objects to URL strings (coalesce handles both image objects and string URLs)
+        // For breadcrumb: extract URL or use default if null
+        "bgimg": coalesce(bgimg.asset->url, "/assets/img/breadcrumb.jpg"),
+        "bg": coalesce(bg.asset->url, bg),
+        "img": coalesce(img.asset->url, img),
+        "heading": heading {
+          ...,
+          "img": coalesce(heading.img.asset->url, heading.img)
+        },
+        "logos": logos[]{
+          ...,
+          "img": coalesce(img.asset->url, img)
+        }
       }
     }
   }

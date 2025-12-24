@@ -10701,3 +10701,10 @@ casestudy details breadcrumb dynamic image n text
     width: auto;
   }
 }
+
+/* css of dynamic leftcontentbox secton and rightcontentbox section */
+
+img.wow.img-custom-anim-left.img-fluid {
+  max-height: 600px;
+  border-radius: 24px;
+}

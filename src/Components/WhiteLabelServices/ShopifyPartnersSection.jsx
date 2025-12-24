@@ -96,6 +96,9 @@ const ShopifyPartnersSection = ({ data }) => {
     return null;
   }
 
+  // Background image: if bg is true (toggle enabled), use default path; otherwise no background
+  const backgroundImage = bg === true ? '/assets/img/team/team-bg.jpg' : '';
+
   return (
     <section
       className="shopify-partners-section fix section-padding"
@@ -104,11 +107,11 @@ const ShopifyPartnersSection = ({ data }) => {
         background: 'linear-gradient(180deg, #ffffff 0%, #f6f3fe 50%, #ffffff 100%)',
         overflow: 'hidden',
       }}
-      data-background={bg || ''}
+      data-background={backgroundImage}
     >
       {/* Decorative Background Shapes */}
-      <GradientShape position="top-right" />
-      <GradientShape position="bottom-left" />
+      {/* <GradientShape position="top-right" />
+      <GradientShape position="bottom-left" /> */}
 
       {/* Animated Background Pattern */}
       <div
@@ -167,8 +170,6 @@ const ShopifyPartnersSection = ({ data }) => {
                   <div className="row g-3" style={{ position: 'relative', zIndex: 1 }}>
                     {data.logos.map((logo, index) => {
                       const isHovered = hoveredLogo === index;
-                      const row = Math.floor(index / 3);
-                      const col = index % 3;
 
                       return (
                         <div
@@ -221,7 +222,7 @@ const ShopifyPartnersSection = ({ data }) => {
 
                             {/* Logo Image */}
                             <img
-                              src={logo.img || logo}
+                              src={logo.img || ''}
                               alt={logo.alt || logo.name || `Partner ${index + 1}`}
                               style={{
                                 maxWidth: '100%',

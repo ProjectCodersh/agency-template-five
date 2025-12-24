@@ -46,8 +46,14 @@ const LeftContentBox = ({ data }) => {
   const leftColumn = features.slice(0, midIndex);
   const rightColumn = features.slice(midIndex);
 
+  // Background image: if bg is true (toggle enabled), use default path; otherwise no background
+  const backgroundImage = bg === true ? '/assets/img/team/team-bg.jpg' : '';
+
   return (
-    <section className="team-section fix section-padding bg-cover" data-background={bg || ''}>
+    <section
+      className="team-section fix section-padding bg-cover"
+      data-background={backgroundImage}
+    >
       <div className="container px-3">
         <div className="team-wrapper style-3">
           <div className="row g-4">
@@ -82,7 +88,7 @@ const LeftContentBox = ({ data }) => {
                       {leftColumn.map((item) => (
                         <li key={item}>
                           <CheckIcon />
-                          {item}
+                          {parse(item)}
                         </li>
                       ))}
                     </ul>
@@ -91,7 +97,7 @@ const LeftContentBox = ({ data }) => {
                       {rightColumn.map((item) => (
                         <li key={item}>
                           <CheckIcon />
-                          {item}
+                          {parse(item)}
                         </li>
                       ))}
                     </ul>

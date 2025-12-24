@@ -34,23 +34,40 @@ const CardSectionTwo = ({ data }) => {
   if (!data) return null;
 
   const { bg, heading = {}, cards = [] } = data;
-  const { subtitle, title, content } = heading;
+  const { subtitle, title, content, img: headingImg } = heading;
 
-  const hasHeading = subtitle || title || content;
+  const hasHeading = subtitle || title || content || headingImg;
   const hasCards = Array.isArray(cards) && cards.length > 0;
 
   if (!hasHeading && !hasCards) {
     return null;
   }
 
+  // Background image: if bg is true (toggle enabled), use default path; otherwise no background
+  const backgroundImage = bg === true ? '/assets/img/team/team-bg.jpg' : '';
+
   return (
-    <section className="feature-secton section-padding fix" data-background={bg || ''}>
+    <section className="feature-secton section-padding fix" data-background={backgroundImage}>
       <div className="container px-3">
         {hasHeading && (
           <div className="section-title-area">
+            {/* {headingImg && (
+              <div className="text-center mb-4 wow fadeInUp">
+                <img
+                  src={headingImg}
+                  alt={heading.alt || 'Section image'}
+                  className="img-fluid"
+                  style={{ maxHeight: '200px', width: 'auto' }}
+                  loading="lazy"
+                />
+              </div>
+            )} */}
             <div className="section-title">
               {subtitle && (
-                <div className="sub-title wow fadeInUp">
+                <div
+                  className="sub-title wow fadeInUp"
+                  style={bg === true ? { backgroundColor: '#384bff1a' } : undefined}
+                >
                   <span>{subtitle}</span>
                 </div>
               )}

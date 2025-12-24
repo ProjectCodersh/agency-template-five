@@ -6,19 +6,38 @@ import React from 'react';
 const BreadCumb = ({ Title, bgimg, customTrail = null, hasOverlay = false, className = '' }) => {
   const wrapperRef = useRef(null);
 
+  // Default breadcrumb background image if none provided
+  const DEFAULT_BREADCRUMB_BG = '/assets/img/breadcrumb.jpg';
+
+  // Ensure bgimg is always a string URL (handle object case and null/undefined)
+  const getBackgroundImage = () => {
+    if (!bgimg) return DEFAULT_BREADCRUMB_BG;
+    // If bgimg is an object (shouldn't happen with proper GROQ, but safety check)
+    if (typeof bgimg === 'object' && bgimg !== null) {
+      return bgimg.asset?.url || DEFAULT_BREADCRUMB_BG;
+    }
+    // If bgimg is a string URL, use it
+    if (typeof bgimg === 'string' && bgimg.trim()) {
+      return bgimg;
+    }
+    return DEFAULT_BREADCRUMB_BG;
+  };
+
+  const backgroundImage = getBackgroundImage();
+
   useEffect(() => {
-    if (wrapperRef.current && bgimg) {
-      wrapperRef.current.style.backgroundImage = `url('${bgimg}')`;
+    if (wrapperRef.current && backgroundImage) {
+      wrapperRef.current.style.backgroundImage = `url('${backgroundImage}')`;
     }
     // Also call the original function for any other elements
     loadBackgroudImages();
-  }, [bgimg]);
+  }, [backgroundImage]);
 
   return (
     <div
       ref={wrapperRef}
       className={`breadcrumb-wrapper bg-cover breadcrumb-wrapper-margin-top ${className}`}
-      data-background={bgimg}
+      data-background={backgroundImage}
     >
       {hasOverlay && <div className="breadcrumb-overlay" />}
 

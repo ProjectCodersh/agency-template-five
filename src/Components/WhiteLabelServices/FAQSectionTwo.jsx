@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import parse from 'html-react-parser';
 
 /**
  * FAQSectionTwo
@@ -42,14 +43,19 @@ const FAQSectionTwo = ({ data, addclass = '' }) => {
 
   if (!data) return null;
 
-  const { bg, heading = {}, faqs = [] } = data;
-  const { subtitle, subtitleBgColor, title, description } = heading;
+  const { bg, heading, faqs = [] } = data;
+  // Ensure heading is always an object (handle null/undefined cases)
+  const headingData = heading && typeof heading === 'object' ? heading : {};
+  const { subtitle, title, description } = headingData;
 
   const hasHeading = subtitle || title || description;
 
   if (!hasHeading && !hasFaqs) {
     return null;
   }
+
+  // Background image: if bg is true (toggle enabled), use default path; otherwise no background
+  const backgroundImage = bg === true ? '/assets/img/team/team-bg.jpg' : '';
 
   const setContentRef = (el, index) => {
     contentRefs.current[index] = el;
@@ -64,7 +70,7 @@ const FAQSectionTwo = ({ data, addclass = '' }) => {
   };
 
   return (
-    <section className={`${addclass} section-padding `} data-background={bg || ''}>
+    <section className={`${addclass} section-padding `} data-background={backgroundImage}>
       <div className="container px-3">
         <div className="faq-wrapper">
           <div className="row g-4 justify-content-between">
@@ -72,25 +78,29 @@ const FAQSectionTwo = ({ data, addclass = '' }) => {
               <div className="faq-content">
                 {hasHeading && (
                   <>
-                <div className="section-title">
+                    <div className="section-title">
                       {subtitle && (
-                  <div
-                    className="sub-title bg-color-2 wow fadeInUp"
-                          style={{ backgroundColor: subtitleBgColor }}
-                  >
+                        <div
+                          className="sub-title bg-color-2 wow fadeInUp"
+                          style={
+                            bg === true
+                              ? { backgroundColor: '#384bff1a' }
+                              : { backgroundColor: '#f6f3fe' }
+                          }
+                        >
                           <span>{subtitle}</span>
-                  </div>
+                        </div>
                       )}
                       {title && (
-                  <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                          {title}
-                  </h2>
+                        <h2 className="wow fadeInUp" data-wow-delay=".3s">
+                          {parse(title)}
+                        </h2>
                       )}
-                </div>
+                    </div>
                     {description && (
-                <p className="wow fadeInUp" data-wow-delay=".5s">
-                        {description}
-                </p>
+                      <p className="wow fadeInUp" data-wow-delay=".5s">
+                        {parse(description)}
+                      </p>
                     )}
                   </>
                 )}
