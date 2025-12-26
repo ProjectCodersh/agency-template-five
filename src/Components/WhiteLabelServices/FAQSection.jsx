@@ -152,7 +152,7 @@ const FAQSection = ({ data }) => {
                                 : '0px',
                             }}
                           >
-                            <div className="accordion-body">{item.content}</div>
+                            <div className="accordion-body">parse{item.content}</div>
                           </div>
                         </div>
                       );

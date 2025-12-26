@@ -279,7 +279,7 @@ const ShopifyPartnersSection = ({ data }) => {
                     }}
                   >
                     <span style={{ color: '#6A47ED', fontWeight: '700', fontSize: '14px' }}>
-                      SHOPIFY EXPERTISE
+                      TRUSTEDSHOPIFY PARTNERS
                     </span>
                   </div>
                   <h2

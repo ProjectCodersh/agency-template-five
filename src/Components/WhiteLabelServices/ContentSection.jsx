@@ -38,8 +38,14 @@ const ContentSection = ({ data }) => {
 
   if (!hasHeading && !hasOverview && !hasColumns) return null;
 
+  // Background image: if bg is true (toggle enabled), use default path; otherwise no background
+  const backgroundImage = bg === true ? '/assets/img/team/team-bg.jpg' : '';
+
   return (
-    <section className="project-details-section fix section-padding" data-background={bg || ''}>
+    <section
+      className="project-details-section fix section-padding"
+      data-background={backgroundImage}
+    >
       <div className="container px-3">
         <div className="project-details-wrapper">
           {/* Section Title Area */}
@@ -75,13 +81,58 @@ const ContentSection = ({ data }) => {
                 {columns.map((col, idx) => {
                   const hasHighlights = Array.isArray(col.highlights) && col.highlights.length > 0;
 
+                  // Check if icon is an image URL (string starting with http/https or /)
+                  const isIconImage =
+                    col.icon &&
+                    typeof col.icon === 'string' &&
+                    (col.icon.startsWith('http') || col.icon.startsWith('/'));
+
+                  // Extract number from subtitle for default badge (e.g., "01What Does..." -> "01")
+                  const defaultIconNumber = col.subtitle
+                    ? col.subtitle.match(/^\d+/)?.[0] || String(idx + 1).padStart(2, '0')
+                    : String(idx + 1).padStart(2, '0');
+
                   return (
                     <div key={col.subtitle || idx} className="col-lg-6">
                       <div className="mb-4">
-                        {/* Heading with optional numbered badge icon */}
+                        {/* Heading with optional icon image or default numbered badge */}
                         {col.subtitle && (
-                          <h4 className="fw-bold mb-2">
-                            {col.icon && (
+                          <h4 className="fw-bold mb-2 d-flex align-items-center">
+                            {isIconImage ? (
+                              // Display uploaded icon image
+                              <span
+                                className="d-inline-flex align-items-center justify-content-center me-2 mb-2"
+                                style={{
+                                  width: 40,
+                                  height: 40,
+                                  flexShrink: 0,
+                                  borderRadius: '8px',
+                                  overflow: 'hidden',
+                                  backgroundColor: '#6A47ED',
+                                }}
+                              >
+                                <img
+                                  src={col.icon}
+                                  alt={col.iconAlt || 'Icon'}
+                                  style={{
+                                    width: '100%',
+                                    height: '100%',
+                                    objectFit: 'cover',
+                                  }}
+                                  onError={(e) => {
+                                    // Fallback to default badge if image fails to load
+                                    e.target.style.display = 'none';
+                                    const badge = e.target.parentElement;
+                                    badge.style.display = 'flex';
+                                    badge.style.color = '#fff';
+                                    badge.style.fontWeight = '700';
+                                    badge.style.fontSize = '16px';
+                                    badge.textContent = defaultIconNumber;
+                                  }}
+                                />
+                              </span>
+                            ) : (
+                              // Display default purple numbered badge
                               <span
                                 className="d-inline-flex align-items-center justify-content-center me-2 mb-2"
                                 style={{
@@ -96,7 +147,7 @@ const ContentSection = ({ data }) => {
                                   lineHeight: 1,
                                 }}
                               >
-                                {col.icon}
+                                {defaultIconNumber}
                               </span>
                             )}
                             {parse(col.subtitle)}
