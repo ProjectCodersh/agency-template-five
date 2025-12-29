@@ -1,3 +1,5 @@
+import TeamImageSlider from './TeamImageSlider';
+
 const TeamDetails = () => {
   return (
     <div>
@@ -6,7 +8,8 @@ const TeamDetails = () => {
           <div className="team-details-wrapper">
             <div className="team-details-items">
               <div className="thumb">
-                <img src="/assets/img/team/details-1.jpg" alt="img" />
+                <img src="/assets/img/team/team-ceo.webp" alt="img" />
+                {/* <img src="/assets/img/team/details-1.jpg" alt="img" /> */}
               </div>
               <div className="content">
                 <div className="cont">
@@ -14,7 +17,7 @@ const TeamDetails = () => {
                   <span>Founder & CEO, Codersh Web Services</span>
                 </div>
                 <p className="mb-3">
-                  Harsh Shah is a seasoned entrepreneur and technology leader with over 8+ years of
+                  Harsh Shah is a skilled entrepreneur and technology leader with over 8+ years of
                   experience in building and scaling digital solutions for global clients. As the
                   Founder and CEO of Codersh Web Services, he has spearheaded the delivery of
                   high-quality web, mobile, and e-commerce development projects — helping startups
@@ -22,10 +25,10 @@ const TeamDetails = () => {
                   performance-driven products.
                 </p>
                 <p>
-                  Harsh is passionate about mentoring young developers, sharing insights on emerging
-                  tech trends, and building thriving tech communities. Outside of work, he enjoys
-                  exploring new innovations in web development and advocating for client-focused
-                  design solutions.
+                  Harsh Shah is passionate about mentoring young developers, sharing insights on
+                  emerging tech trends, and building thriving tech communities. Outside of work, he
+                  enjoys exploring new innovations in web development and advocating for
+                  client-focused design solutions.
                 </p>
                 <div className="signature">
                   {/* <img src="/assets/img/team/signature.png" alt="img" /> */}
@@ -76,10 +79,10 @@ const TeamDetails = () => {
               businesses launch, grow, and scale their digital products.
             </p>
             <p className="mt-3">
-              Harsh believes in transparent communication, strategic problem-solving, and delivering
-              solutions that not only look great but perform exceptionally in real business
-              environments. His leadership has helped Codersh maintain a strong reputation for
-              quality and client satisfaction.
+              Harsh Shah believes in transparent communication, strategic problem-solving, and
+              delivering solutions that not only look great but perform exceptionally in real
+              business environments. His leadership has helped Codersh maintain a strong reputation
+              for quality and client satisfaction.
             </p>
             <p className="mt-3">
               When he’s not leading projects, Harsh enjoys speaking on tech topics, contributing to
@@ -146,6 +149,7 @@ const TeamDetails = () => {
           </div>
         </div>
       </div>
+      <TeamImageSlider></TeamImageSlider>
     </div>
   );
 };

@@ -10,7 +10,8 @@ const HeroSection = () => {
   }, []);
 
   const heroContent = {
-    bg: '/assets/img/hero/hero-bg-3.jpg',
+    // bg: '/assets/img/hero/hero-bg-3.jpg',
+    bg: '',
     subtitle: 'WHITE-LABEL SOLUTIONS',
     // title: ' Achieve <span>Top Search </span> Rankings With Our <br/> SEO services',
     title: ' White Label <span> Shopify Development </span> Service',
@@ -24,7 +25,11 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="hero-section hero-3" data-background={heroContent.bg}>
+    <section
+      className="hero-section hero-3 breadcrumb-wrapper-margin-top"
+      data-background={heroContent.bg}
+      style={{ backgroundColor: '#f6f3fe' }}
+    >
       {/* <div className="line-shape">
         <img src="/assets/img/hero/line-shape.png" alt="img" />
       </div> */}

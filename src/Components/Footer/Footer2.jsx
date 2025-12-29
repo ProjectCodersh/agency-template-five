@@ -104,6 +104,24 @@ const Footer2 = () => {
                       </Link>
                     </li>
                     <li>
+                      <Link to="/new-services">
+                        <i className="bi bi-arrow-right"></i>
+                        Shopify Services Page
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/new-services/single-service">
+                        <i className="bi bi-arrow-right"></i>
+                        Shopify Single Service
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/new-services/white-label-service">
+                        <i className="bi bi-arrow-right"></i>
+                        White Label Shopify Service
+                      </Link>
+                    </li>
+                    <li>
                       <Link to="/new-services/shopify-migration">
                         <i className="bi bi-arrow-right"></i>
                         Shopify Migration

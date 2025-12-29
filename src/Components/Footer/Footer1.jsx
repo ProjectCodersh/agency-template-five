@@ -181,7 +181,7 @@ const Footer1 = () => {
                     <li>
                       <Link to="/new-services/single-service">
                         <i className="bi bi-arrow-right"></i>
-                        Shopify Singe Service
+                        Shopify Single Service
                       </Link>
                     </li>
                     <li>
