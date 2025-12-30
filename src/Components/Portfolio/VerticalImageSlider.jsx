@@ -69,11 +69,20 @@ const PortfolioCard = memo(
       return () => observer.disconnect();
     }, []);
 
+    // Get image path - use img if available, otherwise construct from image field
+    const imagePath = useMemo(() => {
+      if (project.img) return project.img;
+      if (project.image) {
+        return `/assets/img/portfolio/${project.image}.webp`;
+      }
+      return '';
+    }, [project.img, project.image]);
+
     // Preload image when visible
     useEffect(() => {
-      if (isVisible && !imageLoaded && !error) {
+      if (isVisible && !imageLoaded && !error && imagePath) {
         const img = new Image();
-        img.src = project.img;
+        img.src = imagePath;
         img.onload = () => {
           // Small delay for smoother transition
           setTimeout(() => {
@@ -82,7 +91,7 @@ const PortfolioCard = memo(
         };
         img.onerror = () => setError(true);
       }
-    }, [isVisible, project.img, imageLoaded, error]);
+    }, [isVisible, imagePath, imageLoaded, error]);
 
     return (
       <motion.div
@@ -197,7 +206,7 @@ const PortfolioCard = memo(
               >
                 <motion.img
                   ref={imgRef}
-                  src={project.img}
+                  src={imagePath}
                   alt={project.name || `Portfolio ${index + 1}`}
                   initial={{
                     opacity: 0,
@@ -228,7 +237,7 @@ const PortfolioCard = memo(
                   fetchPriority={index < 4 ? 'high' : 'low'}
                 />
                 <motion.img
-                  src={project.img}
+                  src={imagePath}
                   alt=""
                   aria-hidden="true"
                   initial={{
@@ -293,9 +302,12 @@ const VerticalImageSlider = ({ data = [], columns = 4, speed = 20 }) => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
   const [visibleIndices, setVisibleIndices] = useState(new Set());
   const [isLoading, setIsLoading] = useState(true);
+  const [selectedIndustry, setSelectedIndustry] = useState('All');
+  const [isFilterOpen, setIsFilterOpen] = useState(false);
   const containerRef = useRef(null);
   const observerRef = useRef(null);
   const resizeTimeoutRef = useRef(null);
+  const dropdownRef = useRef(null);
 
   // Fetch portfolio data
   useEffect(() => {
@@ -315,6 +327,40 @@ const VerticalImageSlider = ({ data = [], columns = 4, speed = 20 }) => {
         });
     }
   }, [data]);
+
+  // Get unique industries from project data
+  const industries = useMemo(() => {
+    if (!projectData || projectData.length === 0) return ['All'];
+    const uniqueIndustries = Array.from(
+      new Set(
+        projectData
+          .map((item) => item.industry)
+          .filter((industry) => industry && industry.trim() !== '')
+      )
+    ).sort();
+    return ['All', ...uniqueIndustries];
+  }, [projectData]);
+
+  // Filter projects by industry
+  const filteredProjectData = useMemo(() => {
+    if (!projectData || projectData.length === 0) return [];
+    if (selectedIndustry === 'All') return projectData;
+    return projectData.filter((item) => item.industry === selectedIndustry);
+  }, [projectData, selectedIndustry]);
+
+  // Handle click outside dropdown
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setIsFilterOpen(false);
+      }
+    };
+
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, []);
 
   // Responsive columns with debounce
   useEffect(() => {
@@ -357,7 +403,7 @@ const VerticalImageSlider = ({ data = [], columns = 4, speed = 20 }) => {
 
   // Intersection Observer for lazy loading
   useEffect(() => {
-    if (!containerRef.current || projectData.length === 0) return;
+    if (!containerRef.current || filteredProjectData.length === 0) return;
 
     const observerOptions = {
       root: null,
@@ -386,7 +432,7 @@ const VerticalImageSlider = ({ data = [], columns = 4, speed = 20 }) => {
         observerRef.current.disconnect();
       }
     };
-  }, [projectData.length]);
+  }, [filteredProjectData.length]);
 
   // Memoized hover handler
   const handleHover = useCallback((index) => {
@@ -438,6 +484,56 @@ const VerticalImageSlider = ({ data = [], columns = 4, speed = 20 }) => {
         overflow: 'hidden',
       }}
     >
+      {/* Title and Filter Section */}
+      <div className="container-fluid px-3 mb-4">
+        <div className="section-title-area">
+          <div className="section-title">
+            <div className="sub-title wow fadeInUp">
+              <span>Our Portfolio</span>
+            </div>
+            <h2 className="wow fadeInUp" data-wow-delay=".3s">
+              Portfolio Showcase
+            </h2>
+          </div>
+          <div className="work-filter wow fadeInUp" data-wow-delay=".5s">
+            <span className="work-filter-label">Industry</span>
+            <div className={`work-filter-dropdown ${isFilterOpen ? 'open' : ''}`} ref={dropdownRef}>
+              <button
+                type="button"
+                className="work-filter-toggle"
+                onClick={() => setIsFilterOpen((prev) => !prev)}
+              >
+                <span className="work-filter-selected">
+                  {selectedIndustry === 'All' ? 'All industries' : selectedIndustry}
+                </span>
+                <span className="work-filter-toggle-icon">
+                  <i className="bi bi-chevron-down"></i>
+                </span>
+              </button>
+              <ul className="work-filter-menu">
+                {industries.map((industry) => (
+                  <li key={industry}>
+                    <button
+                      type="button"
+                      className={`dropdown-menu-link ${
+                        selectedIndustry === industry ? 'active' : ''
+                      }`}
+                      onClick={() => {
+                        setSelectedIndustry(industry);
+                        setIsFilterOpen(false);
+                      }}
+                    >
+                      {industry}
+                    </button>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Portfolio Grid */}
       <div
         ref={containerRef}
         className="container-fluid px-3"
@@ -449,7 +545,7 @@ const VerticalImageSlider = ({ data = [], columns = 4, speed = 20 }) => {
           maxWidth: '100%',
         }}
       >
-        {projectData.map((project, index) => (
+        {filteredProjectData.map((project, index) => (
           <div key={project.id || index} data-index={index}>
             <PortfolioCard
               project={project}

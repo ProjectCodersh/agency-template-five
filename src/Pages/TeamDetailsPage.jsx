@@ -4,7 +4,7 @@ import TeamDetails from '../Components/TeamDetails/TeamDetails';
 const TeamDetailsPage = () => {
   return (
     <div>
-      <BreadCumb bgimg="/assets/img/breadcrumb.jpg" Title="Team Details" />
+      <BreadCumb bgimg="/assets/img/breadcrumb.jpg" Title="Leadership Profile" />
       <TeamDetails></TeamDetails>
     </div>
   );

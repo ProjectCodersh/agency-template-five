@@ -61,6 +61,23 @@ const TeamDetails = () => {
                     </h5>
                   </div>
                 </div>
+                <div className="social-icon d-flex align-items-center mt-4">
+                  <a href="https://www.facebook.com/Codershweb/">
+                    <i className="bi bi-facebook"></i>
+                  </a>
+                  <a href="https://x.com/CodershWeb/">
+                    <i className="bi bi-twitter-x"></i>
+                  </a>
+                  <a href="https://www.instagram.com/codersh.web/">
+                    <i className="bi bi-instagram"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2F30213091%2Fadmin%2Fanalytics%2Ffollowers%2F">
+                    <i className="bi bi-linkedin"></i>
+                  </a>
+                  <a href="https://wa.me/9998134094?text=Hello%2C%20I%20want%20to%20inquire%20about%20your%20services.">
+                    <i className="bi bi-whatsapp"></i>
+                  </a>
+                </div>
               </div>
             </div>
           </div>

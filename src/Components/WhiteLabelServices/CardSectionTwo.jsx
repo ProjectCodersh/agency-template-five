@@ -89,6 +89,7 @@ const CardSectionTwo = ({ data }) => {
           <div className="row">
             {cards.map((item, i) => {
               const hasIcon = !!item.iconclass;
+              const cardNumber = String(i + 1).padStart(2, '0'); // Format as 01, 02, 03, etc.
 
               return (
                 <div
@@ -96,13 +97,21 @@ const CardSectionTwo = ({ data }) => {
                   className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
                   data-wow-delay=".2s"
                 >
-                  <div className="feature-box-items">
+                  <div
+                    className="feature-box-items"
+                    style={{ background: 'linear-gradient(125deg, #ffffff, #f6f3fe)' }}
+                  >
+                    {/* Numbered Tag */}
+                    <div className="card-number-tag">
+                      <span>{cardNumber}</span>
+                    </div>
+
                     {hasIcon && (
                       <div className="icon">
                         <i className={item.iconclass}></i>
                       </div>
                     )}
-                    <div className="content" style={!hasIcon ? { marginTop: 0 } : undefined}>
+                    <div className="content">
                       {item.title && <h3>{parse(item.title)}</h3>}
                       {item.content && <p>{item.content}</p>}
                     </div>

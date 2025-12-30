@@ -1,133 +1,236 @@
 [
   {
     "id": 1,
-    "img": "/assets/img/portfolio/portfolio1.webp",
-    "name": "Portfolio Project 1"
+    "category": "Shopify",
+    "country": "South Africa",
+    "industry": "Wine",
+    "image": "portfolio1",
+    "name": "Vank Hunks",
+    "img": "/assets/img/portfolio/portfolio1.webp"
   },
   {
     "id": 2,
-    "img": "/assets/img/portfolio/portfolio2.webp",
-    "name": "Portfolio Project 2"
+    "category": "Shopify",
+    "country": "Germany",
+    "industry": "Travel and Tourist",
+    "image": "portfolio2",
+    "name": "Airpaq",
+    "img": "/assets/img/portfolio/portfolio2.webp"
   },
   {
     "id": 3,
-    "img": "/assets/img/portfolio/portfolio3.webp",
-    "name": "Portfolio Project 3"
+    "category": "Shopify",
+    "country": "Australia",
+    "industry": "Fashion",
+    "image": "portfolio3",
+    "name": "Neux",
+    "img": "/assets/img/portfolio/portfolio3.webp"
   },
   {
     "id": 4,
-    "img": "/assets/img/portfolio/portfolio4.webp",
-    "name": "Portfolio Project 4"
+    "category": "Shopify",
+    "country": "UK",
+    "industry": "Wine",
+    "image": "portfolio4",
+    "name": "Madame F",
+    "img": "/assets/img/portfolio/portfolio4.webp"
   },
   {
     "id": 5,
-    "img": "/assets/img/portfolio/portfolio5.webp",
-    "name": "Portfolio Project 5"
+    "category": "Shopify",
+    "country": "UK",
+    "industry": "Wine",
+    "image": "portfolio5",
+    "name": "Liberation Cocktails",
+    "img": "/assets/img/portfolio/portfolio5.webp"
   },
   {
     "id": 6,
-    "img": "/assets/img/portfolio/portfolio6.webp",
-    "name": "Portfolio Project 6"
+    "category": "Shopify",
+    "country": "UK",
+    "industry": "Wine",
+    "image": "portfolio6",
+    "name": "Bone Idyll",
+    "img": "/assets/img/portfolio/portfolio6.webp"
   },
   {
     "id": 7,
-    "img": "/assets/img/portfolio/portfolio7.webp",
-    "name": "Portfolio Project 7"
+    "category": "Shopify",
+    "country": "UK",
+    "industry": "Fashion",
+    "image": "portfolio7",
+    "name": "CUBIC",
+    "img": "/assets/img/portfolio/portfolio7.webp"
   },
   {
     "id": 8,
-    "img": "/assets/img/portfolio/portfolio8.webp",
-    "name": "Portfolio Project 8"
+    "category": "Shopify",
+    "country": "UK",
+    "industry": "Food and Beverages",
+    "image": "portfolio8",
+    "name": "The Welsh Produce Stall",
+    "img": "/assets/img/portfolio/portfolio8.webp"
   },
   {
     "id": 9,
-    "img": "/assets/img/portfolio/portfolio9.webp",
-    "name": "Portfolio Project 9"
+    "category": "Shopify",
+    "country": "UK",
+    "industry": "Food and Beverages",
+    "image": "portfolio9",
+    "name": "Fuel 10k",
+    "img": "/assets/img/portfolio/portfolio9.webp"
   },
   {
     "id": 10,
-    "img": "/assets/img/portfolio/portfolio10.webp",
-    "name": "Portfolio Project 10"
+    "category": "Shopify",
+    "country": "USA",
+    "industry": "Online Retail",
+    "image": "portfolio10",
+    "name": "PowTown Store",
+    "img": "/assets/img/portfolio/portfolio10.webp"
   },
   {
     "id": 11,
-    "img": "/assets/img/portfolio/portfolio11.webp",
-    "name": "Portfolio Project 11"
+    "category": "Shopify",
+    "country": "USA",
+    "industry": "Health Care",
+    "image": "portfolio11",
+    "name": "Violet Blanc",
+    "img": "/assets/img/portfolio/portfolio11.webp"
   },
   {
     "id": 12,
-    "img": "/assets/img/portfolio/portfolio12.webp",
-    "name": "Portfolio Project 12"
+    "category": "Shopify",
+    "country": "USA",
+    "industry": "Food and Beverages",
+    "image": "portfolio12",
+    "name": "Tylers Coffee",
+    "img": "/assets/img/portfolio/portfolio12.webp"
   },
   {
     "id": 13,
-    "img": "/assets/img/portfolio/portfolio13.webp",
-    "name": "Portfolio Project 13"
+    "category": "Shopify",
+    "country": "USA",
+    "industry": "",
+    "image": "portfolio13",
+    "name": "Buy Vape USA",
+    "img": "/assets/img/portfolio/portfolio13.webp"
   },
   {
     "id": 14,
-    "img": "/assets/img/portfolio/portfolio14.webp",
-    "name": "Portfolio Project 14"
+    "category": "Shopify",
+    "country": "USA",
+    "industry": "Fashion",
+    "image": "portfolio14",
+    "name": "No Mo-Stache",
+    "img": "/assets/img/portfolio/portfolio14.webp"
   },
   {
     "id": 15,
-    "img": "/assets/img/portfolio/portfolio15.webp",
-    "name": "Portfolio Project 15"
+    "category": "Shopify",
+    "country": "USA",
+    "industry": "Fashion",
+    "image": "portfolio15",
+    "name": "Infinity Loops",
+    "img": "/assets/img/portfolio/portfolio15.webp"
   },
   {
     "id": 16,
-    "img": "/assets/img/portfolio/portfolio16.webp",
-    "name": "Portfolio Project 16"
+    "category": "Shopify",
+    "country": "USA",
+    "industry": "Online Retail",
+    "image": "portfolio16",
+    "name": "Wallplanks",
+    "img": "/assets/img/portfolio/portfolio16.webp"
   },
   {
     "id": 17,
-    "img": "/assets/img/portfolio/portfolio17.webp",
-    "name": "Portfolio Project 17"
+    "category": "Shopify",
+    "country": "USA",
+    "industry": "Fashion",
+    "image": "portfolio17",
+    "name": "Rowan Oak",
+    "img": "/assets/img/portfolio/portfolio17.webp"
   },
   {
     "id": 18,
-    "img": "/assets/img/portfolio/portfolio18.webp",
-    "name": "Portfolio Project 18"
+    "category": "Shopify",
+    "country": "USA",
+    "industry": "Travel and Tourist",
+    "image": "portfolio18",
+    "name": "Aolithium",
+    "img": "/assets/img/portfolio/portfolio18.webp"
   },
   {
     "id": 19,
-    "img": "/assets/img/portfolio/portfolio19.webp",
-    "name": "Portfolio Project 19"
+    "category": "Shopify",
+    "country": "USA",
+    "industry": "Fashion",
+    "image": "portfolio19",
+    "name": "Baby Gold",
+    "img": "/assets/img/portfolio/portfolio19.webp"
   },
   {
     "id": 20,
-    "img": "/assets/img/portfolio/portfolio20.webp",
-    "name": "Portfolio Project 20"
+    "category": "Shopify",
+    "country": "USA",
+    "industry": "Food and Beverages",
+    "image": "portfolio20",
+    "name": "Aubi & Ramsa",
+    "img": "/assets/img/portfolio/portfolio20.webp"
   },
   {
     "id": 21,
-    "img": "/assets/img/portfolio/portfolio21.webp",
-    "name": "Portfolio Project 21"
+    "category": "Shopify",
+    "country": "USA",
+    "industry": "Food and Beverages",
+    "image": "portfolio21",
+    "name": "Hudson Pecan Company Inc",
+    "img": "/assets/img/portfolio/portfolio21.webp"
   },
   {
     "id": 22,
-    "img": "/assets/img/portfolio/portfolio22.webp",
-    "name": "Portfolio Project 22"
+    "category": "Shopify",
+    "country": "USA",
+    "industry": "Fashion",
+    "image": "portfolio22",
+    "name": "IKKS",
+    "img": "/assets/img/portfolio/portfolio22.webp"
   },
   {
     "id": 23,
-    "img": "/assets/img/portfolio/portfolio23.webp",
-    "name": "Portfolio Project 23"
+    "category": "Shopify",
+    "country": "USA",
+    "industry": "Auto Mobile",
+    "image": "portfolio23",
+    "name": "Bumper Ninja",
+    "img": "/assets/img/portfolio/portfolio23.webp"
   },
   {
     "id": 24,
-    "img": "/assets/img/portfolio/portfolio24.webp",
-    "name": "Portfolio Project 24"
+    "category": "Shopify",
+    "country": "USA",
+    "industry": "Health Care",
+    "image": "portfolio24",
+    "name": "Bio Trust",
+    "img": "/assets/img/portfolio/portfolio24.webp"
   },
   {
     "id": 25,
-    "img": "/assets/img/portfolio/portfolio25.webp",
-    "name": "Portfolio Project 25"
+    "category": "Shopify",
+    "country": "",
+    "industry": "Media Service",
+    "image": "portfolio25",
+    "name": "Video Platform",
+    "img": "/assets/img/portfolio/portfolio25.webp"
   },
   {
     "id": 26,
-    "img": "/assets/img/portfolio/portfolio26.webp",
-    "name": "Portfolio Project 26"
+    "category": "Shopify",
+    "country": "",
+    "industry": "Media Service",
+    "image": "portfolio26",
+    "name": "Ocean 6 Media",
+    "img": "/assets/img/portfolio/portfolio26.webp"
   }
 ]
-

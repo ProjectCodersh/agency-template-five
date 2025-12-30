@@ -1,0 +1,314 @@
+{
+  "ShopifySectionsPage": [
+    {
+      "ShopifySectionsCard": [
+        {
+          "id": "1",
+          "headertag": "Shopify Section",
+          "img": "/assets/img/shopify-sections/nutrition-facts.webp",
+          "sectiontitle": "Nutrition Facts",
+          "sectiondescription": "Streamline your product pages with our clear nutrition facts section. Highlight calories, nutrients, ingredients, and serving info to provide complete product details.",
+          "sectionbtn": "View Section",
+          "link": "#"
+        },
+        {
+          "id": "2",
+          "headertag": "Shopify Section",
+          "img": "/assets/img/shopify-sections/accordion-section.webp",
+          "sectiontitle": "Accordion",
+          "sectiondescription": "Organize content neatly with an accordion section, allowing shoppers to expand and collapse information for a clean, user-friendly browsing experience.",
+          "sectionbtn": "View Section",
+          "link": "#"
+        },
+        {
+          "id": "3",
+          "headertag": "Shopify Section",
+          "img": "/assets/img/shopify-sections/video-with-text.webp",
+          "sectiontitle": "Video with Text",
+          "sectiondescription": "Showcase your message with a clean video with text section, combining engaging visuals and clear copy to highlight product features or brand stories.",
+          "sectionbtn": "View Section",
+          "link": "#"
+        },
+        {
+          "id": "4",
+          "headertag": "Shopify Section",
+          "img": "/assets/img/shopify-sections/before-after-slider.webp",
+          "sectiontitle": "Before & After Slider",
+          "sectiondescription": "Let shoppers compare with an interactive before-and-after image slider, perfect for highlighting product transformations.",
+          "sectionbtn": "View Section",
+          "link": "#"
+        },
+        {
+          "id": "5",
+          "headertag": "Shopify Section",
+          "img": "/assets/img/shopify-sections/infinite-scroll.webp",
+          "sectiontitle": "Infinite Scroll",
+          "sectiondescription": "Keep shoppers engaged with infinite scroll that automatically loads more products for a seamless shopping experience.",
+          "sectionbtn": "View Section",
+          "link": "#"
+        },
+        {
+          "id": "6",
+          "headertag": "Shopify Section",
+          "img": "/assets/img/shopify-sections/collection-grid.webp",
+          "sectiontitle": "Collection Grid",
+          "sectiondescription": "Display your products beautifully in a collection grid with a clean, customizable layout.",
+          "sectionbtn": "View Section",
+          "link": "#"
+        },
+        {
+          "id": "7",
+          "headertag": "Shopify Section",
+          "img": "/assets/img/shopify-sections/video-grid.webp",
+          "sectiontitle": "Video Grid",
+          "sectiondescription": "Display product videos in a sleek grid layout to communicate features and brand stories visually.",
+          "sectionbtn": "View Section",
+          "link": "#"
+        },
+        {
+          "id": "8",
+          "headertag": "Shopify Section",
+          "img": "/assets/img/shopify-sections/countdown-timer.webp",
+          "sectiontitle": "Countdown Timer",
+          "sectiondescription": "Create urgency and boost conversions with a countdown timer highlighting limited-time offers.",
+          "sectionbtn": "View Section",
+          "link": "#"
+        },
+        {
+          "id": "9",
+          "headertag": "Shopify Section",
+          "img": "/assets/img/shopify-sections/order-on-whatsapp.webp",
+          "sectiontitle": "Order on WhatsApp",
+          "sectiondescription": "Allow customers to place orders quickly through WhatsApp for a personalized shopping experience.",
+          "sectionbtn": "View Section",
+          "link": "#"
+        },
+        {
+          "id": "10",
+          "headertag": "Shopify Section",
+          "img": "/assets/img/shopify-sections/scrolling-text.webp",
+          "sectiontitle": "Scrolling Text",
+          "sectiondescription": "Add eye-catching scrolling text banners to highlight offers, announcements, or key messages.",
+          "sectionbtn": "View Section",
+          "link": "#"
+        },
+        {
+          "id": "11",
+          "headertag": "Shopify Section",
+          "img": "/assets/img/shopify-sections/collection-slider.webp",
+          "sectiontitle": "Collection Slider",
+          "sectiondescription": "Showcase product collections with a smooth, interactive slider for effortless browsing.",
+          "sectionbtn": "View Section",
+          "link": "#"
+        },
+        {
+          "id": "12",
+          "headertag": "Shopify Section",
+          "img": "/assets/img/shopify-sections/comparison-table.webp",
+          "sectiontitle": "Comparison Table",
+          "sectiondescription": "Display product features side-by-side in a structured comparison table to help customers decide faster.",
+          "sectionbtn": "View Section",
+          "link": "#"
+        },
+        {
+          "id": "13",
+          "headertag": "Shopify Section",
+          "img": "/assets/img/shopify-sections/image-with-text.webp",
+          "sectiontitle": "Image with Text",
+          "sectiondescription": "Showcase your brand story with images and text combined in a clean, engaging layout.",
+          "sectionbtn": "View Section",
+          "link": "#"
+        },
+        {
+          "id": "14",
+          "headertag": "Shopify Section",
+          "img": "/assets/img/shopify-sections/snow-effect.webp",
+          "sectiontitle": "Snow Effect",
+          "sectiondescription": "Add a gentle festive snowfall effect to your store instantly without any coding.",
+          "sectionbtn": "View Section",
+          "link": "#"
+        },
+        {
+          "id": "15",
+          "headertag": "Shopify Section",
+          "img": "/assets/img/shopify-sections/image-hotspot.webp",
+          "sectiontitle": "Image Hotspot",
+          "sectiondescription": "Turn images into interactive visuals with clickable hotspots that highlight product details.",
+          "sectionbtn": "View Section",
+          "link": "#"
+        },
+        {
+          "id": "16",
+          "headertag": "Shopify Section",
+          "img": "/assets/img/shopify-sections/collection-carousel.webp",
+          "sectiontitle": "Collection Carousel",
+          "sectiondescription": "Showcase multiple collections in a scrollable carousel to boost discovery and engagement.",
+          "sectionbtn": "View Section",
+          "link": "#"
+        },
+        {
+          "id": "17",
+          "headertag": "Shopify Section",
+          "img": "/assets/img/shopify-sections/scrolling-cards.webp",
+          "sectiontitle": "Scrolling Cards",
+          "sectiondescription": "Display products or content dynamically using horizontally scrolling cards.",
+          "sectionbtn": "View Section",
+          "link": "#"
+        },
+        {
+          "id": "18",
+          "headertag": "Shopify Section",
+          "img": "/assets/img/shopify-sections/newsletter-form.webp",
+          "sectiontitle": "Newsletter Form",
+          "sectiondescription": "Boost signups with a clean and customizable newsletter subscription form.",
+          "sectionbtn": "View Section",
+          "link": "#"
+        },
+        {
+          "id": "19",
+          "headertag": "Shopify Section",
+          "img": "/assets/img/shopify-sections/responsive-image.webp",
+          "sectiontitle": "Responsive Image",
+          "sectiondescription": "Show images beautifully on all devices with responsive layouts.",
+          "sectionbtn": "View Section",
+          "link": "#"
+        },
+        {
+          "id": "20",
+          "headertag": "Shopify Section",
+          "img": "/assets/img/shopify-sections/about-us.webp",
+          "sectiontitle": "About Us Page",
+          "sectiondescription": "Create a compelling About Us page to share your brand story and values.",
+          "sectionbtn": "View Section",
+          "link": "#"
+        },
+        {
+          "id": "21",
+          "headertag": "Shopify Section",
+          "img": "/assets/img/shopify-sections/team-showcase.webp",
+          "sectiontitle": "Team Showcase",
+          "sectiondescription": "Present your team with images, roles, and bios to build trust and credibility.",
+          "sectionbtn": "View Section",
+          "link": "#"
+        },
+        {
+          "id": "22",
+          "headertag": "Shopify Section",
+          "img": "/assets/img/shopify-sections/footer.webp",
+          "sectiontitle": "Footer",
+          "sectiondescription": "Organize important links, contact details, social icons, and payment info in a clean footer.",
+          "sectionbtn": "View Section",
+          "link": "#"
+        },
+        {
+          "id": "23",
+          "headertag": "Shopify Section",
+          "img": "/assets/img/shopify-sections/parallax-effect.webp",
+          "sectiontitle": "Parallax Effect",
+          "sectiondescription": "Add depth and motion to your store with smooth parallax scrolling backgrounds.",
+          "sectionbtn": "View Section",
+          "link": "#"
+        },
+        {
+          "id": "24",
+          "headertag": "Shopify Section",
+          "img": "/assets/img/shopify-sections/charts.webp",
+          "sectiontitle": "Charts",
+          "sectiondescription": "Show data beautifully with interactive Shopify charts that help customers understand insights quickly.",
+          "sectionbtn": "View Section",
+          "link": "#"
+        },
+        {
+          "id": "25",
+          "headertag": "Shopify Section",
+          "img": "/assets/img/shopify-sections/disable-right-click.webp",
+          "sectiontitle": "Disable Right Click",
+          "sectiondescription": "Protect your content by disabling right-click actions with a no-code solution.",
+          "sectionbtn": "View Section",
+          "link": "#"
+        },
+        {
+          "id": "26",
+          "headertag": "Shopify Section",
+          "img": "/assets/img/shopify-sections/number-counter.webp",
+          "sectiontitle": "Number Counter",
+          "sectiondescription": "Highlight key metrics with animated counters to showcase stats or achievements.",
+          "sectionbtn": "View Section",
+          "link": "#"
+        },
+        {
+          "id": "27",
+          "headertag": "Shopify Section",
+          "img": "/assets/img/shopify-sections/collection-showcase.webp",
+          "sectiontitle": "Collection Showcase",
+          "sectiondescription": "Display your product collections in an elegant layout that keeps browsing smooth.",
+          "sectionbtn": "View Section",
+          "link": "#"
+        },
+        {
+          "id": "28",
+          "headertag": "Shopify Section",
+          "img": "/assets/img/shopify-sections/age-verification.webp",
+          "sectiontitle": "Age Verification Popup",
+          "sectiondescription": "Ensure visitors meet age requirements before entering your store and stay compliant.",
+          "sectionbtn": "View Section",
+          "link": "#"
+        },
+        {
+          "id": "29",
+          "headertag": "Shopify Section",
+          "img": "/assets/img/shopify-sections/whatsapp-chat-widget.webp",
+          "sectiontitle": "WhatsApp Chat Widget",
+          "sectiondescription": "Enable instant communication by letting customers chat with you directly via WhatsApp.",
+          "sectionbtn": "View Section",
+          "link": "#"
+        },
+        {
+          "id": "30",
+          "headertag": "Shopify Section",
+          "img": "/assets/img/shopify-sections/image-with-text-scroll.webp",
+          "sectiontitle": "Image with Text Scroll",
+          "sectiondescription": "Tell product stories using images paired with smooth scrolling text for an immersive experience.",
+          "sectionbtn": "View Section",
+          "link": "#"
+        },
+        {
+          "id": "31",
+          "headertag": "Shopify Section",
+          "img": "/assets/img/shopify-sections/faq-section.webp",
+          "sectiontitle": "FAQs",
+          "sectiondescription": "Answer common customer questions clearly to reduce support requests and increase confidence.",
+          "sectionbtn": "View Section",
+          "link": "#"
+        },
+        {
+          "id": "32",
+          "headertag": "Shopify Section",
+          "img": "/assets/img/shopify-sections/trust-badges-slider.webp",
+          "sectiontitle": "Trust Badges Slider",
+          "sectiondescription": "Build trust by showcasing payment, security, and guarantee badges in a smooth slider.",
+          "sectionbtn": "View Section",
+          "link": "#"
+        },
+        {
+          "id": "33",
+          "headertag": "Shopify Section",
+          "img": "/assets/img/shopify-sections/featured-collection.webp",
+          "sectiontitle": "Featured Collection",
+          "sectiondescription": "Highlight selected collections to guide customers toward your best products.",
+          "sectionbtn": "View Section",
+          "link": "#"
+        },
+        {
+          "id": "34",
+          "headertag": "Shopify Section",
+          "img": "/assets/img/shopify-sections/shop-the-look.webp",
+          "sectiontitle": "Shop the Look",
+          "sectiondescription": "Let customers buy complete looks or matching products in one click.",
+          "sectionbtn": "View Section",
+          "link": "#"
+        }
+      ]
+    }
+  ]
+}

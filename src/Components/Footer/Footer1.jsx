@@ -49,7 +49,7 @@ const Footer1 = () => {
         <div className="container px-3">
           <div className="footer-widgets-wrapper">
             <div className="row">
-              <div className="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+              <div className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
                 <div className="single-footer-widget">
                   <div className="widget-head">
                     <a href="index.html">
@@ -142,7 +142,7 @@ const Footer1 = () => {
                 </div>
               </div>
 
-              <div className="col-xl-4 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp" data-wow-delay=".4s">
+              <div className="col-xl-3 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp" data-wow-delay=".4s">
                 <div className="single-footer-widget">
                   <div className="widget-head">
                     <h3>Quick Links</h3>
@@ -173,41 +173,12 @@ const Footer1 = () => {
                       </Link>
                     </li>
                     <li>
-                      <Link to="/new-services">
+                      <Link to="/portfolio">
                         <i className="bi bi-arrow-right"></i>
-                        Shopify Services Page
+                        Portfolio
                       </Link>
                     </li>
-                    <li>
-                      <Link to="/new-services/single-service">
-                        <i className="bi bi-arrow-right"></i>
-                        Shopify Single Service
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/new-services/white-label-service">
-                        <i className="bi bi-arrow-right"></i>
-                        White Label Shopify Service
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/new-services/shopify-migration">
-                        <i className="bi bi-arrow-right"></i>
-                        Shopify Migration
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/new-services/shopify-subscriptions">
-                        <i className="bi bi-arrow-right"></i>
-                        Shopify Subscriptions
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/new-services/shopify-b2b-wholesale">
-                        <i className="bi bi-arrow-right"></i>
-                        Shopify B2B Wholesale
-                      </Link>
-                    </li>
+
                     {/* <li>
                       <Link to="/pricing">
                         <i className="bi bi-arrow-right"></i>
@@ -225,8 +196,59 @@ const Footer1 = () => {
                   </ul>
                 </div>
               </div>
+              <div className="col-xl-3 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp" data-wow-delay=".4s">
+                <div className="single-footer-widget">
+                  <div className="widget-head">
+                    <h3>Shopify Services</h3>
+                  </div>
+                  <ul className="list-area">
+                    <li>
+                      <Link to="/new-services">
+                        <i className="bi bi-arrow-right"></i>
+                        Shopify Services Page
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/new-services/white-label-service">
+                        <i className="bi bi-arrow-right"></i>
+                        White Label Shopify Service
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/new-services/cms/custom-store-project">
+                        <i className="bi bi-arrow-right"></i>
+                        Custom Store Project
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/new-services/cms/shopify-migration">
+                        <i className="bi bi-arrow-right"></i>
+                        Shopify Migration
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/new-services/cms/shopify-subscription">
+                        <i className="bi bi-arrow-right"></i>
+                        Shopify Subscription
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/new-services/cms/shopify-b2b-and-wholesale">
+                        <i className="bi bi-arrow-right"></i>
+                        Shopify B2B Wholesale
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/new-services/cms/shopify-sections">
+                        <i className="bi bi-arrow-right"></i>
+                        Shopify Sections
+                      </Link>
+                    </li>
+                  </ul>
+                </div>
+              </div>
 
-              <div className="col-xl-4 col-lg-4 col-md-6 ps-xl-5 wow fadeInUp" data-wow-delay=".8s">
+              <div className="col-xl-3 col-lg-4 col-md-6 ps-xl-5 wow fadeInUp" data-wow-delay=".8s">
                 <div className="single-footer-widget">
                   <div className="widget-head">
                     <h3>Contact Us</h3>
