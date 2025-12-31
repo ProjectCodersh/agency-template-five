@@ -49,7 +49,7 @@ const Footer1 = () => {
         <div className="container px-3">
           <div className="footer-widgets-wrapper">
             <div className="row">
-              <div className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+              <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".2s">
                 <div className="single-footer-widget">
                   <div className="widget-head">
                     <a href="index.html">
@@ -82,59 +82,51 @@ const Footer1 = () => {
                     </div>
 
                     {/* Reviews Section */}
-                    <div className="footer-reviews-container">
+                    <div
+                      className="footer-reviews-container d-flex"
+                      style={{
+                        gap: '12px',
+                        flexWrap: 'nowrap',
+                      }}
+                    >
                       {[
                         {
                           id: 'goodfirms',
                           name: 'GoodFirms',
-                          logo: '/assets/img/footer/goodfirms-footer.png',
-                          rating: 5.0,
+                          logo: '/assets/img/footer/footer-goodfirms.png',
                         },
                         {
                           id: 'clutch',
                           name: 'Clutch',
-                          logo: '/assets/img/footer/clutch-footer-1.png',
-                          rating: 5.0,
+                          logo: '/assets/img/footer/footer-clutch.png',
                         },
                         {
                           id: 'upwork',
                           name: 'Upwork',
-                          logo: '/assets/img/footer/upwork-footer-1.png',
-                          rating: 5.0,
+                          logo: '/assets/img/footer/footer-upwork.png',
                         },
                       ].map((platform, index) => (
                         <div
                           key={platform.id}
                           className="footer-review-item wow fadeInUp"
                           data-wow-delay={`${0.3 + index * 0.1}s`}
+                          style={{
+                            flex: '1 1 0',
+                            minWidth: 0,
+                          }}
                         >
-                          <div className="footer-review-rating">
-                            <div className="footer-rating-stars">
-                              {[...Array(5)].map((_, i) => (
-                                <svg
-                                  key={i}
-                                  width="14"
-                                  height="14"
-                                  viewBox="0 0 24 24"
-                                  fill="currentColor"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                >
-                                  <path
-                                    d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
-                                    fill="currentColor"
-                                  />
-                                </svg>
-                              ))}
-                            </div>
-                            <span className="footer-rating-value">{platform.rating}</span>
-                          </div>
-                          <div className="footer-review-logo">
-                            <img
-                              src={platform.logo}
-                              alt={platform.name}
-                              className="footer-platform-logo"
-                            />
-                          </div>
+                          <img
+                            src={platform.logo}
+                            alt={platform.name}
+                            className="footer-review-badge img-fluid"
+                            style={{
+                              width: '100%',
+                              height: 'auto',
+                              display: 'block',
+                              objectFit: 'contain',
+                              borderRadius: '5px',
+                            }}
+                          />
                         </div>
                       ))}
                     </div>
@@ -142,7 +134,7 @@ const Footer1 = () => {
                 </div>
               </div>
 
-              <div className="col-xl-3 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp" data-wow-delay=".4s">
+              <div className="col-xl-2 col-lg-6 col-md-6 ps-lg-5 wow fadeInUp" data-wow-delay=".4s">
                 <div className="single-footer-widget">
                   <div className="widget-head">
                     <h3>Quick Links</h3>
@@ -196,7 +188,8 @@ const Footer1 = () => {
                   </ul>
                 </div>
               </div>
-              <div className="col-xl-3 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp" data-wow-delay=".4s">
+
+              <div className="col-xl-3 col-lg-6 col-md-6 ps-lg-5 wow fadeInUp" data-wow-delay=".4s">
                 <div className="single-footer-widget">
                   <div className="widget-head">
                     <h3>Shopify Services</h3>
@@ -244,11 +237,17 @@ const Footer1 = () => {
                         Shopify Sections
                       </Link>
                     </li>
+                    <li>
+                      <Link to="/new-services/cms/shopify-single-section">
+                        <i className="bi bi-arrow-right"></i>
+                        Shopify Single Section
+                      </Link>
+                    </li>
                   </ul>
                 </div>
               </div>
 
-              <div className="col-xl-3 col-lg-4 col-md-6 ps-xl-5 wow fadeInUp" data-wow-delay=".8s">
+              <div className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".8s">
                 <div className="single-footer-widget">
                   <div className="widget-head">
                     <h3>Contact Us</h3>

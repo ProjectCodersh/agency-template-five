@@ -2,10 +2,11 @@ import { memo } from 'react';
 import Slider from 'react-slick';
 
 const brandLogos = [
-  '/assets/img/brand/kucrimson-brand.webp',
-  '/assets/img/brand/datadepot-brand.webp',
-  '/assets/img/brand/informadist-brand.webp',
-  '/assets/img/brand/squreit-brand.webp',
+  '/assets/img/brand/reinventu-logo2-test.webp',
+  '/assets/img/brand/500-logo-test.webp',
+  '/assets/img/brand/chenchef-logo-test.webp',
+  '/assets/img/brand/christianbookbag-logo-test.webp',
+  '/assets/img/brand/anadian-logo-test.webp',
 ];
 
 const sliderSettings = {

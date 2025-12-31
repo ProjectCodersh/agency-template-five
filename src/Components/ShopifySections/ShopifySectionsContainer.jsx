@@ -30,7 +30,7 @@ const ShopifySectionsContainer = () => {
   if (sections.length === 0) return <div className="text-center py-5">No sections found.</div>;
 
   return (
-    <section className="section-padding fix" aria-label="Shopify Sections">
+    <section className="section-padding fix shopify-hero-section" aria-label="Shopify Sections">
       <div className="section-title-area text-center justify-content-center mb-4">
         <div className="section-title">
           <div className="sub-title wow fadeInUp">

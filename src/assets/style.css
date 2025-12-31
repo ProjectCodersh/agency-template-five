@@ -750,7 +750,7 @@
 
 /* Tablet and above: 2-column grid layout (2 rows) */
 @media (min-width: 768px) and (max-width: 1024px) {
-  .footer-reviews-container {
+  /* .footer-reviews-container {
     display: grid !important;
     grid-template-columns: repeat(2, 1fr) !important;
     grid-template-rows: repeat(2, auto) !important;
@@ -758,7 +758,7 @@
     align-items: start !important;
     margin-top: 2rem;
     width: fit-content;
-  }
+  } */
 
   .footer-review-item {
     width: fit-content;
