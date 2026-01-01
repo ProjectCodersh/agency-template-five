@@ -184,7 +184,7 @@ export const router = createBrowserRouter([
         element: <ShopifySections />,
       },
       {
-        path: '/new-services/cms/shopify-single-section',
+        path: '/new-services/cms/shopify-sections/:slug?',
         element: <ShopifySingleSection />,
       },
     ],

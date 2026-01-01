@@ -1,0 +1,138 @@
+{
+  "appShowcase": {
+    "title": "Shopify Accordion Section",
+    "description": "Organize content neatly using a clean accordion layout. This section helps present FAQs, product details, or important information in a structured and easy-to-navigate format without overwhelming visitors.",
+    "badge": "Add Section to Your Store",
+    "appInfo": {
+      "icon": "/assets/img/shopify-sections/app-icon.png",
+      "name": "Shopify Section",
+      "subtext": "Custom Shopify Sections",
+      "price": "$0.00"
+    },
+    "features": ["No coding required", "Easy content management", "Clean and user-friendly layout"],
+    "ctaButton": {
+      "text": "Hire a Shopify developer to add this section.",
+      "link": "#"
+    },
+    "featureIcons": [
+      {
+        "icon": "bi-phone",
+        "label": "Mobile Responsive"
+      },
+      {
+        "icon": "bi-code-slash",
+        "label": "Clean Code"
+      },
+      {
+        "icon": "bi-speedometer2",
+        "label": "Speed Optimized"
+      },
+      {
+        "icon": "bi-headset",
+        "label": "Expert Support"
+      }
+    ],
+    "previews": [
+      {
+        "type": "tablet",
+        "image": "/assets/img/shopify-sections/accordion-section.png",
+        "alt": "Accordion Section - Tablet View"
+      },
+      {
+        "type": "tablet-cropped",
+        "image": "/assets/img/shopify-sections/accordion-section.png",
+        "alt": "Accordion Section - Cropped View"
+      },
+      {
+        "type": "mobile",
+        "image": "/assets/img/shopify-sections/accordion-section.png",
+        "alt": "Accordion Section - Mobile View"
+      }
+    ]
+  },
+  "featureDocumentation": {
+    "mainContent": {
+      "heading": "What is the Accordion Section?",
+      "paragraphs": [
+        "The Accordion section is a flexible Shopify section designed to display content in expandable and collapsible rows.",
+        "It is ideal for organizing FAQs, product information, policies, or any content that benefits from a clean and structured layout.",
+        "By grouping information into collapsible items, this section improves readability and helps customers quickly find what they are looking for."
+      ],
+      "subheading": "Customization Options",
+      "features": [
+        {
+          "title": "Use Anywhere",
+          "description": "Add the accordion section to product pages, informational pages, or custom layouts."
+        },
+        {
+          "title": "Default State Control",
+          "description": "Choose whether accordion items are open or collapsed by default."
+        },
+        {
+          "title": "Navigation Icons",
+          "description": "Enable or disable icons for expanding and collapsing content."
+        },
+        {
+          "title": "Icon & Text Styling",
+          "description": "Adjust colors, fonts, and spacing to match your storefront design."
+        }
+      ]
+    },
+    "instructions": {
+      "heading": "How to Add This Section to Shopify?",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Get in Touch",
+          "description": "Contact us to discuss your requirements and confirm the purchase."
+        },
+        {
+          "number": 2,
+          "title": "Receive the Section",
+          "description": "Once confirmed, the accordion section is added to your Shopify storefront by our team."
+        },
+        {
+          "number": 3,
+          "title": "Section Setup",
+          "description": "Adjust the content and appearance from the Theme Editor. No coding required."
+        },
+        {
+          "number": 4,
+          "title": "Review & Publish",
+          "description": "Review the section in your store and publish it to your live storefront."
+        }
+      ]
+    }
+  },
+  "trendingSections": {
+    "allSections": [
+      {
+        "id": "23",
+        "headertag": "Shopify Section",
+        "img": "/assets/img/shopify-sections/section-23.png",
+        "sectiontitle": "Video with Text",
+        "sectiondescription": "Combine engaging video content with clear text to communicate your message effectively.",
+        "sectionbtn": "View Section",
+        "link": "#"
+      },
+      {
+        "id": "6",
+        "headertag": "Shopify Section",
+        "img": "/assets/img/shopify-sections/section-9.png",
+        "sectiontitle": "Collection Grid",
+        "sectiondescription": "Display collections in a structured grid layout for better organization and visibility.",
+        "sectionbtn": "View Section",
+        "link": "#"
+      },
+      {
+        "id": "30",
+        "headertag": "Shopify Section",
+        "img": "/assets/img/shopify-sections/section-19.png",
+        "sectiontitle": "Image with Text Scroll",
+        "sectiondescription": "Tell product or brand stories using images paired with smooth scrolling text.",
+        "sectionbtn": "View Section",
+        "link": "#"
+      }
+    ]
+  }
+}

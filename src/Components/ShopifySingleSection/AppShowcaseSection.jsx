@@ -6,19 +6,23 @@ const AppShowcaseSection = ({ data }) => {
 
   // Default data structure
   const defaultData = {
-    title: 'Shopify Collection Showcase Section',
+    title: 'Shopify Video with Text Section',
     description:
-      'Use the Shopify Collection Showcase section to display your product collections. It has a nice layout that makes browsing easy and keeps customers engaged.',
-    badge: 'FREE TO INSTALL',
+      'Present your message with impact using a structured video and text layout. This section combines visual storytelling with clear content, making it ideal for showcasing products, explaining features, or sharing brand stories in a focused and professional way.',
+    badge: 'Add to Your Store',
     appInfo: {
       icon: '/assets/img/shopify-sections/app-icon.png',
       name: 'MIT Sections Pro App',
-      subtext: 'Official Shopify App',
+      subtext: 'Custom Shopify App',
       price: '$0.00',
     },
-    features: ['No code required', 'Visual Drag & Drop Editor', 'Access our complete library'],
+    features: [
+      'No coding required',
+      'Easy to manage from the Theme Editor',
+      'Designed for modern Shopify storefronts',
+    ],
     ctaButton: {
-      text: 'INSTALL APP FOR FREE',
+      text: 'Hire a Shopify developer to add this section. ',
       link: '#',
     },
     featureIcons: [
@@ -57,18 +61,76 @@ const AppShowcaseSection = ({ data }) => {
             <div className="visual-preview-container">
               {/* Main Preview */}
               <div className="main-preview-wrapper mb-3">
-                <div className="device-mockup">
-                  <img
-                    src={sectionData.previews[activePreview].image}
-                    alt={sectionData.previews[activePreview].alt}
-                    className="img-fluid"
+                <div
+                  className="device-mockup"
+                  style={{
+                    backgroundColor: '#FFFFFF',
+                    borderRadius: '12px',
+                    boxShadow: '0 8px 32px rgba(0,0,0,0.15)',
+                    padding: '12px',
+                    position: 'relative',
+                    overflow: 'hidden',
+                  }}
+                >
+                  {/* Device Frame - Three Dots */}
+                  <div
+                    className="device-frame-dots"
                     style={{
-                      borderRadius: '12px',
-                      boxShadow: '0 8px 24px rgba(0,0,0,0.12)',
-                      width: '100%',
-                      height: 'auto',
+                      position: 'absolute',
+                      top: '16px',
+                      left: '16px',
+                      display: 'flex',
+                      gap: '6px',
+                      zIndex: 10,
                     }}
-                  />
+                  >
+                    <div
+                      style={{
+                        width: '12px',
+                        height: '12px',
+                        borderRadius: '50%',
+                        backgroundColor: '#D1D1D1',
+                      }}
+                    />
+                    <div
+                      style={{
+                        width: '12px',
+                        height: '12px',
+                        borderRadius: '50%',
+                        backgroundColor: '#D1D1D1',
+                      }}
+                    />
+                    <div
+                      style={{
+                        width: '12px',
+                        height: '12px',
+                        borderRadius: '50%',
+                        backgroundColor: '#D1D1D1',
+                      }}
+                    />
+                  </div>
+                  <div
+                    style={{
+                      width: '100%',
+                      height: '100%',
+                      borderRadius: '8px',
+                      overflow: 'hidden',
+                      position: 'relative',
+                    }}
+                  >
+                    <img
+                      src={sectionData.previews[activePreview].image}
+                      alt={sectionData.previews[activePreview].alt}
+                      className="img-fluid"
+                      style={{
+                        width: '100%',
+                        height: '100%',
+                        objectFit: 'cover',
+                        display: 'block',
+                        borderRadius: '8px',
+                      }}
+                    />
+                  </div>
                 </div>
               </div>
 
@@ -86,17 +148,34 @@ const AppShowcaseSection = ({ data }) => {
                       transition: 'all 0.2s ease-in-out',
                     }}
                   >
-                    <img
-                      src={preview.image}
-                      alt={preview.alt}
+                    <div
                       style={{
                         width: '100px',
                         height: 'auto',
-                        borderRadius: '6px',
+                        borderRadius: '8px',
+                        overflow: 'hidden',
+                        backgroundColor: '#FFFFFF',
+                        boxShadow:
+                          activePreview === index
+                            ? '0 4px 16px rgba(0,0,0,0.15)'
+                            : '0 2px 8px rgba(0,0,0,0.08)',
                         border: activePreview === index ? '2px solid #1A1A1A' : '1px solid #E0E0E0',
                         transition: 'all 0.2s ease-in-out',
+                        padding: '4px',
                       }}
-                    />
+                    >
+                      <img
+                        src={preview.image}
+                        alt={preview.alt}
+                        style={{
+                          width: '100%',
+                          height: '100%',
+                          objectFit: 'cover',
+                          display: 'block',
+                          borderRadius: '4px',
+                        }}
+                      />
+                    </div>
                   </button>
                 ))}
               </div>
@@ -110,7 +189,11 @@ const AppShowcaseSection = ({ data }) => {
               <h2 className="section-title mb-3">{sectionData.title}</h2>
 
               {/* Description */}
-              <p className="section-description mb-4">{sectionData.description}</p>
+              <p className="section-description mb-4">
+                {typeof sectionData.description === 'string'
+                  ? sectionData.description
+                  : sectionData.description}
+              </p>
 
               {/* Badge */}
               {/* <div className="badge-wrapper mb-3">
@@ -127,13 +210,14 @@ const AppShowcaseSection = ({ data }) => {
                     letterSpacing: '0.5px',
                   }}
                 >
+                  {' '}
                   {sectionData.badge}
                 </span>
               </div> */}
 
               <div className="section-title mb-0">
                 <div className="sub-title wow fadeInUp">
-                  <span>free to install</span>
+                  <span>{sectionData.badge}</span>
                 </div>
               </div>
 
@@ -165,7 +249,28 @@ const AppShowcaseSection = ({ data }) => {
                         fontWeight: 700,
                       }}
                     >
-                      P
+                      {/* <svg
+                        width="28"
+                        height="28"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M7 4V2C7 1.45 7.45 1 8 1H16C16.55 1 17 1.45 17 2V4H20C20.55 4 21 4.45 21 5S20.55 6 20 6H19V19C19 20.1 18.1 21 17 21H7C5.9 21 5 20.1 5 19V6H4C3.45 6 3 5.55 3 5S3.45 4 4 4H7ZM9 3V4H15V3H9ZM7 6V19H17V6H7Z"
+                          fill="currentColor"
+                        />
+                        <path d="M9 8V17H11V8H9ZM13 8V17H15V8H13Z" fill="currentColor" />
+                      </svg> */}
+                      <img
+                        src="/assets/img/icon/shopify-icon-50.png"
+                        alt="Shopify Icon"
+                        className="img-fluid"
+                        style={{
+                          width: '40px',
+                          height: '40px',
+                        }}
+                      />
                     </div>
                     <div>
                       <h4 className="mb-1">{sectionData.appInfo.name}</h4>
@@ -184,7 +289,7 @@ const AppShowcaseSection = ({ data }) => {
                   <div
                     className="app-price"
                     style={{
-                      fontSize: '28px',
+                      fontSize: '24px',
                       fontWeight: 700,
                       color: '#1A1A1A',
                     }}
@@ -278,11 +383,34 @@ const AppShowcaseSection = ({ data }) => {
 
       <style>
         {`
+          .device-mockup {
+            aspect-ratio: 16 / 10;
+            min-height: 400px;
+          }
 
+          .device-mockup > div:last-child {
+            width: 100%;
+            height: 100%;
+          }
+
+          .device-mockup img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+
+          .thumbnail-btn > div {
+            aspect-ratio: 16 / 10;
+            min-width: 100px;
+          }
+
+          .thumbnail-btn img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
 
           @media (max-width: 991px) {
-
-
             .section-title {
               font-size: 28px !important;
             }
@@ -290,21 +418,39 @@ const AppShowcaseSection = ({ data }) => {
             .visual-preview-container {
               margin-bottom: 32px;
             }
+
+            .device-mockup {
+              min-height: 350px;
+            }
           }
 
           @media (max-width: 575px) {
-
-
             .section-title {
               font-size: 24px !important;
             }
 
-            .thumbnail-gallery img {
+            .device-mockup {
+              min-height: 280px;
+              padding: 8px !important;
+            }
+
+            .thumbnail-btn > div {
               width: 80px !important;
+              min-width: 80px;
             }
 
             .app-info-card {
               padding: 20px !important;
+            }
+
+            .device-frame-dots {
+              top: 12px !important;
+              left: 12px !important;
+            }
+
+            .device-frame-dots > div {
+              width: 10px !important;
+              height: 10px !important;
             }
           }
 
@@ -312,9 +458,10 @@ const AppShowcaseSection = ({ data }) => {
             opacity: 1 !important;
           }
 
-          .thumbnail-btn:hover img {
+          .thumbnail-btn:hover > div {
             border-color: #1A1A1A !important;
             transform: scale(1.05);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.2) !important;
           }
         `}
       </style>

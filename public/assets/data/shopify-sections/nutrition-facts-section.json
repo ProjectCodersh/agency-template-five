@@ -1,0 +1,142 @@
+{
+  "appShowcase": {
+    "title": "Shopify Nutrition Facts Section",
+    "description": "Display nutritional information in a clean, structured layout that helps customers understand product ingredients and values at a glance.",
+    "badge": "Add to Your Store",
+    "appInfo": {
+      "icon": "/assets/img/shopify-sections/app-icon.png",
+      "name": "Shopify Section",
+      "subtext": "Custom Shopify Section",
+      "price": "$0.00"
+    },
+    "features": [
+      "No coding required",
+      "Editable from the Theme Editor",
+      "Clear and compliant nutrition layout"
+    ],
+    "ctaButton": {
+      "text": "Hire a Shopify developer to add this section.",
+      "link": "#"
+    },
+    "featureIcons": [
+      {
+        "icon": "bi-phone",
+        "label": "Mobile Responsive"
+      },
+      {
+        "icon": "bi-code-slash",
+        "label": "Clean Code"
+      },
+      {
+        "icon": "bi-speedometer2",
+        "label": "Speed Optimized"
+      },
+      {
+        "icon": "bi-headset",
+        "label": "Expert Support"
+      }
+    ],
+    "previews": [
+      {
+        "type": "desktop",
+        "image": "/assets/img/shopify-sections/section-nutrition-facts.png",
+        "alt": "Nutrition Facts Section - Desktop View"
+      },
+      {
+        "type": "tablet",
+        "image": "/assets/img/shopify-sections/section-nutrition-facts.png",
+        "alt": "Nutrition Facts Section - Tablet View"
+      },
+      {
+        "type": "mobile",
+        "image": "/assets/img/shopify-sections/section-nutrition-facts.png",
+        "alt": "Nutrition Facts Section - Mobile View"
+      }
+    ]
+  },
+  "featureDocumentation": {
+    "mainContent": {
+      "heading": "What is the Nutrition Facts Section?",
+      "paragraphs": [
+        "The Nutrition Facts section is designed to present nutritional values and ingredient information in a clear, easy-to-read format.",
+        "It helps food, supplement, and wellness brands provide transparency while maintaining a clean and professional storefront design.",
+        "This section can be added to product pages or informational pages to support customer decision-making."
+      ],
+      "subheading": "Customization Options",
+      "features": [
+        {
+          "title": "Nutritional Values",
+          "description": "Add calories, macros, vitamins, and other nutritional data based on your product."
+        },
+        {
+          "title": "Serving Information",
+          "description": "Display serving size, servings per container, and daily value percentages."
+        },
+        {
+          "title": "Ingredient List",
+          "description": "Show ingredients and allergen information in a structured layout."
+        },
+        {
+          "title": "Layout & Styling",
+          "description": "Adjust typography, borders, and colors to match your brand style."
+        }
+      ]
+    },
+    "instructions": {
+      "heading": "How to Add This Section to Shopify?",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Get in Touch",
+          "description": "Contact us to discuss your requirements and confirm the purchase."
+        },
+        {
+          "number": 2,
+          "title": "Receive the Section",
+          "description": "Once the purchase is finalized, the section is added to your Shopify storefront by our team."
+        },
+        {
+          "number": 3,
+          "title": "Section Setup",
+          "description": "Update nutrition values and content directly from the Theme Editor. No code required."
+        },
+        {
+          "number": 4,
+          "title": "Review & Publish",
+          "description": "Review the section on your store and publish it when ready."
+        }
+      ]
+    }
+  },
+  "trendingSections": {
+    "allSections": [
+      {
+        "id": "24",
+        "headertag": "Shopify Section",
+        "img": "/assets/img/shopify-sections/section-24.png",
+        "sectiontitle": "Product Information",
+        "sectiondescription": "Display key product details in a clean and structured format.",
+        "sectionbtn": "View Section",
+        "link": "#"
+      },
+      {
+        "id": "6",
+        "headertag": "Shopify Section",
+        "img": "/assets/img/shopify-sections/section-9.png",
+        "sectiontitle": "Collection Grid",
+        "sectiondescription": "Show collections in an organized grid layout for easy browsing.",
+        "sectionbtn": "View Section",
+        "link": "#"
+      },
+      {
+        "id": "23",
+        "headertag": "Shopify Section",
+        "img": "/assets/img/shopify-sections/section-23.png",
+        "sectiontitle": "Video with Text",
+        "sectiondescription": "Present brand stories or product details using video and text.",
+        "sectionbtn": "View Section",
+        "link": "#"
+      }
+    ]
+  }
+}

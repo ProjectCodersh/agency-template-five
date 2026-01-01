@@ -1,0 +1,137 @@
+{
+  "appShowcase": {
+    "title": "Shopify Footer Section",
+    "description": "Create a clean, structured footer area that helps customers navigate your store, access important links, and build trust with your brand.",
+    "badge": "Add to Your Store",
+    "appInfo": {
+      "icon": "/assets/img/shopify-sections/app-icon.png",
+      "name": "MIT Sections Pro",
+      "subtext": "Custom Shopify Section",
+      "price": ""
+    },
+    "features": [
+      "No coding required",
+      "Fully customizable footer layout",
+      "Managed directly from the Theme Editor"
+    ],
+    "ctaButton": {
+      "text": "Hire a Shopify developer to add this section.",
+      "link": "#"
+    },
+    "featureIcons": [
+      {
+        "icon": "bi-phone",
+        "label": "Mobile Responsive"
+      },
+      {
+        "icon": "bi-code-slash",
+        "label": "Clean Code"
+      },
+      {
+        "icon": "bi-speedometer2",
+        "label": "Speed Optimized"
+      },
+      {
+        "icon": "bi-headset",
+        "label": "Expert Support"
+      }
+    ],
+    "previews": [
+      {
+        "type": "desktop",
+        "image": "/assets/img/shopify-sections/section-footer.png",
+        "alt": "Footer Section - Desktop View"
+      },
+      {
+        "type": "mobile",
+        "image": "/assets/img/shopify-sections/section-footer.png",
+        "alt": "Footer Section - Mobile View"
+      }
+    ]
+  },
+  "featureDocumentation": {
+    "mainContent": {
+      "heading": "What is the Footer Section?",
+      "paragraphs": [
+        "The Footer section is designed to display essential store information in a clean and organized layout at the bottom of your storefront.",
+        "It helps customers quickly find important links, contact details, and supporting information without cluttering the main shopping experience.",
+        "This section is ideal for improving navigation, trust, and overall usability across your Shopify store."
+      ],
+      "subheading": "Customization Options",
+      "features": [
+        {
+          "title": "Footer Columns",
+          "description": "Add and manage multiple columns for links, text, or custom content."
+        },
+        {
+          "title": "Menu & Links",
+          "description": "Display navigation menus, policy links, or custom URLs."
+        },
+        {
+          "title": "Brand Information",
+          "description": "Show your logo, short description, or copyright text."
+        },
+        {
+          "title": "Colors & Styling",
+          "description": "Customize background colors, text styles, and spacing to match your brand."
+        }
+      ]
+    },
+    "instructions": {
+      "heading": "How to Add This Section to Shopify?",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Get in Touch",
+          "description": "Contact us to discuss your footer requirements and confirm the purchase."
+        },
+        {
+          "number": 2,
+          "title": "Receive the Section",
+          "description": "Once finalized, our team adds the footer section to your Shopify storefront."
+        },
+        {
+          "number": 3,
+          "title": "Section Setup",
+          "description": "Update links, content, and layout options from the Theme Editor."
+        },
+        {
+          "number": 4,
+          "title": "Review & Publish",
+          "description": "Review the footer and publish it live on your storefront."
+        }
+      ]
+    }
+  },
+  "trendingSections": {
+    "allSections": [
+      {
+        "id": "6",
+        "headertag": "Shopify Section",
+        "img": "/assets/img/shopify-sections/section-9.png",
+        "sectiontitle": "Collection Grid",
+        "sectiondescription": "Display collections in a structured grid layout for easy browsing.",
+        "sectionbtn": "View Section",
+        "link": "#"
+      },
+      {
+        "id": "23",
+        "headertag": "Shopify Section",
+        "img": "/assets/img/shopify-sections/section-23.png",
+        "sectiontitle": "Video with Text",
+        "sectiondescription": "Combine video and text to highlight key messages or promotions.",
+        "sectionbtn": "View Section",
+        "link": "#"
+      },
+      {
+        "id": "24",
+        "headertag": "Shopify Section",
+        "img": "/assets/img/shopify-sections/section-footer.png",
+        "sectiontitle": "Footer Section",
+        "sectiondescription": "Organize links, information, and branding in a clean footer layout.",
+        "sectionbtn": "View Section",
+        "link": "#"
+      }
+    ]
+  }
+}

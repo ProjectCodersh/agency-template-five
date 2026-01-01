@@ -1,0 +1,142 @@
+{
+  "appShowcase": {
+    "title": "Shopify Image with Text Section",
+    "description": "Create clear and visually balanced layouts by placing images alongside structured text. This section is ideal for presenting brand stories, product details, or key information in a clean and professional format that works across all devices.",
+    "badge": "Add to Your Store",
+    "appInfo": {
+      "icon": "/assets/img/shopify-sections/app-icon.png",
+      "name": "Shopify Section",
+      "subtext": "Custom Shopify Sections",
+      "price": "$0.00"
+    },
+    "features": [
+      "No coding required",
+      "Manage content easily from the Theme Editor",
+      "Designed for modern Shopify themes"
+    ],
+    "ctaButton": {
+      "text": "Hire a Shopify developer to add this section.",
+      "link": "#"
+    },
+    "featureIcons": [
+      {
+        "icon": "bi-phone",
+        "label": "Mobile Responsive"
+      },
+      {
+        "icon": "bi-code-slash",
+        "label": "Clean Code"
+      },
+      {
+        "icon": "bi-speedometer2",
+        "label": "Speed Optimized"
+      },
+      {
+        "icon": "bi-headset",
+        "label": "Expert Support"
+      }
+    ],
+    "previews": [
+      {
+        "type": "tablet",
+        "image": "/assets/img/shopify-sections/section-image-text.png",
+        "alt": "Image with Text - Tablet View"
+      },
+      {
+        "type": "tablet-cropped",
+        "image": "/assets/img/shopify-sections/section-image-text.png",
+        "alt": "Image with Text - Tablet View"
+      },
+      {
+        "type": "mobile",
+        "image": "/assets/img/shopify-sections/section-image-text.png",
+        "alt": "Image with Text - Mobile View"
+      }
+    ]
+  },
+  "featureDocumentation": {
+    "mainContent": {
+      "heading": "What is the Image with Text Section?",
+      "paragraphs": [
+        "The Image with Text section is a versatile Shopify section that displays images and text side by side in a clean, structured layout.",
+        "It allows store owners to clearly communicate product details, brand messages, or supporting content while keeping the design visually balanced and easy to read.",
+        "This section fits naturally into any storefront and is suitable for both promotional content and informational blocks without distracting customers."
+      ],
+      "subheading": "Customization Options",
+      "features": [
+        {
+          "title": "Precise Layout",
+          "description": "Align content to the left, right, or center to match your page structure."
+        },
+        {
+          "title": "Image Configuration",
+          "description": "Control image size, position, radius, and display style for better visual balance."
+        },
+        {
+          "title": "Caption Text",
+          "description": "Add optional captions or supporting text to provide additional context."
+        },
+        {
+          "title": "Content Padding",
+          "description": "Adjust top, bottom, and side spacing for a clean and consistent layout."
+        }
+      ]
+    },
+    "instructions": {
+      "heading": "How to Add This Section to Shopify?",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Get in Touch",
+          "description": "Contact us to discuss your requirements and confirm the purchase."
+        },
+        {
+          "number": 2,
+          "title": "Receive the Section",
+          "description": "Once the purchase is finalized, the section is added to your Shopify storefront by our team."
+        },
+        {
+          "number": 3,
+          "title": "Section Setup",
+          "description": "Adjust the section settings in the Theme Editor to match your layout and content. No code required."
+        },
+        {
+          "number": 4,
+          "title": "Review & Publish",
+          "description": "Review the section in your store and publish it to your live storefront."
+        }
+      ]
+    }
+  },
+  "trendingSections": {
+    "allSections": [
+      {
+        "id": "33",
+        "headertag": "Shopify Section",
+        "img": "/assets/img/shopify-sections/section-22.png",
+        "sectiontitle": "Featured Collection",
+        "sectiondescription": "Highlight selected collections to guide customers toward key products.",
+        "sectionbtn": "View Section",
+        "link": "#"
+      },
+      {
+        "id": "6",
+        "headertag": "Shopify Section",
+        "img": "/assets/img/shopify-sections/section-9.png",
+        "sectiontitle": "Collection Grid",
+        "sectiondescription": "Display collections in a structured grid for a clean and organized storefront.",
+        "sectionbtn": "View Section",
+        "link": "#"
+      },
+      {
+        "id": "30",
+        "headertag": "Shopify Section",
+        "img": "/assets/img/shopify-sections/section-19.png",
+        "sectiontitle": "Image with Text Scroll",
+        "sectiondescription": "Combine images with scrolling text to create engaging visual storytelling.",
+        "sectionbtn": "View Section",
+        "link": "#"
+      }
+    ]
+  }
+}

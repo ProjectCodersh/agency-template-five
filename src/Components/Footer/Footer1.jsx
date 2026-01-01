@@ -143,7 +143,7 @@ const Footer1 = () => {
                     <li>
                       <Link to="/">
                         <i className="bi bi-arrow-right"></i>
-                        Unlimited Wordpress
+                        Unlimited WP
                       </Link>
                     </li>
                     <li>
@@ -168,6 +168,12 @@ const Footer1 = () => {
                       <Link to="/portfolio">
                         <i className="bi bi-arrow-right"></i>
                         Portfolio
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/partners">
+                        <i className="bi bi-arrow-right"></i>
+                        Partners
                       </Link>
                     </li>
 
@@ -235,12 +241,6 @@ const Footer1 = () => {
                       <Link to="/new-services/cms/shopify-sections">
                         <i className="bi bi-arrow-right"></i>
                         Shopify Sections
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/new-services/cms/shopify-single-section">
-                        <i className="bi bi-arrow-right"></i>
-                        Shopify Single Section
                       </Link>
                     </li>
                   </ul>

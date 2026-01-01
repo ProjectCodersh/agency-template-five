@@ -1,0 +1,142 @@
+{
+  "appShowcase": {
+    "title": "Shopify Featured Collection Section",
+    "description": "Highlight selected product collections in a clean, structured layout that helps customers quickly discover key products while improving navigation and visual flow across your storefront.",
+    "badge": "Add to Your Store",
+    "appInfo": {
+      "icon": "/assets/img/shopify-sections/app-icon.png",
+      "name": "Shopify Section",
+      "subtext": "Custom Shopify Section",
+      "price": "$0.00"
+    },
+    "features": [
+      "No coding required",
+      "Easy to manage from the Theme Editor",
+      "Optimized for product discovery"
+    ],
+    "ctaButton": {
+      "text": "Hire a Shopify developer to add this section.",
+      "link": "#"
+    },
+    "featureIcons": [
+      {
+        "icon": "bi-phone",
+        "label": "Mobile Responsive"
+      },
+      {
+        "icon": "bi-code-slash",
+        "label": "Clean Code"
+      },
+      {
+        "icon": "bi-speedometer2",
+        "label": "Speed Optimized"
+      },
+      {
+        "icon": "bi-headset",
+        "label": "Expert Support"
+      }
+    ],
+    "previews": [
+      {
+        "type": "desktop",
+        "image": "/assets/img/shopify-sections/section-featured-collection.png",
+        "alt": "Featured Collection Section - Desktop View"
+      },
+      {
+        "type": "tablet",
+        "image": "/assets/img/shopify-sections/section-featured-collection.png",
+        "alt": "Featured Collection Section - Tablet View"
+      },
+      {
+        "type": "mobile",
+        "image": "/assets/img/shopify-sections/section-featured-collection.png",
+        "alt": "Featured Collection Section - Mobile View"
+      }
+    ]
+  },
+  "featureDocumentation": {
+    "mainContent": {
+      "heading": "What is the Featured Collection Section?",
+      "paragraphs": [
+        "The Featured Collection section allows you to display selected Shopify collections in a visually organized layout that draws attention to key products.",
+        "It is commonly used to highlight best sellers, new arrivals, or seasonal items, helping customers navigate directly to products that matter most.",
+        "Designed for clarity and performance, this section works well on homepages and landing pages without overwhelming visitors."
+      ],
+      "subheading": "Customization Options",
+      "features": [
+        {
+          "title": "Collection Selection",
+          "description": "Choose any Shopify collection and control how many products appear per row and overall."
+        },
+        {
+          "title": "Product Details",
+          "description": "Show or hide product information such as title, vendor, variants, and pricing."
+        },
+        {
+          "title": "Promotional Card",
+          "description": "Display a featured card with heading text and a call-to-action button."
+        },
+        {
+          "title": "Layout & Positioning",
+          "description": "Adjust spacing, alignment, and placement to fit your store layout."
+        }
+      ]
+    },
+    "instructions": {
+      "heading": "How to Add This Section to Shopify?",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Get in Touch",
+          "description": "Contact us to discuss your requirements and confirm the purchase."
+        },
+        {
+          "number": 2,
+          "title": "Receive the Section",
+          "description": "After purchase, the section is added to your Shopify storefront by our team."
+        },
+        {
+          "number": 3,
+          "title": "Section Setup",
+          "description": "Adjust collection and layout settings in the Theme Editor. No code required."
+        },
+        {
+          "number": 4,
+          "title": "Review & Publish",
+          "description": "Review the section in your store and publish it to your live storefront."
+        }
+      ]
+    }
+  },
+  "trendingSections": {
+    "allSections": [
+      {
+        "id": "23",
+        "headertag": "Shopify Section",
+        "img": "/assets/img/shopify-sections/section-23.png",
+        "sectiontitle": "Video with Text",
+        "sectiondescription": "Combine video and structured text to present product features or brand stories clearly.",
+        "sectionbtn": "View Section",
+        "link": "#"
+      },
+      {
+        "id": "30",
+        "headertag": "Shopify Section",
+        "img": "/assets/img/shopify-sections/section-19.png",
+        "sectiontitle": "Image with Text Scroll",
+        "sectiondescription": "Tell engaging stories using images paired with smooth scrolling text sections.",
+        "sectionbtn": "View Section",
+        "link": "#"
+      },
+      {
+        "id": "6",
+        "headertag": "Shopify Section",
+        "img": "/assets/img/shopify-sections/section-9.png",
+        "sectiontitle": "Collection Grid",
+        "sectiondescription": "Display collections in a clean grid layout for better organization and browsing.",
+        "sectionbtn": "View Section",
+        "link": "#"
+      }
+    ]
+  }
+}

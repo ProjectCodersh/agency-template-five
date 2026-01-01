@@ -1,0 +1,141 @@
+{
+  "appShowcase": {
+    "title": "Shopify Comparison Table Section",
+    "description": "Present product features side by side with a clean, structured comparison table. This section helps visitors quickly understand differences, evaluate options, and make confident purchase decisions.",
+    "badge": "Request This Section",
+    "appInfo": {
+      "icon": "/assets/img/shopify-sections/app-icon.png",
+      "name": "Shopify Section",
+      "subtext": "Custom Shopify Sections",
+      "price": "$0.00"
+    },
+    "features": [
+      "Side-by-side feature comparison",
+      "Clean and readable table layout",
+      "Suitable for products, bundles, and plans"
+    ],
+    "ctaButton": {
+      "text": "Hire a Shopify developer to add this section.",
+      "link": "#"
+    },
+    "featureIcons": [
+      {
+        "icon": "bi-phone",
+        "label": "Mobile Responsive"
+      },
+      {
+        "icon": "bi-code-slash",
+        "label": "Clean Code"
+      },
+      {
+        "icon": "bi-speedometer2",
+        "label": "Speed Optimized"
+      },
+      {
+        "icon": "bi-headset",
+        "label": "Expert Support"
+      }
+    ],
+    "previews": [
+      {
+        "type": "tablet",
+        "image": "/assets/img/shopify-sections/section-23.png",
+        "alt": "Video with Text - Tablet View"
+      },
+      {
+        "type": "tablet-cropped",
+        "image": "/assets/img/shopify-sections/section-23.png",
+        "alt": "Video with Text - Tablet View"
+      },
+      {
+        "type": "mobile",
+        "image": "/assets/img/shopify-sections/section-23.png",
+        "alt": "Video with Text - Mobile View"
+      }
+    ]
+  },
+  "featureDocumentation": {
+    "mainContent": {
+      "heading": "What is the Comparison Table Section?",
+      "paragraphs": [
+        "The Comparison Table Section allows you to display product features, pricing details, or specifications in a clear, side-by-side layout. It is designed to simplify decision-making by presenting key differences in an organized and easy-to-scan format.",
+        "This section works well for comparing multiple products, plans, or feature sets without cluttering your storefront. All content and styling can be adjusted to align with your brand’s look and messaging."
+      ],
+      "subheading": "Customization Options",
+      "features": [
+        {
+          "title": "Customizable Rows",
+          "description": "Control borders, spacing, and layout for each comparison row."
+        },
+        {
+          "title": "Column Styling",
+          "description": "Style individual columns to highlight key products or plans."
+        },
+        {
+          "title": "Multiple Comparisons",
+          "description": "Add ratings, features, pricing, or specifications using separate fields."
+        },
+        {
+          "title": "Row Title Controls",
+          "description": "Edit text styles, colors, fonts, and alignment for row labels."
+        }
+      ]
+    },
+    "instructions": {
+      "heading": "How to Add This Section to Shopify?",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Get in Touch",
+          "description": "Contact us to discuss your requirements and confirm the section setup."
+        },
+        {
+          "number": 2,
+          "title": "Section Installation",
+          "description": "After confirmation, our team adds the section directly to your Shopify store."
+        },
+        {
+          "number": 3,
+          "title": "Section Setup",
+          "description": "Adjust comparison content and layout from the Theme Editor if needed."
+        },
+        {
+          "number": 4,
+          "title": "Review & Publish",
+          "description": "Review the section on your storefront and publish when ready."
+        }
+      ]
+    }
+  },
+  "trendingSections": {
+    "allSections": [
+      {
+        "id": "33",
+        "headertag": "Shopify Section",
+        "img": "/assets/img/shopify-sections/section-22.png",
+        "sectiontitle": "Featured Collection",
+        "sectiondescription": "Bring attention to selected collections to guide customers toward your most important products.",
+        "sectionbtn": "View Section",
+        "link": "#"
+      },
+      {
+        "id": "6",
+        "headertag": "Shopify Section",
+        "img": "/assets/img/shopify-sections/section-9.png",
+        "sectiontitle": "Collection Grid",
+        "sectiondescription": "Showcase products in a structured grid layout that keeps your collections organized and visually appealing.",
+        "sectionbtn": "View Section",
+        "link": "#"
+      },
+      {
+        "id": "30",
+        "headertag": "Shopify Section",
+        "img": "/assets/img/shopify-sections/section-19.png",
+        "sectiontitle": "Image with Text Scroll",
+        "sectiondescription": "Tell engaging product or brand stories by combining images with smoothly scrolling text sections.",
+        "sectionbtn": "View Section",
+        "link": "#"
+      }
+    ]
+  }
+}

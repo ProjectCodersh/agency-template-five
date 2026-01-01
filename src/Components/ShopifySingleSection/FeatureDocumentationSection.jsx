@@ -4,28 +4,33 @@ const FeatureDocumentationSection = ({ data }) => {
   // Default data structure
   const defaultData = {
     mainContent: {
-      heading: 'What is the Collection Showcase Section?',
+      heading: 'What is the Video with Text Section??',
       paragraphs: [
-        'The Shopify Collection Showcase section is a dynamic and visually appealing way to display your product collections on your storefront. This section allows you to showcase multiple collections with ease, making it simple to change images and highlight your best-selling items or new arrivals. Built with Shopify Liquid customization, it provides a user-friendly layout with collapsible accordions that improve navigation and organization.',
-        'This section is perfect for stores looking to create curated collections with dynamic visuals and interactive elements. It enhances customer browsing experience, drives engagement without requiring complex coding, and provides a polished, modern look while simplifying content management.',
+        'The Video with Text section is a flexible Shopify section that allows you to display a video alongside structured text content in a clean, balanced layout.',
+        'It helps store owners communicate important information clearly by combining motion with readable content. Whether you want to highlight a product feature, explain a process, or introduce your brand, this section keeps the message focused and visually engaging.',
+        'The layout is designed to fit naturally into any storefront and works well for both promotional and informational content, without overwhelming visitors.',
       ],
       subheading: 'Customization Options',
       features: [
         {
-          title: 'Typography Settings',
-          description: 'Control heading text, size, and font style',
+          title: 'Flexible Background',
+          description:
+            'Use an image, hosted video, or video URL as the background to match your brand or campaign.',
         },
         {
-          title: 'Image Styling',
-          description: 'Show main image with border & rounded corners',
+          title: 'Layout & Styling',
+          description:
+            'Control section height, spacing, borders, and visual balance for the video area.',
         },
         {
-          title: 'Content Tabs',
-          description: 'Show content with tabs and hover effects',
+          title: 'Content Controls',
+          description:
+            'Easily manage headings, text, colors, font sizes, and alignment for clear readability.',
         },
         {
-          title: 'Layout & Spacing',
-          description: 'Adjust alignment, image size, and spacing',
+          title: 'Interactive Elements',
+          description:
+            'Optional buttons and controls to guide users or encourage action without clutter.',
         },
       ],
     },
@@ -34,23 +39,25 @@ const FeatureDocumentationSection = ({ data }) => {
       steps: [
         {
           number: 1,
-          title: 'Install App',
-          description: 'Get MIT Sections Pro from the Shopify App Store.',
+          title: 'Get in Touch',
+          description: 'Get in touch to discuss your requirements and confirm the purchase.',
         },
         {
           number: 2,
-          title: 'Explore Section',
-          description: 'Browse our complete library of premium sections.',
+          title: 'Receive the Section',
+          description:
+            'Once the purchase is finalized, the section is added to your Shopify storefront by our team.',
         },
         {
           number: 3,
-          title: 'Try & Buy',
-          description: 'Test any section for free in your theme before buying.',
+          title: 'Section Setup',
+          description:
+            'Adjust the section settings in the Theme Editor to match your layout and content. No code required.',
         },
         {
           number: 4,
-          title: 'Customize & Publish',
-          description: 'Visually add content in the Theme Editor. No code required.',
+          title: 'Review & Publish',
+          description: 'Review the section in your store and publish it to your live storefront.',
         },
       ],
     },

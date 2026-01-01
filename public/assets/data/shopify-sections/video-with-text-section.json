@@ -1,0 +1,142 @@
+{
+  "appShowcase": {
+    "title": "Shopify Video with Text Section",
+    "description": "Present your message with impact using a structured video and text layout. This section combines visual storytelling with clear content, making it ideal for showcasing products, explaining features, or sharing brand stories in a focused and professional way.",
+    "badge": "Add to Your Store",
+    "appInfo": {
+      "icon": "/assets/img/shopify-sections/app-icon.png",
+      "name": "Shopify Section",
+      "subtext": "Custom Shopify Sections",
+      "price": "$0.00"
+    },
+    "features": [
+      "No coding required",
+      "Easy to manage from the Theme Editor",
+      "Designed for modern Shopify storefronts"
+    ],
+    "ctaButton": {
+      "text": "Hire a Shopify developer to add this section.",
+      "link": "#"
+    },
+    "featureIcons": [
+      {
+        "icon": "bi-phone",
+        "label": "Mobile Responsive"
+      },
+      {
+        "icon": "bi-code-slash",
+        "label": "Clean Code"
+      },
+      {
+        "icon": "bi-speedometer2",
+        "label": "Speed Optimized"
+      },
+      {
+        "icon": "bi-headset",
+        "label": "Expert Support"
+      }
+    ],
+    "previews": [
+      {
+        "type": "tablet",
+        "image": "/assets/img/shopify-sections/section-23.png",
+        "alt": "Video with Text - Tablet View"
+      },
+      {
+        "type": "tablet-cropped",
+        "image": "/assets/img/shopify-sections/section-23.png",
+        "alt": "Video with Text - Tablet View"
+      },
+      {
+        "type": "mobile",
+        "image": "/assets/img/shopify-sections/section-23.png",
+        "alt": "Video with Text - Mobile View"
+      }
+    ]
+  },
+  "featureDocumentation": {
+    "mainContent": {
+      "heading": "What is the Video with Text Section?",
+      "paragraphs": [
+        "The Video with Text section is a flexible Shopify section that allows you to display a video alongside structured text content in a clean, balanced layout.",
+        "It helps store owners communicate important information clearly by combining motion with readable content. Whether you want to highlight a product feature, explain a process, or introduce your brand, this section keeps the message focused and visually engaging.",
+        "The layout is designed to fit naturally into any storefront and works well for both promotional and informational content, without overwhelming visitors."
+      ],
+      "subheading": "Customization Options",
+      "features": [
+        {
+          "title": "Flexible Background",
+          "description": "Use an image, hosted video, or video URL as the background to match your brand or campaign."
+        },
+        {
+          "title": "Layout & Styling",
+          "description": "Control section height, spacing, borders, and visual balance for the video area."
+        },
+        {
+          "title": "Content Controls",
+          "description": "Easily manage headings, text, colors, font sizes, and alignment for clear readability."
+        },
+        {
+          "title": "Interactive Elements",
+          "description": "Optional buttons and controls to guide users or encourage action without clutter."
+        }
+      ]
+    },
+    "instructions": {
+      "heading": "How to Add This Section to Shopify?",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Get in Touch",
+          "description": "Get in touch to discuss your requirements and confirm the purchase."
+        },
+        {
+          "number": 2,
+          "title": "Receive the Section",
+          "description": "Once the purchase is finalized, the section is added to your Shopify storefront by our team."
+        },
+        {
+          "number": 3,
+          "title": "Section Setup",
+          "description": "Adjust the section settings in the Theme Editor to match your layout and content. No code required."
+        },
+        {
+          "number": 4,
+          "title": "Review & Publish",
+          "description": "Review the section in your store and publish it to your live storefront."
+        }
+      ]
+    }
+  },
+  "trendingSections": {
+    "allSections": [
+      {
+        "id": "33",
+        "headertag": "Shopify Section",
+        "img": "/assets/img/shopify-sections/section-22.png",
+        "sectiontitle": "Featured Collection",
+        "sectiondescription": "Bring attention to selected collections to guide customers toward your most important products.",
+        "sectionbtn": "View Section",
+        "link": "#"
+      },
+      {
+        "id": "6",
+        "headertag": "Shopify Section",
+        "img": "/assets/img/shopify-sections/section-9.png",
+        "sectiontitle": "Collection Grid",
+        "sectiondescription": "Showcase products in a structured grid layout that keeps your collections organized and visually appealing.",
+        "sectionbtn": "View Section",
+        "link": "#"
+      },
+      {
+        "id": "30",
+        "headertag": "Shopify Section",
+        "img": "/assets/img/shopify-sections/section-19.png",
+        "sectiontitle": "Image with Text Scroll",
+        "sectiondescription": "Tell engaging product or brand stories by combining images with smoothly scrolling text sections.",
+        "sectionbtn": "View Section",
+        "link": "#"
+      }
+    ]
+  }
+}
