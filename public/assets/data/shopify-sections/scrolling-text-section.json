@@ -39,17 +39,17 @@
     "previews": [
       {
         "type": "desktop",
-        "image": "/assets/img/shopify-sections/section-scrolling-text-1.png",
+        "image": "/assets/img/shopify-sections/scrolling-text-1.png",
         "alt": "Scrolling Text Section - Desktop View"
       },
       {
         "type": "tablet",
-        "image": "/assets/img/shopify-sections/section-scrolling-text-2.png",
+        "image": "/assets/img/shopify-sections/scrolling-text-2.png",
         "alt": "Scrolling Text Section - Tablet View"
       },
       {
         "type": "mobile",
-        "image": "/assets/img/shopify-sections/section-scrolling-text-3.png",
+        "image": "/assets/img/shopify-sections/scrolling-text-3.png",
         "alt": "Scrolling Text Section - Mobile View"
       }
     ]

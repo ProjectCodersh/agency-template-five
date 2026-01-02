@@ -39,17 +39,32 @@
     "previews": [
       {
         "type": "desktop",
-        "image": "/assets/img/shopify-sections/faq-section.png",
+        "image": "/assets/img/shopify-sections/faqs-1.png",
         "alt": "FAQs Section - Desktop View"
       },
       {
         "type": "tablet",
-        "image": "/assets/img/shopify-sections/faq-section.png",
+        "image": "/assets/img/shopify-sections/faqs-2.png",
         "alt": "FAQs Section - Tablet View"
       },
       {
         "type": "mobile",
-        "image": "/assets/img/shopify-sections/faq-section.png",
+        "image": "/assets/img/shopify-sections/faqs-6.png",
+        "alt": "FAQs Section - Mobile View"
+      },
+      {
+        "type": "mobile",
+        "image": "/assets/img/shopify-sections/faqs-3.png",
+        "alt": "FAQs Section - Mobile View"
+      },
+      {
+        "type": "tablet",
+        "image": "/assets/img/shopify-sections/faqs-4.png",
+        "alt": "FAQs Section - Tablet View"
+      },
+      {
+        "type": "mobile",
+        "image": "/assets/img/shopify-sections/faqs-5.png",
         "alt": "FAQs Section - Mobile View"
       }
     ]

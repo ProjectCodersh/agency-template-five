@@ -5,7 +5,7 @@
         {
           "id": "1",
           "headertag": "Shopify Section",
-          "img": "/assets/img/shopify-sections/section-10.png",
+          "img": "/assets/img/shopify-sections/nutrition-card.png",
           "sectiontitle": "Nutrition Facts",
           "sectiondescription": "Present essential nutrition details clearly, including calories, ingredients, and serving information, to help customers make informed purchase decisions.",
           "sectionbtn": "View Section",
@@ -14,7 +14,7 @@
         {
           "id": "2",
           "headertag": "Shopify Section",
-          "img": "/assets/img/shopify-sections/section-1.png",
+          "img": "/assets/img/shopify-sections/accordion-card.png",
           "sectiontitle": "Accordion",
           "sectiondescription": "Keep your store layout clean by grouping content into expandable sections that make information easy to browse and digest.",
           "sectionbtn": "View Section",
@@ -23,7 +23,7 @@
         {
           "id": "3",
           "headertag": "Shopify Section",
-          "img": "/assets/img/shopify-sections/section-7.png",
+          "img": "/assets/img/shopify-sections/video-text-card.png",
           "sectiontitle": "Video with Text",
           "sectiondescription": "Combine video visuals with supporting text to communicate product features, benefits, or brand messages more effectively.",
           "sectionbtn": "View Section",
@@ -32,7 +32,7 @@
         {
           "id": "4",
           "headertag": "Shopify Section",
-          "img": "/assets/img/shopify-sections/section-8.png",
+          "img": "/assets/img/shopify-sections/before-after-card.png",
           "sectiontitle": "Before & After Slider",
           "sectiondescription": "Allow customers to visually compare results using a smooth slider that highlights product changes or transformations.",
           "sectionbtn": "View Section",
@@ -41,7 +41,7 @@
         {
           "id": "6",
           "headertag": "Shopify Section",
-          "img": "/assets/img/shopify-sections/section-9.png",
+          "img": "/assets/img/shopify-sections/collection-grid-card.png",
           "sectiontitle": "Collection Grid",
           "sectiondescription": "Showcase products in a structured grid layout that keeps your collections organized and visually appealing.",
           "sectionbtn": "View Section",
@@ -50,25 +50,16 @@
         {
           "id": "7",
           "headertag": "Shopify Section",
-          "img": "/assets/img/shopify-sections/section-3.png",
+          "img": "/assets/img/shopify-sections/video-grid-card.png",
           "sectiontitle": "Video Grid",
           "sectiondescription": "Display multiple videos in a grid format to share product demos, tutorials, or brand stories in one place.",
           "sectionbtn": "View Section",
           "link": "/new-services/cms/shopify-sections/video-grid-section"
         },
         {
-          "id": "8",
-          "headertag": "Shopify Section",
-          "img": "/assets/img/shopify-sections/section-11.png",
-          "sectiontitle": "Countdown Timer",
-          "sectiondescription": "Encourage faster purchasing decisions by displaying a live countdown for sales, launches, or limited-time deals.",
-          "sectionbtn": "View Section",
-          "link": "/new-services/cms/shopify-sections/countdown-timer-section"
-        },
-        {
           "id": "10",
           "headertag": "Shopify Section",
-          "img": "/assets/img/shopify-sections/section-4.png",
+          "img": "/assets/img/shopify-sections/scrolling-text-card.png",
           "sectiontitle": "Scrolling Text",
           "sectiondescription": "Highlight promotions, announcements, or important messages using smooth, eye-catching scrolling text.",
           "sectionbtn": "View Section",
@@ -77,7 +68,7 @@
         {
           "id": "11",
           "headertag": "Shopify Section",
-          "img": "/assets/img/shopify-sections/section-12.png",
+          "img": "/assets/img/shopify-sections/collection-slider-card.png",
           "sectiontitle": "Collection Slider",
           "sectiondescription": "Present product collections in a swipeable slider that makes browsing effortless and interactive.",
           "sectionbtn": "View Section",
@@ -86,7 +77,7 @@
         {
           "id": "12",
           "headertag": "Shopify Section",
-          "img": "/assets/img/shopify-sections/section-13.png",
+          "img": "/assets/img/shopify-sections/comparison-table-card.png",
           "sectiontitle": "Comparison Table",
           "sectiondescription": "Help shoppers compare products easily by displaying key features and differences in a structured table layout.",
           "sectionbtn": "View Section",
@@ -95,7 +86,7 @@
         {
           "id": "13",
           "headertag": "Shopify Section",
-          "img": "/assets/img/shopify-sections/section-5.png",
+          "img": "/assets/img/shopify-sections/image-text-card.png",
           "sectiontitle": "Image with Text",
           "sectiondescription": "Pair visuals with meaningful text to communicate brand values, product benefits, or important information clearly.",
           "sectionbtn": "View Section",
@@ -104,7 +95,7 @@
         {
           "id": "16",
           "headertag": "Shopify Section",
-          "img": "/assets/img/shopify-sections/section-14.png",
+          "img": "/assets/img/shopify-sections/collection-carousel-card.png",
           "sectiontitle": "Collection Carousel",
           "sectiondescription": "Display multiple collections in a horizontal carousel to improve product discovery and navigation.",
           "sectionbtn": "View Section",
@@ -114,7 +105,7 @@
         {
           "id": "18",
           "headertag": "Shopify Section",
-          "img": "/assets/img/shopify-sections/section-15.png",
+          "img": "/assets/img/shopify-sections/newsletter-form-card.png",
           "sectiontitle": "Newsletter Form",
           "sectiondescription": "Capture email subscribers with a simple and customizable form designed to grow your mailing list.",
           "sectionbtn": "View Section",
@@ -124,7 +115,7 @@
         {
           "id": "20",
           "headertag": "Shopify Section",
-          "img": "/assets/img/shopify-sections/section-16.png",
+          "img": "/assets/img/shopify-sections/aboutus-page-card.png",
           "sectiontitle": "About Us Page",
           "sectiondescription": "Share your brand’s story, mission, and values in a well-structured layout that builds customer trust.",
           "sectionbtn": "View Section",
@@ -134,7 +125,7 @@
         {
           "id": "22",
           "headertag": "Shopify Section",
-          "img": "/assets/img/shopify-sections/section-21.png",
+          "img": "/assets/img/shopify-sections/footer-card.png",
           "sectiontitle": "Footer",
           "sectiondescription": "Organize navigation links, contact details, social icons, and payment options in a clean, functional footer layout.",
           "sectionbtn": "View Section",
@@ -144,7 +135,7 @@
         {
           "id": "27",
           "headertag": "Shopify Section",
-          "img": "/assets/img/shopify-sections/section-23.png",
+          "img": "/assets/img/shopify-sections/collection-showcase-card.png",
           "sectiontitle": "Collection Showcase",
           "sectiondescription": "Highlight selected collections in an attractive layout that encourages customers to explore more products.",
           "sectionbtn": "View Section",
@@ -153,7 +144,7 @@
         {
           "id": "28",
           "headertag": "Shopify Section",
-          "img": "/assets/img/shopify-sections/section-17.png",
+          "img": "/assets/img/shopify-sections/age-verification-popup-card.png",
           "sectiontitle": "Age Verification Popup",
           "sectiondescription": "Prompt visitors to confirm their age before accessing your store to meet legal or compliance requirements.",
           "sectionbtn": "View Section",
@@ -162,7 +153,7 @@
         {
           "id": "30",
           "headertag": "Shopify Section",
-          "img": "/assets/img/shopify-sections/section-19.png",
+          "img": "/assets/img/shopify-sections/image-text-scroll-card.png",
           "sectiontitle": "Image with Text Scroll",
           "sectiondescription": "Tell engaging product or brand stories by combining images with smoothly scrolling text sections.",
           "sectionbtn": "View Section",
@@ -171,7 +162,7 @@
         {
           "id": "31",
           "headertag": "Shopify Section",
-          "img": "/assets/img/shopify-sections/section-18.png",
+          "img": "/assets/img/shopify-sections/faqs-card.png",
           "sectiontitle": "FAQs",
           "sectiondescription": "Provide clear answers to common questions to reduce customer hesitation and support inquiries.",
           "sectionbtn": "View Section",
@@ -180,7 +171,7 @@
         {
           "id": "32",
           "headertag": "Shopify Section",
-          "img": "/assets/img/shopify-sections/section-19.png",
+          "img": "/assets/img/shopify-sections/trust-badge-slider-card.png",
           "sectiontitle": "Trust Badges Slider",
           "sectiondescription": "Display security, payment, and guarantee badges in a slider to build confidence during shopping.",
           "sectionbtn": "View Section",
@@ -189,7 +180,7 @@
         {
           "id": "33",
           "headertag": "Shopify Section",
-          "img": "/assets/img/shopify-sections/section-22.png",
+          "img": "/assets/img/shopify-sections/featured-collection-card.png",
           "sectiontitle": "Featured Collection",
           "sectiondescription": "Bring attention to selected collections to guide customers toward your most important products.",
           "sectionbtn": "View Section",

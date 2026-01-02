@@ -39,17 +39,27 @@
     "previews": [
       {
         "type": "desktop",
-        "image": "/assets/img/shopify-sections/trust-badges-slider.png",
+        "image": "/assets/img/shopify-sections/trust-badge-slider-1.png",
         "alt": "Trust Badges Slider - Desktop View"
       },
       {
         "type": "tablet",
-        "image": "/assets/img/shopify-sections/trust-badges-slider.png",
+        "image": "/assets/img/shopify-sections/trust-badge-slider-2.png",
         "alt": "Trust Badges Slider - Tablet View"
       },
       {
         "type": "mobile",
-        "image": "/assets/img/shopify-sections/trust-badges-slider.png",
+        "image": "/assets/img/shopify-sections/trust-badge-slider-3.png",
+        "alt": "Trust Badges Slider - Mobile View"
+      },
+      {
+        "type": "tablet",
+        "image": "/assets/img/shopify-sections/trust-badge-slider-4.png",
+        "alt": "Trust Badges Slider - Tablet View"
+      },
+      {
+        "type": "mobile",
+        "image": "/assets/img/shopify-sections/trust-badge-slider-5.png",
         "alt": "Trust Badges Slider - Mobile View"
       }
     ]

@@ -35,17 +35,12 @@
     "previews": [
       {
         "type": "tablet",
-        "image": "/assets/img/shopify-sections/before-after-slider.png",
+        "image": "/assets/img/shopify-sections/before-after-1.png",
         "alt": "Before and After Slider - Tablet View"
       },
       {
-        "type": "tablet-cropped",
-        "image": "/assets/img/shopify-sections/before-after-slider.png",
-        "alt": "Before and After Slider - Cropped View"
-      },
-      {
         "type": "mobile",
-        "image": "/assets/img/shopify-sections/before-after-slider.png",
+        "image": "/assets/img/shopify-sections/before-after-2.png",
         "alt": "Before and After Slider - Mobile View"
       }
     ]

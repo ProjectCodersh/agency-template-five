@@ -35,17 +35,27 @@
     "previews": [
       {
         "type": "desktop",
-        "image": "/assets/img/shopify-sections/collection-grid.png",
+        "image": "/assets/img/shopify-sections/collection-grid-1.png",
         "alt": "Collection Grid Section - Desktop View"
       },
       {
         "type": "tablet",
-        "image": "/assets/img/shopify-sections/collection-grid.png",
+        "image": "/assets/img/shopify-sections/collection-grid-2.png",
         "alt": "Collection Grid Section - Tablet View"
       },
       {
         "type": "mobile",
-        "image": "/assets/img/shopify-sections/collection-grid.png",
+        "image": "/assets/img/shopify-sections/collection-grid-3.png",
+        "alt": "Collection Grid Section - Mobile View"
+      },
+      {
+        "type": "mobile",
+        "image": "/assets/img/shopify-sections/collection-grid-4.png",
+        "alt": "Collection Grid Section - Mobile View"
+      },
+      {
+        "type": "mobile",
+        "image": "/assets/img/shopify-sections/collection-grid-5.png",
         "alt": "Collection Grid Section - Mobile View"
       }
     ]

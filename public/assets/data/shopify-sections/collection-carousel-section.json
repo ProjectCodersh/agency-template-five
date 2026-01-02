@@ -39,17 +39,12 @@
     "previews": [
       {
         "type": "desktop",
-        "image": "/assets/img/shopify-sections/section-collection-carousel.png",
+        "image": "/assets/img/shopify-sections/collection-carousel-1.png",
         "alt": "Collection Carousel Section - Desktop View"
       },
       {
-        "type": "tablet",
-        "image": "/assets/img/shopify-sections/section-collection-carousel.png",
-        "alt": "Collection Carousel Section - Tablet View"
-      },
-      {
         "type": "mobile",
-        "image": "/assets/img/shopify-sections/section-collection-carousel.png",
+        "image": "/assets/img/shopify-sections/collection-carousel-3.png",
         "alt": "Collection Carousel Section - Mobile View"
       }
     ]

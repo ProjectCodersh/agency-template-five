@@ -43,13 +43,8 @@
         "alt": "Collection Showcase - Tablet View"
       },
       {
-        "type": "tablet-cropped",
-        "image": "/assets/img/shopify-sections/collection-showcase-2.png",
-        "alt": "Collection Showcase - Cropped View"
-      },
-      {
         "type": "mobile",
-        "image": "/assets/img/shopify-sections/collection-showcase-3.png",
+        "image": "/assets/img/shopify-sections/collection-showcase-card.png",
         "alt": "Collection Showcase - Mobile View"
       }
     ]

@@ -39,18 +39,13 @@
     "previews": [
       {
         "type": "tablet",
-        "image": "/assets/img/shopify-sections/section-23.png",
+        "image": "/assets/img/shopify-sections/comparison-table-1.png",
         "alt": "Video with Text - Tablet View"
       },
       {
         "type": "tablet-cropped",
-        "image": "/assets/img/shopify-sections/section-23.png",
+        "image": "/assets/img/shopify-sections/comparison-table-card.png",
         "alt": "Video with Text - Tablet View"
-      },
-      {
-        "type": "mobile",
-        "image": "/assets/img/shopify-sections/section-23.png",
-        "alt": "Video with Text - Mobile View"
       }
     ]
   },
@@ -112,7 +107,7 @@
       {
         "id": "33",
         "headertag": "Shopify Section",
-        "img": "/assets/img/shopify-sections/section-22.png",
+        "img": "/assets/img/shopify-sections/comparison-table-1.png",
         "sectiontitle": "Featured Collection",
         "sectiondescription": "Bring attention to selected collections to guide customers toward your most important products.",
         "sectionbtn": "View Section",
@@ -121,18 +116,9 @@
       {
         "id": "6",
         "headertag": "Shopify Section",
-        "img": "/assets/img/shopify-sections/section-9.png",
+        "img": "/assets/img/shopify-sections/comparison-table-card.png",
         "sectiontitle": "Collection Grid",
         "sectiondescription": "Showcase products in a structured grid layout that keeps your collections organized and visually appealing.",
-        "sectionbtn": "View Section",
-        "link": "#"
-      },
-      {
-        "id": "30",
-        "headertag": "Shopify Section",
-        "img": "/assets/img/shopify-sections/section-19.png",
-        "sectiontitle": "Image with Text Scroll",
-        "sectiondescription": "Tell engaging product or brand stories by combining images with smoothly scrolling text sections.",
         "sectionbtn": "View Section",
         "link": "#"
       }

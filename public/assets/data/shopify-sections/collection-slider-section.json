@@ -44,13 +44,8 @@
       },
       {
         "type": "tablet",
-        "image": "/assets/img/shopify-sections/collection-slider-2.png",
+        "image": "/assets/img/shopify-sections/collection-slider-card.png",
         "alt": "Collection Slider Section - Tablet View"
-      },
-      {
-        "type": "mobile",
-        "image": "/assets/img/shopify-sections/collection-slider-3.png",
-        "alt": "Collection Slider Section - Mobile View"
       }
     ]
   },

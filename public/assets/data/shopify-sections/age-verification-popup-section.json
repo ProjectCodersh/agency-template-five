@@ -39,18 +39,13 @@
     "previews": [
       {
         "type": "tablet",
-        "image": "/assets/img/shopify-sections/age-verification-1.png",
+        "image": "/assets/img/shopify-sections/age-verification-popup-1.png",
         "alt": "Age Verification Popup - Tablet View"
       },
       {
         "type": "tablet-cropped",
-        "image": "/assets/img/shopify-sections/age-verification-2.png",
+        "image": "/assets/img/shopify-sections/age-verification-popup-card.png",
         "alt": "Age Verification Popup - Cropped View"
-      },
-      {
-        "type": "mobile",
-        "image": "/assets/img/shopify-sections/age-verification-3.png",
-        "alt": "Age Verification Popup - Mobile View"
       }
     ]
   },

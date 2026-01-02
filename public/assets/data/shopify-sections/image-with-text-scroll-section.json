@@ -39,18 +39,13 @@
     "previews": [
       {
         "type": "tablet",
-        "image": "/assets/img/shopify-sections/section-19.png",
+        "image": "/assets/img/shopify-sections/image-text-scroll-1.png",
         "alt": "Image with Text Scroll - Tablet View"
       },
       {
         "type": "tablet-cropped",
-        "image": "/assets/img/shopify-sections/section-19.png",
+        "image": "/assets/img/shopify-sections/image-text-scroll-card.png",
         "alt": "Image with Text Scroll - Cropped View"
-      },
-      {
-        "type": "mobile",
-        "image": "/assets/img/shopify-sections/section-19.png",
-        "alt": "Image with Text Scroll - Mobile View"
       }
     ]
   },

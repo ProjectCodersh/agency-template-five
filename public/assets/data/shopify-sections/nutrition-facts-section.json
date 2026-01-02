@@ -39,18 +39,18 @@
     "previews": [
       {
         "type": "desktop",
-        "image": "/assets/img/shopify-sections/section-nutrition-facts.png",
+        "image": "/assets/img/shopify-sections/nutrition-1.png",
         "alt": "Nutrition Facts Section - Desktop View"
       },
       {
-        "type": "tablet",
-        "image": "/assets/img/shopify-sections/section-nutrition-facts.png",
-        "alt": "Nutrition Facts Section - Tablet View"
+        "type": "desktop",
+        "image": "/assets/img/shopify-sections/nutrition-2.png",
+        "alt": "Nutrition Facts Section - Desktop View"
       },
       {
-        "type": "mobile",
-        "image": "/assets/img/shopify-sections/section-nutrition-facts.png",
-        "alt": "Nutrition Facts Section - Mobile View"
+        "type": "tablet-cropped",
+        "image": "/assets/img/shopify-sections/nutrition-card.png",
+        "alt": "Nutrition Facts Section - Tablet View"
       }
     ]
   },
