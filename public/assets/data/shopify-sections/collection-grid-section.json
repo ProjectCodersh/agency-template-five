@@ -113,36 +113,5 @@
         }
       ]
     }
-  },
-  "trendingSections": {
-    "allSections": [
-      {
-        "id": "23",
-        "headertag": "Shopify Section",
-        "img": "/assets/img/shopify-sections/section-23.png",
-        "sectiontitle": "Video with Text",
-        "sectiondescription": "Combine video and text to communicate your message clearly.",
-        "sectionbtn": "View Section",
-        "link": "#"
-      },
-      {
-        "id": "12",
-        "headertag": "Shopify Section",
-        "img": "/assets/img/shopify-sections/section-12.png",
-        "sectiontitle": "Before & After Slider",
-        "sectiondescription": "Highlight transformations with an interactive image comparison.",
-        "sectionbtn": "View Section",
-        "link": "#"
-      },
-      {
-        "id": "6",
-        "headertag": "Shopify Section",
-        "img": "/assets/img/shopify-sections/section-9.png",
-        "sectiontitle": "Featured Collection",
-        "sectiondescription": "Showcase key collections to guide customer navigation.",
-        "sectionbtn": "View Section",
-        "link": "#"
-      }
-    ]
   }
 }

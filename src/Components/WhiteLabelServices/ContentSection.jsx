@@ -97,7 +97,10 @@ const ContentSection = ({ data }) => {
                       <div className="mb-4">
                         {/* Heading with optional icon image or default numbered badge */}
                         {col.subtitle && (
-                          <h4 className="fw-bold mb-2 d-flex align-items-center">
+                          <h4
+                            className="fw-bold mb-2 d-flex align-items-center"
+                            style={{ textTransform: 'none' }}
+                          >
                             {isIconImage ? (
                               // Display uploaded icon image
                               <span
@@ -165,8 +168,8 @@ const ContentSection = ({ data }) => {
                         {hasHighlights && (
                           <ul className="list-items flex-column align-items-start">
                             {col.highlights.map((point, i) => (
-                              <li key={`${point}-${i}`}>
-                                <span>{parse(point)}</span>
+                              <li key={`${point}-${i}`} style={{ textTransform: 'none' }}>
+                                <span style={{ textTransform: 'none' }}>{parse(point)}</span>
                               </li>
                             ))}
                           </ul>

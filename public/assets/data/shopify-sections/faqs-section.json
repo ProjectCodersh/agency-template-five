@@ -122,36 +122,5 @@
         }
       ]
     }
-  },
-  "trendingSections": {
-    "allSections": [
-      {
-        "id": "33",
-        "headertag": "Shopify Section",
-        "img": "/assets/img/shopify-sections/section-22.png",
-        "sectiontitle": "Featured Collection",
-        "sectiondescription": "Highlight selected collections to guide customers toward your most important products.",
-        "sectionbtn": "View Section",
-        "link": "#"
-      },
-      {
-        "id": "6",
-        "headertag": "Shopify Section",
-        "img": "/assets/img/shopify-sections/section-9.png",
-        "sectiontitle": "Collection Grid",
-        "sectiondescription": "Display collections in a clean grid layout that keeps your store organized and easy to browse.",
-        "sectionbtn": "View Section",
-        "link": "#"
-      },
-      {
-        "id": "30",
-        "headertag": "Shopify Section",
-        "img": "/assets/img/shopify-sections/section-19.png",
-        "sectiontitle": "Image with Text Scroll",
-        "sectiondescription": "Combine images with scrolling text to tell product or brand stories in a smooth, engaging way.",
-        "sectionbtn": "View Section",
-        "link": "#"
-      }
-    ]
   }
 }

@@ -46,7 +46,7 @@ const ShopifySectionsContainer = () => {
         </div>
       </div>
       <div className="container-fluid container-lg px-3 px-lg-0">
-        <div className="row justify-content-center">
+        <div className="row">
           {sections.map((section, index) => (
             <div className="col-12 col-md-6 col-xl-4 my-5 d-flex" key={index}>
               <ShopifySectionsCard section={section} index={index} />

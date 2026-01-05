@@ -117,36 +117,5 @@
         }
       ]
     }
-  },
-  "trendingSections": {
-    "allSections": [
-      {
-        "id": "6",
-        "headertag": "Shopify Section",
-        "img": "/assets/img/shopify-sections/section-9.png",
-        "sectiontitle": "Collection Grid",
-        "sectiondescription": "Display collections in a structured grid layout for easy browsing.",
-        "sectionbtn": "View Section",
-        "link": "#"
-      },
-      {
-        "id": "23",
-        "headertag": "Shopify Section",
-        "img": "/assets/img/shopify-sections/section-23.png",
-        "sectiontitle": "Video with Text",
-        "sectiondescription": "Combine video and text to highlight key messages or promotions.",
-        "sectionbtn": "View Section",
-        "link": "#"
-      },
-      {
-        "id": "24",
-        "headertag": "Shopify Section",
-        "img": "/assets/img/shopify-sections/section-footer.png",
-        "sectiontitle": "Footer Section",
-        "sectiondescription": "Organize links, information, and branding in a clean footer layout.",
-        "sectionbtn": "View Section",
-        "link": "#"
-      }
-    ]
   }
 }

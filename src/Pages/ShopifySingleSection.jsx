@@ -108,9 +108,7 @@ function ShopifySingleSection() {
         {pageData.featureDocumentation && (
           <FeatureDocumentationSection data={pageData.featureDocumentation} />
         )}
-        {pageData.trendingSections && (
-          <TrendingSections data={pageData.trendingSections.allSections} />
-        )}
+        <TrendingSections />
       </Suspense>
     </main>
   );

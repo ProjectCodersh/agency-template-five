@@ -130,7 +130,11 @@ const FAQSectionTwo = ({ data, addclass = '' }) => {
                           data-wow-delay=".3s"
                         >
                           <h5 onClick={() => handleItemClick(index)} className="accordion-header">
-                            <button className="accordion-button collapsed" type="button">
+                            <button
+                              className="accordion-button collapsed"
+                              type="button"
+                              style={{ textTransform: 'none' }}
+                            >
                               {item.title}
                             </button>
                           </h5>

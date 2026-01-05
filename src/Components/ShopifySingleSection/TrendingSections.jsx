@@ -43,34 +43,34 @@ const TrendingSections = ({ data }) => {
         // Fallback to default sections if fetch fails
         setSections([
           {
-            id: '33',
+            id: '1',
             headertag: 'Shopify Section',
-            img: '/assets/img/shopify-sections/section-22.png',
+            img: '/assets/img/shopify-sections/featured-collection-card.png',
             sectiontitle: 'Featured Collection',
             sectiondescription:
               'Bring attention to selected collections to guide customers toward your most important products.',
             sectionbtn: 'View Section',
-            link: '#',
+            link: '/new-services/cms/shopify-sections/featured-collection-section',
           },
           {
-            id: '6',
+            id: '2',
             headertag: 'Shopify Section',
-            img: '/assets/img/shopify-sections/section-9.png',
+            img: '/assets/img/shopify-sections/collection-grid-card.png',
             sectiontitle: 'Collection Grid',
             sectiondescription:
               'Showcase products in a structured grid layout that keeps your collections organized and visually appealing.',
             sectionbtn: 'View Section',
-            link: '#',
+            link: '/new-services/cms/shopify-sections/collection-grid-section',
           },
           {
-            id: '30',
+            id: '3',
             headertag: 'Shopify Section',
-            img: '/assets/img/shopify-sections/section-19.png',
-            sectiontitle: 'Image with Text Scroll',
+            img: '/assets/img/shopify-sections/video-grid-card.png',
+            sectiontitle: 'Video Grid',
             sectiondescription:
-              'Tell engaging product or brand stories by combining images with smoothly scrolling text sections.',
+              'Display multiple videos in a grid format to share product demos, tutorials, or brand stories in one place.',
             sectionbtn: 'View Section',
-            link: '#',
+            link: '/new-services/cms/shopify-sections/video-grid-section',
           },
         ]);
       } finally {
@@ -109,7 +109,7 @@ const TrendingSections = ({ data }) => {
             <div className="loading">Loading trending sections...</div>
           </div>
         ) : sections.length > 0 ? (
-          <div className="row g-4 justify-content-center mt-4">
+          <div className="row g-4 mt-4">
             {sections.map((section, index) => (
               <div key={section.id || index} className="col-12 col-md-6 col-lg-4 d-flex">
                 <ShopifySectionsCard section={section} index={index} />

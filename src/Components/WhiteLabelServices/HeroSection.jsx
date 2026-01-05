@@ -20,8 +20,8 @@ const HeroSection = () => {
     img: '/assets/img/newservices/shopify-service-vector-1.png',
     btnname: 'HIRE EXPERTS',
     linkname: 'VIEW OUR WORK',
-    linkurl: '/case-study',
-    btnurl: '/new-services',
+    linkurl: '/work',
+    btnurl: 'https://calendly.com/codersh-web-services/15min',
   };
 
   return (

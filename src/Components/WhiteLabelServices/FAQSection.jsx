@@ -1,4 +1,5 @@
 import { useRef, useState } from 'react';
+import parse from 'html-react-parser';
 
 /**
  * FAQSection
@@ -92,7 +93,7 @@ const FAQSection = ({ data }) => {
                             type="button"
                             style={{ textTransform: 'none' }}
                           >
-                            {item.title}
+                            {parse(item.title)}
                           </button>
                         </h5>
 
@@ -107,7 +108,7 @@ const FAQSection = ({ data }) => {
                               : '0px',
                           }}
                         >
-                          <div className="accordion-body">{item.content}</div>
+                          <div className="accordion-body">{parse(item.content)}</div>
                         </div>
                       </div>
                     );
@@ -137,7 +138,7 @@ const FAQSection = ({ data }) => {
                               type="button"
                               style={{ textTransform: 'none' }}
                             >
-                              {item.title}
+                              {parse(item.title)}
                             </button>
                           </h5>
 
@@ -152,7 +153,7 @@ const FAQSection = ({ data }) => {
                                 : '0px',
                             }}
                           >
-                            <div className="accordion-body">parse{item.content}</div>
+                            <div className="accordion-body">{parse(item.content)}</div>
                           </div>
                         </div>
                       );

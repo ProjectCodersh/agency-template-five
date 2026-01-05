@@ -54,7 +54,7 @@ function Tools2() {
     list34: 'Site Migration from Another Platform',
     list35: 'Domain Mapping with DNS Records',
     list36: 'Email MX Records Setup',
-    list37: 'amWebmail / Outlook Setupd',
+    list37: 'Webmail / Outlook Setup',
   };
 
   const serviceGroups = [

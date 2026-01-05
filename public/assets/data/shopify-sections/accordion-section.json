@@ -108,36 +108,5 @@
         }
       ]
     }
-  },
-  "trendingSections": {
-    "allSections": [
-      {
-        "id": "23",
-        "headertag": "Shopify Section",
-        "img": "/assets/img/shopify-sections/section-23.png",
-        "sectiontitle": "Video with Text",
-        "sectiondescription": "Combine engaging video content with clear text to communicate your message effectively.",
-        "sectionbtn": "View Section",
-        "link": "#"
-      },
-      {
-        "id": "6",
-        "headertag": "Shopify Section",
-        "img": "/assets/img/shopify-sections/section-9.png",
-        "sectiontitle": "Collection Grid",
-        "sectiondescription": "Display collections in a structured grid layout for better organization and visibility.",
-        "sectionbtn": "View Section",
-        "link": "#"
-      },
-      {
-        "id": "30",
-        "headertag": "Shopify Section",
-        "img": "/assets/img/shopify-sections/section-19.png",
-        "sectiontitle": "Image with Text Scroll",
-        "sectiondescription": "Tell product or brand stories using images paired with smooth scrolling text.",
-        "sectionbtn": "View Section",
-        "link": "#"
-      }
-    ]
   }
 }

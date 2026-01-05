@@ -10178,6 +10178,12 @@ input.main-search-input::placeholder {
   color: var(--white);
 }
 
+.cs_main_header_right .main-button.main-btn-area2:hover .theme-btn,
+.cs_main_header_right .main-button.main-btn-area2:hover .arrow-btn {
+  background-color: var(--black);
+  color: var(--white);
+}
+
 .testimonial-slider-2 .slick-slide img {
   display: unset;
 }

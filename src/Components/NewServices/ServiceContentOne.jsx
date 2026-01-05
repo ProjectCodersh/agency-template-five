@@ -109,7 +109,7 @@ const ServiceContentOne = () => {
                   </ul>
                 </div>
                 <div className="main-button wow fadeInUp" data-wow-delay=".5s">
-                  <Link to="/team">
+                  <Link to="https://calendly.com/codersh-web-services/15min">
                     <span className="theme-btn"> Get Free Quotes Now! </span>
                   </Link>
                 </div>
