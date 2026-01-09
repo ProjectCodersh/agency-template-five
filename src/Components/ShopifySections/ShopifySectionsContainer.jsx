@@ -34,10 +34,10 @@ const ShopifySectionsContainer = () => {
       <div className="section-title-area text-center justify-content-center mb-4">
         <div className="section-title">
           <div className="sub-title wow fadeInUp">
-            <span>Shopify Sections</span>
+            <span>CONVERSION-READY SECTIONS</span>
           </div>
           <h2 className="wow fadeInUp" data-wow-delay=".3s">
-            Shopify Sections.
+            Browse Shopify Sections
           </h2>
           <p className="wow fadeInUp mt-2" data-wow-delay=".5s" style={{ borderLeft: 'none' }}>
             Explore our comprehensive library of premium, no-code Shopify sections. Designed to

@@ -15,8 +15,8 @@
       "Improves clarity and customer confidence"
     ],
     "ctaButton": {
-      "text": "Hire a Shopify developer to add this section.",
-      "link": "#"
+      "text": "Hire a Shopify developer to add this section",
+      "link": "https://calendly.com/codersh-web-services/15min"
     },
     "featureIcons": [
       {
@@ -113,7 +113,7 @@
         {
           "number": 3,
           "title": "Section Setup",
-          "description": "Update questions, answers, and styling from the Theme Editor. No code required."
+          "description": "Update questions, answers, and styling from the Theme Editor, No code required."
         },
         {
           "number": 4,

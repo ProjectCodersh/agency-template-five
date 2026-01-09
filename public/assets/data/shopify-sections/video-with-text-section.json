@@ -15,8 +15,8 @@
       "Designed for modern Shopify storefronts"
     ],
     "ctaButton": {
-      "text": "Hire a Shopify developer to add this section.",
-      "link": "#"
+      "text": "Hire a Shopify developer to add this section",
+      "link": "https://calendly.com/codersh-web-services/15min"
     },
     "featureIcons": [
       {
@@ -40,11 +40,6 @@
       {
         "type": "tablet",
         "image": "/assets/img/shopify-sections/video-text-1.png",
-        "alt": "Video with Text - Tablet View"
-      },
-      {
-        "type": "tablet-cropped",
-        "image": "/assets/img/shopify-sections/video-text-card.png",
         "alt": "Video with Text - Tablet View"
       }
     ]

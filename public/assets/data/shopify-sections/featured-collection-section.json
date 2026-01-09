@@ -15,8 +15,8 @@
       "Optimized for product discovery"
     ],
     "ctaButton": {
-      "text": "Hire a Shopify developer to add this section.",
-      "link": "#"
+      "text": "Hire a Shopify developer to add this section",
+      "link": "https://calendly.com/codersh-web-services/15min"
     },
     "featureIcons": [
       {
@@ -103,7 +103,7 @@
         {
           "number": 3,
           "title": "Section Setup",
-          "description": "Adjust collection and layout settings in the Theme Editor. No code required."
+          "description": "Adjust collection and layout settings in the Theme Editor, No code required."
         },
         {
           "number": 4,

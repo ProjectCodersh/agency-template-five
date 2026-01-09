@@ -7,7 +7,7 @@ const ServiceContentTwo = () => {
     subtitle: 'Hire Shopify Developer',
     title: 'Hire Shopify Developer',
     content:
-      'Take full control of your Shopify project with Codersh Web Services. Our dedicated Shopify developers work as part of your extended team—offering flexible engagement models, transparent workflows, and tailored solutions for your business growth.',
+      'Take full control of your Shopify project with Codersh Web Services. Our dedicated Shopify developers work as part of your extended team - offering flexible engagement models, transparent workflows, and tailored solutions for your business growth.',
     img: '/assets/img/newservices/shopify-service-3.png',
     list1: 'Monthly Payment',
     list2: 'No Setup Expenses',

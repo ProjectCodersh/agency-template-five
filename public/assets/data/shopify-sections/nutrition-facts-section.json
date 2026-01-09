@@ -15,8 +15,8 @@
       "Clear and compliant nutrition layout"
     ],
     "ctaButton": {
-      "text": "Hire a Shopify developer to add this section.",
-      "link": "#"
+      "text": "Hire a Shopify developer to add this section",
+      "link": "https://calendly.com/codersh-web-services/15min"
     },
     "featureIcons": [
       {
@@ -98,7 +98,7 @@
         {
           "number": 3,
           "title": "Section Setup",
-          "description": "Update nutrition values and content directly from the Theme Editor. No code required."
+          "description": "Update nutrition values and content directly from the Theme Editor, No code required."
         },
         {
           "number": 4,

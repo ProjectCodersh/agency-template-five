@@ -4,7 +4,7 @@
       "ShopifySectionsCard": [
         {
           "id": "1",
-          "headertag": "Shopify Section",
+          "headertag": "Product Information",
           "img": "/assets/img/shopify-sections/nutrition-card.png",
           "sectiontitle": "Nutrition Facts",
           "sectiondescription": "Present essential nutrition details clearly, including calories, ingredients, and serving information, to help customers make informed purchase decisions.",
@@ -13,7 +13,7 @@
         },
         {
           "id": "2",
-          "headertag": "Shopify Section",
+          "headertag": "Content Toggle",
           "img": "/assets/img/shopify-sections/accordion-card.png",
           "sectiontitle": "Accordion",
           "sectiondescription": "Keep your store layout clean by grouping content into expandable sections that make information easy to browse and digest.",
@@ -22,7 +22,7 @@
         },
         {
           "id": "3",
-          "headertag": "Shopify Section",
+          "headertag": "Storytelling",
           "img": "/assets/img/shopify-sections/video-text-card.png",
           "sectiontitle": "Video with Text",
           "sectiondescription": "Combine video visuals with supporting text to communicate product features, benefits, or brand messages more effectively.",
@@ -31,7 +31,7 @@
         },
         {
           "id": "4",
-          "headertag": "Shopify Section",
+          "headertag": "Visual Comparison",
           "img": "/assets/img/shopify-sections/before-after-card.png",
           "sectiontitle": "Before & After Slider",
           "sectiondescription": "Allow customers to visually compare results using a smooth slider that highlights product changes or transformations.",
@@ -40,7 +40,7 @@
         },
         {
           "id": "6",
-          "headertag": "Shopify Section",
+          "headertag": "Product Discovery",
           "img": "/assets/img/shopify-sections/collection-grid-card.png",
           "sectiontitle": "Collection Grid",
           "sectiondescription": "Showcase products in a structured grid layout that keeps your collections organized and visually appealing.",
@@ -49,7 +49,7 @@
         },
         {
           "id": "7",
-          "headertag": "Shopify Section",
+          "headertag": "Video Showcase",
           "img": "/assets/img/shopify-sections/video-grid-card.png",
           "sectiontitle": "Video Grid",
           "sectiondescription": "Display multiple videos in a grid format to share product demos, tutorials, or brand stories in one place.",
@@ -58,7 +58,7 @@
         },
         {
           "id": "10",
-          "headertag": "Shopify Section",
+          "headertag": "Announcement Bar",
           "img": "/assets/img/shopify-sections/scrolling-text-card.png",
           "sectiontitle": "Scrolling Text",
           "sectiondescription": "Highlight promotions, announcements, or important messages using smooth, eye-catching scrolling text.",
@@ -67,7 +67,7 @@
         },
         {
           "id": "11",
-          "headertag": "Shopify Section",
+          "headertag": "Product Discovery",
           "img": "/assets/img/shopify-sections/collection-slider-card.png",
           "sectiontitle": "Collection Slider",
           "sectiondescription": "Present product collections in a swipeable slider that makes browsing effortless and interactive.",
@@ -76,7 +76,7 @@
         },
         {
           "id": "12",
-          "headertag": "Shopify Section",
+          "headertag": "Decision Helper",
           "img": "/assets/img/shopify-sections/comparison-table-card.png",
           "sectiontitle": "Comparison Table",
           "sectiondescription": "Help shoppers compare products easily by displaying key features and differences in a structured table layout.",
@@ -85,7 +85,7 @@
         },
         {
           "id": "13",
-          "headertag": "Shopify Section",
+          "headertag": "Brand Storytelling",
           "img": "/assets/img/shopify-sections/image-text-card.png",
           "sectiontitle": "Image with Text",
           "sectiondescription": "Pair visuals with meaningful text to communicate brand values, product benefits, or important information clearly.",
@@ -94,7 +94,7 @@
         },
         {
           "id": "16",
-          "headertag": "Shopify Section",
+          "headertag": "Visual Merchandising",
           "img": "/assets/img/shopify-sections/collection-carousel-card.png",
           "sectiontitle": "Collection Carousel",
           "sectiondescription": "Display multiple collections in a horizontal carousel to improve product discovery and navigation.",
@@ -104,7 +104,7 @@
 
         {
           "id": "18",
-          "headertag": "Shopify Section",
+          "headertag": "Lead Capture",
           "img": "/assets/img/shopify-sections/newsletter-form-card.png",
           "sectiontitle": "Newsletter Form",
           "sectiondescription": "Capture email subscribers with a simple and customizable form designed to grow your mailing list.",
@@ -114,7 +114,7 @@
 
         {
           "id": "20",
-          "headertag": "Shopify Section",
+          "headertag": "Brand Trust",
           "img": "/assets/img/shopify-sections/aboutus-page-card.png",
           "sectiontitle": "About Us Page",
           "sectiondescription": "Share your brand’s story, mission, and values in a well-structured layout that builds customer trust.",
@@ -124,7 +124,7 @@
 
         {
           "id": "22",
-          "headertag": "Shopify Section",
+          "headertag": "Site Navigation",
           "img": "/assets/img/shopify-sections/footer-card.png",
           "sectiontitle": "Footer",
           "sectiondescription": "Organize navigation links, contact details, social icons, and payment options in a clean, functional footer layout.",
@@ -134,7 +134,7 @@
 
         {
           "id": "27",
-          "headertag": "Shopify Section",
+          "headertag": "Featured Products",
           "img": "/assets/img/shopify-sections/collection-showcase-card.png",
           "sectiontitle": "Collection Showcase",
           "sectiondescription": "Highlight selected collections in an attractive layout that encourages customers to explore more products.",
@@ -143,7 +143,7 @@
         },
         {
           "id": "28",
-          "headertag": "Shopify Section",
+          "headertag": "Compliance Gate",
           "img": "/assets/img/shopify-sections/age-verification-popup-card.png",
           "sectiontitle": "Age Verification Popup",
           "sectiondescription": "Prompt visitors to confirm their age before accessing your store to meet legal or compliance requirements.",
@@ -152,7 +152,7 @@
         },
         {
           "id": "30",
-          "headertag": "Shopify Section",
+          "headertag": "Scroll Storytelling",
           "img": "/assets/img/shopify-sections/image-text-scroll-card.png",
           "sectiontitle": "Image with Text Scroll",
           "sectiondescription": "Tell engaging product or brand stories by combining images with smoothly scrolling text sections.",
@@ -161,7 +161,7 @@
         },
         {
           "id": "31",
-          "headertag": "Shopify Section",
+          "headertag": "Support & Clarity",
           "img": "/assets/img/shopify-sections/faqs-card.png",
           "sectiontitle": "FAQs",
           "sectiondescription": "Provide clear answers to common questions to reduce customer hesitation and support inquiries.",
@@ -170,7 +170,7 @@
         },
         {
           "id": "32",
-          "headertag": "Shopify Section",
+          "headertag": "Conversion Trust",
           "img": "/assets/img/shopify-sections/trust-badge-slider-card.png",
           "sectiontitle": "Trust Badges Slider",
           "sectiondescription": "Display security, payment, and guarantee badges in a slider to build confidence during shopping.",
@@ -179,7 +179,7 @@
         },
         {
           "id": "33",
-          "headertag": "Shopify Section",
+          "headertag": "Sales Focus",
           "img": "/assets/img/shopify-sections/featured-collection-card.png",
           "sectiontitle": "Featured Collection",
           "sectiondescription": "Bring attention to selected collections to guide customers toward your most important products.",

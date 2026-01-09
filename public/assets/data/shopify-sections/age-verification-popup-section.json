@@ -15,8 +15,8 @@
       "Suitable for age-restricted products"
     ],
     "ctaButton": {
-      "text": "Hire a Shopify developer to add this section.",
-      "link": "#"
+      "text": "Hire a Shopify developer to add this section",
+      "link": "https://calendly.com/codersh-web-services/15min"
     },
     "featureIcons": [
       {
@@ -41,11 +41,6 @@
         "type": "tablet",
         "image": "/assets/img/shopify-sections/age-verification-popup-1.png",
         "alt": "Age Verification Popup - Tablet View"
-      },
-      {
-        "type": "tablet-cropped",
-        "image": "/assets/img/shopify-sections/age-verification-popup-card.png",
-        "alt": "Age Verification Popup - Cropped View"
       }
     ]
   },
@@ -93,7 +88,7 @@
         {
           "number": 3,
           "title": "Section Setup",
-          "description": "Adjust popup content, behavior, and styling from the Theme Editor. No code required."
+          "description": "Adjust popup content, behavior, and styling from the Theme Editor, No code required."
         },
         {
           "number": 4,

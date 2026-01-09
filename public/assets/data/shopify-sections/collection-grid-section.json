@@ -65,7 +65,7 @@
       "heading": "What is the Collection Grid Section?",
       "paragraphs": [
         "The Collection Grid Section is a Shopify section designed to showcase your product collections in a structured, visually balanced grid layout.",
-        "It helps store visitors quickly browse and understand your offerings by highlighting collection images, titles, and calls to action.",
+        "It helps store visitors quickly browse and understand your offerings by highlighting collection images, titles, and call to actions.",
         "With flexible layout options, this section adapts seamlessly across devices while maintaining a clean and professional storefront appearance."
       ],
       "subheading": "Customization Options",
@@ -80,7 +80,7 @@
         },
         {
           "title": "Button Configuration",
-          "description": "Add a customizable call-to-action button such as “Shop Now.”"
+          "description": "Add a customizable call-to-action button such as 'Shop Now'."
         },
         {
           "title": "Color & Styling",

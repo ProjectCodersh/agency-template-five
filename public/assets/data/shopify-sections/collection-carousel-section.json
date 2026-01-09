@@ -15,8 +15,8 @@
       "Smooth carousel browsing experience"
     ],
     "ctaButton": {
-      "text": "Hire a Shopify developer to add this section.",
-      "link": "#"
+      "text": "Hire a Shopify developer to add this section",
+      "link": "https://calendly.com/codersh-web-services/15min"
     },
     "featureIcons": [
       {
@@ -93,7 +93,7 @@
         {
           "number": 3,
           "title": "Section Setup",
-          "description": "Adjust carousel and collection settings in the Theme Editor. No code required."
+          "description": "Adjust carousel and collection settings in the Theme Editor, No code required."
         },
         {
           "number": 4,

@@ -4,6 +4,7 @@ function WpPartnerSection() {
       id: 'clutch',
       name: 'Clutch',
       logo: '/assets/img/clutchlogo.webp',
+      link: 'https://clutch.co/profile/codersh-web-services?utm_source=widget&utm_medium=2&utm_campaign=widget&utm_content=num_reviews&utm_term=codersh.com#reviews',
       reviews: '120 Reviews',
       rating: 5.0,
     },
@@ -11,6 +12,7 @@ function WpPartnerSection() {
       id: 'upwork',
       name: 'Upwork',
       logo: '/assets/img/upwork.webp',
+      link: 'https://www.upwork.com/agencies/codersh/',
       reviews: '2000+ Reviews',
       rating: 5.0,
     },
@@ -18,6 +20,7 @@ function WpPartnerSection() {
       id: 'goodfirms',
       name: 'GoodFirms',
       logo: '/assets/img/goodfirmslogo.webp',
+      link: 'https://www.goodfirms.co/company/codersh-web-services',
       reviews: '169 Reviews',
       rating: 5.0,
     },
@@ -98,6 +101,8 @@ function WpPartnerSection() {
                     key={platform.id}
                     className="review-widget wow fadeInUp"
                     data-wow-delay={`${0.5 + index * 0.1}s`}
+                    onClick={() => window.open(platform.link, '_blank')}
+                    style={{ cursor: 'pointer' }}
                   >
                     <div className="review-widget-badge">{platform.reviews}</div>
 

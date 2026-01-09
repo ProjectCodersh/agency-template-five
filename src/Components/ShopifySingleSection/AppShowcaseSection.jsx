@@ -342,6 +342,12 @@ const AppShowcaseSection = ({ data }) => {
                   textTransform: 'uppercase',
                   borderRadius: '8px',
                   transition: 'all 0.2s ease-in-out',
+                  cursor: 'pointer',
+                }}
+                onClick={() => {
+                  if (sectionData.ctaButton?.link) {
+                    window.open(sectionData.ctaButton.link, '_blank', 'noopener,noreferrer');
+                  }
                 }}
                 onMouseEnter={(e) => {
                   e.target.style.backgroundColor = '#2D2D2D';
@@ -359,7 +365,7 @@ const AppShowcaseSection = ({ data }) => {
 
               {/* Feature Icons Grid */}
               <div className="feature-icons-grid">
-                <div className="row g-3">
+                <div className="row gx-1 gy-1">
                   {sectionData.featureIcons.map((item, index) => (
                     <div key={index} className="col-6">
                       <div
@@ -367,6 +373,8 @@ const AppShowcaseSection = ({ data }) => {
                         style={{
                           fontSize: '13px',
                           color: '#6B6B6B',
+                          width: '100%',
+                          justifyContent: 'flex-start',
                         }}
                       >
                         <i className={`bi ${item.icon}`} style={{ fontSize: '18px' }} />

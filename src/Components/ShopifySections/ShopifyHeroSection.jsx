@@ -13,10 +13,10 @@ const ShopifyHeroSection = () => {
     subtitle: 'go for advertising',
     title: ' Ready-Made <span>Shopify Sections</span> for Faster Store Growth',
     content:
-      'Launch stunning, ready-to-use Shopify sections that improve user experience, increase conversions, and save development time — no coding required.',
+      'Launch stunning, ready-to-use Shopify sections that improve user experience, increase conversions, and save development time; no coding required.',
     img: '/assets/img/hero/hero-image-3.png',
     btnname: 'Explore Sections',
-    btnurl: '/shopify-sections',
+    btnurl: '/new-services/cms/shopify-sections/image-with-text-section',
     linkname: 'View Our Work',
     linkurl: '/work',
   };

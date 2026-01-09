@@ -150,7 +150,7 @@ const ContactInfo2 = () => {
         </div>
       </section>
 
-      <section className="contact-section-33 fix">
+      <section className="contact-section-33 fix section-padding pt-0">
         <div className="container px-3">
           <div className="contact-wrapper-2">
             <div className="row g-4 align-items-center">

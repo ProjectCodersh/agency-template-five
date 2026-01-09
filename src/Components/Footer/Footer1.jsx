@@ -73,7 +73,7 @@ const Footer1 = () => {
                       <a href="https://www.instagram.com/codersh.web/">
                         <i className="bi bi-instagram"></i>
                       </a>
-                      <a href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2F30213091%2Fadmin%2Fanalytics%2Ffollowers%2F">
+                      <a href="https://www.linkedin.com/company/codersh-web-services/">
                         <i className="bi bi-linkedin"></i>
                       </a>
                       <a href="https://wa.me/9998134094?text=Hello%2C%20I%20want%20to%20inquire%20about%20your%20services.">
@@ -94,16 +94,19 @@ const Footer1 = () => {
                           id: 'goodfirms',
                           name: 'GoodFirms',
                           logo: '/assets/img/footer/footer-goodfirms.png',
+                          link: 'https://www.goodfirms.co/company/codersh-web-services',
                         },
                         {
                           id: 'clutch',
                           name: 'Clutch',
                           logo: '/assets/img/footer/footer-clutch.png',
+                          link: 'https://clutch.co/profile/codersh-web-services?utm_source=widget&utm_medium=2&utm_campaign=widget&utm_content=num_reviews&utm_term=codersh.com#reviews',
                         },
                         {
                           id: 'upwork',
                           name: 'Upwork',
                           logo: '/assets/img/footer/footer-upwork.png',
+                          link: 'https://www.upwork.com/agencies/codersh/',
                         },
                       ].map((platform, index) => (
                         <div
@@ -113,7 +116,9 @@ const Footer1 = () => {
                           style={{
                             flex: '1 1 0',
                             minWidth: 0,
+                            cursor: 'pointer',
                           }}
+                          onClick={() => window.open(platform.link, '_blank')}
                         >
                           <img
                             src={platform.logo}

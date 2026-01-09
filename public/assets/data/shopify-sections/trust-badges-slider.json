@@ -15,8 +15,8 @@
       "Designed to improve trust and conversions"
     ],
     "ctaButton": {
-      "text": "Hire a Shopify developer to add this section.",
-      "link": "#"
+      "text": "Hire a Shopify developer to add this section",
+      "link": "https://calendly.com/codersh-web-services/15min"
     },
     "featureIcons": [
       {
@@ -108,7 +108,7 @@
         {
           "number": 3,
           "title": "Section Setup",
-          "description": "Update badges, images, and layout settings from the Theme Editor. No code required."
+          "description": "Update badges, images, and layout settings from the Theme Editor, No code required."
         },
         {
           "number": 4,

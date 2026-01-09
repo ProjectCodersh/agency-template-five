@@ -152,7 +152,9 @@ const CaseStudy4 = () => {
                       <Link to={`/case-study/${item.slug}`}>{item.title}</Link>
                     </h3>
                     <p>{item.subtitle}</p>
-                    <p className="clamp-2-lines">{item.description}</p>
+                    <p className="clamp-2-lines" style={{ textTransform: 'none' }}>
+                      {item.description}
+                    </p>
                   </div>
                   <Link
                     to={`/case-study/${item.slug}`}

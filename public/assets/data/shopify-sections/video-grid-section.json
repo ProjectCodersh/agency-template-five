@@ -15,8 +15,8 @@
       "Clean, modern, and conversion-focused design"
     ],
     "ctaButton": {
-      "text": "Hire a Shopify developer to add this section.",
-      "link": "#"
+      "text": "Hire a Shopify developer to add this section",
+      "link": "https://calendly.com/codersh-web-services/15min"
     },
     "featureIcons": [
       {
@@ -41,11 +41,6 @@
         "type": "tablet",
         "image": "/assets/img/shopify-sections/video-grid-1.png",
         "alt": "Video Grid Section - Tablet View"
-      },
-      {
-        "type": "tablet-cropped",
-        "image": "/assets/img/shopify-sections/video-grid-card.png",
-        "alt": "Video Grid Section - Cropped View"
       }
     ]
   },
