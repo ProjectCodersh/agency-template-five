@@ -64,7 +64,8 @@ function CaseStudyDetailsNew({ data, list = [] }) {
                       <ul className="list-items flex-column align-items-start">
                         {list.items.map((item, itemIndex) => (
                           <li key={itemIndex}>
-                            <span>{item}</span>
+                            <span style={{ textTransform: 'none' }}>{item}</span>
+                            {/* <span>{item}</span> */}
                           </li>
                         ))}
                       </ul>

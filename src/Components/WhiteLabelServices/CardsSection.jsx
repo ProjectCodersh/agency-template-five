@@ -37,50 +37,50 @@ const CardsSection = ({ data }) => {
     <section className="service-section fix section-padding">
       <div className="bg-shape">
         {bgShape && (
-        <img
+          <img
             src={bgShape}
-          alt="Background Decorative Shape"
+            alt="Background Decorative Shape"
             className="img-fluid"
-          loading="lazy"
-        />
+            loading="lazy"
+          />
         )}
       </div>
 
       <div className="container px-3">
         {hasHeading && (
-        <div className="section-title-area">
-          <div className="section-title">
+          <div className="section-title-area">
+            <div className="section-title">
               {subtitle && (
-            <div className="sub-title wow fadeInUp">
+                <div className="sub-title wow fadeInUp">
                   <span>{subtitle}</span>
-            </div>
+                </div>
               )}
 
               {title && (
-            <h2 className="wow fadeInUp" data-wow-delay=".3s">
+                <h2 className="wow fadeInUp" data-wow-delay=".3s">
                   {parse(title)}
-            </h2>
+                </h2>
               )}
-          </div>
+            </div>
 
             {content && (
-            <p className="wow fadeInUp" data-wow-delay=".5s">
+              <p className="wow fadeInUp" data-wow-delay=".5s">
                 {parse(content)}
-            </p>
-          )}
-        </div>
+              </p>
+            )}
+          </div>
         )}
 
         {hasCards && (
-        <div className="row">
+          <div className="row">
             {cards.map((item, index) => (
-            <div
-              key={index}
-              className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
-              data-wow-delay={`${0.2 + (index % 4) * 0.1}s`}
-            >
-              <div className="service-box-items text-center flex-column">
-                <div className="icon">
+              <div
+                key={index}
+                className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
+                data-wow-delay={`${0.2 + (index % 4) * 0.1}s`}
+              >
+                <div className="service-box-items text-center flex-column">
+                  <div className="icon">
                     {item.img && (
                       <img
                         src={item.img}
@@ -89,17 +89,17 @@ const CardsSection = ({ data }) => {
                         loading="lazy"
                       />
                     )}
-                </div>
+                  </div>
 
                   {item.title && (
-                <div className="content">
-                  <h4>{parse(item.title)}</h4>
-                </div>
+                    <div className="content">
+                      <h4>{parse(item.title)}</h4>
+                    </div>
                   )}
+                </div>
               </div>
-            </div>
-          ))}
-        </div>
+            ))}
+          </div>
         )}
       </div>
     </section>

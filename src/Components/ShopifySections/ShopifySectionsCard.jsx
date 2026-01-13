@@ -25,6 +25,10 @@ const ShopifySectionsCard = ({ section, index }) => {
         className="svc-card h-100 position-relative"
         tabIndex={0}
         aria-labelledby={`section-title-${index}`}
+        style={{
+          boxShadow: '0 2px 8px rgba(0, 0, 0, 0.05)',
+          border: '1px solid rgba(0, 0, 0, 0.05)',
+        }}
       >
         <div className="svc-header-tag">{section.headertag || 'Shopify Section'}</div>
         {/* <div className="page-speed-badge">
@@ -49,10 +53,30 @@ const ShopifySectionsCard = ({ section, index }) => {
         </div>
 
         <div className="svc-content">
-          <h3 className="svc-title" id={`section-title-${index}`}>
+          <h3
+            className="svc-title"
+            id={`section-title-${index}`}
+            style={{
+              color: '#330066',
+              fontSize: '24px',
+              fontWeight: 700,
+              marginBottom: '12px',
+              lineHeight: '1.3',
+            }}
+          >
             {section.sectiontitle}
           </h3>
-          <p className="svc-description">{section.sectiondescription}</p>
+          <p
+            className="svc-description"
+            style={{
+              color: '#666666',
+              fontSize: '16px',
+              lineHeight: '1.6',
+              marginBottom: '25px',
+            }}
+          >
+            {section.sectiondescription}
+          </p>
           <Link
             className="svc-btn"
             to={section.link || '#'}

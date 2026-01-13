@@ -35,19 +35,19 @@ function JccSiteDetails({ list = [] }) {
               {/* Column 1 */}
               <div className="col-lg-6">
                 <ul className="list-items flex-column align-items-start">
-                  <li>
+                  <li style={{ textTransform: 'none' }}>
                     <span>
                       <b>Disorganized Backend:</b> Pages built with mixed editors and inconsistent
                       structures.
                     </span>
                   </li>
-                  <li>
+                  <li style={{ textTransform: 'none' }}>
                     <span>
                       <b>Legacy Plugins:</b> Outdated or unsupported plugins affecting functionality
                       and speed.
                     </span>
                   </li>
-                  <li>
+                  <li style={{ textTransform: 'none' }}>
                     <span>
                       <b>Bloated Content:</b> Accumulation of spam comments, unused files, and
                       orphaned posts.
@@ -59,13 +59,13 @@ function JccSiteDetails({ list = [] }) {
               {/* Column 2 */}
               <div className="col-lg-6">
                 <ul className="list-items flex-column align-items-start">
-                  <li>
+                  <li style={{ textTransform: 'none' }}>
                     <span>
                       <b>Slow Performance:</b> Poor loading speed due to unoptimized assets and lack
                       of caching.
                     </span>
                   </li>
-                  <li>
+                  <li style={{ textTransform: 'none' }}>
                     <span>
                       <b>No Scalability Roadmap:</b> Future changes bottlenecked by legacy code.
                     </span>

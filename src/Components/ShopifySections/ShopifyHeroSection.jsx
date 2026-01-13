@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import loadBackgroudImages from '../Common/loadBackgroudImages';
 import { Link } from 'react-router-dom';
 import parse from 'html-react-parser';
+import ShopifyHeroSlider from '@/Components/ImageSliderNew/ShopifyHeroSlider';
 
 const ShopifyHeroSection = () => {
   useEffect(() => {
@@ -9,7 +10,7 @@ const ShopifyHeroSection = () => {
   }, []);
 
   const heroContent = {
-    bg: '/assets/img/hero/hero-bg-3.jpg',
+    // bg: '/assets/img/hero/hero-bg-3.jpg',
     subtitle: 'go for advertising',
     title: ' Ready-Made <span>Shopify Sections</span> for Faster Store Growth',
     content:
@@ -52,6 +53,7 @@ const ShopifyHeroSection = () => {
       <section
         className="hero-section hero-3 breadcrumb-wrapper-margin-top shopify-hero-section shopify-hero-section-margin-top"
         data-background={heroContent.bg}
+        style={{ backgroundColor: '#f6f3fe' }}
       >
         {/* <div className="line-shape">
         <img src="/assets/img/hero/line-shape.png" alt="img" />
@@ -101,7 +103,7 @@ const ShopifyHeroSection = () => {
                 data-wow-duration="1.5s"
                 data-wow-delay="0.3s"
               >
-                <img src={heroContent.img} alt="img" />
+                <ShopifyHeroSlider />
               </div>
             </div>
           </div>

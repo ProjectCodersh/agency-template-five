@@ -84,6 +84,10 @@
 /* --------------------------------------------
     Template Default Fonts & Fonts Styles
  ---------------------------------------------- */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 16px;

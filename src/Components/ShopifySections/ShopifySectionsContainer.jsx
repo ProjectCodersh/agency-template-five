@@ -1,6 +1,7 @@
 import { useEffect, useState, memo, useCallback } from 'react';
 import axios from 'axios';
 import ShopifySectionsCard from './ShopifySectionsCard';
+import InteractiveSectionLoader from '../Loader/InteractiveSectionLoader';
 
 const ShopifySectionsContainer = () => {
   const [sections, setSections] = useState([]);
@@ -26,7 +27,7 @@ const ShopifySectionsContainer = () => {
     fetchSections();
   }, [fetchSections]);
 
-  if (loading) return <div className="text-center py-5">Loading sections...</div>;
+  if (loading) return <InteractiveSectionLoader />;
   if (sections.length === 0) return <div className="text-center py-5">No sections found.</div>;
 
   return (

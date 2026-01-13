@@ -108,7 +108,7 @@ function CaseStudyDetailsThirdTemplate({ data, list = [] }) {
                     <div key={colIndex} className="col-lg-6">
                       <ul className="list-items flex-column align-items-start">
                         {objective.slice(start, end).map((item, idx) => (
-                          <li key={idx}>
+                          <li key={idx} style={{ textTransform: 'none' }}>
                             <span>{item}</span>
                           </li>
                         ))}
@@ -144,7 +144,7 @@ function CaseStudyDetailsThirdTemplate({ data, list = [] }) {
                     <div key={colIndex} className="col-lg-6">
                       <ul className="list-items flex-column align-items-start">
                         {challenges.slice(start, end).map((item, idx) => (
-                          <li key={idx}>
+                          <li key={idx} style={{ textTransform: 'none' }}>
                             <span>{item}</span>
                           </li>
                         ))}
@@ -180,7 +180,7 @@ function CaseStudyDetailsThirdTemplate({ data, list = [] }) {
                     <div key={colIndex} className="col-lg-6">
                       <ul className="list-items flex-column align-items-start">
                         {solution.slice(start, end).map((item, idx) => (
-                          <li key={idx}>
+                          <li key={idx} style={{ textTransform: 'none' }}>
                             <span>{item}</span>
                           </li>
                         ))}
@@ -239,7 +239,7 @@ function CaseStudyDetailsThirdTemplate({ data, list = [] }) {
                     <div key={colIndex} className="col-lg-6">
                       <ul className="list-items flex-column align-items-start">
                         {results.slice(start, end).map((item, idx) => (
-                          <li key={idx}>
+                          <li key={idx} style={{ textTransform: 'none' }}>
                             <span>{item}</span>
                           </li>
                         ))}

@@ -341,7 +341,7 @@ const Footer1 = () => {
           <div className="container px-3">
             <div className="footer-wrapper d-flex align-items-center justify-content-center">
               <p className="wow fadeInLeft color-2 footer-rights-text" data-wow-delay=".3s">
-                © 2014 – 2025. All Rights Reserved.{' '}
+                © 2014 – 2026. All Rights Reserved.{' '}
                 <Link to="/" style={{ color: 'inherit', textDecoration: 'none' }}>
                   Codersh Web Services
                 </Link>

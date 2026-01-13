@@ -107,15 +107,36 @@ const FeatureDocumentationSection = ({ data }) => {
                       <div
                         className="feature-card h-100"
                         style={{
-                          backgroundColor: '#F8F9FA',
-                          border: '1px solid #E5E5E5',
-                          borderRadius: '8px',
-                          padding: '22px',
+                          backgroundColor: '#FFFFFF',
+                          border: 'none',
+                          borderRadius: '12px',
+                          padding: '28px',
                           minHeight: '100%',
+                          boxShadow: '0 2px 8px rgba(0, 0, 0, 0.05)',
                         }}
                       >
-                        <h5 className="fw-bold mb-2">{feature.title}</h5>
-                        <p className=" mb-0">{feature.description}</p>
+                        <h5
+                          className="fw-bold mb-3"
+                          style={{
+                            color: '#330066',
+                            fontSize: '24px',
+                            fontWeight: 700,
+                            lineHeight: '1.3',
+                          }}
+                        >
+                          {feature.title}
+                        </h5>
+                        <p
+                          className="mb-0"
+                          style={{
+                            color: '#666666',
+                            fontSize: '16px',
+                            lineHeight: '1.6',
+                            fontWeight: 400,
+                          }}
+                        >
+                          {feature.description}
+                        </p>
                       </div>
                     </div>
                   ))}
@@ -211,7 +232,7 @@ const FeatureDocumentationSection = ({ data }) => {
             }
 
             .feature-card {
-              padding: 18px !important;
+              padding: 24px !important;
             }
 
             .step-item {

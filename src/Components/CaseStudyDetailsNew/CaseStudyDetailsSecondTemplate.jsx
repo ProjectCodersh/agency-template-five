@@ -49,14 +49,16 @@ function CaseStudyDetailsNew({ data, list = [] }) {
                       <li>
                         Project Name: <span>{projectname || ''}</span>
                       </li>
-                      <li>
-                        URL:{' '}
-                        <span>
-                          <a href={url} target="_blank" rel="noopener noreferrer">
-                            {url || ''}
-                          </a>
-                        </span>
-                      </li>
+                      {url && (
+                        <li>
+                          URL:{' '}
+                          <span>
+                            <a href={url} target="_blank" rel="noopener noreferrer">
+                              {url}
+                            </a>
+                          </span>
+                        </li>
+                      )}
                     </ul>
                   </div>
                 </div>
@@ -77,7 +79,7 @@ function CaseStudyDetailsNew({ data, list = [] }) {
                   {features.map((feature, idx) => (
                     <div key={idx} className="col-lg-6 col-md-12">
                       <ul className="list-items flex-column align-items-start mb-0">
-                        <li>
+                        <li style={{ textTransform: 'none' }}>
                           <strong className="ms-3">{feature.heading}:</strong> {feature.text}
                         </li>
                       </ul>
@@ -95,7 +97,7 @@ function CaseStudyDetailsNew({ data, list = [] }) {
                   {techStack.map((tech, i) => (
                     <div key={i} className="col-lg-6 col-md-12">
                       <ul className="list-items flex-column align-items-start mb-0">
-                        <li>
+                        <li style={{ textTransform: 'none' }}>
                           <strong className="ms-3">{tech.heading}:</strong> {tech.text}
                         </li>
                       </ul>

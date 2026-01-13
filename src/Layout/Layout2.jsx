@@ -12,7 +12,7 @@ const Layout2 = () => {
       <Outlet />
       <Footer1 />
       <WhatsAppButton />
-    </div >
+    </div>
   );
 };
 
