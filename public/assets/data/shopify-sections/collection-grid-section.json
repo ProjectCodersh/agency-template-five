@@ -12,7 +12,7 @@
     "features": ["No coding required", "Flexible grid layout", "Clean and organized design"],
     "ctaButton": {
       "text": "Contact our team to add this section",
-      "link": "#"
+      "link": "https://calendly.com/codersh-web-services/15min"
     },
     "featureIcons": [
       {

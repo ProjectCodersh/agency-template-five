@@ -41,11 +41,6 @@
         "type": "tablet",
         "image": "/assets/img/shopify-sections/collection-showcase-1.png",
         "alt": "Collection Showcase - Tablet View"
-      },
-      {
-        "type": "mobile",
-        "image": "/assets/img/shopify-sections/collection-showcase-card.png",
-        "alt": "Collection Showcase - Mobile View"
       }
     ]
   },
@@ -93,7 +88,7 @@
         {
           "number": 3,
           "title": "Section Setup",
-          "description": "Adjust the section settings in the Theme Editor to match your collections and layout. No code required."
+          "description": "Adjust the section settings in the Theme Editor to match your collections and layout, No code required."
         },
         {
           "number": 4,

@@ -1,121 +1,150 @@
-import React from 'react';
+import React, { useMemo, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
+
+// Static content extracted for better performance and maintainability
+const STATIC_CONTENT = {
+  slug: 'silicon-signals',
+  projectSummary: {
+    title: 'Project Summary',
+    description:
+      "Silicon Signals came to us at a time when their business was getting real traction at tech events in Germany and India. Their products and services were strong, their team was solid, but their website didn't match the level of their work. They needed something modern, smooth, and trustworthy so they could confidently promote themselves at events and online. That's where we stepped in.",
+  },
+  problemStatement: {
+    title: 'Problem Statement',
+    description:
+      'The main issue was simple:"Great company, average website". Their old website looked outdated, lacked performance, and wasn\'t ready for heavy marketing activities. They didn\'t have technical SEO in place, and tracking tools like Google Analytics and Search Console were missing.Updating content was a headache because everything required technical help.',
+  },
+  challenges: {
+    title: 'Challenges Identified',
+    items: [
+      "The site wasn't visually appealing enough for international event visitors.",
+      'Mobile experience felt slow and clunky.',
+      'No analytics tracking or Technical SEO foundation for marketing campaigns.',
+      "The team couldn't update content without waiting for a developer.",
+      "The overall web presentation didn't reflect the quality of their product.",
+    ],
+  },
+  features: {
+    title: 'Features and Functionality Integrated',
+    intro:
+      'Once we agreed on timelines and pricing, we rebuilt their website from the ground up with features that actually matter to a tech company:',
+    items: [
+      'Modern, clean, high-performance layout',
+      'Technical SEO setup to support marketing',
+      'Smooth user flow that feels professional and trustworthy',
+      'High-speed optimization across all devices',
+      'Redesigned the services sections, clean and minimal ui with hover animations',
+      'Dynamic content structure — update anything, anytime',
+      'Technical SEO setup to support marketing',
+      'Fully mobile-responsive layout which auto-adjusts to any device',
+    ],
+    images: [
+      {
+        src: '/assets/img/casestudy/case-silicon-thumb-3.webp',
+        alt: 'Silicon Signals Feature 1',
+      },
+      {
+        src: '/assets/img/casestudy/case-silicon-thumb-4.webp',
+        alt: 'Silicon Signals Feature 2',
+      },
+    ],
+  },
+  techStack: {
+    title: 'Tech Stack',
+    items: [
+      'Figma, WordPress, Elementor Pro, Wordfence, Custom HTML, CSS, JavaScript, PHP Functions, Gravity forms.',
+      'Google Analytics, Google Search Console, Google Page Insights, GA4 Tags, Pixel Tracking codes. Gtmatrix.',
+    ],
+  },
+  outcomes: {
+    title: 'Project Outcomes',
+    paragraphs: [
+      'The result was a website that finally matched the quality of their products. More importantly, it became event-ready . They could confidently showcase their work at the Germany and India expos with a fast, polished, well-structured website behind them.',
+      'Their marketing became smoother, their tracking became accurate, and they no longer needed technical help for small content updates.',
+      {
+        text: 'The entire redesign became a',
+        bold: ' value-for-money investment',
+        rest: ', not just a website cost.',
+      },
+    ],
+    images: [
+      {
+        src: '/assets/img/casestudy/case-silicon-thumb-1.webp',
+        alt: 'Silicon Signals Outcome 1',
+      },
+      {
+        src: '/assets/img/casestudy/case-silicon-thumb-2.webp',
+        alt: 'Silicon Signals Outcome 2',
+      },
+    ],
+  },
+  testimonial: {
+    title: 'Client Testimonial',
+    quote:
+      '"The new setup helped us breathe easier. For the first time in months, our internal team could update pages without worrying about breaking something. Thank you for stabilizing the chaos!"',
+    author: '— JCC Admin Team',
+  },
+};
 
 function SiliconSignals({ list = [] }) {
   const navigate = useNavigate();
-  const slug = 'silicon-signals';
-  const currentIndex = list.findIndex((item) => item.slug === slug);
-  const prevItem = currentIndex > 0 ? list[currentIndex - 1] : null;
-  const nextItem = currentIndex < list.length - 1 ? list[currentIndex + 1] : null;
 
-  const goTo = (targetSlug) => {
-    if (targetSlug) navigate(`/case-study/${targetSlug}`);
-  };
+  // Memoize navigation items to prevent recalculation on every render
+  const { prevItem, nextItem } = useMemo(() => {
+    const currentIndex = list.findIndex((item) => item.slug === STATIC_CONTENT.slug);
+    return {
+      prevItem: currentIndex > 0 ? list[currentIndex - 1] : null,
+      nextItem: currentIndex < list.length - 1 ? list[currentIndex + 1] : null,
+    };
+  }, [list]);
+
+  // Memoize navigation callback
+  const goTo = useCallback(
+    (targetSlug) => {
+      if (targetSlug) navigate(`/case-study/${targetSlug}`);
+    },
+    [navigate]
+  );
 
   return (
     <section className="project-details-section fix section-padding">
       <div className="container px-3">
         <div className="project-details-wrapper">
-          {/* =================== Project Header =================== */}
-          {/* <div className="project-details-items mb-4">
-            <div className="row g-4">
-              <div className="col-lg-12">
-                <div className="details-top-items">
-                  <div className="details-left">
-                    <h2 style={{ maxWidth: '800px' }}>{parse(title || '')}</h2>
-                  </div>
-                  <div className="details-right">
-                    <ul className="client-details">
-                      {location && (
-                        <li>
-                          Location: <span>{location}</span>
-                        </li>
-                      )}
-                      {projectname && (
-                        <li>
-                          Project Name: <span>{projectname}</span>
-                        </li>
-                      )}
-                      {url && (
-                        <li>
-                          URL:{' '}
-                          <a
-                            href={url}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="fw-medium"
-                          >
-                            {url}
-                          </a>
-                        </li>
-                      )}
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> */}
-
           {/* =================== Project Summary =================== */}
           <div className="project-details-content mb-5">
-            <h3 className="fw-bold mb-3">Project Summary</h3>
-            {/* <h5 className="fw-semibold">Problem Statement:</h5> */}
-            <p>
-              Silicon Signals came to us at a time when their business was getting real traction at
-              tech events in Germany and India. Their products and services were strong, their team
-              was solid, but their website didn’t match the level of their work. They needed
-              something modern, smooth, and trustworthy so they could confidently promote themselves
-              at events and online. That’s where we stepped in.
-            </p>
+            <h3 className="fw-bold mb-3">{STATIC_CONTENT.projectSummary.title}</h3>
+            <p>{STATIC_CONTENT.projectSummary.description}</p>
           </div>
 
           {/* =================== Problem Statement =================== */}
           <div className="project-details-content mb-5">
-            <h3 className="fw-bold mb-3">Problem Statement</h3>
-            {/* <h5 className="fw-semibold">Problem Statement:</h5> */}
-            <p>
-              The main issue was simple:&#34;Great company, average website&#34;. Their old website
-              looked outdated, lacked performance, and wasn’t ready for heavy marketing activities.
-              They didn’t have technical SEO in place, and tracking tools like Google Analytics and
-              Search Console were missing.Updating content was a headache because everything
-              required technical help.
-            </p>
+            <h3 className="fw-bold mb-3">{STATIC_CONTENT.problemStatement.title}</h3>
+            <p>{STATIC_CONTENT.problemStatement.description}</p>
           </div>
 
           {/* =================== Challenges =================== */}
           <div className="project-details-content mb-5">
-            <h3 className="mt-5">Challenges Identified</h3>
+            <h3 className="mt-5">{STATIC_CONTENT.challenges.title}</h3>
             <div className="row g-5">
               {/* Column 1 */}
               <div className="col-lg-6">
                 <ul className="list-items flex-column align-items-start">
-                  <li>
-                    <span>
-                      The site wasn’t visually appealing enough for international event visitors.
-                    </span>
-                  </li>
-                  <li>
-                    <span>Mobile experience felt slow and clunky.</span>
-                  </li>
-                  <li>
-                    <span>
-                      No analytics tracking or Technical SEO foundation for marketing campaigns.
-                    </span>
-                  </li>
+                  {STATIC_CONTENT.challenges.items.slice(0, 3).map((item, index) => (
+                    <li key={index} style={{ textTransform: 'none', color: '#504E4E' }}>
+                      <span>{item}</span>
+                    </li>
+                  ))}
                 </ul>
               </div>
 
               {/* Column 2 */}
               <div className="col-lg-6">
                 <ul className="list-items flex-column align-items-start">
-                  <li>
-                    <span>The team couldn’t update content without waiting for a developer.</span>
-                  </li>
-                  <li>
-                    <span>
-                      The overall web presentation didn’t reflect the quality of their product.
-                    </span>
-                  </li>
+                  {STATIC_CONTENT.challenges.items.slice(3).map((item, index) => (
+                    <li key={index + 3} style={{ textTransform: 'none', color: '#504E4E' }}>
+                      <span>{item}</span>
+                    </li>
+                  ))}
                 </ul>
               </div>
             </div>
@@ -123,148 +152,100 @@ function SiliconSignals({ list = [] }) {
 
           {/* =================== Features and Functionality Integrated =================== */}
           <div className="project-details-content mb-5">
-            <h3 className="mt-5">Features and Functionality Integrated</h3>
+            <h3 className="mt-5">{STATIC_CONTENT.features.title}</h3>
             <div className="row g-5">
-              <p>
-                Once we agreed on timelines and pricing, we rebuilt their website from the ground up
-                with features that actually matter to a tech company:
-              </p>
+              <p>{STATIC_CONTENT.features.intro}</p>
               {/* Column 1 */}
-              <div className="col-lg-6">
+              <div className="col-lg-6 mt-4">
                 <ul className="list-items flex-column align-items-start">
-                  <li>
-                    <span>Modern, clean, high-performance layout</span>
-                  </li>
-                  <li>
-                    <span>Technical SEO setup to support marketing</span>
-                  </li>
-                  <li>
-                    <span>Smooth user flow that feels professional and trustworthy</span>
-                  </li>
-                  <li>
-                    <span>High-speed optimization across all devices </span>
-                  </li>
+                  {STATIC_CONTENT.features.items.slice(0, 4).map((item, index) => (
+                    <li key={index} style={{ textTransform: 'none', color: '#504E4E' }}>
+                      <span>{item}</span>
+                    </li>
+                  ))}
                 </ul>
               </div>
 
               {/* Column 2 */}
-              <div className="col-lg-6">
+              <div className="col-lg-6 mt-4">
                 <ul className="list-items flex-column align-items-start">
-                  <li>
-                    <span>
-                      Redesigned the services sections, clean and minimal ui with hover animations
-                    </span>
-                  </li>
-                  <li>
-                    <span> Dynamic content structure — update anything, anytime </span>
-                  </li>
-                  <li>
-                    <span> Technical SEO setup to support marketing </span>
-                  </li>
-                  <li>
-                    <span>Fully mobile-responsive layout which auto-adjusts to any device</span>
-                  </li>
+                  {STATIC_CONTENT.features.items.slice(4).map((item, index) => (
+                    <li key={index + 4} style={{ textTransform: 'none', color: '#504E4E' }}>
+                      <span>{item}</span>
+                    </li>
+                  ))}
                 </ul>
               </div>
             </div>
-            <div className="row g-4 mt-3">
-              <div className="col-lg-6">
-                <div className="mb-5">
-                  <img
-                    alt="Stripe Integration"
-                    className="img-fluid shadow-sm"
-                    src="/assets/img/casestudy/case-silicon-thumb-3.webp"
-                  />
+            <div className="row g-4 mt-4">
+              {STATIC_CONTENT.features.images.map((image, index) => (
+                <div key={index} className="col-lg-6">
+                  <div className="mb-5">
+                    <img
+                      src={image.src}
+                      alt={image.alt}
+                      className="img-fluid shadow-sm"
+                      loading={index === 0 ? 'eager' : 'lazy'}
+                      decoding={index === 0 ? 'sync' : 'async'}
+                      fetchPriority={index === 0 ? 'high' : 'low'}
+                    />
+                  </div>
                 </div>
-              </div>
-              <div className="col-lg-6">
-                <div className="mb-5">
-                  <img
-                    alt="Extra Feature"
-                    className="img-fluid shadow-sm"
-                    src="/assets/img/casestudy/case-silicon-thumb-4.webp"
-                  />
-                </div>
-              </div>
+              ))}
             </div>
           </div>
 
-          {/* =================== Problem Statement =================== */}
+          {/* =================== Tech Stack =================== */}
           <div className="project-details-content mb-5">
-            <h3 className="fw-bold mb-3">Tech Stack</h3>
-            {/* <h5 className="fw-semibold">Problem Statement:</h5> */}
-            <p>
-              Figma, WordPress, Elementor Pro, Wordfence, Custom HTML, CSS, JavaScript, PHP
-              Functions, Gravity forms.
-            </p>
-            <p>
-              Google Analytics, Google Search Console, Google Page Insights, GA4 Tags, Pixel
-              Tracking codes. Gtmatrix.
-            </p>
+            <h3 className="fw-bold mb-3">{STATIC_CONTENT.techStack.title}</h3>
+            {STATIC_CONTENT.techStack.items.map((item, index) => (
+              <p key={index}>{item}</p>
+            ))}
           </div>
 
           {/* =================== Project Outcomes =================== */}
-
           <div className="project-details-content mb-5">
-            <h3 className="fw-bold mb-3">Project Outcomes</h3>
-            {/* <h5 className="fw-semibold">Problem Statement:</h5> */}
-            <p>
-              The result was a website that finally matched the quality of their products. More
-              importantly, it became event-ready . They could confidently showcase their work at the
-              Germany and India expos with a fast, polished, well-structured website behind them.
-            </p>
-            <p>
-              Their marketing became smoother, their tracking became accurate, and they no longer
-              needed technical help for small content updates.
-            </p>
-            <p>
-              The entire redesign became a<b> value-for-money investment</b>, not just a website
-              cost.
-            </p>
+            <h3 className="fw-bold mb-3">{STATIC_CONTENT.outcomes.title}</h3>
+            {STATIC_CONTENT.outcomes.paragraphs.map((paragraph, index) => (
+              <p key={index}>
+                {typeof paragraph === 'string' ? (
+                  paragraph
+                ) : (
+                  <>
+                    {paragraph.text}
+                    <b>{paragraph.bold}</b>
+                    {paragraph.rest}
+                  </>
+                )}
+              </p>
+            ))}
 
             <div className="row g-4 mt-3">
-              <div className="col-lg-6">
-                <div className="mb-5">
-                  <img
-                    alt="Stripe Integration"
-                    className="img-fluid shadow-sm"
-                    src="/assets/img/casestudy/case-silicon-thumb-1.webp"
-                  />
+              {STATIC_CONTENT.outcomes.images.map((image, index) => (
+                <div key={index} className="col-lg-6">
+                  <div className="mb-5">
+                    <img
+                      src={image.src}
+                      alt={image.alt}
+                      className="img-fluid shadow-sm"
+                      loading="lazy"
+                      decoding="async"
+                      fetchPriority="low"
+                    />
+                  </div>
                 </div>
-              </div>
-              <div className="col-lg-6">
-                <div className="mb-5">
-                  <img
-                    alt="Extra Feature"
-                    className="img-fluid shadow-sm"
-                    src="/assets/img/casestudy/case-silicon-thumb-2.webp"
-                  />
-                </div>
-              </div>
+              ))}
             </div>
           </div>
 
           {/* =================== Testimonial =================== */}
           <div className="project-details-content">
-            <h3 className="fw-semibold">Client Testimonial</h3>
+            <h3 className="fw-semibold">{STATIC_CONTENT.testimonial.title}</h3>
             <div className="row g-4">
-              {/* <div className="col-lg-4">
-                <div className="mb-5">
-                  <img
-                    alt="Stripe Integration"
-                    className="img-fluid shadow-sm"
-                    src="/assets/img/casestudy/RosenJcc-casestudy-2.webp"
-                  />
-                </div>
-              </div> */}
               <div className="col-lg-12">
                 <blockquote className="mt-3 ps-3 border-start border-3 border-dark">
-                  <p className="fst-italic">
-                    “The new setup helped us breathe easier. For the first time in months, our
-                    internal team could update pages without worrying about breaking something.
-                    Thank you for stabilizing the chaos!”
-                  </p>
-                  <footer className="fw-semibold">— JCC Admin Team</footer>
+                  <p className="fst-italic">{STATIC_CONTENT.testimonial.quote}</p>
+                  <footer className="fw-semibold">{STATIC_CONTENT.testimonial.author}</footer>
                 </blockquote>
               </div>
             </div>

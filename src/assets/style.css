@@ -220,7 +220,7 @@
   font-size: 36px !important;
   line-height: 48px !important;
   font-weight: 700 !important;
-  color: #000 !important;
+  /* color: #000 !important; */
 }
 
 .project-details-content p {

@@ -75,12 +75,17 @@ function CaseStudyDetailsNew({ data, list = [] }) {
             {features && features.length > 0 && (
               <>
                 <h3 className="mt-5">Features</h3>
-                <div className="row g-4 mt-3">
+                <div className="row g-4 mt-4">
                   {features.map((feature, idx) => (
-                    <div key={idx} className="col-lg-6 col-md-12">
+                    <div key={idx} className="col-lg-6 col-md-12 mt-0">
                       <ul className="list-items flex-column align-items-start mb-0">
-                        <li style={{ textTransform: 'none' }}>
-                          <strong className="ms-3">{feature.heading}:</strong> {feature.text}
+                        <li
+                          style={{ textTransform: 'none', color: '#504E4E', marginBottom: '15px' }}
+                        >
+                          <strong className="ms-3" style={{ color: '#17012c' }}>
+                            {feature.heading}:
+                          </strong>{' '}
+                          {feature.text}
                         </li>
                       </ul>
                     </div>
@@ -93,12 +98,17 @@ function CaseStudyDetailsNew({ data, list = [] }) {
             {techStack && techStack.length > 0 && (
               <>
                 <h3 className="mt-5">Tech Stack</h3>
-                <div className="row g-4 mt-3">
+                <div className="row g-4 mt-4">
                   {techStack.map((tech, i) => (
-                    <div key={i} className="col-lg-6 col-md-12">
+                    <div key={i} className="col-lg-6 col-md-12 mt-0">
                       <ul className="list-items flex-column align-items-start mb-0">
-                        <li style={{ textTransform: 'none' }}>
-                          <strong className="ms-3">{tech.heading}:</strong> {tech.text}
+                        <li
+                          style={{ textTransform: 'none', color: '#504E4E', marginBottom: '15px' }}
+                        >
+                          <strong className="ms-3" style={{ color: '#17012c' }}>
+                            {tech.heading}:
+                          </strong>{' '}
+                          {tech.text}
                         </li>
                       </ul>
                     </div>

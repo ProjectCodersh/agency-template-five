@@ -52,7 +52,7 @@ const FeatureDocumentationSection = ({ data }) => {
           number: 3,
           title: 'Section Setup',
           description:
-            'Adjust the section settings in the Theme Editor to match your layout and content. No code required.',
+            'Adjust the section settings in the Theme Editor to match your layout and content, No code required.',
         },
         {
           number: 4,

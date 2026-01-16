@@ -16,7 +16,7 @@
     ],
     "ctaButton": {
       "text": "Contact us to add this section",
-      "link": "#"
+      "link": "https://calendly.com/codersh-web-services/15min"
     },
     "featureIcons": [
       {
@@ -41,11 +41,6 @@
         "type": "desktop",
         "image": "/assets/img/shopify-sections/collection-slider-1.png",
         "alt": "Collection Slider Section - Desktop View"
-      },
-      {
-        "type": "tablet",
-        "image": "/assets/img/shopify-sections/collection-slider-card.png",
-        "alt": "Collection Slider Section - Tablet View"
       }
     ]
   },
@@ -93,7 +88,7 @@
         {
           "number": 3,
           "title": "Section Setup",
-          "description": "Adjust content and layout from the Theme Editor. No coding needed."
+          "description": "Adjust content and layout from the Theme Editor, No coding needed."
         },
         {
           "number": 4,

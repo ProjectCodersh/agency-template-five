@@ -108,7 +108,7 @@ function CaseStudyDetailsThirdTemplate({ data, list = [] }) {
                     <div key={colIndex} className="col-lg-6">
                       <ul className="list-items flex-column align-items-start">
                         {objective.slice(start, end).map((item, idx) => (
-                          <li key={idx} style={{ textTransform: 'none' }}>
+                          <li key={idx} style={{ textTransform: 'none', color: '#504E4E' }}>
                             <span>{item}</span>
                           </li>
                         ))}
@@ -144,7 +144,7 @@ function CaseStudyDetailsThirdTemplate({ data, list = [] }) {
                     <div key={colIndex} className="col-lg-6">
                       <ul className="list-items flex-column align-items-start">
                         {challenges.slice(start, end).map((item, idx) => (
-                          <li key={idx} style={{ textTransform: 'none' }}>
+                          <li key={idx} style={{ textTransform: 'none', color: '#504E4E' }}>
                             <span>{item}</span>
                           </li>
                         ))}
@@ -180,7 +180,7 @@ function CaseStudyDetailsThirdTemplate({ data, list = [] }) {
                     <div key={colIndex} className="col-lg-6">
                       <ul className="list-items flex-column align-items-start">
                         {solution.slice(start, end).map((item, idx) => (
-                          <li key={idx} style={{ textTransform: 'none' }}>
+                          <li key={idx} style={{ textTransform: 'none', color: '#504E4E' }}>
                             <span>{item}</span>
                           </li>
                         ))}
@@ -239,7 +239,7 @@ function CaseStudyDetailsThirdTemplate({ data, list = [] }) {
                     <div key={colIndex} className="col-lg-6">
                       <ul className="list-items flex-column align-items-start">
                         {results.slice(start, end).map((item, idx) => (
-                          <li key={idx} style={{ textTransform: 'none' }}>
+                          <li key={idx} style={{ textTransform: 'none', color: '#504E4E' }}>
                             <span>{item}</span>
                           </li>
                         ))}
@@ -279,7 +279,10 @@ function CaseStudyDetailsThirdTemplate({ data, list = [] }) {
                     <div key={colIndex} className="col-lg-6">
                       {techStack.slice(start, end).map((tech, i) => (
                         <p key={i}>
-                          <strong className="ms-3">{tech.heading}:</strong> {tech.text}
+                          <strong className="ms-3" style={{ color: '#17012c' }}>
+                            {tech.heading}:
+                          </strong>{' '}
+                          {tech.text}
                         </p>
                       ))}
                     </div>
