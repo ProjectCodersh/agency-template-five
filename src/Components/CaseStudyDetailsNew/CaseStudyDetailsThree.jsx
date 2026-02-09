@@ -195,7 +195,7 @@ function CaseStudyDetailsThirdTemplate({ data, list = [] }) {
           {/* =================== Implementation =================== */}
           {implementation.length > 0 && (
             <div className="project-details-content mt-5">
-              <h3>Implementation</h3>
+              <h3>Implementation </h3>
               <div className="row g-4">
                 {implementation.map((section, i) => (
                   <div key={i} className="col-lg-6 col-md-12">
@@ -203,9 +203,11 @@ function CaseStudyDetailsThirdTemplate({ data, list = [] }) {
                       <h5 className="fw-semibold mb-3">
                         {section.heading && `${section.heading}:`}
                       </h5>
-                      <ul className="ps-3">
+                      <ul className="ps-3 list-items flex-column align-items-start">
                         {section.points?.map((point, j) => (
-                          <li key={j}>{point}</li>
+                          <li key={j} style={{ textTransform: 'none', color: '#504E4E' }}>
+                            <span>{point}</span>
+                          </li>
                         ))}
                       </ul>
                     </div>

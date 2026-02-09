@@ -73,48 +73,61 @@ function CaseStudyDetailsNew({ data, list = [] }) {
 
             {/* ============ Key Features Section ============ */}
             {features && features.length > 0 && (
-              <>
-                <h3 className="mt-5">Features</h3>
-                <div className="row g-4 mt-4">
+              <div className="project-details-content mt-5">
+                <h3>Features</h3>
+                <div className="row">
                   {features.map((feature, idx) => (
-                    <div key={idx} className="col-lg-6 col-md-12 mt-0">
-                      <ul className="list-items flex-column align-items-start mb-0">
+                    <div key={idx} className="col-lg-6">
+                      <ul className="list-items flex-column align-items-start">
+                        {/* 1. Added 'd-flex' to make the LI a flex container */}
                         <li
-                          style={{ textTransform: 'none', color: '#504E4E', marginBottom: '15px' }}
+                          className="d-flex align-items-start"
+                          style={{
+                            textTransform: 'none',
+                            color: '#504E4E',
+                            marginBottom: '15px',
+                          }}
                         >
-                          <strong className="ms-3" style={{ color: '#17012c' }}>
-                            {feature.heading}:
-                          </strong>{' '}
-                          {feature.text}
+                          {/* 2. Wrapped content in a div. 
+                  3. Moved 'ms-3' here to create spacing between bullet and text block */}
+                          <div className="ms-3">
+                            <strong style={{ color: '#17012c' }}>
+                              {feature.heading}:
+                            </strong>{' '}
+                            {feature.text}
+                          </div>
                         </li>
                       </ul>
                     </div>
                   ))}
                 </div>
-              </>
+              </div>
             )}
 
             {/* ============ Tech Stack Section ============ */}
             {techStack && techStack.length > 0 && (
-              <>
-                <h3 className="mt-5">Tech Stack</h3>
-                <div className="row g-4 mt-4">
+              <div className="project-details-content mt-5">
+                <h3>Tech Stack</h3>
+                <div className="row">
                   {techStack.map((tech, i) => (
-                    <div key={i} className="col-lg-6 col-md-12 mt-0">
-                      <ul className="list-items flex-column align-items-start mb-0">
+                    <div key={i} className="col-lg-6">
+                      <ul className="list-items flex-column align-items-start">
                         <li
+                          className="d-flex align-items-start"
                           style={{ textTransform: 'none', color: '#504E4E', marginBottom: '15px' }}
                         >
-                          <strong className="ms-3" style={{ color: '#17012c' }}>
-                            {tech.heading}:
-                          </strong>{' '}
-                          {tech.text}
+                          <div className="ms-3">
+                            <strong style={{ color: '#17012c' }}>
+                              {tech.heading}:
+                            </strong>{' '}
+                            {tech.text}
+                          </div>
                         </li>
                       </ul>
                     </div>
                   ))}
                 </div>
-              </>
+              </div>
             )}
 
             {/* ============ Project Outcomes ============ */}
