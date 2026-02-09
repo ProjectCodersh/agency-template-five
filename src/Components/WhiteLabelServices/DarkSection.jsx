@@ -1,37 +1,36 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import loadBackgroudImages from '../Common/loadBackgroudImages';
 import parse from 'html-react-parser';
 
-/**
- * DarkSection
- * - Fully driven by `data` prop (no internal defaults)
- * - If no data or no items, returns null
- *
- * Expected `data` shape:
- * {
- *   "bg": "/assets/img/case-studies/bg.jpg",
- *   "heading": {
- *     "subtitle": "SHOPIFY SUBSCRIPTIONS",
- *     "title": "Benefits of Adding Subscriptions to Your Shopify Store"
- *   },
- *   "items": [
- *     {
- *       "title": "Enhancing Customer Experience",
- *       "content": "Adding subscriptions to your Shopify store creates a seamless shopping experience..."
- *     },
- *     ...
- *   ]
- * }
- */
 const DarkSection = ({ data }) => {
+  // 1. Add a ref to measure the actual height of the content
+  const contentRef = useRef(null);
+
+  // 2. State to handle the dynamic height value
+  const [height, setHeight] = useState('650px');
+  const [showAllItems, setShowAllItems] = useState(false);
+
+  // Constants
+  const MAX_VISIBLE_ITEMS = 4;
+  const COLLAPSED_HEIGHT = 650; // The height when closed (approx 2 rows)
+
   useEffect(() => {
     loadBackgroudImages();
   }, []);
 
-  const MAX_VISIBLE_ITEMS = 4;
-  const [showAllItems, setShowAllItems] = useState(false);
+  // 3. This effect calculates the height whenever the toggle state changes
+  useEffect(() => {
+    if (!contentRef.current) return;
 
-  // If no data is provided, don't render the block at all
+    if (showAllItems) {
+      // If expanding, set height to the full scrollHeight of the content
+      setHeight(`${contentRef.current.scrollHeight}px`);
+    } else {
+      // If collapsing, go back to the fixed height
+      setHeight(`${COLLAPSED_HEIGHT}px`);
+    }
+  }, [showAllItems, data]); // specific dependency on data ensures recalculation if props change
+
   if (!data) return null;
 
   const { bg, heading = {}, items = [] } = data;
@@ -39,11 +38,12 @@ const DarkSection = ({ data }) => {
 
   const hasHeading = subtitle || title;
   const hasItems = Array.isArray(items) && items.length > 0;
-
   const shouldShowToggle = hasItems && items.length > MAX_VISIBLE_ITEMS;
-  const visibleItems = showAllItems ? items : items.slice(0, MAX_VISIBLE_ITEMS);
 
-  // If there is effectively no content, don't render the block
+  // 4. IMPORTANT: Do NOT slice the items here. We must render ALL items
+  // so they exist in the DOM to be animated.
+  // We use CSS overflow to hide them instead.
+
   if (!hasHeading && !hasItems) {
     return null;
   }
@@ -73,16 +73,19 @@ const DarkSection = ({ data }) => {
 
         {hasItems && (
           <>
-            {/* Collapsible cards list */}
+            {/* 5. Apply the ref and the dynamic styles here.
+              We animate the 'height' property. 
+            */}
             <div
+              ref={contentRef}
               className="row g-4 mt-2"
               style={{
-                overflow: 'hidden',
-                transition: 'max-height 0.4s ease',
-                maxHeight: showAllItems ? '2000px' : '650px',
+                height: height, // Dynamic height
+                overflow: 'hidden', // Hides the items that don't fit in the height
+                transition: 'height 0.5s ease-in-out', // Smooth animation
               }}
             >
-              {visibleItems.map((item, i) => (
+              {items.map((item, i) => (
                 <div
                   key={i}
                   className="col-lg-6 col-md-6 wow fadeInUp"
@@ -98,7 +101,6 @@ const DarkSection = ({ data }) => {
               ))}
             </div>
 
-            {/* Toggle button */}
             {shouldShowToggle && (
               <div className="d-flex justify-content-center mt-4">
                 <button
@@ -115,6 +117,7 @@ const DarkSection = ({ data }) => {
                     boxShadow: '0 0 20px rgba(0, 0, 0, 0.25)',
                     position: 'relative',
                     zIndex: 2,
+                    cursor: 'pointer'
                   }}
                 >
                   {showAllItems ? 'Show Less' : 'Show More'}

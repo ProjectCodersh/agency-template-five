@@ -2,28 +2,8 @@ import parse from 'html-react-parser';
 
 /**
  * ContentSection
- *
- * Clean, professional content layout inspired by CaseStudyDetailsThree.jsx
- * Uses project-details-content styling for a clean, text-focused design.
- *
- * 🔹 Fully driven by `data` prop – no hard‑coded copy.
- *
- * Expected `data` shape:
- * {
- *   "overview": "Optional overview paragraph",
- *   "columns": [
- *     {
- *       "subtitle": "What Does a Shopify Subscription Service Offer?",
- *       "content": "<p>Long‑form HTML or text…</p>",
- *       "highlights": [
- *         "Increase lifetime value (LTV)",
- *         "Predictable recurring revenue",
- *         "Frictionless re‑ordering experience"
- *       ]
- *     },
- *     ...
- *   ]
- * }
+ * * Refactored to use a "Masonry-style" 2-column layout.
+ * This prevents tall items in one column from creating gaps in the other.
  */
 
 const ContentSection = ({ data }) => {
@@ -38,8 +18,106 @@ const ContentSection = ({ data }) => {
 
   if (!hasHeading && !hasOverview && !hasColumns) return null;
 
-  // Background image: if bg is true (toggle enabled), use default path; otherwise no background
   const backgroundImage = bg === true ? '/assets/img/team/team-bg.jpg' : '';
+
+  // 1. Split data into Left (even indices) and Right (odd indices)
+  // This creates two independent stacks of content.
+  const leftColumnItems = columns.filter((_, i) => i % 2 === 0);
+  const rightColumnItems = columns.filter((_, i) => i % 2 !== 0);
+
+  // Helper function to render an individual card
+  // We pass 'originalIndex' to ensure the numbering (01, 02...) remains correct
+  const renderItem = (col, localIdx, originalIndex) => {
+    const hasHighlights = Array.isArray(col.highlights) && col.highlights.length > 0;
+
+    const isIconImage =
+      col.icon &&
+      typeof col.icon === 'string' &&
+      (col.icon.startsWith('http') || col.icon.startsWith('/'));
+
+    const defaultIconNumber = col.subtitle
+      ? col.subtitle.match(/^\d+/)?.[0] || String(originalIndex + 1).padStart(2, '0')
+      : String(originalIndex + 1).padStart(2, '0');
+
+    return (
+      <div key={col.subtitle || localIdx} className="">
+        <div className="mb-4">
+          {/* Heading */}
+          {col.subtitle && (
+            <h4
+              className="fw-bold mb-2 d-flex align-items-center"
+              style={{ textTransform: 'none' }}
+            >
+              {isIconImage ? (
+                <span
+                  className="d-inline-flex align-items-center justify-content-center me-2 mb-2"
+                  style={{
+                    width: 40,
+                    height: 40,
+                    flexShrink: 0,
+                    borderRadius: '8px',
+                    overflow: 'hidden',
+                    backgroundColor: '#6A47ED',
+                  }}
+                >
+                  <img
+                    src={col.icon}
+                    alt={col.iconAlt || 'Icon'}
+                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                    onError={(e) => {
+                      e.target.style.display = 'none';
+                      const badge = e.target.parentElement;
+                      badge.style.display = 'flex';
+                      badge.style.color = '#fff';
+                      badge.style.fontWeight = '700';
+                      badge.style.fontSize = '16px';
+                      badge.textContent = defaultIconNumber;
+                    }}
+                  />
+                </span>
+              ) : (
+                <span
+                  className="d-inline-flex align-items-center justify-content-center me-2 mb-2"
+                  style={{
+                    width: 40,
+                    height: 40,
+                    backgroundColor: '#6A47ED',
+                    color: '#fff',
+                    fontWeight: 700,
+                    fontSize: 16,
+                    flexShrink: 0,
+                    borderRadius: '8px',
+                    lineHeight: 1,
+                  }}
+                >
+                  {defaultIconNumber}
+                </span>
+              )}
+              {parse(col.subtitle)}
+            </h4>
+          )}
+
+          {/* Content Paragraph */}
+          {col.content && (
+            <div className="mb-3" style={{ color: '#17012c' }}>
+              {parse(col.content)}
+            </div>
+          )}
+
+          {/* Highlights List */}
+          {hasHighlights && (
+            <ul className="list-items flex-column align-items-start">
+              {col.highlights.map((point, i) => (
+                <li key={`${point}-${i}`} style={{ textTransform: 'none' }}>
+                  <span style={{ textTransform: 'none' }}>{parse(point)}</span>
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
+      </div>
+    );
+  };
 
   return (
     <section
@@ -48,7 +126,7 @@ const ContentSection = ({ data }) => {
     >
       <div className="container px-3">
         <div className="project-details-wrapper">
-          {/* Section Title Area */}
+          {/* Section Title */}
           {hasHeading && (
             <div className="section-title-area w-full">
               <div className="section-title">
@@ -66,118 +144,33 @@ const ContentSection = ({ data }) => {
             </div>
           )}
 
-          {/* Overview Section
+          {/* Overview */}
           {hasOverview && (
             <div className="project-details-content">
               <h3>Overview</h3>
               <p>{parse(overview)}</p>
             </div>
-          )} */}
+          )}
 
-          {/* Main two-column content grid */}
+          {/* Main Content Grid (Split into two independent columns) */}
           {hasColumns && (
             <div className="project-details-content mt-5">
               <div className="row g-5">
-                {columns.map((col, idx) => {
-                  const hasHighlights = Array.isArray(col.highlights) && col.highlights.length > 0;
+                {/* Left Column Stack */}
+                <div className="col-lg-6">
+                  {leftColumnItems.map((col, idx) =>
+                    // Calculate original index: Even numbers (0, 2, 4...)
+                    renderItem(col, idx, idx * 2)
+                  )}
+                </div>
 
-                  // Check if icon is an image URL (string starting with http/https or /)
-                  const isIconImage =
-                    col.icon &&
-                    typeof col.icon === 'string' &&
-                    (col.icon.startsWith('http') || col.icon.startsWith('/'));
-
-                  // Extract number from subtitle for default badge (e.g., "01What Does..." -> "01")
-                  const defaultIconNumber = col.subtitle
-                    ? col.subtitle.match(/^\d+/)?.[0] || String(idx + 1).padStart(2, '0')
-                    : String(idx + 1).padStart(2, '0');
-
-                  return (
-                    <div key={col.subtitle || idx} className="col-lg-6">
-                      <div className="mb-4">
-                        {/* Heading with optional icon image or default numbered badge */}
-                        {col.subtitle && (
-                          <h4
-                            className="fw-bold mb-2 d-flex align-items-center"
-                            style={{ textTransform: 'none' }}
-                          >
-                            {isIconImage ? (
-                              // Display uploaded icon image
-                              <span
-                                className="d-inline-flex align-items-center justify-content-center me-2 mb-2"
-                                style={{
-                                  width: 40,
-                                  height: 40,
-                                  flexShrink: 0,
-                                  borderRadius: '8px',
-                                  overflow: 'hidden',
-                                  backgroundColor: '#6A47ED',
-                                }}
-                              >
-                                <img
-                                  src={col.icon}
-                                  alt={col.iconAlt || 'Icon'}
-                                  style={{
-                                    width: '100%',
-                                    height: '100%',
-                                    objectFit: 'cover',
-                                  }}
-                                  onError={(e) => {
-                                    // Fallback to default badge if image fails to load
-                                    e.target.style.display = 'none';
-                                    const badge = e.target.parentElement;
-                                    badge.style.display = 'flex';
-                                    badge.style.color = '#fff';
-                                    badge.style.fontWeight = '700';
-                                    badge.style.fontSize = '16px';
-                                    badge.textContent = defaultIconNumber;
-                                  }}
-                                />
-                              </span>
-                            ) : (
-                              // Display default purple numbered badge
-                              <span
-                                className="d-inline-flex align-items-center justify-content-center me-2 mb-2"
-                                style={{
-                                  width: 40,
-                                  height: 40,
-                                  backgroundColor: '#6A47ED',
-                                  color: '#fff',
-                                  fontWeight: 700,
-                                  fontSize: 16,
-                                  flexShrink: 0,
-                                  borderRadius: '8px',
-                                  lineHeight: 1,
-                                }}
-                              >
-                                {defaultIconNumber}
-                              </span>
-                            )}
-                            {parse(col.subtitle)}
-                          </h4>
-                        )}
-
-                        {/* Content paragraph */}
-                        {col.content && (
-                          <div className="mb-3" style={{ color: '#17012c' }}>
-                            {parse(col.content)}
-                          </div>
-                        )}
-
-                        {/* Highlights list using project-details-content list-items style */}
-                        {hasHighlights && (
-                          <ul className="list-items flex-column align-items-start">
-                            {col.highlights.map((point, i) => (
-                              <li key={`${point}-${i}`} style={{ textTransform: 'none' }}>
-                                <span style={{ textTransform: 'none' }}>{parse(point)}</span>
-                              </li>
-                            ))}
-                          </ul>
-                        )}
-                      </div>
-                    </div>
-                  );
-                })}
+                {/* Right Column Stack */}
+                <div className="col-lg-6">
+                  {rightColumnItems.map((col, idx) =>
+                    // Calculate original index: Odd numbers (1, 3, 5...)
+                    renderItem(col, idx, idx * 2 + 1)
+                  )}
+                </div>
               </div>
             </div>
           )}
