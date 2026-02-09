@@ -1,7 +1,7 @@
 import { lazy, Suspense, memo, useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import SimpleLoader from '../Components/Loader/NormalLoader';
+// import SimpleLoader from '../Components/Loader/NormalLoader';
 import InteractiveSectionLoader from '../Components/Loader/InteractiveSectionLoader';
 import axios from 'axios';
 
@@ -128,7 +128,7 @@ function ShopifySingleSection() {
             minHeight: '60vh',
           }}
         >
-          <SimpleLoader />
+          <InteractiveSectionLoader />
         </motion.div>
       ) : error ? (
         <motion.div
@@ -185,7 +185,7 @@ function ShopifySingleSection() {
           exit="exit"
           style={{ width: '100%' }}
         >
-          <Suspense fallback={<InteractiveSectionLoader />}>
+          <Suspense fallback={null}>
             <AnimatePresence>
               {pageData.appShowcase && (
                 <motion.div
