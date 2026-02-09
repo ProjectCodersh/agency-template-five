@@ -1,14 +1,42 @@
 import { useState } from 'react';
 import PropTypes from 'prop-types';
+import '../../assets/ShopifySectionPopup.css';
 
 const AppShowcaseSection = ({ data }) => {
   const [activePreview, setActivePreview] = useState(0);
+
+  // --- NEW STATE FOR MODAL & FLOW ---
+  const [showModal, setShowModal] = useState(false);
+  const [formStep, setFormStep] = useState('email'); // 'email' or 'install'
+  const [emailInput, setEmailInput] = useState('');
+  const [isCopied, setIsCopied] = useState(false);
+
+  // --- MOCK DATA FOR DEMO (Later this comes from ACF) ---
+  const mockLiquidCode = `
+{% schema %}
+{
+  "name": "Video with Text",
+  "settings": [
+    {
+      "type": "video_url",
+      "id": "video_url",
+      "label": "Video link",
+      "accept": ["youtube", "vimeo"]
+    }
+  ]
+}
+{% endschema %}
+
+<div class="video-section">
+  <h2>{{ section.settings.heading }}</h2>
+</div>
+  `.trim();
 
   // Default data structure
   const defaultData = {
     title: 'Shopify Video with Text Section',
     description:
-      'Present your message with impact using a structured video and text layout. This section combines visual storytelling with clear content, making it ideal for showcasing products, explaining features, or sharing brand stories in a focused and professional way.',
+      'Present your message with impact using a structured video and text layout. This section combines visual storytelling with clear content.',
     badge: 'Add to Your Store',
     appInfo: {
       icon: '/assets/img/shopify-sections/app-icon.png',
@@ -22,7 +50,7 @@ const AppShowcaseSection = ({ data }) => {
       'Designed for modern Shopify storefronts',
     ],
     ctaButton: {
-      text: 'Hire a Shopify developer to add this section. ',
+      text: 'Get This Section Free', // UPDATED TEXT
       link: '#',
     },
     featureIcons: [
@@ -38,13 +66,13 @@ const AppShowcaseSection = ({ data }) => {
         alt: 'Collection Showcase - Tablet View',
       },
       {
-        type: 'tablet-cropped',
-        image: '/assets/img/shopify-sections/section-23.png',
-        alt: 'Collection Showcase - Tablet View',
+        type: 'mobile',
+        image: '/assets/img/shopify-sections/section-23.png', // Duplicated for demo
+        alt: 'Collection Showcase - Mobile View',
       },
       {
         type: 'mobile',
-        image: '/assets/img/shopify-sections/section-23.png',
+        image: '/assets/img/shopify-sections/section-23.png', // Duplicated for demo
         alt: 'Collection Showcase - Mobile View',
       },
     ],
@@ -52,12 +80,37 @@ const AppShowcaseSection = ({ data }) => {
 
   const sectionData = data || defaultData;
 
+  // --- HANDLERS ---
+  const handleOpenModal = () => {
+    setShowModal(true);
+    setFormStep('email'); // Always reset to email step on open
+  };
+
+  const handleCloseModal = () => {
+    setShowModal(false);
+  };
+
+  const handleEmailSubmit = (e) => {
+    e.preventDefault();
+    if (emailInput.trim() !== '') {
+      // API CALL TO SAVE EMAIL WOULD GO HERE
+      console.log('Lead Captured:', emailInput);
+      setFormStep('install'); // Switch to code view
+    }
+  };
+
+  const handleCopyCode = () => {
+    navigator.clipboard.writeText(mockLiquidCode);
+    setIsCopied(true);
+    setTimeout(() => setIsCopied(false), 2000);
+  };
+
   return (
     <section className="shopify-app-showcase section-padding">
       <div className="container">
-        <div className="row g-4 g-lg-5">
+        <div className="row g-4 g-xl-5">
           {/* Visual Preview Section - Left Column */}
-          <div className="col-12 col-lg-7 mt-lg-0 mt-2">
+          <div className="col-12 col-xl-7 mt-lg-0 mt-2">
             <div className="visual-preview-container">
               {/* Main Preview */}
               <div className="main-preview-wrapper mb-3">
@@ -84,30 +137,9 @@ const AppShowcaseSection = ({ data }) => {
                       zIndex: 10,
                     }}
                   >
-                    <div
-                      style={{
-                        width: '12px',
-                        height: '12px',
-                        borderRadius: '50%',
-                        backgroundColor: '#D1D1D1',
-                      }}
-                    />
-                    <div
-                      style={{
-                        width: '12px',
-                        height: '12px',
-                        borderRadius: '50%',
-                        backgroundColor: '#D1D1D1',
-                      }}
-                    />
-                    <div
-                      style={{
-                        width: '12px',
-                        height: '12px',
-                        borderRadius: '50%',
-                        backgroundColor: '#D1D1D1',
-                      }}
-                    />
+                    <div className="dot" />
+                    <div className="dot" />
+                    <div className="dot" />
                   </div>
                   <div
                     style={{
@@ -183,37 +215,12 @@ const AppShowcaseSection = ({ data }) => {
           </div>
 
           {/* Information Panel - Right Column */}
-          <div className="col-12 col-lg-5 mt-lg-0 mt-2">
+          <div className="col-12 col-xl-5 mt-lg-0 mt-4 xl:mt-2 ">
             <div className="information-panel">
-              {/* Title */}
               <h2 className="section-title mb-3">{sectionData.title}</h2>
-
-              {/* Description */}
               <p className="section-description mb-4">
-                {typeof sectionData.description === 'string'
-                  ? sectionData.description
-                  : sectionData.description}
+                {sectionData.description}
               </p>
-
-              {/* Badge */}
-              {/* <div className="badge-wrapper mb-3">
-                <span
-                  className="badge-text d-inline-block"
-                  style={{
-                    padding: '6px 12px',
-                    borderRadius: '999px',
-                    backgroundColor: '#2D2D2D',
-                    color: '#FFFFFF',
-                    fontSize: '11px',
-                    fontWeight: 700,
-                    textTransform: 'uppercase',
-                    letterSpacing: '0.5px',
-                  }}
-                >
-                  {' '}
-                  {sectionData.badge}
-                </span>
-              </div> */}
 
               <div className="section-title mb-0">
                 <div className="sub-title wow fadeInUp">
@@ -249,38 +256,18 @@ const AppShowcaseSection = ({ data }) => {
                         fontWeight: 700,
                       }}
                     >
-                      {/* <svg
-                        width="28"
-                        height="28"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M7 4V2C7 1.45 7.45 1 8 1H16C16.55 1 17 1.45 17 2V4H20C20.55 4 21 4.45 21 5S20.55 6 20 6H19V19C19 20.1 18.1 21 17 21H7C5.9 21 5 20.1 5 19V6H4C3.45 6 3 5.55 3 5S3.45 4 4 4H7ZM9 3V4H15V3H9ZM7 6V19H17V6H7Z"
-                          fill="currentColor"
-                        />
-                        <path d="M9 8V17H11V8H9ZM13 8V17H15V8H13Z" fill="currentColor" />
-                      </svg> */}
                       <img
                         src="/assets/img/icon/shopify-icon-50.png"
                         alt="Shopify Icon"
                         className="img-fluid"
-                        style={{
-                          width: '40px',
-                          height: '40px',
-                        }}
+                        style={{ width: '40px', height: '40px' }}
                       />
                     </div>
                     <div>
                       <h4 className="mb-1">{sectionData.appInfo.name}</h4>
                       <p
                         className="app-subtext mb-0"
-                        style={{
-                          fontSize: '12px',
-                          color: '#6B6B6B',
-                          margin: 0,
-                        }}
+                        style={{ fontSize: '12px', color: '#6B6B6B', margin: 0 }}
                       >
                         {sectionData.appInfo.subtext}
                       </p>
@@ -288,51 +275,30 @@ const AppShowcaseSection = ({ data }) => {
                   </div>
                   <div
                     className="app-price"
-                    style={{
-                      fontSize: '24px',
-                      fontWeight: 700,
-                      color: '#1A1A1A',
-                    }}
+                    style={{ fontSize: '24px', fontWeight: 700, color: '#1A1A1A' }}
                   >
                     {sectionData.appInfo.price}
                   </div>
                 </div>
 
-                {/* Feature List */}
-                <ul
-                  className="feature-list mt-4 mb-0"
-                  style={{
-                    listStyle: 'none',
-                    padding: 0,
-                    margin: 0,
-                  }}
-                >
+                <ul className="feature-list mt-4 mb-0" style={{ listStyle: 'none', padding: 0, margin: 0 }}>
                   {sectionData.features.map((feature, index) => (
                     <li
                       key={index}
                       className="d-flex align-items-center gap-2 mb-1"
-                      style={{
-                        fontSize: '14px',
-                        color: '#2D2D2D',
-                      }}
+                      style={{ fontSize: '14px', color: '#2D2D2D' }}
                     >
-                      <i
-                        className="bi bi-check-circle-fill"
-                        style={{
-                          color: '#28A745',
-                          fontSize: '18px',
-                        }}
-                      />
+                      <i className="bi bi-check-circle-fill" style={{ color: '#28A745', fontSize: '18px' }} />
                       <span>{feature}</span>
                     </li>
                   ))}
                 </ul>
               </div>
 
-              {/* CTA Button */}
+              {/* CTA Button - UPDATED TO TRIGGER MODAL */}
               <button
                 type="button"
-                className="cta-button w-100 mb-4 border-0"
+                className="cta-button w-100 mb-2 border-0"
                 style={{
                   height: '52px',
                   backgroundColor: '#6a47ed',
@@ -341,27 +307,20 @@ const AppShowcaseSection = ({ data }) => {
                   fontWeight: 600,
                   textTransform: 'uppercase',
                   borderRadius: '8px',
-                  transition: 'all 0.2s ease-in-out',
                   cursor: 'pointer',
+                  transition: 'all 0.2s',
                 }}
-                onClick={() => {
-                  if (sectionData.ctaButton?.link) {
-                    window.open(sectionData.ctaButton.link, '_blank', 'noopener,noreferrer');
-                  }
-                }}
-                onMouseEnter={(e) => {
-                  e.target.style.backgroundColor = '#2D2D2D';
-                  e.target.style.transform = 'translateY(-2px)';
-                  e.target.style.boxShadow = '0 4px 16px rgba(0,0,0,0.15)';
-                }}
-                onMouseLeave={(e) => {
-                  e.target.style.backgroundColor = '#6a47ed';
-                  e.target.style.transform = 'translateY(0)';
-                  e.target.style.boxShadow = 'none';
-                }}
+                onClick={handleOpenModal} // Triggers the modal
               >
                 {sectionData.ctaButton.text}
               </button>
+
+              {/* Secondary Link for Agency Services */}
+              <div className="text-center mb-4">
+                <a href="/contact" style={{ fontSize: '13px', color: '#6B6B6B', textDecoration: 'underline' }}>
+                  Need help installing? Hire our developers.
+                </a>
+              </div>
 
               {/* Feature Icons Grid */}
               <div className="feature-icons-grid">
@@ -370,12 +329,7 @@ const AppShowcaseSection = ({ data }) => {
                     <div key={index} className="col-6">
                       <div
                         className="d-flex align-items-center gap-2"
-                        style={{
-                          fontSize: '13px',
-                          color: '#6B6B6B',
-                          width: '100%',
-                          justifyContent: 'flex-start',
-                        }}
+                        style={{ fontSize: '13px', color: '#6B6B6B', width: '100%', justifyContent: 'flex-start' }}
                       >
                         <i className={`bi ${item.icon}`} style={{ fontSize: '18px' }} />
                         <span>{item.label}</span>
@@ -389,124 +343,78 @@ const AppShowcaseSection = ({ data }) => {
         </div>
       </div>
 
+      {/* --- LEAD GEN & INSTALLATION MODAL --- */}
+      {showModal && (
+        <div className="custom-modal-overlay">
+          <div className="custom-modal-content">
+            <button className="close-btn" onClick={handleCloseModal}>&times;</button>
+
+            {formStep === 'email' ? (
+              // STEP 1: EMAIL CAPTURE
+              <div className="modal-step-email">
+                <div className="modal-header-icon">
+                  <i className="bi bi-gift-fill"></i>
+                </div>
+                <h3>Send me this Section</h3>
+                <p>Enter your email address to unlock the code snippet and installation video instantly.</p>
+                <form onSubmit={handleEmailSubmit}>
+                  <input
+                    type="email"
+                    placeholder="name@business.com"
+                    required
+                    value={emailInput}
+                    onChange={(e) => setEmailInput(e.target.value)}
+                  />
+                  <button type="submit" className="modal-cta-btn">Unlock Code</button>
+                </form>
+                <div className="secure-badge">
+                  <i className="bi bi-shield-lock"></i> 100% Secure & Free
+                </div>
+              </div>
+            ) : (
+              // STEP 2: INSTALLATION GUIDE
+              <div className="modal-step-install">
+                <h3>Installation Guide</h3>
+                <p className="sub-text">Follow the video or copy the code below.</p>
+
+                {/* 1. Video Placeholder */}
+                <div className="video-placeholder">
+                  <div className="play-btn"><i className="bi bi-play-fill"></i></div>
+                  <span>Watch Tutorial (1:30)</span>
+                </div>
+
+                {/* 2. Code Snippet Area */}
+                <div className="code-block-wrapper">
+                  <div className="code-header">
+                    <span>liquid-section.liquid</span>
+                    <button onClick={handleCopyCode} className={isCopied ? 'copied' : ''}>
+                      {isCopied ? <><i className="bi bi-check"></i> Copied</> : <><i className="bi bi-clipboard"></i> Copy</>}
+                    </button>
+                  </div>
+                  <pre className="code-content">
+                    {mockLiquidCode}
+                  </pre>
+                </div>
+
+                <div className="download-row">
+                  <a href="#" className="download-link"><i className="bi bi-download"></i> Download .zip file</a>
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      )}
+
+      {/* STYLES */}
       <style>
-        {`
-          .device-mockup {
-            aspect-ratio: 16 / 10;
-            min-height: 400px;
-          }
 
-          .device-mockup > div:last-child {
-            width: 100%;
-            height: 100%;
-          }
-
-          .device-mockup img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-          }
-
-          .thumbnail-btn > div {
-            aspect-ratio: 16 / 10;
-            min-width: 100px;
-          }
-
-          .thumbnail-btn img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-          }
-
-          @media (max-width: 991px) {
-            .section-title {
-              font-size: 28px !important;
-            }
-
-            .visual-preview-container {
-              margin-bottom: 32px;
-            }
-
-            .device-mockup {
-              min-height: 350px;
-            }
-          }
-
-          @media (max-width: 575px) {
-            .section-title {
-              font-size: 24px !important;
-            }
-
-            .device-mockup {
-              min-height: 280px;
-              padding: 8px !important;
-            }
-
-            .thumbnail-btn > div {
-              width: 80px !important;
-              min-width: 80px;
-            }
-
-            .app-info-card {
-              padding: 20px !important;
-            }
-
-            .device-frame-dots {
-              top: 12px !important;
-              left: 12px !important;
-            }
-
-            .device-frame-dots > div {
-              width: 10px !important;
-              height: 10px !important;
-            }
-          }
-
-          .thumbnail-btn:hover {
-            opacity: 1 !important;
-          }
-
-          .thumbnail-btn:hover > div {
-            border-color: #1A1A1A !important;
-            transform: scale(1.05);
-            box-shadow: 0 6px 20px rgba(0,0,0,0.2) !important;
-          }
-        `}
       </style>
     </section>
   );
 };
 
 AppShowcaseSection.propTypes = {
-  data: PropTypes.shape({
-    title: PropTypes.string,
-    description: PropTypes.string,
-    badge: PropTypes.string,
-    appInfo: PropTypes.shape({
-      icon: PropTypes.string,
-      name: PropTypes.string,
-      subtext: PropTypes.string,
-      price: PropTypes.string,
-    }),
-    features: PropTypes.arrayOf(PropTypes.string),
-    ctaButton: PropTypes.shape({
-      text: PropTypes.string,
-      link: PropTypes.string,
-    }),
-    featureIcons: PropTypes.arrayOf(
-      PropTypes.shape({
-        icon: PropTypes.string,
-        label: PropTypes.string,
-      })
-    ),
-    previews: PropTypes.arrayOf(
-      PropTypes.shape({
-        type: PropTypes.string,
-        image: PropTypes.string,
-        alt: PropTypes.string,
-      })
-    ),
-  }),
+  data: PropTypes.object,
 };
 
 AppShowcaseSection.defaultProps = {

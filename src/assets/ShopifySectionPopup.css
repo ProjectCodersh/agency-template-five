@@ -1,0 +1,286 @@
+/* Modal Styles */
+.custom-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(4px);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.custom-modal-content {
+    background: #fff;
+    width: 100%;
+    max-width: 780px;
+    border-radius: 16px;
+    padding: 40px;
+    position: relative;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+    animation: slideUp 0.3s ease-out;
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.close-btn {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 28px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #999;
+}
+
+.close-btn:hover {
+    color: #333;
+}
+
+/* Email Step */
+.modal-step-email {
+    text-align: center;
+}
+
+.modal-header-icon {
+    width: 60px;
+    height: 60px;
+    background: #f3f0ff;
+    color: #6a47ed;
+    font-size: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+}
+
+.modal-step-email h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.modal-step-email p {
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+
+.modal-step-email input {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.modal-step-email input:focus {
+    outline: 2px solid #6a47ed;
+    border-color: transparent;
+}
+
+.modal-cta-btn {
+    width: 100%;
+    padding: 14px;
+    background: #6a47ed;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.modal-cta-btn:hover {
+    background: #5835dd;
+}
+
+.secure-badge {
+    margin-top: 15px;
+    font-size: 12px;
+    color: #999;
+}
+
+/* Install Step */
+.modal-step-install h3 {
+    font-size: 22px;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.sub-text {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.video-placeholder {
+    width: 100%;
+    height: 180px;
+    background: #eee;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+.play-btn {
+    width: 50px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.video-placeholder:hover .play-btn {
+    background: #6a47ed;
+}
+
+.code-block-wrapper {
+    background: #1e1e1e;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.code-header {
+    background: #2d2d2d;
+    padding: 8px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.code-header span {
+    color: #aaa;
+    font-size: 12px;
+    font-family: monospace;
+}
+
+.code-header button {
+    background: transparent;
+    border: 1px solid #555;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.code-header button:hover {
+    background: #444;
+}
+
+.code-header button.copied {
+    background: #28a745;
+    border-color: #28a745;
+}
+
+.code-content {
+    padding: 15px;
+    color: #d4d4d4;
+    font-family: 'Courier New', monospace;
+    font-size: 12px;
+    height: 150px;
+    overflow-y: auto;
+    margin: 0;
+    white-space: pre-wrap;
+}
+
+.code-content::-webkit-scrollbar {
+    width: 8px;
+    background: #1e1e1e;
+}
+
+.code-content::-webkit-scrollbar-thumb {
+    background: #444;
+    border-radius: 4px;
+}
+
+.download-link {
+    color: #1a1a1a;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.download-link:hover {
+    text-decoration: underline;
+    color: #6a47ed;
+}
+
+/* Existing Styles */
+.device-mockup {
+    aspect-ratio: 16 / 10;
+    min-height: 400px;
+}
+
+.device-mockup>div:last-child {
+    width: 100%;
+    height: 100%;
+}
+
+.device-mockup img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #d1d1d1;
+}
+
+.thumbnail-btn>div {
+    aspect-ratio: 16 / 10;
+    min-width: 100px;
+}
+
+.cta-button:hover {
+    background-color: #2d2d2d !important;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 575px) {
+    .custom-modal-content {
+        padding: 25px;
+        /* margin: 10px; */
+    }
+
+    .device-mockup {
+        min-height: 280px;
+        padding: 8px !important;
+    }
+
+    .dot {
+        width: 10px;
+        height: 10px;
+    }
+}
