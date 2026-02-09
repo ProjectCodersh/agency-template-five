@@ -98,12 +98,12 @@
         {
           "number": 3,
           "title": "Section Setup",
-          "description": "Adjust the scrolling text settings in the Theme Editor to match your content and style, No code required."
+          "description": "Update nutrition values and content directly from the Theme Editor, No code required."
         },
         {
           "number": 4,
           "title": "Review & Publish",
-          "description": "Review the section in your store and publish it to your live storefront."
+          "description": "Review the section on your store and publish it when ready."
         }
       ]
     }

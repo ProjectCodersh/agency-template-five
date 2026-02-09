@@ -77,22 +77,22 @@
         {
           "number": 1,
           "title": "Get in Touch",
-          "description": "Contact us to discuss your requirements and confirm the section setup."
+          "description": "Contact us to discuss your requirements and confirm the purchase."
         },
         {
           "number": 2,
-          "title": "Section Installation",
-          "description": "After confirmation, our team adds the section directly to your Shopify store."
+          "title": "Receive the Section",
+          "description": "Once the purchase is finalized, the section is added to your Shopify storefront by our team."
         },
         {
           "number": 3,
           "title": "Section Setup",
-          "description": "Adjust comparison content and layout from the Theme Editor if needed."
+          "description": "Update nutrition values and content directly from the Theme Editor, No code required."
         },
         {
           "number": 4,
           "title": "Review & Publish",
-          "description": "Review the section on your storefront and publish when ready."
+          "description": "Review the section on your store and publish it when ready."
         }
       ]
     }
