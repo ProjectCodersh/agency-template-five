@@ -38,6 +38,7 @@ import ShopifyDynamicServices from '../Pages/ShopifyDynamicServices';
 import PortfolioPage from '../Pages/PortfolioPage';
 import ShopifySections from '../Pages/ShopifySections';
 import ShopifySingleSection from '../Pages/ShopifySingleSection';
+import ShopifySectionCode from '../Pages/ShopifySectionCode';
 // import CaseStudyDetailsPage from "../Pages/CaseStudyDetailsPage";
 // import BlogRightSidebar from "../Pages/BlogRightSidebar";
 // import BlogPage from "../Pages/BlogPage";
@@ -187,8 +188,13 @@ export const router = createBrowserRouter([
         path: '/new-services/cms/shopify-sections/:slug?',
         element: <ShopifySingleSection />,
       },
+      {
+        path: '/new-services/cms/shopify-sections/get-code/:slug',
+        element: <ShopifySectionCode />,
+      },
     ],
   },
+
   {
     path: '/',
     element: <Main />,

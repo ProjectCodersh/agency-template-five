@@ -1,36 +1,12 @@
 import { useState } from 'react';
 import PropTypes from 'prop-types';
+import { useNavigate, useParams } from 'react-router-dom';
 import '../../assets/ShopifySectionPopup.css';
 
 const AppShowcaseSection = ({ data }) => {
   const [activePreview, setActivePreview] = useState(0);
-
-  // --- NEW STATE FOR MODAL & FLOW ---
-  const [showModal, setShowModal] = useState(false);
-  const [formStep, setFormStep] = useState('email'); // 'email' or 'install'
-  const [emailInput, setEmailInput] = useState('');
-  const [isCopied, setIsCopied] = useState(false);
-
-  // --- MOCK DATA FOR DEMO (Later this comes from ACF) ---
-  const mockLiquidCode = `
-{% schema %}
-{
-  "name": "Video with Text",
-  "settings": [
-    {
-      "type": "video_url",
-      "id": "video_url",
-      "label": "Video link",
-      "accept": ["youtube", "vimeo"]
-    }
-  ]
-}
-{% endschema %}
-
-<div class="video-section">
-  <h2>{{ section.settings.heading }}</h2>
-</div>
-  `.trim();
+  const navigate = useNavigate();
+  const { slug } = useParams();
 
   // Default data structure
   const defaultData = {
@@ -82,27 +58,11 @@ const AppShowcaseSection = ({ data }) => {
 
   // --- HANDLERS ---
   const handleOpenModal = () => {
-    setShowModal(true);
-    setFormStep('email'); // Always reset to email step on open
-  };
-
-  const handleCloseModal = () => {
-    setShowModal(false);
-  };
-
-  const handleEmailSubmit = (e) => {
-    e.preventDefault();
-    if (emailInput.trim() !== '') {
-      // API CALL TO SAVE EMAIL WOULD GO HERE
-      console.log('Lead Captured:', emailInput);
-      setFormStep('install'); // Switch to code view
+    if (slug) {
+      navigate(`/new-services/cms/shopify-sections/get-code/${slug}`);
+    } else {
+      console.error('No slug found for navigation');
     }
-  };
-
-  const handleCopyCode = () => {
-    navigator.clipboard.writeText(mockLiquidCode);
-    setIsCopied(true);
-    setTimeout(() => setIsCopied(false), 2000);
   };
 
   return (
@@ -295,25 +255,16 @@ const AppShowcaseSection = ({ data }) => {
                 </ul>
               </div>
 
-              {/* CTA Button - UPDATED TO TRIGGER MODAL */}
-              <button
-                type="button"
-                className="cta-button w-100 mb-2 border-0"
-                style={{
-                  height: '52px',
-                  backgroundColor: '#6a47ed',
-                  color: '#FFFFFF',
-                  fontSize: '15px',
-                  fontWeight: 600,
-                  textTransform: 'uppercase',
-                  borderRadius: '8px',
-                  cursor: 'pointer',
-                  transition: 'all 0.2s',
-                }}
-                onClick={handleOpenModal} // Triggers the modal
-              >
-                {sectionData.ctaButton.text}
-              </button>
+              {/* CTA Button - UPDATED TO NAVIGATE TO CODE PAGE */}
+              <div className="main-button w-100 mb-4">
+                <button
+                  type="button"
+                  className="theme-btn w-100 justify-content-center"
+                  onClick={handleOpenModal}
+                >
+                  {sectionData.ctaButton.text}
+                </button>
+              </div>
 
               {/* Secondary Link for Agency Services */}
               <div className="text-center mb-4">
@@ -342,68 +293,6 @@ const AppShowcaseSection = ({ data }) => {
           </div>
         </div>
       </div>
-
-      {/* --- LEAD GEN & INSTALLATION MODAL --- */}
-      {showModal && (
-        <div className="custom-modal-overlay">
-          <div className="custom-modal-content">
-            <button className="close-btn" onClick={handleCloseModal}>&times;</button>
-
-            {formStep === 'email' ? (
-              // STEP 1: EMAIL CAPTURE
-              <div className="modal-step-email">
-                <div className="modal-header-icon">
-                  <i className="bi bi-gift-fill"></i>
-                </div>
-                <h3>Send me this Section</h3>
-                <p>Enter your email address to unlock the code snippet and installation video instantly.</p>
-                <form onSubmit={handleEmailSubmit}>
-                  <input
-                    type="email"
-                    placeholder="name@business.com"
-                    required
-                    value={emailInput}
-                    onChange={(e) => setEmailInput(e.target.value)}
-                  />
-                  <button type="submit" className="modal-cta-btn">Unlock Code</button>
-                </form>
-                <div className="secure-badge">
-                  <i className="bi bi-shield-lock"></i> 100% Secure & Free
-                </div>
-              </div>
-            ) : (
-              // STEP 2: INSTALLATION GUIDE
-              <div className="modal-step-install">
-                <h3>Installation Guide</h3>
-                <p className="sub-text">Follow the video or copy the code below.</p>
-
-                {/* 1. Video Placeholder */}
-                <div className="video-placeholder">
-                  <div className="play-btn"><i className="bi bi-play-fill"></i></div>
-                  <span>Watch Tutorial (1:30)</span>
-                </div>
-
-                {/* 2. Code Snippet Area */}
-                <div className="code-block-wrapper">
-                  <div className="code-header">
-                    <span>liquid-section.liquid</span>
-                    <button onClick={handleCopyCode} className={isCopied ? 'copied' : ''}>
-                      {isCopied ? <><i className="bi bi-check"></i> Copied</> : <><i className="bi bi-clipboard"></i> Copy</>}
-                    </button>
-                  </div>
-                  <pre className="code-content">
-                    {mockLiquidCode}
-                  </pre>
-                </div>
-
-                <div className="download-row">
-                  <a href="#" className="download-link"><i className="bi bi-download"></i> Download .zip file</a>
-                </div>
-              </div>
-            )}
-          </div>
-        </div>
-      )}
 
       {/* STYLES */}
       <style>
