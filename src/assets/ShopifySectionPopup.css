@@ -196,3 +196,92 @@ section.section-padding {
         padding: 60px 0;
     }
 }
+
+/* Code Explorer Sidebar Styles */
+.code-explorer-container {
+    background: #ffffff;
+    min-height: 550px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+}
+
+.file-tree-area {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    color: #444;
+}
+
+.tree-folder {
+    padding: 6px 10px;
+    font-weight: 600;
+    color: #1a1a1a;
+    display: flex;
+    align-items: center;
+}
+
+.tree-file {
+    padding: 6px 12px;
+    margin: 2px 0;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    color: #555;
+}
+
+.tree-file:hover {
+    background: rgba(106, 71, 237, 0.05);
+    color: var(--theme);
+}
+
+.tree-file.active {
+    background: rgba(106, 71, 237, 0.1);
+    color: var(--theme);
+    font-weight: 600;
+}
+
+/* Scrollbar for the dark editor */
+.code-editor-content::-webkit-scrollbar {
+    width: 6px;
+}
+
+.code-editor-content::-webkit-scrollbar-thumb {
+    background: #30363d;
+    border-radius: 10px;
+}
+
+.border-white-10 {
+    border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.tree-item {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border-radius: 6px;
+    margin: 2px 8px;
+    color: #ffffffb3;
+    font-size: 13.5px;
+}
+
+/* Hover effect */
+.tree-item:hover {
+    background: #2b2b2b;
+    /* Soft purple tint */
+    color: #fff;
+}
+
+/* Active (Selected) effect */
+.tree-item.active {
+    background: #2b2b2b;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.small-chevron {
+    font-size: 10px;
+    margin-right: 8px;
+    color: #999;
+}

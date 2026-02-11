@@ -97,5 +97,30 @@
         }
       ]
     }
-  }
+  },
+  "codeFiles": [
+    {
+      "name": "sections",
+      "type": "folder",
+      "isOpen": true,
+      "children": [
+        {
+          "name": "video-with-text.liquid",
+          "type": "file",
+          "content": "{% schema %} ... (Liquid Code Here) ..."
+        }
+      ]
+    },
+    {
+      "name": "assets",
+      "type": "folder",
+      "children": [
+        {
+          "name": "section-video.css",
+          "type": "file",
+          "content": ".video-section { ... }"
+        }
+      ]
+    }
+  ]
 }
