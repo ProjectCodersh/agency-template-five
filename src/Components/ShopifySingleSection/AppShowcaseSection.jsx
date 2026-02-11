@@ -268,7 +268,7 @@ const AppShowcaseSection = ({ data }) => {
 
               {/* Secondary Link for Agency Services */}
               <div className="text-center mb-4">
-                <a href="/contact" style={{ fontSize: '13px', color: '#6B6B6B', textDecoration: 'underline' }}>
+                <a href="https://calendly.com/codersh-web-services/15min" style={{ fontSize: '13px', color: '#6B6B6B', textDecoration: 'underline' }}>
                   Need help installing? Hire our developers.
                 </a>
               </div>
