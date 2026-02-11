@@ -294,7 +294,7 @@ const ShopifySectionCode = () => {
                                                                     />
                                                                 ))
                                                             ) : (
-                                                                <div className="p-3 text-muted small italic">No code files available.</div>
+                                                                <div className="p-3 small italic" style={{ color: "#ffffffb3" }}>No code files available.</div>
                                                             )}
                                                         </div>
                                                     </div>
