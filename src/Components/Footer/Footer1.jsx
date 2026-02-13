@@ -219,31 +219,31 @@ const Footer1 = () => {
                       </Link>
                     </li>
                     <li>
-                      <Link to="/new-services/cms/custom-store-project">
+                      <Link to="/new-services/custom-store-project">
                         <i className="bi bi-arrow-right"></i>
                         Custom Store Project
                       </Link>
                     </li>
                     <li>
-                      <Link to="/new-services/cms/shopify-migration">
+                      <Link to="/new-services/shopify-migration">
                         <i className="bi bi-arrow-right"></i>
                         Shopify Migration
                       </Link>
                     </li>
                     <li>
-                      <Link to="/new-services/cms/shopify-subscription">
+                      <Link to="/new-services/shopify-subscription">
                         <i className="bi bi-arrow-right"></i>
                         Shopify Subscription
                       </Link>
                     </li>
                     <li>
-                      <Link to="/new-services/cms/shopify-b2b-and-wholesale">
+                      <Link to="/new-services/shopify-b2b-and-wholesale">
                         <i className="bi bi-arrow-right"></i>
                         Shopify B2B Wholesale
                       </Link>
                     </li>
                     <li>
-                      <Link to="/new-services/cms/shopify-sections">
+                      <Link to="/shopify-sections">
                         <i className="bi bi-arrow-right"></i>
                         Shopify Sections
                       </Link>

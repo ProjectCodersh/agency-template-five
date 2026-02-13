@@ -2,67 +2,29 @@ import { useState } from 'react';
 import PropTypes from 'prop-types';
 import { useNavigate, useParams } from 'react-router-dom';
 import '../../assets/ShopifySectionPopup.css';
+import { Link } from 'react-router-dom';
 
 const AppShowcaseSection = ({ data }) => {
   const [activePreview, setActivePreview] = useState(0);
   const navigate = useNavigate();
   const { slug } = useParams();
 
-  // Default data structure
-  const defaultData = {
-    title: 'Shopify Video with Text Section',
-    description:
-      'Present your message with impact using a structured video and text layout. This section combines visual storytelling with clear content.',
-    badge: 'Add to Your Store',
-    appInfo: {
-      icon: '/assets/img/shopify-sections/app-icon.png',
-      name: 'MIT Sections Pro App',
-      subtext: 'Custom Shopify App',
-      price: '$0.00',
-    },
-    features: [
-      'No coding required',
-      'Easy to manage from the Theme Editor',
-      'Designed for modern Shopify storefronts',
-    ],
-    ctaButton: {
-      text: 'Get This Section Free', // UPDATED TEXT
-      link: '#',
-    },
-    featureIcons: [
-      { icon: 'bi-phone', label: 'Mobile Responsive' },
-      { icon: 'bi-code-slash', label: 'Clean Code' },
-      { icon: 'bi-speedometer2', label: 'Speed Optimized' },
-      { icon: 'bi-headset', label: 'Expert Support' },
-    ],
-    previews: [
-      {
-        type: 'tablet',
-        image: '/assets/img/shopify-sections/section-23.png',
-        alt: 'Collection Showcase - Tablet View',
-      },
-      {
-        type: 'mobile',
-        image: '/assets/img/shopify-sections/section-23.png', // Duplicated for demo
-        alt: 'Collection Showcase - Mobile View',
-      },
-      {
-        type: 'mobile',
-        image: '/assets/img/shopify-sections/section-23.png', // Duplicated for demo
-        alt: 'Collection Showcase - Mobile View',
-      },
-    ],
-  };
+  const rawData = data || defaultData;
 
-  const sectionData = data || defaultData;
-
-  // --- HANDLERS ---
-  const handleOpenModal = () => {
-    if (slug) {
-      navigate(`/new-services/cms/shopify-sections/get-code/${slug}`);
-    } else {
-      console.error('No slug found for navigation');
-    }
+  const sectionData = {
+    ...rawData,
+    features:
+      rawData?.features && rawData.features.length > 0
+        ? Array.isArray(rawData.features)
+          ? rawData.features
+          : typeof rawData.features === 'string'
+            ? rawData.features.split('\n').filter(Boolean)
+            : []
+        : [
+            'No coding required',
+            'Editable from the Theme Editor',
+            'Clear and compliant nutrition layout',
+          ],
   };
 
   return (
@@ -178,9 +140,10 @@ const AppShowcaseSection = ({ data }) => {
           <div className="col-12 col-xl-5 mt-lg-0 mt-4 xl:mt-2 ">
             <div className="information-panel">
               <h2 className="section-title mb-3">{sectionData.title}</h2>
-              <p className="section-description mb-4">
-                {sectionData.description}
-              </p>
+              <p
+                className="section-description mb-4"
+                dangerouslySetInnerHTML={{ __html: sectionData.description }}
+              />
 
               <div className="section-title mb-0">
                 <div className="sub-title wow fadeInUp">
@@ -241,14 +204,20 @@ const AppShowcaseSection = ({ data }) => {
                   </div>
                 </div>
 
-                <ul className="feature-list mt-4 mb-0" style={{ listStyle: 'none', padding: 0, margin: 0 }}>
+                <ul
+                  className="feature-list mt-4 mb-0"
+                  style={{ listStyle: 'none', padding: 0, margin: 0 }}
+                >
                   {sectionData.features.map((feature, index) => (
                     <li
                       key={index}
                       className="d-flex align-items-center gap-2 mb-1"
                       style={{ fontSize: '14px', color: '#2D2D2D' }}
                     >
-                      <i className="bi bi-check-circle-fill" style={{ color: '#28A745', fontSize: '18px' }} />
+                      <i
+                        className="bi bi-check-circle-fill"
+                        style={{ color: '#28A745', fontSize: '18px' }}
+                      />
                       <span>{feature}</span>
                     </li>
                   ))}
@@ -257,18 +226,21 @@ const AppShowcaseSection = ({ data }) => {
 
               {/* CTA Button - UPDATED TO NAVIGATE TO CODE PAGE */}
               <div className="main-button w-100 mb-4">
-                <button
+                <Link
                   type="button"
                   className="theme-btn w-100 justify-content-center"
-                  onClick={handleOpenModal}
+                  to={sectionData.ctaButton.link}
                 >
                   {sectionData.ctaButton.text}
-                </button>
+                </Link>
               </div>
 
               {/* Secondary Link for Agency Services */}
               <div className="text-center mb-4">
-                <a href="https://calendly.com/codersh-web-services/15min" style={{ fontSize: '13px', color: '#6B6B6B', textDecoration: 'underline' }}>
+                <a
+                  href="https://calendly.com/codersh-web-services/15min"
+                  style={{ fontSize: '13px', color: '#6B6B6B', textDecoration: 'underline' }}
+                >
                   Need help installing? Hire our developers.
                 </a>
               </div>
@@ -280,7 +252,12 @@ const AppShowcaseSection = ({ data }) => {
                     <div key={index} className="col-6">
                       <div
                         className="d-flex align-items-center gap-2"
-                        style={{ fontSize: '13px', color: '#6B6B6B', width: '100%', justifyContent: 'flex-start' }}
+                        style={{
+                          fontSize: '13px',
+                          color: '#6B6B6B',
+                          width: '100%',
+                          justifyContent: 'flex-start',
+                        }}
                       >
                         <i className={`bi ${item.icon}`} style={{ fontSize: '18px' }} />
                         <span>{item.label}</span>
@@ -295,9 +272,7 @@ const AppShowcaseSection = ({ data }) => {
       </div>
 
       {/* STYLES */}
-      <style>
-
-      </style>
+      <style></style>
     </section>
   );
 };

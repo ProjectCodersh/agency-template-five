@@ -1,7 +1,7 @@
 import { useEffect, useState, memo, useCallback } from 'react';
-import axios from 'axios';
 import ShopifySectionsCard from './ShopifySectionsCard';
 import InteractiveSectionLoader from '../Loader/InteractiveSectionLoader';
+import { getAllShopifySections } from '../../Api/wpapi';
 
 const ShopifySectionsContainer = () => {
   const [sections, setSections] = useState([]);
@@ -9,13 +9,18 @@ const ShopifySectionsContainer = () => {
 
   const fetchSections = useCallback(async () => {
     try {
-      const response = await axios.get('/assets/data/shopify-sections/ShopifySectionsData.json');
-      const sectionsData = response.data.ShopifySectionsPage?.find(
-        (section) => section.ShopifySectionsCard
-      );
-      if (sectionsData?.ShopifySectionsCard) {
-        setSections(sectionsData.ShopifySectionsCard);
-      }
+      const data = await getAllShopifySections();
+
+      const formattedSections = data.map((post) => ({
+        headertag: post.acf?.headertag || 'Shopify Section',
+        sectiontitle: post.title.rendered,
+        sectiondescription: post.content.rendered,
+        sectionbtn: post.acf?.sectionbtn || 'View Section',
+        link: post.acf?.link || `/shopify-sections/${post.slug}`,
+        img: post._embedded?.['wp:featuredmedia']?.[0]?.source_url || '/placeholder.jpg',
+      }));
+
+      setSections(formattedSections);
     } catch (error) {
       console.error('Error fetching Shopify sections:', error);
     } finally {
@@ -34,18 +39,16 @@ const ShopifySectionsContainer = () => {
     <section className="section-padding fix shopify-hero-section" aria-label="Shopify Sections">
       <div className="section-title-area text-center justify-content-center mb-4">
         <div className="section-title">
-          <div className="sub-title wow fadeInUp">
+          <div className="sub-title">
             <span>CONVERSION-READY SECTIONS</span>
           </div>
-          <h2 className="wow fadeInUp" data-wow-delay=".3s">
-            Browse Shopify Sections
-          </h2>
-          <p className="wow fadeInUp mt-2" data-wow-delay=".5s" style={{ borderLeft: 'none' }}>
-            Explore our comprehensive library of premium, no-code Shopify sections. Designed to
-            increase engagement, boost AOV, and beautify your store instantly.
+          <h2>Browse Shopify Sections</h2>
+          <p className="mt-2" style={{ borderLeft: 'none' }}>
+            Explore our comprehensive library of premium, no-code Shopify sections.
           </p>
         </div>
       </div>
+
       <div className="container-fluid container-lg px-3 px-lg-0">
         <div className="row">
           {sections.map((section, index) => (

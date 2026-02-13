@@ -152,44 +152,45 @@ export const router = createBrowserRouter([
         element: <NewServicesPage />,
       },
       {
-        path: '/new-services/single-service',
-        element: <NewSingleServicePage />,
-      },
-      {
         path: '/new-services/white-label-service',
         element: <WhiteLabelServicePage />,
       },
+      // Static page builder routes
+      // {
+      //   path: '/new-services/single-service',
+      //   element: <NewSingleServicePage />,
+      // },
+      // {
+      //   path: '/new-services/shopify-migration',
+      //   element: <ShopifyMigratioPage />,
+      // },
+      // {
+      //   path: '/new-services/shopify-subscriptions',
+      //   element: <ShopifySubscriptions />,
+      // },
+      // {
+      //   path: '/new-services/shopify-b2b-wholesale',
+      //   element: <ShopifyB2BWholeSale />,
+      // },
+      // {
+      //   path: '/new-services/shopify-dynamic-services',
+      //   element: <ShopifyDynamicServices />,
+      // },
       // dynamic page builder routes
       {
-        path: '/new-services/shopify-migration',
-        element: <ShopifyMigratioPage />,
-      },
-      {
-        path: '/new-services/shopify-subscriptions',
-        element: <ShopifySubscriptions />,
-      },
-      {
-        path: '/new-services/shopify-b2b-wholesale',
-        element: <ShopifyB2BWholeSale />,
-      },
-      {
-        path: '/new-services/shopify-dynamic-services',
+        path: '/new-services/:slug',
         element: <ShopifyDynamicServices />,
       },
       {
-        path: '/new-services/cms/:slug',
-        element: <ShopifyDynamicServices />,
-      },
-      {
-        path: 'new-services/cms/shopify-sections',
+        path: '/shopify-sections',
         element: <ShopifySections />,
       },
       {
-        path: '/new-services/cms/shopify-sections/:slug?',
+        path: '/shopify-sections/:slug?',
         element: <ShopifySingleSection />,
       },
       {
-        path: '/new-services/cms/shopify-sections/get-code/:slug',
+        path: '/shopify-sections/:slug/get-code',
         element: <ShopifySectionCode />,
       },
     ],

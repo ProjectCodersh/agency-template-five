@@ -30,7 +30,7 @@ const ShopifySectionsCard = ({ section, index }) => {
           border: '1px solid rgba(0, 0, 0, 0.05)',
         }}
       >
-        <div className="svc-header-tag">{section.headertag || 'Shopify Section'}</div>
+        <div className="svc-header-tag">{section.headertag}</div>
         {/* <div className="page-speed-badge">
           <span className="icon">
             <img
@@ -66,7 +66,7 @@ const ShopifySectionsCard = ({ section, index }) => {
           >
             {section.sectiontitle}
           </h3>
-          <p
+          <div
             className="svc-description"
             style={{
               color: '#666666',
@@ -75,8 +75,8 @@ const ShopifySectionsCard = ({ section, index }) => {
               marginBottom: '25px',
             }}
           >
-            {section.sectiondescription}
-          </p>
+            <div dangerouslySetInnerHTML={{ __html: section.sectiondescription }} />
+          </div>
           <Link
             className="svc-btn"
             to={section.link || '#'}
