@@ -26,7 +26,7 @@ const Home = () => {
         title="Unlimited WordPress Services | Grow Your Agency Profits with Codersh"
         description="Codersh offers unlimited WordPress SEO, design, and development services to help agencies grow profits, save time, and scale faster."
         keywords="unlimited WordPress services, WordPress SEO, WordPress development agency, page builder integration, digital agency tools"
-        url="https://agency-template-five.vercel.app/"
+        url="https://uk.codersh.com/"
       />
 
       <HeroBanner1 />

@@ -9,7 +9,7 @@ const PricingPage = () => {
         title="Pricing Plans | Unlimited WordPress & Shopify Development - Codersh"
         description="Choose the right plan for your business with Codersh’s unlimited WordPress and Shopify development services. Flexible pricing, unlimited tasks, and expert support."
         keywords="Codersh pricing, WordPress development pricing, Shopify development pricing, unlimited web development cost, web agency pricing plans"
-        url="https://agency-template-five.vercel.app/pricing"
+        url="https://uk.codersh.com/pricing"
       />
 
       <BreadCumb bgimg="/assets/img/breadcrumb.jpg" Title="Pricing" />
