@@ -98,11 +98,13 @@ const HeroBanner4 = () => {
                 alt="Shopify Partner Badge"
                 style={{ height: '70px', objectFit: 'contain' }}
               />
-              <img
-                src="/assets/img/Upwork-Badges.png"
-                alt="Upwork Badge"
-                style={{ height: '70px', objectFit: 'contain' }}
-              />
+              <a href="https://www.upwork.com/agencies/codersh/" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="/assets/img/Upwork-Badges.png"
+                  alt="Upwork Badge"
+                  style={{ height: '70px', objectFit: 'contain' }}
+                />
+              </a>
             </div>
             <h1 className="wow img-custom-anim-left mb-2" data-wow-delay="0.2s">
               {parse(heroContent.title)}
