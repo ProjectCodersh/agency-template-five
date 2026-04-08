@@ -58,7 +58,7 @@ const HeroBanner1 = () => {
                 <img
                   src="/assets/img/Top+Rated+Plus+Upwork_white-325w.webp"
                   alt="Upwork Badge"
-                  style={{ height: '70px', objectFit: 'contain' }}
+                  style={{ height: '50px', objectFit: 'contain' }}
                 />
               </a>
             </div>
