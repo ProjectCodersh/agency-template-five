@@ -48,28 +48,35 @@ const HeroBanner4 = () => {
     ],
   };
 
-  const brandContent = [
-    { img: '/assets/img/brand/reinventu-logo2-test.webp' },
-    { img: '/assets/img/brand/500-logo-test.webp' },
-    { img: '/assets/img/brand/chenchef-logo-test.webp' },
-    { img: '/assets/img/brand/christianbookbag-logo-test.webp' },
-    { img: '/assets/img/brand/anadian-logo-test.webp' },
+  // const brandContent = [
+  //   { img: '/assets/img/brand/reinventu-logo2-test.webp' },
+  //   { img: '/assets/img/brand/500-logo-test.webp' },
+  //   { img: '/assets/img/brand/chenchef-logo-test.webp' },
+  //   { img: '/assets/img/brand/christianbookbag-logo-test.webp' },
+  //   { img: '/assets/img/brand/anadian-logo-test.webp' },
+  // ];
+  const brandLogos = [
+    '/assets/img/brand/reinventu-logo2-test.webp',
+    '/assets/img/brand/500-logo-test.webp',
+    '/assets/img/brand/chenchef-logo-test.webp',
+    '/assets/img/brand/christianbookbag-logo-test.webp',
+    '/assets/img/brand/anadian-logo-test.webp',
   ];
-
   const heroContent = {
     bg: '/assets/img/hero/hero-bg-2.png',
     bg2: '/assets/img/hero/bg-shape.png',
     subtitle: 'go for advertising',
     title: 'Grow profits, save time, <br/> and scale your agency',
-    content: 'White Label Shopify Development Partner for Digital Agencies at Fixed Cost.',
+    content: 'Top Rated White Label Ecommerce Development Agency',
     content2:
       'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected.',
     img: '/assets/img/hero/hero-text.png',
     reviewlogo: '/assets/img/hero/logo.png',
-    reviewimg: '/assets/img/hero/client-demo.png',
-    review: '450+ reviews',
+    reviewimg: '/public/assets/img/empall.png',
+    review: '107+ reviews',
   };
-
+  // Duplicate logos so the marquee loop is seamless (translateX -50%)
+  const marqueeLogos = [...brandLogos, ...brandLogos];
   return (
     <section className="hero-section hero-2" data-background={heroContent.bg}>
       <div
@@ -141,7 +148,11 @@ const HeroBanner4 = () => {
             </div>
 
             <div className="main-button">
-              <a href="https://calendly.com/codersh-web-services/15min" target='_blank' rel='noopener noreferrer'>
+              <a
+                href="https://calendly.com/codersh-web-services/15min"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <span className="hero-theme-btn-second" style={{ minWidth: '209px' }}>
                   Let&#39;s Collaborate
                 </span>
@@ -152,23 +163,14 @@ const HeroBanner4 = () => {
       </div>
 
       <div className="brand-wrapper-2">
-        <h4 className="brand-title">1k + Brands Trust Us</h4>
-        <div className="swiper brand-slider">
-          <div className="swiper-wrapper cs_slider_gap_30">
-            <Slider {...settings}>
-              {brandContent.map((item, i) => (
-                <div key={i} className="swiper-slide">
-                  <div className="brand-img center d-flex justify-content-center">
-                    <img
-                      src={item.img}
-                      alt="img"
-                      className="brand-trust-img"
-                      style={{ maxHeight: '70px' }}
-                    />
-                  </div>
-                </div>
-              ))}
-            </Slider>
+        <h4 className="brand-title">Trusted by brands across the world</h4>
+        <div className="brand-marquee-outer">
+          <div className="brand-marquee-track">
+            {marqueeLogos.map((imgSrc, index) => (
+              <div key={index} className="brand-marquee-item">
+                <img src={imgSrc} alt={`brand-${index}`} className="brand-trust-img" />
+              </div>
+            ))}
           </div>
         </div>
       </div>

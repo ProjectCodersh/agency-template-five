@@ -26,7 +26,7 @@ const Home2 = () => {
       <Cta2 />
       <Testimonial2 />
       <Blog1 />
-    </div >
+    </div>
   );
 };
 

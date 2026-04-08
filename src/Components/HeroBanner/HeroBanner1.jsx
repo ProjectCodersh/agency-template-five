@@ -1,5 +1,4 @@
 import { useEffect, memo } from 'react';
-import Slider from 'react-slick';
 import { Link } from 'react-router-dom';
 import parse from 'html-react-parser';
 import loadBackgroudImages from '../Common/loadBackgroudImages';
@@ -17,29 +16,13 @@ const heroContent = {
   bg2: '/assets/img/hero/bg-shape.png',
   subtitle: 'go for advertising',
   title: 'Grow profits, save time, <br/> and scale your agency',
-  content: 'White Label WordPress Development Partner for Digital Agencies at Fixed Cost.',
-  review: '450+ reviews',
-  reviewImg: '/assets/img/hero/client-demo.png',
+  content: 'Top Rated White Label Ecommerce Development Agency',
+  review: '107+ reviews',
+  reviewImg: '/public/assets/img/empall.png',
 };
 
-const sliderSettings = {
-  dots: false,
-  infinite: true,
-  speed: 3000,
-  autoplay: true,
-  autoplaySpeed: 100,
-  cssEase: 'linear',
-  slidesToShow: 4,
-  slidesToScroll: 1,
-  arrows: false,
-  swipeToSlide: true,
-  responsive: [
-    { breakpoint: 1399, settings: { slidesToShow: 4 } },
-    { breakpoint: 1199, settings: { slidesToShow: 3 } },
-    { breakpoint: 767, settings: { slidesToShow: 2 } },
-    { breakpoint: 575, settings: { slidesToShow: 1 } },
-  ],
-};
+// Duplicate logos so the marquee loop is seamless (translateX -50%)
+const marqueeLogos = [...brandLogos, ...brandLogos];
 
 const HeroBanner1 = () => {
   useEffect(() => {
@@ -131,18 +114,14 @@ const HeroBanner1 = () => {
       </div>
 
       <div className="brand-wrapper-2">
-        <h4 className="brand-title">1k + Brands Trust Us</h4>
-        <div className="swiper brand-slider">
-          <div className="swiper-wrapper cs_slider_gap_30">
-            <Slider {...sliderSettings}>
-              {brandLogos.map((imgSrc, index) => (
-                <div key={index} className="swiper-slide">
-                  <div className="brand-img center">
-                    <img src={imgSrc} alt={`brand-${index}`} className="brand-trust-img" />
-                  </div>
-                </div>
-              ))}
-            </Slider>
+        <h4 className="brand-title">Trusted by brands across the world</h4>
+        <div className="brand-marquee-outer">
+          <div className="brand-marquee-track">
+            {marqueeLogos.map((imgSrc, index) => (
+              <div key={index} className="brand-marquee-item">
+                <img src={imgSrc} alt={`brand-${index}`} className="brand-trust-img" />
+              </div>
+            ))}
           </div>
         </div>
       </div>
