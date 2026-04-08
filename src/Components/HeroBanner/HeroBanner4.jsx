@@ -124,8 +124,8 @@ const HeroBanner4 = () => {
                   rel="noopener noreferrer"
                 >
                   <img
-                    src="/assets/img/hero/clutchreview-2.png"
-                    alt="clutchreview"
+                    src="/assets/img/cluchimg.webp"
+                    alt="Clutch Reviews"
                     style={{ height: '42px' }}
                   />
                 </a>
