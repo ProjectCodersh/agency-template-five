@@ -98,9 +98,13 @@ const HeroBanner4 = () => {
                 alt="Shopify Partner Badge"
                 style={{ height: '70px', objectFit: 'contain' }}
               />
-              <a href="https://www.upwork.com/agencies/codersh/" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://www.upwork.com/agencies/codersh/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img
-                  src="/assets/img/Upwork-Badges.png"
+                  src="/assets/img/Top+Rated+Plus+Upwork_white-325w.webp"
                   alt="Upwork Badge"
                   style={{ height: '70px', objectFit: 'contain' }}
                 />
@@ -126,7 +130,7 @@ const HeroBanner4 = () => {
                   rel="noopener noreferrer"
                 >
                   <img
-                    src="/assets/img/cluchimg.webp"
+                    src="/assets/img/Top+Rated+Plus+Upwork_white-325w.webp"
                     alt="Clutch Reviews"
                     style={{ height: '42px' }}
                   />
