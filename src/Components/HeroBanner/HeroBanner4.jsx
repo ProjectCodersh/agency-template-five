@@ -66,7 +66,7 @@ const HeroBanner4 = () => {
     bg: '/assets/img/hero/hero-bg-2.png',
     bg2: '/assets/img/hero/bg-shape.png',
     subtitle: 'go for advertising',
-    title: 'Grow profits, save time, <br/> and scale your agency',
+    title: 'Your Trusted <br/> Ecommerce Partner',
     content: 'Top Rated White Label Ecommerce Development Agency',
     content2:
       'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected.',
@@ -92,6 +92,18 @@ const HeroBanner4 = () => {
       <div className="container px-3 position-relative z-1">
         <div className="row g-4 align-items-center text-center">
           <div className="col-12">
+            <div className="d-flex justify-content-center align-items-center gap-3 mb-3">
+              <img
+                src="/assets/img/shopify-partner.png"
+                alt="Shopify Partner Badge"
+                style={{ height: '70px', objectFit: 'contain' }}
+              />
+              <img
+                src="/assets/img/Upwork-Badges.png"
+                alt="Upwork Badge"
+                style={{ height: '70px', objectFit: 'contain' }}
+              />
+            </div>
             <h1 className="wow img-custom-anim-left mb-2" data-wow-delay="0.2s">
               {parse(heroContent.title)}
             </h1>
