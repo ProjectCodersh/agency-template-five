@@ -130,7 +130,7 @@ const HeroBanner4 = () => {
                   rel="noopener noreferrer"
                 >
                   <img
-                    src="/assets/img/Top+Rated+Plus+Upwork_white-325w.webp"
+                    src="/assets/img/cluchimg.webp"
                     alt="Clutch Reviews"
                     style={{ height: '42px' }}
                   />
