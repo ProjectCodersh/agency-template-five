@@ -18,7 +18,7 @@ const heroContent = {
   title: 'Grow profits, save time, <br/> and scale your agency',
   content: 'Top Rated White Label Ecommerce Development Agency',
   review: '107+ reviews',
-  reviewImg: '/public/assets/img/empall.png',
+  reviewImg: '/assets/img/empall.png',
 };
 
 // Duplicate logos so the marquee loop is seamless (translateX -50%)

@@ -72,7 +72,7 @@ const HeroBanner4 = () => {
       'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected.',
     img: '/assets/img/hero/hero-text.png',
     reviewlogo: '/assets/img/hero/logo.png',
-    reviewimg: '/public/assets/img/empall.png',
+    reviewimg: '/assets/img/empall.png',
     review: '107+ reviews',
   };
   // Duplicate logos so the marquee loop is seamless (translateX -50%)
