@@ -30,11 +30,7 @@ const ServiceCard = ({ service, index }) => {
           {service.servicetitle}
         </h3>
         <p className="svc-description">{service.servicedescription}</p>
-        <Link
-          className="svc-btn"
-          to="/services"
-          aria-label={service.servicebtn}
-        >
+        <Link className="svc-btn" to="/hiring-models" aria-label={service.servicebtn}>
           {service.servicebtn}
         </Link>
       </div>

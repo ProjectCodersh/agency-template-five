@@ -17,7 +17,7 @@ const ShopifyHeroSection = () => {
       'Launch stunning, ready-to-use Shopify sections that improve user experience, increase conversions, and save development time; no coding required.',
     img: '/assets/img/hero/hero-image-3.png',
     btnname: 'Explore Sections',
-    btnurl: '/new-services/cms/shopify-sections/image-with-text-section',
+    btnurl: '/shopify-services/cms/shopify-sections/image-with-text-section',
     linkname: 'View Our Work',
     linkurl: '/work',
   };

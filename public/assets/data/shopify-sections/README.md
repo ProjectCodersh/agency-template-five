@@ -6,7 +6,7 @@ This directory contains JSON files for dynamic Shopify section pages. Each JSON 
 
 - Use kebab-case for file names (e.g., `video-with-text.json`, `accordion-section.json`)
 - The filename (without `.json`) will be used as the slug in the URL
-- Example: `video-with-text.json` → URL: `/new-services/cms/shopify-single-section/video-with-text`
+- Example: `video-with-text.json` → URL: `/shopify-services/cms/shopify-single-section/video-with-text`
 
 ## JSON Structure
 
@@ -24,11 +24,7 @@ Each JSON file should follow this structure:
       "subtext": "App Subtext",
       "price": "$0.00"
     },
-    "features": [
-      "Feature 1",
-      "Feature 2",
-      "Feature 3"
-    ],
+    "features": ["Feature 1", "Feature 2", "Feature 3"],
     "ctaButton": {
       "text": "Button text",
       "link": "#"
@@ -50,10 +46,7 @@ Each JSON file should follow this structure:
   "featureDocumentation": {
     "mainContent": {
       "heading": "Main Heading",
-      "paragraphs": [
-        "Paragraph 1",
-        "Paragraph 2"
-      ],
+      "paragraphs": ["Paragraph 1", "Paragraph 2"],
       "subheading": "Subheading",
       "features": [
         {
@@ -93,10 +86,9 @@ Each JSON file should follow this structure:
 
 1. Create a JSON file following the structure above
 2. Save it in this directory with a kebab-case name
-3. Access the page at: `/new-services/cms/shopify-single-section/{your-slug}`
+3. Access the page at: `/shopify-services/cms/shopify-single-section/{your-slug}`
 
 ## Example
 
 - File: `video-with-text.json`
-- URL: `/new-services/cms/shopify-single-section/video-with-text`
-
+- URL: `/shopify-services/cms/shopify-single-section/video-with-text`

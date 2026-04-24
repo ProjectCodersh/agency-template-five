@@ -18,9 +18,16 @@ import ThankyouPage from '../Components/Thankyou/ThankyouPage';
 import Work from '../Components/Work/Work';
 import PartnersPage from '../Pages/PartnersPage';
 import NewServicesPage from '../Pages/NewServicesPage';
-import NewSingleServicePage from '../Pages/NewSingleServicePage';
 import WhiteLabelServicePage from '../Pages/WhiteLabelServicePage';
-import ShopifyMigratioPage from '../Pages/ShopifyMigratioPage';
+import TeamDetailsPage from '../Pages/TeamDetailsPage';
+import ShopifyDynamicServices from '../Pages/ShopifyDynamicServices';
+import PortfolioPage from '../Pages/PortfolioPage';
+import ShopifySections from '../Pages/ShopifySections';
+import ShopifySingleSection from '../Pages/ShopifySingleSection';
+import ShopifySectionCode from '../Pages/ShopifySectionCode';
+
+// import NewSingleServicePage from '../Pages/NewSingleServicePage';
+// import ShopifyMigratioPage from '../Pages/ShopifyMigratioPage';
 // import TeamPage from '../Pages/TeamPage';
 // import FaqPage from '../Pages/FaqPage';
 // import Team1 from '../Components/Team/Team1';
@@ -31,14 +38,8 @@ import ShopifyMigratioPage from '../Pages/ShopifyMigratioPage';
 // import ServiceDetailsPage from '../Pages/ServiceDetailsPage';
 // import Home2 from "../Pages/Home2";
 // import Home3 from "../Pages/Home3";
-import TeamDetailsPage from '../Pages/TeamDetailsPage';
-import ShopifySubscriptions from '../Pages/ShopifySubscriptions';
-import ShopifyB2BWholeSale from '../Pages/ShopifyB2BWholeSale';
-import ShopifyDynamicServices from '../Pages/ShopifyDynamicServices';
-import PortfolioPage from '../Pages/PortfolioPage';
-import ShopifySections from '../Pages/ShopifySections';
-import ShopifySingleSection from '../Pages/ShopifySingleSection';
-import ShopifySectionCode from '../Pages/ShopifySectionCode';
+// import ShopifySubscriptions from '../Pages/ShopifySubscriptions';
+// import ShopifyB2BWholeSale from '../Pages/ShopifyB2BWholeSale';
 // import CaseStudyDetailsPage from "../Pages/CaseStudyDetailsPage";
 // import BlogRightSidebar from "../Pages/BlogRightSidebar";
 // import BlogPage from "../Pages/BlogPage";
@@ -111,7 +112,7 @@ export const router = createBrowserRouter([
         element: <CaseStudyPageNew />,
       },
       {
-        path: '/services',
+        path: '/hiring-models',
         element: <ServicesNewCards />,
       },
       {
@@ -148,48 +149,50 @@ export const router = createBrowserRouter([
       },
       // .ca services pages
       {
-        path: '/new-services',
+        path: '/shopify-services',
         element: <NewServicesPage />,
       },
       {
-        path: '/new-services/single-service',
-        element: <NewSingleServicePage />,
-      },
-      {
-        path: '/new-services/white-label-service',
+        path: '/shopify-services/white-label-service',
         element: <WhiteLabelServicePage />,
       },
-      // dynamic page builder routes
       {
-        path: '/new-services/shopify-migration',
-        element: <ShopifyMigratioPage />,
-      },
-      {
-        path: '/new-services/shopify-subscriptions',
-        element: <ShopifySubscriptions />,
-      },
-      {
-        path: '/new-services/shopify-b2b-wholesale',
-        element: <ShopifyB2BWholeSale />,
-      },
-      {
-        path: '/new-services/shopify-dynamic-services',
+        path: '/shopify-services/cms/:slug',
         element: <ShopifyDynamicServices />,
       },
+      // {
+      //   path: '/shopify-services/single-service',
+      //   element: <NewSingleServicePage />,
+      // },
+      // dynamic page builder routes - shopify services pages
+      // {
+      //   path: '/shopify-services/shopify-migration',
+      //   element: <ShopifyMigratioPage />,
+      // },
+      // {
+      //   path: '/shopify-services/shopify-subscriptions',
+      //   element: <ShopifySubscriptions />,
+      // },
+      // {
+      //   path: '/shopify-services/shopify-b2b-wholesale',
+      //   element: <ShopifyB2BWholeSale />,
+      // },
+      // {
+      //   path: '/shopify-services/shopify-dynamic-services',
+      //   element: <ShopifyDynamicServices />,
+      // },
+
+      // shopify sections routes, single section page and code page
       {
-        path: '/new-services/cms/:slug',
-        element: <ShopifyDynamicServices />,
-      },
-      {
-        path: 'new-services/cms/shopify-sections',
+        path: '/shopify-services/cms/shopify-sections',
         element: <ShopifySections />,
       },
       {
-        path: '/new-services/cms/shopify-sections/:slug?',
+        path: '/shopify-services/cms/shopify-sections/:slug?',
         element: <ShopifySingleSection />,
       },
       {
-        path: '/new-services/cms/shopify-sections/get-code/:slug',
+        path: '/shopify-services/cms/shopify-sections/get-code/:slug',
         element: <ShopifySectionCode />,
       },
     ],

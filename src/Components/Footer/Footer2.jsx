@@ -104,37 +104,37 @@ const Footer2 = () => {
                       </Link>
                     </li>
                     <li>
-                      <Link to="/new-services">
+                      <Link to="/shopify-services">
                         <i className="bi bi-arrow-right"></i>
                         Shopify Services Page
                       </Link>
                     </li>
                     <li>
-                      <Link to="/new-services/single-service">
+                      <Link to="/shopify-services/single-service">
                         <i className="bi bi-arrow-right"></i>
                         Shopify Single Service
                       </Link>
                     </li>
                     <li>
-                      <Link to="/new-services/white-label-service">
+                      <Link to="/shopify-services/white-label-service">
                         <i className="bi bi-arrow-right"></i>
                         White Label Shopify Service
                       </Link>
                     </li>
                     <li>
-                      <Link to="/new-services/shopify-migration">
+                      <Link to="/shopify-services/shopify-migration">
                         <i className="bi bi-arrow-right"></i>
                         Shopify Migration
                       </Link>
                     </li>
                     <li>
-                      <Link to="/new-services/shopify-subscriptions">
+                      <Link to="/shopify-services/shopify-subscriptions">
                         <i className="bi bi-arrow-right"></i>
                         Shopify Subscriptions
                       </Link>
                     </li>
                     <li>
-                      <Link to="/new-services/shopify-b2b-wholesale">
+                      <Link to="/shopify-services/shopify-b2b-wholesale">
                         <i className="bi bi-arrow-right"></i>
                         Shopify B2B Wholesale
                       </Link>

@@ -59,7 +59,7 @@ const AppShowcaseSection = ({ data }) => {
   // --- HANDLERS ---
   const handleOpenModal = () => {
     if (slug) {
-      navigate(`/new-services/cms/shopify-sections/get-code/${slug}`);
+      navigate(`/shopify-services/cms/shopify-sections/get-code/${slug}`);
     } else {
       console.error('No slug found for navigation');
     }
@@ -178,9 +178,7 @@ const AppShowcaseSection = ({ data }) => {
           <div className="col-12 col-xl-5 mt-lg-0 mt-4 xl:mt-2 ">
             <div className="information-panel">
               <h2 className="section-title mb-3">{sectionData.title}</h2>
-              <p className="section-description mb-4">
-                {sectionData.description}
-              </p>
+              <p className="section-description mb-4">{sectionData.description}</p>
 
               <div className="section-title mb-0">
                 <div className="sub-title wow fadeInUp">
@@ -241,14 +239,20 @@ const AppShowcaseSection = ({ data }) => {
                   </div>
                 </div>
 
-                <ul className="feature-list mt-4 mb-0" style={{ listStyle: 'none', padding: 0, margin: 0 }}>
+                <ul
+                  className="feature-list mt-4 mb-0"
+                  style={{ listStyle: 'none', padding: 0, margin: 0 }}
+                >
                   {sectionData.features.map((feature, index) => (
                     <li
                       key={index}
                       className="d-flex align-items-center gap-2 mb-1"
                       style={{ fontSize: '14px', color: '#2D2D2D' }}
                     >
-                      <i className="bi bi-check-circle-fill" style={{ color: '#28A745', fontSize: '18px' }} />
+                      <i
+                        className="bi bi-check-circle-fill"
+                        style={{ color: '#28A745', fontSize: '18px' }}
+                      />
                       <span>{feature}</span>
                     </li>
                   ))}
@@ -268,7 +272,10 @@ const AppShowcaseSection = ({ data }) => {
 
               {/* Secondary Link for Agency Services */}
               <div className="text-center mb-4">
-                <a href="https://calendly.com/codersh-web-services/15min" style={{ fontSize: '13px', color: '#6B6B6B', textDecoration: 'underline' }}>
+                <a
+                  href="https://calendly.com/codersh-web-services/15min"
+                  style={{ fontSize: '13px', color: '#6B6B6B', textDecoration: 'underline' }}
+                >
                   Need help installing? Hire our developers.
                 </a>
               </div>
@@ -280,7 +287,12 @@ const AppShowcaseSection = ({ data }) => {
                     <div key={index} className="col-6">
                       <div
                         className="d-flex align-items-center gap-2"
-                        style={{ fontSize: '13px', color: '#6B6B6B', width: '100%', justifyContent: 'flex-start' }}
+                        style={{
+                          fontSize: '13px',
+                          color: '#6B6B6B',
+                          width: '100%',
+                          justifyContent: 'flex-start',
+                        }}
                       >
                         <i className={`bi ${item.icon}`} style={{ fontSize: '18px' }} />
                         <span>{item.label}</span>
@@ -295,9 +307,7 @@ const AppShowcaseSection = ({ data }) => {
       </div>
 
       {/* STYLES */}
-      <style>
-
-      </style>
+      <style></style>
     </section>
   );
 };

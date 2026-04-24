@@ -50,7 +50,7 @@ const TrendingSections = ({ data }) => {
             sectiondescription:
               'Bring attention to selected collections to guide customers toward your most important products.',
             sectionbtn: 'View Section',
-            link: '/new-services/cms/shopify-sections/featured-collection-section',
+            link: '/shopify-services/cms/shopify-sections/featured-collection-section',
           },
           {
             id: '2',
@@ -60,7 +60,7 @@ const TrendingSections = ({ data }) => {
             sectiondescription:
               'Showcase products in a structured grid layout that keeps your collections organized and visually appealing.',
             sectionbtn: 'View Section',
-            link: '/new-services/cms/shopify-sections/collection-grid-section',
+            link: '/shopify-services/cms/shopify-sections/collection-grid-section',
           },
           {
             id: '3',
@@ -70,7 +70,7 @@ const TrendingSections = ({ data }) => {
             sectiondescription:
               'Display multiple videos in a grid format to share product demos, tutorials, or brand stories in one place.',
             sectionbtn: 'View Section',
-            link: '/new-services/cms/shopify-sections/video-grid-section',
+            link: '/shopify-services/cms/shopify-sections/video-grid-section',
           },
         ]);
       } finally {
@@ -96,7 +96,7 @@ const TrendingSections = ({ data }) => {
             </h2>
           </div>
           <div className="main-button wow fadeInUp" data-wow-delay=".3s">
-            <a href="/new-services/cms/shopify-sections" data-discover="true">
+            <a href="/shopify-services/cms/shopify-sections" data-discover="true">
               {' '}
               <span className="theme-btn">Explore All</span>
             </a>
