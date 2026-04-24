@@ -25,6 +25,7 @@ import PortfolioPage from '../Pages/PortfolioPage';
 import ShopifySections from '../Pages/ShopifySections';
 import ShopifySingleSection from '../Pages/ShopifySingleSection';
 import ShopifySectionCode from '../Pages/ShopifySectionCode';
+import SeoServicePage from '../Pages/SeoServicePage';
 
 // import NewSingleServicePage from '../Pages/NewSingleServicePage';
 // import ShopifyMigratioPage from '../Pages/ShopifyMigratioPage';
@@ -195,6 +196,11 @@ export const router = createBrowserRouter([
         path: '/shopify-services/cms/shopify-sections/get-code/:slug',
         element: <ShopifySectionCode />,
       },
+      // Social media services pages
+      {
+        path: '/services/seo-services',
+        element: <SeoServicePage />,
+      },
     ],
   },
 
@@ -206,6 +212,7 @@ export const router = createBrowserRouter([
         index: true,
         element: <Home />,
       },
+      // .com services pages
       {
         path: '/services/:slug',
         element: <ServicesNewPage />,

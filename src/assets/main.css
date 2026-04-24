@@ -2661,6 +2661,52 @@ span {
   left: 0;
 }
 
+/* ── SM Process Section — 5-card 3+2 grid layout ─────────────────────────── */
+.sm-process-cards-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 10px;
+}
+
+.sm-process-cards-grid .sm-process-card-col {
+  flex: 0 0 calc(33.333% - 16px);
+  max-width: calc(33.333% - 16px);
+}
+
+.sm-process-cards-grid .sm-process-card-col--bottom {
+  flex: 0 0 calc(33.333% - 16px);
+  max-width: calc(33.333% - 16px);
+  margin-left: calc(16.666% + 8px);
+}
+
+.sm-process-cards-grid .sm-process-card-col--bottom:first-of-type {
+  margin-left: calc(16.666% + 8px);
+}
+
+.sm-process-cards-grid .sm-process-card-col--bottom + .sm-process-card-col--bottom {
+  margin-left: 0;
+}
+
+@media (max-width: 991px) {
+  .sm-process-cards-grid .sm-process-card-col,
+  .sm-process-cards-grid .sm-process-card-col--bottom {
+    flex: 0 0 calc(50% - 12px);
+    max-width: calc(50% - 12px);
+    margin-left: 0 !important;
+  }
+}
+
+@media (max-width: 575px) {
+  .sm-process-cards-grid .sm-process-card-col,
+  .sm-process-cards-grid .sm-process-card-col--bottom {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-left: 0 !important;
+  }
+}
+/* ─────────────────────────────────────────────────────────────────────────── */
+
 .value-box-items {
   margin-top: 30px;
   border-radius: 16px;
