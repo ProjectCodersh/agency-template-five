@@ -9,29 +9,48 @@ const SECTION_DATA = {
   },
   faqlist: [
     {
-      title: 'What is SEO and why is it important for my business?',
+      title: 'What is SEO and why does my business need it?',
       content:
-        "SEO (Search Engine Optimization) is the process of improving your website's visibility on search engines like Google. It helps drive organic traffic, increase brand awareness, and generate leads without paying for ads.",
+        'SEO (Search Engine Optimization) helps your website rank higher on Google so potential customers can find you. Without SEO, even a well-designed website may not get traffic or leads.',
     },
     {
-      title: 'How long does it take to see results from SEO?',
+      title: 'How long does SEO take to show results?',
       content:
-        'SEO is a long-term strategy. Most businesses start seeing noticeable improvements within <strong>3 to 6 months</strong>, depending on competition, current website health, and the consistency of efforts applied.',
+        'SEO is a long-term strategy. You can typically start seeing improvements in <strong>2–3 months</strong>, but significant results usually take <strong>4–6 months</strong> depending on your industry and competition.',
     },
     {
-      title: 'What services are included in your digital marketing package?',
+      title: "What's included in your SEO services?",
       content:
-        'Our digital marketing packages include SEO, content marketing, social media management, pay-per-click (PPC) advertising, email marketing, and detailed monthly performance reporting.',
+        'Our SEO covers keyword research, content optimization, technical fixes, on-page SEO, backlink building, and ongoing performance tracking.',
     },
     {
-      title: 'Do you offer custom strategies for different industries?',
+      title: 'Will SEO increase my sales or just traffic?',
       content:
-        'Yes! Every business is unique. We craft tailored strategies based on your industry, target audience, competitors, and business goals to ensure maximum ROI.',
+        'Our focus is on attracting the <em>right</em> traffic. That means users who are more likely to convert into leads or customers, not just increasing visitor numbers.',
     },
     {
-      title: 'How do I get started with your services?',
+      title: 'What is technical SEO and why is it important?',
       content:
-        'Simply reach out to us via our contact form or book a free consultation call. Our team will assess your current digital presence and recommend the best plan for your growth.',
+        'Technical SEO ensures your website is fast, mobile-friendly, and easy for search engines to crawl and index. Without it, your rankings can suffer even if your content is good.',
+    },
+    {
+      title: 'Do you guarantee first-page rankings?',
+      content:
+        'No genuine SEO provider can guarantee rankings. What we do guarantee is a proven strategy, consistent improvements, and transparent reporting.',
+    },
+    {
+      title: 'Is SEO a one-time process or ongoing?',
+      content:
+        'SEO is ongoing. Search engines update constantly, and competitors are always optimizing, so continuous improvement is necessary to maintain and grow rankings.',
+    },
+    {
+      title: 'Can you fix SEO issues on my existing website?',
+      content:
+        'Yes. We can audit your current website, identify issues, and implement fixes to improve performance and rankings.',
+    },
+    {
+      title: 'What makes your SEO approach different?',
+      content: 'We combine SEO with development expertise and a conversion-focused mindset.',
     },
   ],
 };

@@ -3,8 +3,8 @@ import parse from 'html-react-parser';
 
 const SMSectionOne = () => {
   const heading = {
-    subtitle: 'Shopify Development Service',
-    title: 'Feature Services',
+    subtitle: 'WHAT WE DO FOR YOU',
+    title: 'Our Core SEO Services',
     // content:
     //   'Scale your online business with Codersh Web Services, your trusted partner in delivering high-performance and conversion-focused Shopify stores. Whether you’re launching a new brand, migrating from another platform, or optimizing your existing store, our Shopify experts ensure a smooth, powerful, and growth-ready online presence tailored to your business needs.',
   };
@@ -12,27 +12,27 @@ const SMSectionOne = () => {
   const whyContent = [
     {
       img: '/assets/img/serviceIcon/web-programming.webp',
-      title: 'Researching high-value keywords based on your industry',
+      title: 'Finding High-Value Keywords Your Ideal Customers Actually Search For',
     },
     {
       img: '/assets/img/serviceIcon/migration-1.webp',
-      title: 'Analyzing competitors and identifying gaps',
+      title: 'Discover Competitor Gaps You Can Easily Outrank',
     },
     {
       img: '/assets/img/serviceIcon/maintenance.webp',
-      title: 'Mapping keywords to the right pages',
+      title: 'Map Every Keyword to the Right Page for Better Rankings',
     },
     {
       img: '/assets/img/serviceIcon/add-to-cart-1.webp',
-      title: 'Prioritizing keywords that can drive real business results',
+      title: 'Target Keywords That Drive Revenue - Not Just Traffic',
     },
     {
       img: '/assets/img/serviceIcon/maintenance-2.webp',
-      title: 'Optimizing titles, meta descriptions, and headings',
+      title: 'Crafting Titles, Meta Descriptions & Headings That Get Clicked',
     },
     {
       img: '/assets/img/serviceIcon/recruitment-1.webp',
-      title: 'Securing backlinks from relevant, authoritative websites',
+      title: 'Building Quality Backlinks That Strengthen Your Authority',
     },
   ];
 

@@ -6,42 +6,42 @@ import parse from 'html-react-parser';
 const SECTION_DATA = {
   bg: true,
   heading: {
-    subtitle: 'WHY we do',
-    title: 'Use SEO to Drive Growth <br/> at Your Business',
+    subtitle: 'OUR SEO APPROACH',
+    title: 'A Clear SEO Process That <br/> Delivers Real, Lasting Results',
     content:
-      'The a long established fact that a reader will be <br/> distracted the readable content of page when <br/> looking at layout the point.',
+      'transparent step-by-step process so you always know <br/>exactly where your growth is coming from. SEO isn’t a one time fix -<br/> it’s a continuous process focused on steady, long-term growth',
     img: '/assets/img/feature-img.png',
   },
   cards: [
     {
       iconclass: 'bi bi-people',
-      title: 'Better Audiences',
+      title: 'Audit & Analysis',
       content:
-        'Collaboratively formulate principle capital. Progressively evolve user revolutionary hosting services.',
+        "We dig deep into your website, competitors, and current rankings to uncover exactly what's holding you back.",
     },
     {
       iconclass: 'bi bi-bar-chart-line',
-      title: 'Data Insights',
+      title: 'Strategy Planning',
       content:
-        'Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables.',
+        'We build a custom SEO roadmap tailored to your business goals — no cookie-cutter plans, ever.',
     },
     {
       iconclass: 'bi bi-megaphone',
-      title: 'Smart Marketing',
+      title: 'Implementation',
       content:
-        'Objectively innovate empowered manufactured products whereas parallel platforms remain proactive.',
+        'We optimize your content, site structure, and all technical elements for better rankings.',
     },
     {
       iconclass: 'bi bi-graph-up-arrow',
-      title: 'Growth Strategy',
+      title: 'Content & Authority Building',
       content:
-        'Proactively envisioned multimedia based expertise and cross-media growth strategies for business.',
+        'We continuously strengthen your content and earn high-quality backlinks that compounds your authority.',
     },
     {
       iconclass: 'bi bi-search',
-      title: 'SEO Optimized',
+      title: 'Monitoring & Optimization',
       content:
-        'We embed SEO best practices so you maintain and grow your organic traffic post-redesign.',
+        'We monitor results, adjust strategy, and keep refining over time - because SEO never stops working',
     },
   ],
 };
@@ -99,11 +99,7 @@ const SMProcessSection = () => {
                 : 'sm-process-card-col wow fadeInUp';
 
               return (
-                <div
-                  key={i}
-                  className={colClass}
-                  data-wow-delay=".2s"
-                >
+                <div key={i} className={colClass} data-wow-delay=".2s">
                   <div
                     className="feature-box-items"
                     style={{ background: 'linear-gradient(125deg, #ffffff, #f6f3fe)' }}

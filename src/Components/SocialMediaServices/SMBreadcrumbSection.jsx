@@ -10,11 +10,11 @@ const SMBreadcrumbSection = () => {
 
   const heroContent = {
     bg: '/assets/img/hero/hero-bg-3.jpg',
-    subtitle: 'go for SHOPIFY',
+    subtitle: 'RANK HIGHER. GROW FASTER.',
     // title: ' Achieve <span>Top Search </span> Rankings With Our <br/> SEO services',
     title: ' Your Trusted <span> SEO Partner </span> for Sustainable Growth',
     content:
-      'Most of your customers start their journey on Google. If your website isn’t showing up, you’re invisible. SEO isn’t just about rankings; it’s about getting the right people to your website to turn them into customers. We help you grow organically by combining strategy, content, and technical optimization across all platforms, whether your website is built on WordPress, Shopify, or React/Next.js.',
+      "Every customer journey starts with a Google search - and if you're not showing up, your competitors are winning that sale. We go beyond rankings to bring the right visitors to your site and turn them into paying customers. Through smart strategy, compelling content, and deep technical optimization, we grow your organic presence on any platform - WordPress, Shopify, or React/Next.js.",
     img: '/assets/img/newservices/shopify-service-vector-1.png',
     btnname: 'HIRE EXPERTS',
     linkname: 'VIEW OUR WORK',

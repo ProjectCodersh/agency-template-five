@@ -4,23 +4,20 @@ import loadBackgroudImages from '../Common/loadBackgroudImages';
 
 const SMLeftSIdeContentSection = () => {
   const chooseContent = {
-    subtitle: 'Why Choose Shopify',
+    subtitle: 'BUILD TRUST. GROW FASTER.',
     title: 'Authority Building with Digital PR & Backlinks',
     content:
-      'Google trusts websites that other credible sites link to. We help you build that trust through high-quality backlinks, not spammy tactics. This improves your domain strength and helps you rank higher over time. Our approach:',
+      "Google ranks websites it trusts - and trust is built when credible sites link back to you. We earn you high-quality backlinks through real digital PR, not shortcuts that get penalized. Every link we build strengthens your domain, compounds over time, and pushes your rankings up for good. Here's our approach:",
     img: '/assets/img/newservices/shopify-service-4.png',
-    list1: 'Securing backlinks from relevant, authoritative websites',
-    list2: 'Creating link-worthy content',
-    list3: 'Building brand mentions across platforms',
-    list4: 'Focusing on long-term authority, not shortcuts',
+    list2: 'Earning backlinks from authoritative, trusted websites',
+    list1: 'Creating link-worthy content that publications actually trusts',
+    list6: 'Building your brand mentions & presence across trusted platforms',
+    list7: 'Building long-term domain authority - no shortcuts, ever',
   };
 
   const listItems = [
     chooseContent.list1,
     chooseContent.list2,
-    chooseContent.list3,
-    chooseContent.list4,
-    chooseContent.list5,
     chooseContent.list6,
     chooseContent.list7,
   ];
@@ -45,6 +42,7 @@ const SMLeftSIdeContentSection = () => {
                   className="wow img-custom-anim-left"
                   data-wow-duration="1.5s"
                   data-wow-delay="0.3s"
+                  style={{ maxWidth: 'stretch' }}
                 />
               </div>
             </div>

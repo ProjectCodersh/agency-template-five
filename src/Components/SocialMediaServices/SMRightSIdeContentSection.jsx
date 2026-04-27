@@ -4,15 +4,15 @@ import loadBackgroudImages from '../Common/loadBackgroudImages';
 
 const SMRightSIdeContentSection = () => {
   const chooseContent = {
-    subtitle: 'Hire Shopify Developer',
-    title: 'Technical SEO That Makes Your Website Work Properly',
+    subtitle: 'BUILT TO RANK. BUILT TO PERFORM',
+    title: 'Technical SEO That Makes Your Website Perform & Rank',
     content:
-      'Even great content won’t rank if your website has technical issues. We make sure your website is fast, structured, and easy for search engines to understand. This includes.',
+      "Your content could be perfect - but if your website has hidden technical problems, Google won't rank it. We audit and fix everything so search engines can crawl and understand your site - so you get better rankings and a smoother user experience. Here's what we do:",
     img: '/assets/img/newservices/shopify-service-3.png',
-    list1: 'Website speed and performance optimization',
+    list4: 'Improve website speed & overall performance',
     list2: 'Improving site structure and internal linking',
-    list3: 'Fixing crawl errors, broken links, and indexing issues',
-    list4: 'Mobile responsiveness and Core Web Vitals optimization',
+    list1: 'Fixing crawl errors, broken links & indexing issues',
+    list3: 'Mobile responsiveness and Core Web Vitals optimization',
     list5: 'Schema markup for better search visibility',
   };
 
@@ -122,6 +122,7 @@ const SMRightSIdeContentSection = () => {
                   className="wow img-custom-anim-left"
                   data-wow-duration="1.5s"
                   data-wow-delay="0.3s"
+                  style={{ maxWidth: 'stretch' }}
                 />
               </div>
             </div>

@@ -5,21 +5,22 @@ import parse from 'html-react-parser';
 // ─── Static Data ────────────────────────────────────────────────────────────
 const SECTION_DATA = {
   bg: false,
-  badge: 'Trusted Shopify Partners',
-  title: 'Transform Your E-Commerce <br/> With Elite Shopify Development',
+  badge: 'WHY CHOOSE US',
+  title: 'We Don’t Chase Rankings - We Build Systems That Drive Sales',
   introContent:
-    "We're more than just developers – we're your strategic partners in Shopify's success. As certified Shopify Plus experts, we combine technical mastery with deep platform knowledge to elevate your online store to new heights.",
-  advantageTitle: 'Our Advantages',
+    'Most SEO agencies stop at keywords. We focus on what actually drives growth-traffic, conversions, and long-term results. We combine deep SEO expertise with real development skills',
+  advantageTitle: 'what sets us apart',
   advantages: [
-    'Strategic partnerships with premier Shopify Plus apps and solutions',
-    'Thoroughly vetted technology integrations that drive results',
-    'Tailored development to match your unique business needs',
-    'Custom Shopify migration executed with precision',
+    'Dev + SEO expertise - we implement fixes, not just recommendations',
+    'Conversion-first strategy that turns organic traffic into actual revenue',
+    'Clear Communication - Simple updates, full transparency, no guesswork',
+    'Scalable SEO systems built to grow alongside your business',
+    'Works Across Platforms - we optimize where you are',
   ],
   conclusionContent:
     "We don't just move your store to Shopify – we optimize it. Through careful curation of the most powerful apps and custom feature development, we create seamless e-commerce experiences that grow with your business.",
   sectionImage: {
-    src: '/assets/img/shopify/migration-diagram.png',
+    src: '/assets/img/newservices/shopify-service-3.png',
     alt: 'Shopify Migration Services Diagram',
   },
 };
