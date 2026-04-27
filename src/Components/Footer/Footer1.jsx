@@ -181,6 +181,24 @@ const Footer1 = () => {
                         Partners
                       </Link>
                     </li>
+                    <li>
+                      <Link to="/digital-marketing/seo-service">
+                        <i className="bi bi-arrow-right"></i>
+                        SEO Service
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/digital-marketing/meta-ads-service">
+                        <i className="bi bi-arrow-right"></i>
+                        Meta Ads Service
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/digital-marketing/social-media-management-service">
+                        <i className="bi bi-arrow-right"></i>
+                        Social Media Management Service
+                      </Link>
+                    </li>
 
                     {/* <li>
                       <Link to="/pricing">

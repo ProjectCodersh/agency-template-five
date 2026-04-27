@@ -25,7 +25,8 @@ import PortfolioPage from '../Pages/PortfolioPage';
 import ShopifySections from '../Pages/ShopifySections';
 import ShopifySingleSection from '../Pages/ShopifySingleSection';
 import ShopifySectionCode from '../Pages/ShopifySectionCode';
-import SeoServicePage from '../Pages/SeoServicePage';
+// import SeoServicePage from '../Pages/SeoServicePage';
+import SocialDynamicServicePage from '../Pages/SocialDynamicServicePage';
 
 // import NewSingleServicePage from '../Pages/NewSingleServicePage';
 // import ShopifyMigratioPage from '../Pages/ShopifyMigratioPage';
@@ -198,8 +199,8 @@ export const router = createBrowserRouter([
       },
       // Social media services pages
       {
-        path: '/services/seo-services',
-        element: <SeoServicePage />,
+        path: '/digital-marketing/:slug',
+        element: <SocialDynamicServicePage />,
       },
     ],
   },

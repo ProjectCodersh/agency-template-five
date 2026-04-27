@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "title": "Social Media Management | Strategy, Content & Growth - Codersh",
+    "description": "Strategic social media management that builds brand presence, attracts the right audience, and drives real conversions - not just likes.",
+    "keywords": "social media management, content creation, social media strategy, brand consistency, Instagram, Facebook, LinkedIn",
+    "url": "https://uk.codersh.com/social-media-management"
+  },
+
+  "breadcrumb": {
+    "bg": "/assets/img/hero/hero-bg-3.jpg",
+    "subtitle": "STRATEGY FIRST. GROWTH ALWAYS.",
+    "title": "Turn Your Social Media Into <span>a Growth Channel</span>",
+    "content": "Posting regularly isn't enough anymore. If your content isn't aligned with your brand, your audience, and your business goals, it won't drive results. We help you build a clear, consistent, and strategic social media presence that not only looks good but actually attracts the right audience, builds trust, and drives conversions. Most brands jump straight into posting - we start with strategy.",
+    "img": "/assets/img/newservices/shopify-service-vector-1.png",
+    "btnname": "GET STARTED NOW",
+    "btnurl": "https://calendly.com/codersh-web-services/15min",
+    "linkname": "VIEW OUR WORK",
+    "linkurl": "/work"
+  },
+
+  "sectionOne": {
+    "subtitle": "WHERE WE START",
+    "title": "We Build Your Strategy <br/> Around What Actually Matters",
+    "content": null,
+    "cards": [
+      {
+        "img": "/assets/img/serviceIcon/web-programming.webp",
+        "title": "Who Your Audience Is & What They Care About"
+      },
+      {
+        "img": "/assets/img/serviceIcon/migration-1.webp",
+        "title": "What Content Will Attract and Convert Them"
+      },
+      {
+        "img": "/assets/img/serviceIcon/maintenance.webp",
+        "title": "How Your Brand Should Communicate"
+      },
+      {
+        "img": "/assets/img/serviceIcon/add-to-cart-1.webp",
+        "title": "Where Your Audience Spends Their Time"
+      },
+      {
+        "img": "/assets/img/serviceIcon/maintenance-2.webp",
+        "title": "What Drives Them to Take Action"
+      },
+      {
+        "img": "/assets/img/serviceIcon/recruitment-1.webp",
+        "title": "What Success Looks Like for Your Business"
+      }
+    ]
+  },
+
+  "rightSideContent": {
+    "subtitle": "CONTENT THAT WORKS HARDER",
+    "title": "Content That Actually Connects With Your Audience",
+    "content": "Good content isn't about trends - it's about relevance. We ensure every post has a purpose, not just filling your feed. From educational posts to storytelling and product-focused content, everything is designed to move your audience closer to conversion. We create content that:",
+    "img": "/assets/img/newservices/shopify-service-3.png",
+    "listItems": [
+      "Reflects your brand identity consistently",
+      "Speaks directly to your target audience",
+      "Builds trust and credibility over time",
+      "Encourages engagement and drives real action"
+    ],
+    "btnText": "Start Creating Content",
+    "btnUrl": "https://calendly.com/codersh-web-services/15min"
+  },
+
+  "leftSideContent": {
+    "subtitle": "ONE BRAND. EVERY PLATFORM.",
+    "title": "Consistent Branding Across Every Platform",
+    "content": "Your social media should feel like one cohesive brand - not a collection of random posts. Consistency builds recognition, trust, and a stronger presence over time. No matter which platform your audience is on, they should instantly recognise your brand. Here's what we maintain:",
+    "img": "/assets/img/newservices/shopify-service-4.png",
+    "listItems": [
+      "Consistent visual identity across colors, fonts, and layouts",
+      "Clear, on-brand messaging and tone of voice",
+      "Structured content formats that reinforce your brand story"
+    ],
+    "btnText": "Get Free Quotes Now!",
+    "btnUrl": "https://calendly.com/codersh-web-services/15min"
+  },
+
+  "process": {
+    "subtitle": "HOW WE WORK",
+    "title": "A Simple Process That <br/> Turns Followers Into Customers",
+    "content": "Whether you're starting from scratch or looking to scale, <br/> we create systems that turn social media into a reliable <br/> growth channel - not just a posting schedule.",
+    "cards": [
+      {
+        "iconclass": "bi bi-search",
+        "title": "Research & Audit",
+        "content": "We analyze your current social presence, competitors, and audience to find exactly where the opportunities are."
+      },
+      {
+        "iconclass": "bi bi-bar-chart-line",
+        "title": "Strategy Development",
+        "content": "We define your content pillars, brand tone, and a clear posting plan built around your business goals."
+      },
+      {
+        "iconclass": "bi bi-pencil-square",
+        "title": "Content Creation",
+        "content": "We design and write high-quality, on-brand content that resonates with your audience and drives action."
+      },
+      {
+        "iconclass": "bi bi-calendar-check",
+        "title": "Scheduling & Publishing",
+        "content": "We maintain consistent posting across all platforms so your brand stays visible and active - without the stress."
+      },
+      {
+        "iconclass": "bi bi-graph-up-arrow",
+        "title": "Optimization",
+        "content": "We track what's working, improve what isn't, and continuously refine the strategy to keep your growth on track."
+      }
+    ]
+  },
+
+  "whyChoose": {
+    "badge": "WHY CHOOSE US",
+    "title": "We Don’t Manage Social Media - We Build Systems That Drive Your Business",
+    "introContent": "Most social media agencies focus on posting and aesthetics. We focus on what actually drives growth - strategy, conversions, and long-term brand equity. We don't chase likes, we build systems that drive consistent results.",
+    "advantageTitle": "What Sets Us Apart",
+    "advantages": [
+      "Strategy-driven approach - every post has a purpose and a goal",
+      "Strong design + development background for standout content",
+      "Conversion-focused content that builds an audience that buys",
+      "Clear communication and structured workflow - no guesswork",
+      "Scalable systems built for consistent, long-term growth"
+    ],
+    "sectionImage": {
+      "src": "/assets/img/newservices/shopify-service-3.png",
+      "alt": "Social Media Management Services"
+    }
+  },
+
+  "faq": {
+    "title": "FAQ",
+    "subtitle": "Frequently Asked <br/> Questions",
+    "items": [
+      {
+        "title": "Do you handle content creation as well?",
+        "content": "Yes. We create complete content including design, captions, and posting strategy - everything your social media needs to look professional and perform."
+      },
+      {
+        "title": "Which platforms do you manage?",
+        "content": "We work with <strong>Instagram, Facebook, LinkedIn</strong>, and other platforms based on where your audience is and what your business needs most."
+      },
+      {
+        "title": "How often will you post?",
+        "content": "Posting frequency is defined during strategy development based on your goals and platform. Whatever the schedule, <strong>consistency is always maintained</strong>."
+      },
+      {
+        "title": "Will this help generate leads or just engagement?",
+        "content": "Our focus is on building an audience that <em>converts</em> - not just increasing likes or followers. Every content decision is made with your business goals in mind."
+      },
+      {
+        "title": "How long does it take to see results?",
+        "content": "You may start seeing engagement improvements within the first few weeks. Consistent, meaningful growth typically builds over <strong>2–3 months</strong> as the strategy compounds."
+      },
+      {
+        "title": "Do you also run ads?",
+        "content": "Yes, but paid ads are handled under a separate <strong>Meta Ads strategy</strong> for better targeting, performance, and budget control."
+      }
+    ]
+  }
+}

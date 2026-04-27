@@ -1,33 +1,20 @@
+/**
+ * WhyChooseSection.jsx  —  "Why choose us" split layout with advantages list
+ *
+ * Props: data (object from JSON) | null/undefined → renders nothing
+ *
+ * JSON shape:
+ * {
+ *   badge, title (HTML), introContent (HTML),
+ *   advantageTitle, advantages: string[],
+ *   sectionImage: { src, alt }
+ * }
+ */
 import { useEffect } from 'react';
 import loadBackgroudImages from '../Common/loadBackgroudImages';
 import parse from 'html-react-parser';
 
-// ─── Static Data ────────────────────────────────────────────────────────────
-const SECTION_DATA = {
-  bg: false,
-  badge: 'WHY CHOOSE US',
-  title: 'We Don’t Chase Rankings - We Build Systems That Drive Sales',
-  introContent:
-    'Most SEO agencies stop at keywords. We focus on what actually drives growth-traffic, conversions, and long-term results. We combine deep SEO expertise with real development skills',
-  advantageTitle: 'what sets us apart',
-  advantages: [
-    'Dev + SEO expertise - we implement fixes, not just recommendations',
-    'Conversion-first strategy that turns organic traffic into actual revenue',
-    'Clear Communication - Simple updates, full transparency, no guesswork',
-    'Scalable SEO systems built to grow alongside your business',
-    'Works Across Platforms - we optimize where you are',
-  ],
-  conclusionContent:
-    "We don't just move your store to Shopify – we optimize it. Through careful curation of the most powerful apps and custom feature development, we create seamless e-commerce experiences that grow with your business.",
-  sectionImage: {
-    src: '/assets/img/newservices/shopify-service-3.png',
-    alt: 'Shopify Migration Services Diagram',
-  },
-};
-// ────────────────────────────────────────────────────────────────────────────
-
-/*--- Reusable SVG Icon Component --*/
-const CheckIcon = () => (
+const CheckCircleIcon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="16"
@@ -43,24 +30,18 @@ const CheckIcon = () => (
   </svg>
 );
 
-/*--- Main Component --*/
-const SMWhyChooseSection = () => {
+const WhyChooseSection = ({ data }) => {
   useEffect(() => {
     loadBackgroudImages();
   }, []);
 
-  const {
-    bg,
-    badge,
-    title,
-    introContent,
-    advantageTitle,
-    advantages,
-    // conclusionContent,
-    sectionImage,
-  } = SECTION_DATA;
+  if (!data) return null;
 
-  const backgroundImage = bg === true ? '/assets/img/team/team-bg.jpg' : '';
+  const { badge, title, introContent, advantageTitle, advantages, sectionImage } = data;
+
+  const hasAdvantages = Array.isArray(advantages) && advantages.length > 0;
+
+  if (!badge && !title && !introContent && !hasAdvantages) return null;
 
   return (
     <section
@@ -70,9 +51,8 @@ const SMWhyChooseSection = () => {
         background: 'linear-gradient(180deg, #ffffff 0%, #f6f3fe 50%, #ffffff 100%)',
         overflow: 'hidden',
       }}
-      data-background={backgroundImage}
     >
-      {/* Animated Background Pattern */}
+      {/* Dot-grid background pattern */}
       <div
         style={{
           position: 'absolute',
@@ -80,7 +60,8 @@ const SMWhyChooseSection = () => {
           left: 0,
           width: '100%',
           height: '100%',
-          backgroundImage: `radial-gradient(circle at 2px 2px, rgba(106, 71, 237, 0.05) 1px, transparent 0)`,
+          backgroundImage:
+            'radial-gradient(circle at 2px 2px, rgba(106, 71, 237, 0.05) 1px, transparent 0)',
           backgroundSize: '40px 40px',
           zIndex: 0,
           pointerEvents: 'none',
@@ -89,46 +70,46 @@ const SMWhyChooseSection = () => {
 
       <div className="container px-3" style={{ position: 'relative', zIndex: 1 }}>
         <div className="row g-5 align-items-center">
-          {/* LEFT COLUMN — Single Section Image */}
-          <div className="col-lg-6 order-2 order-lg-1">
-            <div
-              className="section-image-wrapper wow fadeInLeft"
-              data-wow-delay=".2s"
-              style={{ position: 'relative' }}
-            >
-              {/* Soft glow behind image */}
+          {/* LEFT — image */}
+          {sectionImage?.src && (
+            <div className="col-lg-6 order-2 order-lg-1">
               <div
-                style={{
-                  position: 'absolute',
-                  inset: '10%',
-                  background:
-                    'radial-gradient(circle, rgba(106, 71, 237, 0.12) 0%, transparent 70%)',
-                  borderRadius: '50%',
-                  filter: 'blur(40px)',
-                  zIndex: 0,
-                  pointerEvents: 'none',
-                }}
-              />
-              <img
-                src={sectionImage.src}
-                alt={sectionImage.alt}
-                style={{
-                  width: '100%',
-                  height: 'auto',
-                  objectFit: 'contain',
-                  position: 'relative',
-                  zIndex: 1,
-                  maxHeight: '520px',
-                }}
-                loading="lazy"
-              />
+                className="section-image-wrapper wow fadeInLeft"
+                data-wow-delay=".2s"
+                style={{ position: 'relative' }}
+              >
+                <div
+                  style={{
+                    position: 'absolute',
+                    inset: '10%',
+                    background:
+                      'radial-gradient(circle, rgba(106, 71, 237, 0.12) 0%, transparent 70%)',
+                    borderRadius: '50%',
+                    filter: 'blur(40px)',
+                    zIndex: 0,
+                    pointerEvents: 'none',
+                  }}
+                />
+                <img
+                  src={sectionImage.src}
+                  alt={sectionImage.alt || ''}
+                  style={{
+                    width: '100%',
+                    height: 'auto',
+                    objectFit: 'contain',
+                    position: 'relative',
+                    zIndex: 1,
+                    maxHeight: '520px',
+                  }}
+                  loading="lazy"
+                />
+              </div>
             </div>
-          </div>
+          )}
 
-          {/* RIGHT COLUMN — Content */}
-          <div className="col-lg-6 order-1 order-lg-2">
+          {/* RIGHT — content */}
+          <div className={`col-lg-6 order-1 order-lg-2${!sectionImage?.src ? ' offset-lg-3' : ''}`}>
             <div className="team-content" style={{ position: 'relative' }}>
-              {/* Badge + Title */}
               <div className="section-title">
                 {badge && (
                   <div
@@ -165,24 +146,17 @@ const SMWhyChooseSection = () => {
                 )}
               </div>
 
-              {/* Intro Paragraph */}
               {introContent && (
                 <p
                   className="wow fadeInUp"
                   data-wow-delay=".5s"
-                  style={{
-                    fontSize: '16px',
-                    lineHeight: '1.8',
-                    color: '#4a5568',
-                    marginBottom: '32px',
-                  }}
+                  style={{ fontSize: '16px', lineHeight: '1.8', color: '#4a5568', marginBottom: '32px' }}
                 >
                   {parse(introContent)}
                 </p>
               )}
 
-              {/* Advantages Box */}
-              {advantages.length > 0 && (
+              {hasAdvantages && (
                 <div
                   className="mt-4 wow fadeInUp advantages-container"
                   data-wow-delay=".7s"
@@ -196,7 +170,7 @@ const SMWhyChooseSection = () => {
                     overflow: 'hidden',
                   }}
                 >
-                  {/* Decorative Corner */}
+                  {/* Decorative corner */}
                   <div
                     style={{
                       position: 'absolute',
@@ -263,7 +237,7 @@ const SMWhyChooseSection = () => {
                               boxShadow: '0 4px 12px rgba(106, 71, 237, 0.3)',
                             }}
                           >
-                            <CheckIcon />
+                            <CheckCircleIcon />
                           </div>
                           <span>{item}</span>
                         </li>
@@ -272,38 +246,12 @@ const SMWhyChooseSection = () => {
                   </div>
                 </div>
               )}
-
-              {/* Conclusion Quote */}
-              {/* {conclusionContent && (
-                <p
-                  className="mt-5 wow fadeInUp"
-                  data-wow-delay=".9s"
-                  style={{
-                    fontSize: '16px',
-                    lineHeight: '1.8',
-                    color: '#4a5568',
-                    fontStyle: 'italic',
-                    borderLeft: '4px solid #6A47ED',
-                    background: 'rgba(106, 71, 237, 0.03)',
-                    padding: '20px 24px',
-                    borderRadius: '12px',
-                  }}
-                >
-                  {parse(conclusionContent)}
-                </p>
-              )} */}
             </div>
           </div>
         </div>
       </div>
 
-      {/* CSS Animations */}
       <style>{`
-        @keyframes float {
-          0%, 100% { transform: translateY(0px) rotate(0deg); }
-          50% { transform: translateY(-10px) rotate(5deg); }
-        }
-
         @media (max-width: 991px) {
           .shopify-partners-section .section-image-wrapper {
             text-align: center;
@@ -314,4 +262,4 @@ const SMWhyChooseSection = () => {
   );
 };
 
-export default SMWhyChooseSection;
+export default WhyChooseSection;

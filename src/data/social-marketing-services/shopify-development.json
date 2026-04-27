@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "title": "Shopify Development | Custom Stores Built to Convert - Codersh",
+    "description": "Expert Shopify development services — custom themes, app integrations, migrations, and performance optimization for high-converting stores.",
+    "keywords": "Shopify development, custom Shopify theme, Shopify migration, Shopify store setup, ecommerce development",
+    "url": "https://uk.codersh.com/shopify-development"
+  },
+
+  "breadcrumb": {
+    "bg": "/assets/img/hero/hero-bg-3.jpg",
+    "subtitle": "BUILD. LAUNCH. SCALE.",
+    "title": "Custom <span>Shopify Development</span> That Drives More Sales",
+    "content": "Whether you're starting from scratch, migrating from another platform, or scaling an existing store — our Shopify experts build fast, conversion-optimised stores that your customers love to buy from.",
+    "img": "/assets/img/newservices/shopify-service-vector-1.png",
+    "btnname": "HIRE SHOPIFY EXPERTS",
+    "btnurl": "https://calendly.com/codersh-web-services/15min",
+    "linkname": "VIEW OUR WORK",
+    "linkurl": "/work"
+  },
+
+  "sectionOne": {
+    "subtitle": "WHAT WE BUILD",
+    "title": "Our Shopify Development Services",
+    "content": null,
+    "cards": [
+      {
+        "img": "/assets/img/serviceIcon/web-programming.webp",
+        "title": "Custom Shopify Theme Design & Development"
+      },
+      {
+        "img": "/assets/img/serviceIcon/migration-1.webp",
+        "title": "Platform Migrations to Shopify (WooCommerce, Magento, BigCommerce)"
+      },
+      {
+        "img": "/assets/img/serviceIcon/maintenance.webp",
+        "title": "Shopify App Integration & Custom App Development"
+      },
+      {
+        "img": "/assets/img/serviceIcon/add-to-cart-1.webp",
+        "title": "Checkout Optimisation & Conversion Rate Improvements"
+      },
+      {
+        "img": "/assets/img/serviceIcon/maintenance-2.webp",
+        "title": "Shopify Speed Optimisation & Core Web Vitals"
+      },
+      {
+        "img": "/assets/img/serviceIcon/recruitment-1.webp",
+        "title": "Ongoing Shopify Maintenance & Support Plans"
+      }
+    ]
+  },
+
+  "rightSideContent": {
+    "subtitle": "PERFORMANCE BY DESIGN",
+    "title": "Blazing-Fast Shopify Stores Built for Conversions",
+    "content": "A slow or confusing store loses sales. We engineer every Shopify store for speed, usability, and conversion — because a beautiful store that loads in under 2 seconds and guides customers seamlessly to checkout is how you win online.",
+    "img": "/assets/img/newservices/shopify-service-3.png",
+    "listItems": [
+      "Lighthouse score optimisation (90+ target)",
+      "Custom liquid theme development from scratch or existing theme",
+      "Mobile-first responsive design",
+      "Streamlined checkout & cart experience",
+      "Product page CRO (conversion rate optimisation)"
+    ],
+    "btnText": "Get a Free Store Audit",
+    "btnUrl": "https://calendly.com/codersh-web-services/15min"
+  },
+
+  "leftSideContent": {
+    "subtitle": "SEAMLESS MIGRATIONS",
+    "title": "Move to Shopify Without Losing Data or Rankings",
+    "content": "Worried about losing your SEO rankings or customer data during a migration? We handle the entire move — products, orders, customers, and redirects — so you land on Shopify without losing a thing.",
+    "img": "/assets/img/newservices/shopify-service-4.png",
+    "listItems": [
+      "Full product, order & customer data migration",
+      "301 redirect mapping to preserve SEO rankings",
+      "Post-migration QA testing & validation",
+      "Zero downtime deployment process"
+    ],
+    "btnText": "Start Your Migration",
+    "btnUrl": "https://calendly.com/codersh-web-services/15min"
+  },
+
+  "process": {
+    "subtitle": "OUR BUILD PROCESS",
+    "title": "From Brief to Launch — <br/> A Proven Shopify Process",
+    "content": "We follow a structured development process that keeps projects on time, on budget, and exactly as envisioned — with full transparency at every stage.",
+    "cards": [
+      {
+        "iconclass": "bi bi-chat-text",
+        "title": "Discovery & Scoping",
+        "content": "We learn your business, goals, and requirements before writing a single line of code."
+      },
+      {
+        "iconclass": "bi bi-vector-pen",
+        "title": "Design & Prototyping",
+        "content": "We design high-fidelity mockups for your approval before development begins."
+      },
+      {
+        "iconclass": "bi bi-code-slash",
+        "title": "Development & Integration",
+        "content": "Clean Liquid code, app integrations, and full feature development against agreed specs."
+      },
+      {
+        "iconclass": "bi bi-check2-circle",
+        "title": "QA & Testing",
+        "content": "Thorough cross-browser, cross-device testing before anything goes live."
+      },
+      {
+        "iconclass": "bi bi-rocket-takeoff",
+        "title": "Launch & Handover",
+        "content": "We launch your store, train your team, and provide post-launch support."
+      }
+    ]
+  },
+
+  "whyChoose": {
+    "badge": "WHY CHOOSE US",
+    "title": "Shopify Experts Who Code, Not Just Click-and-Drag",
+    "introContent": "Most Shopify agencies use page builders and stock themes. We write real Liquid code, build custom features, and deliver stores that are truly unique — and built to scale.",
+    "advantageTitle": "The Codersh Difference",
+    "advantages": [
+      "Certified Shopify developers with 5+ years experience",
+      "Custom-coded solutions — no bloated page builders",
+      "SEO-first architecture baked into every build",
+      "Transparent project management with weekly updates",
+      "Post-launch support & maintenance packages available"
+    ],
+    "sectionImage": {
+      "src": "/assets/img/newservices/shopify-service-3.png",
+      "alt": "Shopify Development Services"
+    }
+  },
+
+  "faq": {
+    "title": "FAQ",
+    "subtitle": "Frequently Asked <br/> Questions",
+    "items": [
+      {
+        "title": "How long does a custom Shopify store take to build?",
+        "content": "A typical custom Shopify store takes <strong>4–8 weeks</strong> from kickoff to launch, depending on complexity. Simpler theme customisations can be done in 1–2 weeks."
+      },
+      {
+        "title": "Do you work with Shopify Plus?",
+        "content": "Yes. We work across all Shopify plans including Shopify Plus, and can implement advanced features like custom checkout scripts and multi-store setups."
+      },
+      {
+        "title": "Can you migrate my existing store to Shopify?",
+        "content": "Absolutely. We migrate from WooCommerce, Magento, BigCommerce, Wix, and most other platforms — including all product data, orders, customers, and SEO redirects."
+      },
+      {
+        "title": "Will my store be mobile-friendly?",
+        "content": "Every store we build is designed and tested to be fully responsive across all devices, with a mobile-first approach."
+      },
+      {
+        "title": "Do you provide ongoing support after launch?",
+        "content": "Yes. We offer monthly maintenance and support plans covering updates, bug fixes, performance monitoring, and new feature development."
+      },
+      {
+        "title": "Can you integrate third-party apps and tools?",
+        "content": "Yes — we integrate any Shopify app or third-party tool including ERPs, CRMs, fulfilment systems, email marketing platforms, and more."
+      }
+    ]
+  }
+}

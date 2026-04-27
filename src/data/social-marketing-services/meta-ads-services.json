@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "title": "Meta Ads Services | Turn Paid Ads Into Predictable Revenue - Codersh",
+    "description": "Performance-first Meta Ads management that builds profitable campaigns, targets the right audience, and scales your revenue through Facebook and Instagram ads.",
+    "keywords": "Meta ads, Facebook ads, Instagram ads, paid social, ad creatives, conversion tracking, ROAS",
+    "url": "https://uk.codersh.com/meta-ads"
+  },
+
+  "breadcrumb": {
+    "bg": "/assets/img/hero/hero-bg-3.jpg",
+    "subtitle": "PLAN FIRST. PROFIT ALWAYS.",
+    "title": "Turn Paid Ads Into <span>Predictable Revenue</span>",
+    "content": "Running ads is easy, but running profitable ads is not. Most businesses waste money on ads because there's no clear strategy behind targeting, creatives, or funnels. We don't jump directly into ads - we plan first by defining your target audience, offer and messaging, funnel, campaign structure, budget allocation, and conversion tracking setup.",
+    "img": "/assets/img/newservices/shopify-service-vector-1.png",
+    "btnname": "GET STARTED NOW",
+    "btnurl": "https://calendly.com/codersh-web-services/15min",
+    "linkname": "VIEW OUR WORK",
+    "linkurl": "/work"
+  },
+
+  "sectionOne": {
+    "subtitle": "WE PLAN BEFORE WE SPEND",
+    "title": "Everything We Define Before Running Your Ads",
+    "content": null,
+    "cards": [
+      {
+        "img": "/assets/img/serviceIcon/web-programming.webp",
+        "title": "Defining Your Target Audience Before Spending a Single Penny"
+      },
+      {
+        "img": "/assets/img/serviceIcon/migration-1.webp",
+        "title": "Crafting the Right Offer and Messaging That Converts"
+      },
+      {
+        "img": "/assets/img/serviceIcon/maintenance.webp",
+        "title": "Building a Funnel That Turns Clicks Into Customers"
+      },
+      {
+        "img": "/assets/img/serviceIcon/add-to-cart-1.webp",
+        "title": "Structuring Campaigns for Maximum Performance and Control"
+      },
+      {
+        "img": "/assets/img/serviceIcon/maintenance-2.webp",
+        "title": "Allocating Budget Strategically Across Campaigns and Audiences"
+      },
+      {
+        "img": "/assets/img/serviceIcon/recruitment-1.webp",
+        "title": "Setting Up Conversion Tracking So Every Result Is Measured"
+      }
+    ]
+  },
+
+  "rightSideContent": {
+    "subtitle": "CREATIVES THAT STOP THE SCROLL",
+    "title": "High-Converting Ad Creatives That Lower Costs and Boost Results",
+    "content": "Your ads are only as good as your creatives. Better creatives mean lower costs and higher conversions - it's that simple. We don't recycle generic templates. We build scroll-stopping visuals and compelling copy tailored to your audience and tested across multiple variations. Here's what we create:",
+    "img": "/assets/img/newservices/shopify-service-3.png",
+    "listItems": [
+      "Scroll-stopping visuals designed to capture attention instantly",
+      "Clear and compelling ad copy that drives clicks and conversions",
+      "Multiple creative variations for continuous A/B testing and improvement"
+    ],
+    "btnText": "Hire Us Now",
+    "btnUrl": "https://calendly.com/codersh-web-services/15min"
+  },
+
+  "leftSideContent": {
+    "subtitle": "RIGHT PEOPLE. RIGHT TIME.",
+    "title": "Audience Targeting That Actually Reaches the People Who Buy",
+    "content": "Targeting is more than just interests. Reaching the right people at the right time is what separates profitable campaigns from wasted budgets. We go beyond basic targeting to build layered audience strategies that follow your customer through every stage of their journey. Here's what we build:",
+    "img": "/assets/img/newservices/shopify-service-4.png",
+    "listItems": [
+      "Custom audiences built directly from your own customer data",
+      "Lookalike audiences to find and scale to new high-value buyers",
+      "Retargeting campaigns to recover lost users and close more sales"
+    ],
+    "btnText": "Get Free Quotes Now!",
+    "btnUrl": "https://calendly.com/codersh-web-services/15min"
+  },
+
+  "process": {
+    "subtitle": "OUR META ADS APPROACH",
+    "title": "A Proven Meta Ads Process <br/> Built to Scale Profitably",
+    "content": "From strategy to scaling, every step is structured to reduce wasted spend <br/> and maximise your return. We don't guess - we test, learn, and grow.",
+    "cards": [
+      {
+        "iconclass": "bi bi-search",
+        "title": "Research & Strategy",
+        "content": "We take time to understand your business, audience, and goals before a single campaign is built."
+      },
+      {
+        "iconclass": "bi bi-bar-chart-line",
+        "title": "Campaign Setup",
+        "content": "We structure your campaigns for performance - the right objectives, audiences, and budget splits from day one."
+      },
+      {
+        "iconclass": "bi bi-pencil-square",
+        "title": "Creative Development",
+        "content": "We design and write high-converting ads tailored to your audience and optimised for each placement."
+      },
+      {
+        "iconclass": "bi bi-megaphone",
+        "title": "Launch & Testing",
+        "content": "We run campaigns with multiple variations so we can quickly identify what works and double down on it."
+      },
+      {
+        "iconclass": "bi bi-graph-up-arrow",
+        "title": "Optimization & Scaling",
+        "content": "We continuously improve performance, cut what isn't working, and scale what is - for sustainable, profitable growth."
+      }
+    ]
+  },
+
+  "whyChoose": {
+    "badge": "WHY CHOOSE US",
+    "title": "We Don't Just Run Ads - We Build Systems That Support Growth",
+    "introContent": "Most agencies focus on clicks and impressions. We focus on what actually matters - profitable campaigns, conversion funnels, and scaling results. We combine creative and technical expertise to build ad systems that work.",
+    "advantageTitle": "What Sets Us Apart",
+    "advantages": [
+      "Performance-first approach - not just running ads, but running profitable ones",
+      "Strong understanding of conversion funnels that turn traffic into revenue",
+      "Creative + technical expertise combined under one roof",
+      "Clear reporting and communication - you always know where your money is going",
+      "Focused on scaling profitable campaigns, not just increasing spend"
+    ],
+    "sectionImage": {
+      "src": "/assets/img/newservices/shopify-service-3.png",
+      "alt": "Meta Ads Services Diagram"
+    }
+  },
+
+  "faq": {
+    "title": "FAQ",
+    "subtitle": "Frequently Asked <br/> Questions",
+    "items": [
+      {
+        "title": "What budget do I need to start with Meta Ads?",
+        "content": "It depends on your goals, but we typically recommend starting with a test budget to gather data and optimise before scaling spend."
+      },
+      {
+        "title": "How soon can I see results from Meta Ads?",
+        "content": "You may see initial data within <strong>days</strong>, but optimised, profitable results usually take a <strong>few weeks of testing</strong> to achieve consistently."
+      },
+      {
+        "title": "Do you create the ad creatives as well?",
+        "content": "Yes. We handle both <strong>design and copy</strong> for your ads - everything needed to produce high-performing creatives that stop the scroll and drive conversions."
+      },
+      {
+        "title": "Will you manage everything or just set it up?",
+        "content": "We offer both <strong>setup-only and ongoing management</strong> depending on your needs. Most clients choose ongoing management for continuous optimisation and scaling."
+      },
+      {
+        "title": "How do you measure the success of Meta Ads campaigns?",
+        "content": "We track <strong>conversions, cost per result, ROAS (Return on Ad Spend)</strong>, and overall campaign performance - with clear monthly reports so you always know your numbers."
+      }
+    ]
+  }
+}
