@@ -11,7 +11,7 @@
     "subtitle": "STRATEGY FIRST. GROWTH ALWAYS.",
     "title": "Turn Your Social Media Into <span>a Growth Channel</span>",
     "content": "Posting regularly isn't enough anymore. If your content isn't aligned with your brand, your audience, and your business goals, it won't drive results. We help you build a clear, consistent, and strategic social media presence that not only looks good but actually attracts the right audience, builds trust, and drives conversions. Most brands jump straight into posting - we start with strategy.",
-    "img": "/assets/img/newservices/shopify-service-vector-1.png",
+    "img": "/assets/img/marketing/social-banner.webp",
     "btnname": "GET STARTED NOW",
     "btnurl": "https://calendly.com/codersh-web-services/15min",
     "linkname": "VIEW OUR WORK",
@@ -24,27 +24,27 @@
     "content": null,
     "cards": [
       {
-        "img": "/assets/img/serviceIcon/web-programming.webp",
+        "img": "/assets/img/marketing/social-work-1.webp",
         "title": "Who Your Audience Is & What They Care About"
       },
       {
-        "img": "/assets/img/serviceIcon/migration-1.webp",
+        "img": "/assets/img/marketing/social-work-2.webp",
         "title": "What Content Will Attract and Convert Them"
       },
       {
-        "img": "/assets/img/serviceIcon/maintenance.webp",
+        "img": "/assets/img/marketing/social-work-3.webp",
         "title": "How Your Brand Should Communicate"
       },
       {
-        "img": "/assets/img/serviceIcon/add-to-cart-1.webp",
+        "img": "/assets/img/marketing/social-work-4.webp",
         "title": "Where Your Audience Spends Their Time"
       },
       {
-        "img": "/assets/img/serviceIcon/maintenance-2.webp",
+        "img": "/assets/img/marketing/social-work-5.webp",
         "title": "What Drives Them to Take Action"
       },
       {
-        "img": "/assets/img/serviceIcon/recruitment-1.webp",
+        "img": "/assets/img/marketing/social-work-6.webp",
         "title": "What Success Looks Like for Your Business"
       }
     ]
@@ -54,7 +54,7 @@
     "subtitle": "CONTENT THAT WORKS HARDER",
     "title": "Content That Actually Connects With Your Audience",
     "content": "Good content isn't about trends - it's about relevance. We ensure every post has a purpose, not just filling your feed. From educational posts to storytelling and product-focused content, everything is designed to move your audience closer to conversion. We create content that:",
-    "img": "/assets/img/newservices/shopify-service-3.png",
+    "img": "/assets/img/marketing/social-image-1.webp",
     "listItems": [
       "Reflects your brand identity consistently",
       "Speaks directly to your target audience",
@@ -69,7 +69,7 @@
     "subtitle": "ONE BRAND. EVERY PLATFORM.",
     "title": "Consistent Branding Across Every Platform",
     "content": "Your social media should feel like one cohesive brand - not a collection of random posts. Consistency builds recognition, trust, and a stronger presence over time. No matter which platform your audience is on, they should instantly recognise your brand. Here's what we maintain:",
-    "img": "/assets/img/newservices/shopify-service-4.png",
+    "img": "/assets/img/marketing/social-image-2.webp",
     "listItems": [
       "Consistent visual identity across colors, fonts, and layouts",
       "Clear, on-brand messaging and tone of voice",
@@ -125,7 +125,7 @@
       "Scalable systems built for consistent, long-term growth"
     ],
     "sectionImage": {
-      "src": "/assets/img/newservices/shopify-service-3.png",
+      "src": "/assets/img/marketing/social-why-choose.webp",
       "alt": "Social Media Management Services"
     }
   },

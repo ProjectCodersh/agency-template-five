@@ -11,7 +11,7 @@
     "subtitle": "RANK HIGHER. GROW FASTER.",
     "title": "Your Trusted <span>SEO Partner</span> for Sustainable Growth",
     "content": "Every customer journey starts with a Google search - and if you're not showing up, your competitors are winning that sale. We go beyond rankings to bring the right visitors to your site and turn them into paying customers. Through smart strategy, compelling content, and deep technical optimization, we grow your organic presence on any platform - WordPress, Shopify, or React/Next.js.",
-    "img": "/assets/img/newservices/shopify-service-vector-1.png",
+    "img": "/assets/img/marketing/seo-hero-banner.webp",
     "btnname": "HIRE EXPERTS",
     "btnurl": "https://calendly.com/codersh-web-services/15min",
     "linkname": "VIEW OUR WORK",
@@ -24,27 +24,27 @@
     "content": null,
     "cards": [
       {
-        "img": "/assets/img/serviceIcon/web-programming.webp",
+        "img": "/assets/img/marketing/seo-work-1.webp",
         "title": "Finding High-Value Keywords Your Ideal Customers Actually Search For"
       },
       {
-        "img": "/assets/img/serviceIcon/migration-1.webp",
+        "img": "/assets/img/marketing/seo-work-2.webp",
         "title": "Discover Competitor Gaps You Can Easily Outrank"
       },
       {
-        "img": "/assets/img/serviceIcon/maintenance.webp",
+        "img": "/assets/img/marketing/seo-work-3.webp",
         "title": "Map Every Keyword to the Right Page for Better Rankings"
       },
       {
-        "img": "/assets/img/serviceIcon/add-to-cart-1.webp",
+        "img": "/assets/img/marketing/seo-work-4.webp",
         "title": "Target Keywords That Drive Revenue - Not Just Traffic"
       },
       {
-        "img": "/assets/img/serviceIcon/maintenance-2.webp",
+        "img": "/assets/img/marketing/seo-work-5.webp",
         "title": "Crafting Titles, Meta Descriptions & Headings That Get Clicked"
       },
       {
-        "img": "/assets/img/serviceIcon/recruitment-1.webp",
+        "img": "/assets/img/marketing/seo-work-6.webp",
         "title": "Building Quality Backlinks That Strengthen Your Authority"
       }
     ]
@@ -54,7 +54,7 @@
     "subtitle": "BUILT TO RANK. BUILT TO PERFORM",
     "title": "Technical SEO That Makes Your Website Perform & Rank",
     "content": "Your content could be perfect - but if your website has hidden technical problems, Google won't rank it. We audit and fix everything so search engines can crawl and understand your site - so you get better rankings and a smoother user experience. Here's what we do:",
-    "img": "/assets/img/newservices/shopify-service-3.png",
+    "img": "/assets/img/marketing/seo-image-1.webp",
     "listItems": [
       "Fixing crawl errors, broken links & indexing issues",
       "Improving site structure and internal linking",
@@ -70,7 +70,7 @@
     "subtitle": "BUILD TRUST. GROW FASTER.",
     "title": "Authority Building with Digital PR & Backlinks",
     "content": "Google ranks websites it trusts - and trust is built when credible sites link back to you. We earn you high-quality backlinks through real digital PR, not shortcuts that get penalized. Every link we build strengthens your domain, compounds over time, and pushes your rankings up for good. Here's our approach:",
-    "img": "/assets/img/newservices/shopify-service-4.png",
+    "img": "/assets/img/marketing/seo-image-2.webp",
     "listItems": [
       "Creating link-worthy content that publications actually trust",
       "Earning backlinks from authoritative, trusted websites",
@@ -87,27 +87,27 @@
     "content": "A transparent step-by-step process so you always know <br/>exactly where your growth is coming from. SEO isn't a one-time fix -<br/> it's a continuous process focused on steady, long-term growth.",
     "cards": [
       {
-        "iconclass": "bi bi-people",
+        "iconclass": "bi bi-search",
         "title": "Audit & Analysis",
         "content": "We dig deep into your website, competitors, and current rankings to uncover exactly what's holding you back."
       },
       {
-        "iconclass": "bi bi-bar-chart-line",
+        "iconclass": "bi bi-map",
         "title": "Strategy Planning",
         "content": "We build a custom SEO roadmap tailored to your business goals — no cookie-cutter plans, ever."
       },
       {
-        "iconclass": "bi bi-megaphone",
+        "iconclass": "bi bi-tools",
         "title": "Implementation",
         "content": "We optimize your content, site structure, and all technical elements for better rankings."
       },
       {
-        "iconclass": "bi bi-graph-up-arrow",
+        "iconclass": "bi bi-link-45deg",
         "title": "Content & Authority Building",
         "content": "We continuously strengthen your content and earn high-quality backlinks that compounds your authority."
       },
       {
-        "iconclass": "bi bi-search",
+        "iconclass": "bi bi-graph-up",
         "title": "Monitoring & Optimization",
         "content": "We monitor results, adjust strategy, and keep refining over time - because SEO never stops working."
       }
@@ -127,7 +127,7 @@
       "Works Across Platforms - we optimize where you are"
     ],
     "sectionImage": {
-      "src": "/assets/img/newservices/shopify-service-3.png",
+      "src": "/assets/img/marketing/seo-why-choose.webp",
       "alt": "SEO Services Diagram"
     }
   },

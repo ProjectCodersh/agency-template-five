@@ -11,7 +11,7 @@
     "subtitle": "PLAN FIRST. PROFIT ALWAYS.",
     "title": "Turn Paid Ads Into <span>Predictable Revenue</span>",
     "content": "Running ads is easy, but running profitable ads is not. Most businesses waste money on ads because there's no clear strategy behind targeting, creatives, or funnels. We don't jump directly into ads - we plan first by defining your target audience, offer and messaging, funnel, campaign structure, budget allocation, and conversion tracking setup.",
-    "img": "/assets/img/newservices/shopify-service-vector-1.png",
+    "img": "/assets/img/marketing/meta-banner.webp",
     "btnname": "GET STARTED NOW",
     "btnurl": "https://calendly.com/codersh-web-services/15min",
     "linkname": "VIEW OUR WORK",
@@ -24,27 +24,27 @@
     "content": null,
     "cards": [
       {
-        "img": "/assets/img/serviceIcon/web-programming.webp",
+        "img": "/assets/img/marketing/meta-work-1.webp",
         "title": "Defining Your Target Audience Before Spending a Single Penny"
       },
       {
-        "img": "/assets/img/serviceIcon/migration-1.webp",
+        "img": "/assets/img/marketing/meta-work-2.webp",
         "title": "Crafting the Right Offer and Messaging That Converts"
       },
       {
-        "img": "/assets/img/serviceIcon/maintenance.webp",
+        "img": "/assets/img/marketing/meta-work-3.webp",
         "title": "Building a Funnel That Turns Clicks Into Customers"
       },
       {
-        "img": "/assets/img/serviceIcon/add-to-cart-1.webp",
+        "img": "/assets/img/marketing/meta-work-4.webp",
         "title": "Structuring Campaigns for Maximum Performance and Control"
       },
       {
-        "img": "/assets/img/serviceIcon/maintenance-2.webp",
+        "img": "/assets/img/marketing/meta-work-5.webp",
         "title": "Allocating Budget Strategically Across Campaigns and Audiences"
       },
       {
-        "img": "/assets/img/serviceIcon/recruitment-1.webp",
+        "img": "/assets/img/marketing/meta-work-6.webp",
         "title": "Setting Up Conversion Tracking So Every Result Is Measured"
       }
     ]
@@ -54,7 +54,7 @@
     "subtitle": "CREATIVES THAT STOP THE SCROLL",
     "title": "High-Converting Ad Creatives That Lower Costs and Boost Results",
     "content": "Your ads are only as good as your creatives. Better creatives mean lower costs and higher conversions - it's that simple. We don't recycle generic templates. We build scroll-stopping visuals and compelling copy tailored to your audience and tested across multiple variations. Here's what we create:",
-    "img": "/assets/img/newservices/shopify-service-3.png",
+    "img": "/assets/img/marketing/meta-image-1.webp",
     "listItems": [
       "Scroll-stopping visuals designed to capture attention instantly",
       "Clear and compelling ad copy that drives clicks and conversions",
@@ -68,7 +68,7 @@
     "subtitle": "RIGHT PEOPLE. RIGHT TIME.",
     "title": "Audience Targeting That Actually Reaches the People Who Buy",
     "content": "Targeting is more than just interests. Reaching the right people at the right time is what separates profitable campaigns from wasted budgets. We go beyond basic targeting to build layered audience strategies that follow your customer through every stage of their journey. Here's what we build:",
-    "img": "/assets/img/newservices/shopify-service-4.png",
+    "img": "/assets/img/marketing/meta-image-2.webp",
     "listItems": [
       "Custom audiences built directly from your own customer data",
       "Lookalike audiences to find and scale to new high-value buyers",
@@ -124,7 +124,7 @@
       "Focused on scaling profitable campaigns, not just increasing spend"
     ],
     "sectionImage": {
-      "src": "/assets/img/newservices/shopify-service-3.png",
+      "src": "/assets/img/marketing/meta-why-choose.webp",
       "alt": "Meta Ads Services Diagram"
     }
   },
