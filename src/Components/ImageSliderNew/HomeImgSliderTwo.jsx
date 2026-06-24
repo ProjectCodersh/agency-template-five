@@ -1,14 +1,22 @@
 import { motion } from 'framer-motion';
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 export default function HomeImgSliderTwo() {
   const [projectData, setProjectData] = useState([]);
+  const trackRef = useRef(null);
+  const [singleSetWidth, setSingleSetWidth] = useState(0);
 
   useEffect(() => {
     fetch('/assets/data/homeimgslider/homeimgslider.json')
       .then((res) => res.json())
       .then((data) => setProjectData(data));
   }, []);
+
+  useEffect(() => {
+    if (trackRef.current && projectData.length > 0) {
+      setSingleSetWidth(trackRef.current.scrollWidth / 2);
+    }
+  }, [projectData]);
 
   return (
     <div
@@ -48,16 +56,17 @@ export default function HomeImgSliderTwo() {
           }}
         />
         <motion.div
+          ref={trackRef}
           style={{
             display: 'flex',
             gap: '20px',
             whiteSpace: 'nowrap',
             willChange: 'transform',
           }}
-          animate={{ x: [0, -1000] }}
+          animate={singleSetWidth ? { x: [0, -singleSetWidth] } : {}}
           transition={{
             repeat: Infinity,
-            duration: 30,
+            duration: 80,
             ease: 'linear',
           }}
         >
