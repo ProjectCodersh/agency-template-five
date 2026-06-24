@@ -37,30 +37,42 @@
   },
   {
     "id": 7,
+    "img": "/assets/img/home-img-slider/12-img.webp",
+    "logo": "/assets/img/home-img-slider/12-logo.webp",
+    "name": "Tropical Delight"
+  },
+  {
+    "id": 8,
+    "img": "/assets/img/home-img-slider/13-img.webp",
+    "logo": "/assets/img/home-img-slider/13-logo.webp",
+    "name": "Crispy Fantasy"
+  },
+  {
+    "id": 9,
     "img": "/assets/img/home-img-slider/7-img.webp",
     "logo": "/assets/img/home-img-slider/7-logo.webp",
     "name": "Oot Granola"
   },
   {
-    "id": 8,
+    "id": 10,
     "img": "/assets/img/home-img-slider/8-img.webp",
     "logo": "/assets/img/home-img-slider/8-logo.webp",
     "name": "Super Feels"
   },
   {
-    "id": 9,
+    "id": 11,
     "img": "/assets/img/home-img-slider/9-img.webp",
     "logo": "/assets/img/home-img-slider/9-logo.webp",
     "name": "Meroda"
   },
   {
-    "id": 10,
+    "id": 12,
     "img": "/assets/img/home-img-slider/10-img.webp",
     "logo": "/assets/img/home-img-slider/10-logo.png",
     "name": "Manukora"
   },
   {
-    "id": 11,
+    "id": 13,
     "img": "/assets/img/home-img-slider/11-img.webp",
     "logo": "/assets/img/home-img-slider/11-logo.webp",
     "name": "Crispy Fantasy"
