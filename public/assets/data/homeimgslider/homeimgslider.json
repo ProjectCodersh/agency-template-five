@@ -1,80 +1,39 @@
 [
   {
     "id": 1,
-    "img": "/assets/img/home-img-slider/1-img.webp",
-    "logo": "/assets/img/home-img-slider/1-logo.png",
-    "name": "Nikura"
+    "img": "/assets/img/home-img-slider/14-img.webp",
+    "logo": "/assets/img/home-img-slider/14-logo.webp",
+    "name": "Kingdom Kratom"
   },
   {
     "id": 2,
-    "img": "/assets/img/home-img-slider/2-img.webp",
-    "logo": "/assets/img/home-img-slider/2-logo.png",
-    "name": "Hay"
+    "img": "/assets/img/home-img-slider/15-img.webp",
+    "logo": "/assets/img/home-img-slider/15-logo.webp",
+    "name": "Split Grip"
   },
   {
     "id": 3,
-    "img": "/assets/img/home-img-slider/3-img.webp",
-    "logo": "/assets/img/home-img-slider/3-logo.webp",
-    "name": "Super Speciosa"
+    "img": "/assets/img/home-img-slider/16-img.webp",
+    "logo": "/assets/img/home-img-slider/16-logo.webp",
+    "name": "Bushido"
   },
   {
     "id": 4,
-    "img": "/assets/img/home-img-slider/4-img.webp",
-    "logo": "/assets/img/home-img-slider/4-logo.webp",
-    "name": "Crescent Days"
+    "img": "/assets/img/home-img-slider/17-img.webp",
+    "logo": "/assets/img/home-img-slider/17-logo.webp",
+    "name": "Berg Bat"
   },
+
   {
     "id": 5,
-    "img": "/assets/img/home-img-slider/5-img.webp",
-    "logo": "/assets/img/home-img-slider/5-logo.webp",
-    "name": "Miracle Noodel"
-  },
-  {
-    "id": 6,
-    "img": "/assets/img/home-img-slider/6-img.webp",
-    "logo": "/assets/img/home-img-slider/6-logo.png",
-    "name": "Naturealm"
-  },
-  {
-    "id": 7,
-    "img": "/assets/img/home-img-slider/12-img.webp",
-    "logo": "/assets/img/home-img-slider/12-logo.webp",
-    "name": "Himothy Wear"
-  },
-  {
-    "id": 8,
     "img": "/assets/img/home-img-slider/13-img.webp",
     "logo": "/assets/img/home-img-slider/13-logo.webp",
     "name": "Curvana Spa"
   },
   {
-    "id": 9,
-    "img": "/assets/img/home-img-slider/7-img.webp",
-    "logo": "/assets/img/home-img-slider/7-logo.webp",
-    "name": "Oot Granola"
-  },
-  {
-    "id": 10,
-    "img": "/assets/img/home-img-slider/8-img.webp",
-    "logo": "/assets/img/home-img-slider/8-logo.webp",
-    "name": "Super Feels"
-  },
-  {
-    "id": 11,
-    "img": "/assets/img/home-img-slider/9-img.webp",
-    "logo": "/assets/img/home-img-slider/9-logo.webp",
-    "name": "Meroda"
-  },
-  {
-    "id": 12,
-    "img": "/assets/img/home-img-slider/10-img.webp",
-    "logo": "/assets/img/home-img-slider/10-logo.png",
-    "name": "Manukora"
-  },
-  {
-    "id": 13,
-    "img": "/assets/img/home-img-slider/11-img.webp",
-    "logo": "/assets/img/home-img-slider/11-logo.webp",
-    "name": "Crispy Fantasy"
+    "id": 6,
+    "img": "/assets/img/home-img-slider/12-img.webp",
+    "logo": "/assets/img/home-img-slider/12-logo.webp",
+    "name": "Himothy Wear"
   }
 ]
