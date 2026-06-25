@@ -9,6 +9,12 @@ const brandLogos = [
   '/assets/img/brand/chenchef-logo-test.webp',
   '/assets/img/brand/christianbookbag-logo-test.webp',
   '/assets/img/brand/anadian-logo-test.webp',
+  '/assets/img/brand/berg-bat-logo.webp',
+  '/assets/img/brand/creditcoach-logo.webp',
+  '/assets/img/brand/curvana-logo.webp',
+  '/assets/img/brand/luxedr-logo.webp',
+  '/assets/img/brand/uam-logo.webp',
+  '/assets/img/brand/unicorn-logo.webp',
 ];
 
 const heroContent = {

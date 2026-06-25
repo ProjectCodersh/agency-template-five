@@ -10726,7 +10726,7 @@ img.wow.img-custom-anim-left.img-fluid {
   display: flex;
   align-items: center;
   width: max-content;
-  animation: brandMarquee 18s linear infinite;
+  animation: brandMarquee 40s linear infinite;
 }
 
 .brand-marquee-track:hover {
